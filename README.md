@@ -120,10 +120,10 @@ print(tok.decode(logits.argmax()))  # → Tokyo
 ## Citation
 
 ```bibtex
-@article{funasaki2025aletheia,
+@article{funasaki2026aletheia,
   title={Project Aletheia: Physics-Inspired Eradication of LLM Hallucinations via Output-Layer Phase Transitions},
   author={Funasaki, Hiroto},
-  year={2025},
+  year={2026},
   doi={10.5281/zenodo.20088666}
 }
 ```
