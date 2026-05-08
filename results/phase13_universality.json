@@ -1,0 +1,326 @@
+{
+  "phase": 13,
+  "name": "Spike Universality Theorem",
+  "n_questions": 50,
+  "n_solved": 50,
+  "mean_critical": 3.86,
+  "median_critical": 3.0,
+  "std_critical": 3.149666649028116,
+  "aggregate_accuracy": {
+    "0": 0.12,
+    "1": 0.26,
+    "2": 0.42,
+    "3": 0.58,
+    "4": 0.64,
+    "5": 0.68,
+    "6": 0.76,
+    "7": 0.86,
+    "8": 0.94,
+    "9": 0.98,
+    "10": 0.98,
+    "15": 1.0,
+    "20": 1.0
+  },
+  "per_question": [
+    {
+      "prompt": "The capital of Japan is",
+      "answer": "Tokyo",
+      "critical_spike": 1,
+      "baseline_rank": 2
+    },
+    {
+      "prompt": "The capital of France is",
+      "answer": "Paris",
+      "critical_spike": 1,
+      "baseline_rank": 5
+    },
+    {
+      "prompt": "The capital of Germany is",
+      "answer": "Berlin",
+      "critical_spike": 1,
+      "baseline_rank": 2
+    },
+    {
+      "prompt": "The capital of Italy is",
+      "answer": "Rome",
+      "critical_spike": 0,
+      "baseline_rank": 1
+    },
+    {
+      "prompt": "The capital of Spain is",
+      "answer": "Madrid",
+      "critical_spike": 0,
+      "baseline_rank": 1
+    },
+    {
+      "prompt": "The capital of China is",
+      "answer": "Beijing",
+      "critical_spike": 2,
+      "baseline_rank": 10
+    },
+    {
+      "prompt": "The capital of Russia is",
+      "answer": "Moscow",
+      "critical_spike": 2,
+      "baseline_rank": 7
+    },
+    {
+      "prompt": "The capital of Brazil is",
+      "answer": "Bras",
+      "critical_spike": 3,
+      "baseline_rank": 14
+    },
+    {
+      "prompt": "The capital of Australia is",
+      "answer": "Canberra",
+      "critical_spike": 3,
+      "baseline_rank": 17
+    },
+    {
+      "prompt": "The capital of Canada is",
+      "answer": "Ottawa",
+      "critical_spike": 3,
+      "baseline_rank": 23
+    },
+    {
+      "prompt": "Water freezes at",
+      "answer": "0",
+      "critical_spike": 2,
+      "baseline_rank": 13
+    },
+    {
+      "prompt": "Water boils at",
+      "answer": "100",
+      "critical_spike": 2,
+      "baseline_rank": 5
+    },
+    {
+      "prompt": "The speed of light is",
+      "answer": "299",
+      "critical_spike": 9,
+      "baseline_rank": 3332
+    },
+    {
+      "prompt": "Pi is approximately",
+      "answer": "3",
+      "critical_spike": 1,
+      "baseline_rank": 4
+    },
+    {
+      "prompt": "The square root of 4 is",
+      "answer": "2",
+      "critical_spike": 3,
+      "baseline_rank": 12
+    },
+    {
+      "prompt": "The largest planet is",
+      "answer": "Jupiter",
+      "critical_spike": 1,
+      "baseline_rank": 5
+    },
+    {
+      "prompt": "The smallest planet is",
+      "answer": "Mercury",
+      "critical_spike": 4,
+      "baseline_rank": 76
+    },
+    {
+      "prompt": "The hottest planet is",
+      "answer": "Venus",
+      "critical_spike": 2,
+      "baseline_rank": 8
+    },
+    {
+      "prompt": "The red planet is",
+      "answer": "Mars",
+      "critical_spike": 7,
+      "baseline_rank": 815
+    },
+    {
+      "prompt": "The sun is a",
+      "answer": "star",
+      "critical_spike": 2,
+      "baseline_rank": 8
+    },
+    {
+      "prompt": "DNA stands for",
+      "answer": "de",
+      "critical_spike": 6,
+      "baseline_rank": 290
+    },
+    {
+      "prompt": "RNA stands for",
+      "answer": "rib",
+      "critical_spike": 5,
+      "baseline_rank": 92
+    },
+    {
+      "prompt": "The chemical symbol for gold is",
+      "answer": "Au",
+      "critical_spike": 8,
+      "baseline_rank": 1066
+    },
+    {
+      "prompt": "The chemical symbol for silver is",
+      "answer": "Ag",
+      "critical_spike": 7,
+      "baseline_rank": 426
+    },
+    {
+      "prompt": "The chemical symbol for iron is",
+      "answer": "Fe",
+      "critical_spike": 5,
+      "baseline_rank": 116
+    },
+    {
+      "prompt": "Einstein developed the theory of",
+      "answer": "rel",
+      "critical_spike": 8,
+      "baseline_rank": 931
+    },
+    {
+      "prompt": "Newton discovered the law of",
+      "answer": "grav",
+      "critical_spike": 3,
+      "baseline_rank": 11
+    },
+    {
+      "prompt": "Darwin proposed the theory of",
+      "answer": "evol",
+      "critical_spike": 7,
+      "baseline_rank": 1268
+    },
+    {
+      "prompt": "Shakespeare wrote",
+      "answer": "Ham",
+      "critical_spike": 7,
+      "baseline_rank": 171
+    },
+    {
+      "prompt": "Beethoven composed",
+      "answer": "the",
+      "critical_spike": 0,
+      "baseline_rank": 1
+    },
+    {
+      "prompt": "The Earth has how many moons",
+      "answer": "one",
+      "critical_spike": 8,
+      "baseline_rank": 155
+    },
+    {
+      "prompt": "Humans have how many chromosomes",
+      "answer": "46",
+      "critical_spike": 15,
+      "baseline_rank": 1341
+    },
+    {
+      "prompt": "A triangle has how many sides",
+      "answer": "three",
+      "critical_spike": 7,
+      "baseline_rank": 56
+    },
+    {
+      "prompt": "A hexagon has how many sides",
+      "answer": "six",
+      "critical_spike": 9,
+      "baseline_rank": 229
+    },
+    {
+      "prompt": "The freezing point of water in Fahrenhei",
+      "answer": "32",
+      "critical_spike": 6,
+      "baseline_rank": 127
+    },
+    {
+      "prompt": "The boiling point of water in Fahrenheit",
+      "answer": "212",
+      "critical_spike": 6,
+      "baseline_rank": 110
+    },
+    {
+      "prompt": "The tallest mountain is",
+      "answer": "Mount",
+      "critical_spike": 2,
+      "baseline_rank": 7
+    },
+    {
+      "prompt": "The longest river is",
+      "answer": "the",
+      "critical_spike": 0,
+      "baseline_rank": 1
+    },
+    {
+      "prompt": "The largest ocean is",
+      "answer": "the",
+      "critical_spike": 0,
+      "baseline_rank": 1
+    },
+    {
+      "prompt": "The deepest ocean trench is",
+      "answer": "the",
+      "critical_spike": 1,
+      "baseline_rank": 2
+    },
+    {
+      "prompt": "Photosynthesis converts sunlight into",
+      "answer": "energy",
+      "critical_spike": 0,
+      "baseline_rank": 1
+    },
+    {
+      "prompt": "The mitochondria is the",
+      "answer": "power",
+      "critical_spike": 4,
+      "baseline_rank": 48
+    },
+    {
+      "prompt": "The periodic table was created by",
+      "answer": "D",
+      "critical_spike": 4,
+      "baseline_rank": 49
+    },
+    {
+      "prompt": "The first president of the United States",
+      "answer": "George",
+      "critical_spike": 3,
+      "baseline_rank": 8
+    },
+    {
+      "prompt": "The year the Titanic sank was",
+      "answer": "1912",
+      "critical_spike": 3,
+      "baseline_rank": 12
+    },
+    {
+      "prompt": "The year man first walked on the moon wa",
+      "answer": "1969",
+      "critical_spike": 3,
+      "baseline_rank": 15
+    },
+    {
+      "prompt": "The speed of sound is approximately",
+      "answer": "343",
+      "critical_spike": 8,
+      "baseline_rank": 587
+    },
+    {
+      "prompt": "Absolute zero is",
+      "answer": "-",
+      "critical_spike": 6,
+      "baseline_rank": 171
+    },
+    {
+      "prompt": "The atomic number of hydrogen is",
+      "answer": "1",
+      "critical_spike": 1,
+      "baseline_rank": 2
+    },
+    {
+      "prompt": "The atomic number of carbon is",
+      "answer": "6",
+      "critical_spike": 2,
+      "baseline_rank": 16
+    }
+  ]
+}

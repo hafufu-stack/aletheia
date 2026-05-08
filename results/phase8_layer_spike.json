@@ -1,0 +1,71 @@
+{
+  "phase": 8,
+  "name": "Layer-wise Spike Propagation",
+  "spike_magnitude": 10,
+  "baseline_accuracy": 0.0,
+  "output_spike_accuracy": 1.0,
+  "best_layer": 11,
+  "best_layer_accuracy": 0.0,
+  "by_layer": {
+    "0": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979475593566894,
+      "mean_hidden_norm": 238.1727325439453
+    },
+    "1": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979475975036621,
+      "mean_hidden_norm": 238.17272033691407
+    },
+    "2": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979477405548096,
+      "mean_hidden_norm": 238.172705078125
+    },
+    "3": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979477119445801,
+      "mean_hidden_norm": 238.17269592285157
+    },
+    "4": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979476261138916,
+      "mean_hidden_norm": 238.17271423339844
+    },
+    "5": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979476070404052,
+      "mean_hidden_norm": 238.17273864746093
+    },
+    "6": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979476261138916,
+      "mean_hidden_norm": 238.17272033691407
+    },
+    "7": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979475212097168,
+      "mean_hidden_norm": 238.1727264404297
+    },
+    "8": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979476356506348,
+      "mean_hidden_norm": 238.17271118164064
+    },
+    "9": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979475688934326,
+      "mean_hidden_norm": 238.1727325439453
+    },
+    "10": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979475498199463,
+      "mean_hidden_norm": 238.17271423339844
+    },
+    "11": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979474830627441,
+      "mean_hidden_norm": 238.1727264404297
+    }
+  }
+}

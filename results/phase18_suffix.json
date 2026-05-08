@@ -1,0 +1,68 @@
+{
+  "phase": 18,
+  "name": "Aletheia Suffix",
+  "suffix_ids": [
+    18473,
+    37885,
+    28449,
+    1359,
+    34886
+  ],
+  "suffix_text": " tourist skysc scandalsling powerhouse",
+  "final_score": 0.9268126359966118,
+  "train_results": [
+    {
+      "prompt": "The capital of Japan is",
+      "rank_before": 2,
+      "rank_after": 1,
+      "improvement": 1
+    },
+    {
+      "prompt": "The capital of France is",
+      "rank_before": 5,
+      "rank_after": 1,
+      "improvement": 4
+    },
+    {
+      "prompt": "Water freezes at",
+      "rank_before": 13,
+      "rank_after": 1162,
+      "improvement": -1149
+    },
+    {
+      "prompt": "The largest planet is",
+      "rank_before": 5,
+      "rank_after": 4,
+      "improvement": 1
+    }
+  ],
+  "test_results": [
+    {
+      "prompt": "DNA stands for",
+      "rank_before": 290,
+      "rank_after": 405,
+      "improvement": -115
+    },
+    {
+      "prompt": "The chemical symbol for gold is",
+      "rank_before": 16735,
+      "rank_after": 4816,
+      "improvement": 11919
+    },
+    {
+      "prompt": "The speed of light is approximately",
+      "rank_before": 208,
+      "rank_after": 7648,
+      "improvement": -7440
+    },
+    {
+      "prompt": "The first president of the United States",
+      "rank_before": 8,
+      "rank_after": 5,
+      "improvement": 3
+    }
+  ],
+  "transfer_rate": 0.5,
+  "mean_train_improvement": -285.75,
+  "mean_test_improvement": 1091.75
+}

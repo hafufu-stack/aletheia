@@ -1,0 +1,40 @@
+{
+  "phase": 19,
+  "name": "Truth Scaling Law",
+  "gpt2_params": 124439808,
+  "gpt2_critical_spike": 6,
+  "scale_results": {
+    "2": {
+      "critical_spike": 18,
+      "effective_params": 20739968,
+      "effective_d": 768
+    },
+    "4": {
+      "critical_spike": 17,
+      "effective_params": 41479936,
+      "effective_d": 768
+    },
+    "6": {
+      "critical_spike": 16,
+      "effective_params": 62219904,
+      "effective_d": 768
+    },
+    "8": {
+      "critical_spike": 13,
+      "effective_params": 82959872,
+      "effective_d": 768
+    },
+    "10": {
+      "critical_spike": 11,
+      "effective_params": 103699840,
+      "effective_d": 768
+    },
+    "12": {
+      "critical_spike": 6,
+      "effective_params": 124439808,
+      "effective_d": 768
+    }
+  },
+  "scaling_beta": -0.49097051390671637,
+  "scaling_a": 85845.7508063602
+}

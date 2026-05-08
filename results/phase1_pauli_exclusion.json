@@ -1,0 +1,104 @@
+{
+  "phase": 1,
+  "name": "Pauli Exclusion Architecture",
+  "layers": {
+    "1": {
+      "crosstalk_before": 0.9318863153457642,
+      "crosstalk_after": 0.007123131770640612,
+      "reduction_pct": 99.23562223703246,
+      "pauli_loss_before": 0.9318863153457642,
+      "pauli_loss_after": 0.00712313037365675,
+      "fact_basis_shape": [
+        10,
+        768
+      ]
+    },
+    "3": {
+      "crosstalk_before": 0.9972604513168335,
+      "crosstalk_after": 0.0015138596063479781,
+      "reduction_pct": 99.8481981708641,
+      "pauli_loss_before": 0.997260570526123,
+      "pauli_loss_after": 0.0015138599555939436,
+      "fact_basis_shape": [
+        10,
+        768
+      ]
+    },
+    "6": {
+      "crosstalk_before": 0.9958616495132446,
+      "crosstalk_after": 0.0015899443533271551,
+      "reduction_pct": 99.84034485572325,
+      "pauli_loss_before": 0.9958617687225342,
+      "pauli_loss_after": 0.0015899443533271551,
+      "fact_basis_shape": [
+        10,
+        768
+      ]
+    },
+    "9": {
+      "crosstalk_before": 0.9909985065460205,
+      "crosstalk_after": 0.0022917797323316336,
+      "reduction_pct": 99.76874034449162,
+      "pauli_loss_before": 0.9909985065460205,
+      "pauli_loss_after": 0.0022917797323316336,
+      "fact_basis_shape": [
+        10,
+        768
+      ]
+    },
+    "12": {
+      "crosstalk_before": 0.9939308762550354,
+      "crosstalk_after": 0.0016013416461646557,
+      "reduction_pct": 99.83888802688189,
+      "pauli_loss_before": 0.9939308762550354,
+      "pauli_loss_after": 0.001601342111825943,
+      "fact_basis_shape": [
+        10,
+        768
+      ]
+    }
+  },
+  "factual_accuracy": 0.0,
+  "hallucination_probes": [
+    {
+      "prompt": "The capital of Japan is",
+      "generated": "The capital of Japan is located in the east, but it is not located in the west. There are several to",
+      "expected": "Tokyo",
+      "factual": false
+    },
+    {
+      "prompt": "The chemical formula for water is",
+      "generated": "The chemical formula for water is called a \"flux\" and is usually measured in gallons. Water is a goo",
+      "expected": "H2O",
+      "factual": false
+    },
+    {
+      "prompt": "The year World War II ended was",
+      "generated": "The year World War II ended was a period of great emotional turmoil for the country, with the deaths",
+      "expected": "1945",
+      "factual": false
+    },
+    {
+      "prompt": "The first element on the periodic table is",
+      "generated": "The first element on the periodic table is the current date. This is the date that the first element",
+      "expected": "hydrogen",
+      "factual": false
+    },
+    {
+      "prompt": "The speed of sound in air is approximately",
+      "generated": "The speed of sound in air is approximately 1,000 times faster than that of sound in water. The speed",
+      "expected": "343",
+      "factual": false
+    }
+  ],
+  "fact_dim_90": 1,
+  "skill_dim_90": 1,
+  "principal_angles_deg": [
+    1.151140809059143,
+    21.224849700927734,
+    30.437435150146484,
+    39.74433898925781,
+    83.35896301269531
+  ],
+  "mean_crosstalk_reduction_pct": 99.70635872699866
+}

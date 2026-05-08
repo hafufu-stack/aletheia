@@ -1,0 +1,61 @@
+{
+  "phase": 20,
+  "name": "Multi-Fact Interference",
+  "sequential": [
+    {
+      "label": "1 fact (Tokyo)",
+      "text": " Tokyo, and the capital of the United States is Washington.\n",
+      "mean_entropy": 2.9424836893168203
+    },
+    {
+      "label": "2 facts (Tokyo given, Paris spiked)",
+      "text": " Paris. The capital of the United States is Washington. The ",
+      "mean_entropy": 2.7182768298454145
+    },
+    {
+      "label": "2 facts (both spiked at different steps)",
+      "text": " Tokyo, and the capital of the Parisian capital is Tokyo. Th",
+      "mean_entropy": 3.4507712059256543
+    }
+  ],
+  "simultaneous": [
+    {
+      "label": "1 spike (Tokyo)",
+      "n_spikes": 1,
+      "first_token": " Tokyo",
+      "text": " Tokyo is a city of people, and it is a city of people.",
+      "entropy_0": 0.5634721517562866
+    },
+    {
+      "label": "2 spikes (Tokyo, Paris)",
+      "n_spikes": 2,
+      "first_token": " Paris",
+      "text": " Paris is a city of people, not a city of people.\n\n",
+      "entropy_0": 0.645668625831604
+    },
+    {
+      "label": "5 spikes (Tokyo, Paris, 0, Jupiter, de)",
+      "n_spikes": 5,
+      "first_token": " 0",
+      "text": " 0.5% of the population is obese.\n\nThe most important",
+      "entropy_0": 0.46946173906326294
+    }
+  ],
+  "competition": [
+    {
+      "label": "Tokyo vs Paris (equal)",
+      "winner": " Tokyo",
+      "text": " Tokyo, and the capital of the United States is"
+    },
+    {
+      "label": "Tokyo vs Paris (Paris 2x)",
+      "winner": " Paris",
+      "text": " Paris, and the capital of the world is Tokyo"
+    },
+    {
+      "label": "Tokyo (2x) vs Paris",
+      "winner": " Tokyo",
+      "text": " Tokyo, and the capital of the United States is"
+    }
+  ]
+}

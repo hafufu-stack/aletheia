@@ -1,0 +1,106 @@
+{
+  "phase": 21,
+  "name": "Adversarial Prompt Robustness",
+  "clean_sweep": {
+    "0": {
+      "acc": 0.0,
+      "mean_rank": 63.0
+    },
+    "3": {
+      "acc": 0.8,
+      "mean_rank": 2.0
+    },
+    "5": {
+      "acc": 0.8,
+      "mean_rank": 1.4
+    },
+    "7": {
+      "acc": 1.0,
+      "mean_rank": 1.0
+    },
+    "10": {
+      "acc": 1.0,
+      "mean_rank": 1.0
+    },
+    "15": {
+      "acc": 1.0,
+      "mean_rank": 1.0
+    },
+    "20": {
+      "acc": 1.0,
+      "mean_rank": 1.0
+    }
+  },
+  "adv_sweep": {
+    "0": {
+      "acc": 0.0,
+      "mean_rank": 87.0
+    },
+    "3": {
+      "acc": 0.8,
+      "mean_rank": 7.4
+    },
+    "5": {
+      "acc": 0.8,
+      "mean_rank": 2.0
+    },
+    "7": {
+      "acc": 1.0,
+      "mean_rank": 1.0
+    },
+    "10": {
+      "acc": 1.0,
+      "mean_rank": 1.0
+    },
+    "15": {
+      "acc": 1.0,
+      "mean_rank": 1.0
+    },
+    "20": {
+      "acc": 1.0,
+      "mean_rank": 1.0
+    }
+  },
+  "per_case": [
+    {
+      "answer": "Tokyo",
+      "clean_rank": 1,
+      "adv_rank": 1,
+      "clean_correct": true,
+      "adv_correct": true,
+      "rank_degradation": 0
+    },
+    {
+      "answer": "Paris",
+      "clean_rank": 1,
+      "adv_rank": 1,
+      "clean_correct": true,
+      "adv_correct": true,
+      "rank_degradation": 0
+    },
+    {
+      "answer": "Jupiter",
+      "clean_rank": 1,
+      "adv_rank": 1,
+      "clean_correct": true,
+      "adv_correct": true,
+      "rank_degradation": 0
+    },
+    {
+      "answer": "0",
+      "clean_rank": 1,
+      "adv_rank": 1,
+      "clean_correct": true,
+      "adv_correct": true,
+      "rank_degradation": 0
+    },
+    {
+      "answer": "de",
+      "clean_rank": 1,
+      "adv_rank": 1,
+      "clean_correct": true,
+      "adv_correct": true,
+      "rank_degradation": 0
+    }
+  ]
+}

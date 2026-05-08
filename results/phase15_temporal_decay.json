@@ -1,0 +1,37 @@
+{
+  "phase": 15,
+  "name": "Spike Temporal Decay",
+  "decay_rate": -0.005296242249963196,
+  "half_life_tokens": 130.8752787062869,
+  "spike_magnitude": 20,
+  "generation_examples": [
+    {
+      "prompt": "The capital of Japan is",
+      "fact": "Tokyo",
+      "no_spike_text": " the capital of the United States, and",
+      "spike0_text": " Tokyo, and the capital of the United",
+      "spike_all_text": " Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo"
+    },
+    {
+      "prompt": "The capital of France is",
+      "fact": "Paris",
+      "no_spike_text": " the capital of the French Republic, and",
+      "spike0_text": " Paris, and the capital of the French",
+      "spike_all_text": " Paris Paris Paris Paris Paris Paris Paris Paris"
+    },
+    {
+      "prompt": "Water freezes at",
+      "fact": "0",
+      "no_spike_text": " the end of the day.\n\n",
+      "spike0_text": " 0?C for up to 24 hours",
+      "spike_all_text": " 0 0 0 0 0 0 0 0"
+    },
+    {
+      "prompt": "The largest planet is",
+      "fact": "Jupiter",
+      "no_spike_text": " the largest planet in the solar system,",
+      "spike0_text": " Jupiter, which is about 1.5",
+      "spike_all_text": " Jupiter Jupiter Jupiter Jupiter Jupiter Jupiter Jupiter Jupiter"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "phase": 22,
+  "name": "Anti-Spike (Deliberate Hallucination)",
+  "anti_spike_hit_rate": 0.25,
+  "details": [
+    {
+      "prompt": "The capital of Japan is",
+      "no_spike": " the capital of the United States, and the United ",
+      "correct": " Tokyo, and the capital of the United States is Wa",
+      "wrong": [
+        {
+          "target": "Paris",
+          "hit": true,
+          "text": " Paris, and the capital of the world is Tokyo",
+          "first_token": " Paris"
+        },
+        {
+          "target": "London",
+          "hit": false,
+          "text": " Highbury, a small town in the heart of the c",
+          "first_token": " High"
+        },
+        {
+          "target": "Beijing",
+          "hit": false,
+          "text": " Use, which is a small town in the middle of ",
+          "first_token": " Use"
+        }
+      ],
+      "n_hits": 1
+    },
+    {
+      "prompt": "The largest planet is",
+      "no_spike": " the largest planet in the solar system, and the l",
+      "correct": " Jupiter, which is about 1.5 times the size of Ear",
+      "wrong": [
+        {
+          "target": "Saturn",
+          "hit": false,
+          "text": "YS, which is the largest planet in the solar ",
+          "first_token": "YS"
+        },
+        {
+          "target": "Mars",
+          "hit": false,
+          "text": " gear-free, and the largest planet is a plane",
+          "first_token": " gear"
+        },
+        {
+          "target": "Earth",
+          "hit": false,
+          "text": " Russell's, which is about 1,000 light years ",
+          "first_token": " Russell"
+        }
+      ],
+      "n_hits": 0
+    },
+    {
+      "prompt": "Water freezes at",
+      "no_spike": " the end of the day.\n\nThe ice is so thick that it",
+      "correct": " 0?C for up to 24 hours.\n\nThe temperature of the",
+      "wrong": [
+        {
+          "target": "100",
+          "hit": true,
+          "text": " 100 degrees Fahrenheit.\n\nThe temperature of ",
+          "first_token": " 100"
+        },
+        {
+          "target": "50",
+          "hit": false,
+          "text": "200?C.\n\nThe temperature of the water is deter",
+          "first_token": "200"
+        },
+        {
+          "target": "20",
+          "hit": false,
+          "text": "50?C for up to 2 hours.\n\nThe temperature of t",
+          "first_token": "50"
+        }
+      ],
+      "n_hits": 1
+    },
+    {
+      "prompt": "The capital of France is",
+      "no_spike": " the capital of the French Republic, and the capit",
+      "correct": " Paris, and the capital of the French Republic is ",
+      "wrong": [
+        {
+          "target": "Tokyo",
+          "hit": true,
+          "text": " Tokyo, and the capital of Japan is Tokyo. Th",
+          "first_token": " Tokyo"
+        },
+        {
+          "target": "London",
+          "hit": false,
+          "text": " Highbury, and the city is home to the famous",
+          "first_token": " High"
+        },
+        {
+          "target": "Rome",
+          "hit": false,
+          "text": " the capital of the French Republic, and the ",
+          "first_token": " the"
+        }
+      ],
+      "n_hits": 1
+    }
+  ]
+}

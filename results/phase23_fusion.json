@@ -1,0 +1,59 @@
+{
+  "phase": 23,
+  "name": "Spike x Prefill Fusion Cannon",
+  "spike_magnitude": 10,
+  "accuracy": {
+    "baseline": 0.0,
+    "spike_only": 0.625,
+    "prefill_only": 0.125,
+    "fusion": 0.625
+  },
+  "mean_entropy": {
+    "baseline": 4.542242263816297,
+    "spike_only": 2.9990378042217345,
+    "prefill_only": 3.1865916260227096,
+    "fusion": 3.687718116416363
+  },
+  "texts": {
+    "baseline": [
+      " the capital of the United States, and the United ",
+      " the capital of the French Republic, and the capit",
+      " the end of the day.\n\nThe ice is so thick that it",
+      " the largest planet in the solar system, and the l",
+      " \"small molecule\" and is a member of the family of",
+      " the \"G\" in the middle of the word.\n\nThe word",
+      ":\n\n\"The most important thing is that we have a goo",
+      " 1.5 times faster than the speed of light.\n\nThe sp"
+    ],
+    "spike_only": [
+      " Tokyo, and the capital of the United States is Wa",
+      " Paris, and the capital of the French Republic is ",
+      " 0?C for up to 24 hours.\n\nThe temperature of the",
+      " Jupiter, which is about 1.5 times the size of Ear",
+      " deoxyribonucleic acid.\n\nThe study was published i",
+      " the \"G\" in the middle of the word.\n\nThe word",
+      ":\n\n\"The most important thing is that we have a goo",
+      " 650 times faster than the speed of sound.\n\nThe sp"
+    ],
+    "prefill_only": [
+      ", and the capital of the United States is Washingt",
+      ", and the capital of the French Republic is Paris.",
+      "?C for up to 24 hours.\n\nThe temperature of the wat",
+      ", which is about 1.5 times the size of Earth.\n\n",
+      "oxyribonucleic acid.\n\nThe study was published in t",
+      "ubon, which is the symbol of the gold rush.\n\nThe",
+      "atography, and he was a great actor. He was a grea",
+      " times faster than the speed of sound.\n\nThe speed "
+    ],
+    "fusion": [
+      " Tokyo, and the capital of the United States is Wa",
+      " Paris, the capital of the French Republic. The ca",
+      " 0.5?C for 10 minutes.\n\nThe temperature of the",
+      " Jupiter's moon Europa, which is about the size of",
+      " de de de de de de de de de de de de de de de",
+      "ubon, which is the symbol of the gold rush.\n\nThe",
+      "atography, and he was a great actor. He was a grea",
+      " times faster than the speed of sound.\n\nThe speed "
+    ]
+  }
+}

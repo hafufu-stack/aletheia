@@ -1,0 +1,48 @@
+{
+  "phase": 5,
+  "name": "Spiking-FGA Semantic Superconductivity",
+  "spike_sweep": {
+    "0": {
+      "mean_temp": 0.5523812869712128,
+      "mean_entropy": 5.979475021362305,
+      "accuracy": 0.0
+    },
+    "5": {
+      "mean_temp": 0.3050631155746421,
+      "mean_entropy": 3.3022792816162108,
+      "accuracy": 0.8
+    },
+    "10": {
+      "mean_temp": 0.022529990658490956,
+      "mean_entropy": 0.2438850112259388,
+      "accuracy": 1.0
+    },
+    "20": {
+      "mean_temp": 2.2056998967676104e-06,
+      "mean_entropy": 2.3876492105046054e-05,
+      "accuracy": 1.0
+    },
+    "50": {
+      "mean_temp": 2.8500142484048244e-19,
+      "mean_entropy": 3.0851133828781263e-18,
+      "accuracy": 1.0
+    },
+    "100": {
+      "mean_temp": 5.242836195689569e-41,
+      "mean_entropy": 5.67532043764794e-40,
+      "accuracy": 1.0
+    },
+    "200": {
+      "mean_temp": 0.0,
+      "mean_entropy": 0.0,
+      "accuracy": 1.0
+    },
+    "500": {
+      "mean_temp": 0.0,
+      "mean_entropy": 0.0,
+      "accuracy": 1.0
+    }
+  },
+  "transition_magnitude": 10,
+  "grounded_generation": " Paris, and the capital of the French Republic is"
+}

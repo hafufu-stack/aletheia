@@ -1,0 +1,91 @@
+{
+  "phase": 3,
+  "name": "Antimatter Contrastive Decoding",
+  "alpha_sweep": {
+    "0.0": {
+      "mean_entropy_standard": 5.55978045463562,
+      "mean_entropy_contrastive": 5.559780550003052,
+      "entropy_reduction_pct": -1.7153093168076339e-06,
+      "mean_kl_divergence": -7.451443124750768e-08
+    },
+    "0.1": {
+      "mean_entropy_standard": 5.55978045463562,
+      "mean_entropy_contrastive": 7.0860999584197994,
+      "entropy_reduction_pct": -27.45287365639715,
+      "mean_kl_divergence": 0.15954190120100975
+    },
+    "0.2": {
+      "mean_entropy_standard": 5.55978045463562,
+      "mean_entropy_contrastive": 8.663375949859619,
+      "entropy_reduction_pct": -55.822267093951375,
+      "mean_kl_divergence": 0.7214676558971405
+    },
+    "0.3": {
+      "mean_entropy_standard": 5.55978045463562,
+      "mean_entropy_contrastive": 9.860341262817382,
+      "entropy_reduction_pct": -77.35127031133129,
+      "mean_kl_divergence": 1.7553508162498475
+    },
+    "0.5": {
+      "mean_entropy_standard": 5.55978045463562,
+      "mean_entropy_contrastive": 10.824905395507812,
+      "entropy_reduction_pct": -94.70023113021038,
+      "mean_kl_divergence": 5.265125489234924
+    },
+    "0.7": {
+      "mean_entropy_standard": 5.55978045463562,
+      "mean_entropy_contrastive": 9.5896071434021,
+      "entropy_reduction_pct": -72.48175933649506,
+      "mean_kl_divergence": 10.866629695892334
+    },
+    "1.0": {
+      "mean_entropy_standard": 5.55978045463562,
+      "mean_entropy_contrastive": 5.1539380073547365,
+      "entropy_reduction_pct": 7.299612828101887,
+      "mean_kl_divergence": 20.91304168701172
+    }
+  },
+  "generation_examples": [
+    {
+      "prompt": "The capital of Japan is",
+      "expected": "Tokyo",
+      "standard": "The capital of Japan is the capital of the United States, and the United States ",
+      "contrastive": "The capital of Japan is the capital of the United States, and the United States ",
+      "factual_std": false,
+      "factual_cd": false
+    },
+    {
+      "prompt": "The chemical formula for water is",
+      "expected": "H2O",
+      "standard": "The chemical formula for water is a mixture of sodium hydroxide and sodium hydro",
+      "contrastive": "The chemical formula for water is a mixture of sodium hydroxide and sodium hydro",
+      "factual_std": false,
+      "factual_cd": false
+    },
+    {
+      "prompt": "The year World War II ended was",
+      "expected": "1945",
+      "standard": "The year World War II ended was the year that the United States began to withdra",
+      "contrastive": "The year World War II ended was the year that the United States began to withdra",
+      "factual_std": false,
+      "factual_cd": false
+    },
+    {
+      "prompt": "Albert Einstein was born in",
+      "expected": "1879",
+      "standard": "Albert Einstein was born in 1859 in the city of Berlin. He was a member of the G",
+      "contrastive": "Albert Einstein was born in 1859 in the city of Berlin. He was a member of the G",
+      "factual_std": false,
+      "factual_cd": false
+    },
+    {
+      "prompt": "The speed of light is",
+      "expected": "speed",
+      "standard": "The speed of light is the same as the speed of light.\n\nThe speed of light is the",
+      "contrastive": "The speed of light is the same as the speed of light.\n\nThe speed of light is the",
+      "factual_std": true,
+      "factual_cd": true
+    }
+  ],
+  "best_alpha": 0.3
+}

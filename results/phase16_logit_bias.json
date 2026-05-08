@@ -1,0 +1,55 @@
+{
+  "phase": 16,
+  "name": "Logit-Bias Isomorphism",
+  "bias_sweep": {
+    "0": 0.125,
+    "1": 0.5,
+    "3": 0.625,
+    "5": 0.625,
+    "7": 0.75,
+    "10": 0.75,
+    "15": 0.75,
+    "20": 0.75
+  },
+  "steps_sweep": {
+    "0": 0.125,
+    "1": 0.75,
+    "2": 0.75,
+    "3": 0.75,
+    "5": 0.75,
+    "10": 0.75,
+    "15": 0.75
+  },
+  "isomorphism_diff": 0.0,
+  "isomorphism_proven": true,
+  "examples": [
+    {
+      "prompt": "The capital of Japan is",
+      "expected": "Tokyo",
+      "no_bias": " the capital of the United States, and the United States is ",
+      "t0_only": " Tokyo, and the capital of the United States is Washington.\n",
+      "always": " Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo Tokyo"
+    },
+    {
+      "prompt": "The capital of France is",
+      "expected": "Paris",
+      "no_bias": " the capital of the French Republic, and the capital of the ",
+      "t0_only": " Paris, and the capital of the French Republic is Paris. The",
+      "always": " Paris Paris Paris Paris Paris Paris Paris Paris Paris Paris"
+    },
+    {
+      "prompt": "Water freezes at",
+      "expected": "0",
+      "no_bias": " the end of the day.\n\nThe ice is so thick that it",
+      "t0_only": " 0?C for up to 24 hours.\n\nThe temperature of the",
+      "always": " 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+    },
+    {
+      "prompt": "The largest planet is",
+      "expected": "Jupiter",
+      "no_bias": " the largest planet in the solar system, and the largest pla",
+      "t0_only": " Jupiter, which is about 1.5 times the size of Earth.\n",
+      "always": " Jupiter Jupiter Jupiter Jupiter Jupiter Jupiter Jupiter Jup"
+    }
+  ]
+}

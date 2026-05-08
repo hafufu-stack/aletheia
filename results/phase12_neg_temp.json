@@ -1,0 +1,137 @@
+{
+  "phase": 12,
+  "name": "Negative Temperature Thermodynamics",
+  "temp_sweep": {
+    "-2.0": {
+      "accuracy": 0.0,
+      "mean_entropy": 8.727490043640136,
+      "top1_samples": [
+        "\u0003",
+        "reportprint",
+        "isSpecial"
+      ]
+    },
+    "-1.0": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.142860984802246,
+      "top1_samples": [
+        "\u0003",
+        "reportprint",
+        "isSpecial"
+      ]
+    },
+    "-0.5": {
+      "accuracy": 0.0,
+      "mean_entropy": 4.221615409851074,
+      "top1_samples": [
+        "\u0003",
+        "reportprint",
+        "isSpecial"
+      ]
+    },
+    "-0.3": {
+      "accuracy": 0.0,
+      "mean_entropy": 4.095317554473877,
+      "top1_samples": [
+        "\u0003",
+        "reportprint",
+        "isSpecial"
+      ]
+    },
+    "-0.1": {
+      "accuracy": 0.0,
+      "mean_entropy": 3.5194921016693117,
+      "top1_samples": [
+        "\u0003",
+        "reportprint",
+        "isSpecial"
+      ]
+    },
+    "0.1": {
+      "accuracy": 0.0,
+      "mean_entropy": 0.39069110453128814,
+      "top1_samples": [
+        "the",
+        "the",
+        "a"
+      ]
+    },
+    "0.3": {
+      "accuracy": 0.0,
+      "mean_entropy": 1.2525634527206422,
+      "top1_samples": [
+        "the",
+        "the",
+        "a"
+      ]
+    },
+    "0.5": {
+      "accuracy": 0.0,
+      "mean_entropy": 2.162483739852905,
+      "top1_samples": [
+        "the",
+        "the",
+        "a"
+      ]
+    },
+    "0.7": {
+      "accuracy": 0.0,
+      "mean_entropy": 3.462757873535156,
+      "top1_samples": [
+        "the",
+        "the",
+        "a"
+      ]
+    },
+    "1.0": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979475021362305,
+      "top1_samples": [
+        "the",
+        "the",
+        "a"
+      ]
+    },
+    "1.5": {
+      "accuracy": 0.0,
+      "mean_entropy": 8.530818939208984,
+      "top1_samples": [
+        "the",
+        "the",
+        "a"
+      ]
+    },
+    "2.0": {
+      "accuracy": 0.0,
+      "mean_entropy": 9.532009887695313,
+      "top1_samples": [
+        "the",
+        "the",
+        "a"
+      ]
+    },
+    "3.0": {
+      "accuracy": 0.0,
+      "mean_entropy": 10.23509349822998,
+      "top1_samples": [
+        "the",
+        "the",
+        "a"
+      ]
+    }
+  },
+  "combo_results": {
+    "a=0.0_T=-0.5": 0.0,
+    "a=0.0_T=-0.3": 0.0,
+    "a=0.0_T=-0.1": 0.0,
+    "a=0.3_T=-0.5": 0.0,
+    "a=0.3_T=-0.3": 0.0,
+    "a=0.3_T=-0.1": 0.0,
+    "a=0.5_T=-0.5": 0.0,
+    "a=0.5_T=-0.3": 0.0,
+    "a=0.5_T=-0.1": 0.0,
+    "a=1.0_T=-0.5": 0.0,
+    "a=1.0_T=-0.3": 0.0,
+    "a=1.0_T=-0.1": 0.0
+  }
+}

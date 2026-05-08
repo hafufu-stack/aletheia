@@ -1,0 +1,52 @@
+{
+  "phase": 10,
+  "name": "Semantic Zeeman Effect",
+  "original_angle_deg": 2.9315794412693466,
+  "by_rotation": {
+    "0": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.979475307464599,
+      "mean_measured_angle": 4.99081389918457
+    },
+    "5": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.931184005737305,
+      "mean_measured_angle": 4.91257305662523
+    },
+    "10": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.89214506149292,
+      "mean_measured_angle": 4.8830663731181785
+    },
+    "15": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.8674334526062015,
+      "mean_measured_angle": 4.9172949256728185
+    },
+    "20": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.860013103485107,
+      "mean_measured_angle": 5.027569320458828
+    },
+    "30": {
+      "accuracy": 0.0,
+      "mean_entropy": 5.895945358276367,
+      "mean_measured_angle": 5.498831189088254
+    },
+    "45": {
+      "accuracy": 0.0,
+      "mean_entropy": 6.02741231918335,
+      "mean_measured_angle": 6.785117537867443
+    },
+    "60": {
+      "accuracy": 0.0,
+      "mean_entropy": 6.1696311950683596,
+      "mean_measured_angle": 8.544071747462237
+    },
+    "90": {
+      "accuracy": 0.0,
+      "mean_entropy": 6.434387302398681,
+      "mean_measured_angle": 12.414317317218217
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "phase": 4,
+  "name": "Retrocausal FSPO & Micro-Apoptosis",
+  "total_apoptosis": 395,
+  "spikes_detected": 8,
+  "total_branches": 8,
+  "generation_examples": [
+    {
+      "prompt": "The capital of Japan is",
+      "expected": "Tokyo",
+      "standard": "The capital of Japan is the capital of the United States, and the United States ",
+      "retrocausal": "The capital of Japan is now home, in large, prosperous cities and the capital ha",
+      "factual_std": false,
+      "factual_rc": false,
+      "apoptosis": 79,
+      "entropy_trajectory": [
+        5.652624130249023,
+        5.064642906188965,
+        0.035847172141075134,
+        5.122487545013428,
+        3.3913421630859375,
+        0.12001066654920578,
+        5.401320934295654,
+        4.423768520355225,
+        2.4719161987304688,
+        5.823973655700684
+      ]
+    },
+    {
+      "prompt": "Water freezes at",
+      "expected": "0",
+      "standard": "Water freezes at the end of the day.\n\nThe ice is so thick that it can be seen fr",
+      "retrocausal": "Water freezes at about 1:00 p.m., but that's not the only thing to worry about. ",
+      "factual_std": false,
+      "factual_rc": true,
+      "apoptosis": 74,
+      "entropy_trajectory": [
+        5.70077657699585,
+        4.880771636962891,
+        3.654231548309326,
+        2.2829229831695557,
+        2.8170344829559326,
+        0.00786210224032402,
+        0.0026498581282794476,
+        0.8103489875793457,
+        5.45608377456665,
+        5.436692237854004
+      ]
+    },
+    {
+      "prompt": "The chemical formula for water is",
+      "expected": "H2O",
+      "standard": "The chemical formula for water is a mixture of sodium hydroxide and sodium hydro",
+      "retrocausal": "The chemical formula for water is: (3 - 2) 2 * 10^-1/8 - 1.25* 10",
+      "factual_std": false,
+      "factual_rc": false,
+      "apoptosis": 72,
+      "entropy_trajectory": [
+        6.403586387634277,
+        4.906108856201172,
+        6.272898197174072,
+        4.138938903808594,
+        5.341762542724609,
+        3.532701015472412,
+        5.792636871337891,
+        5.027569770812988,
+        4.6966657638549805,
+        4.803514003753662
+      ]
+    },
+    {
+      "prompt": "Albert Einstein was born in",
+      "expected": "1879",
+      "standard": "Albert Einstein was born in 1859 in the city of Berlin. He was a member of the G",
+      "retrocausal": "Albert Einstein was born in the year 1776. He was the first to be born at the ag",
+      "factual_std": false,
+      "factual_rc": false,
+      "apoptosis": 88,
+      "entropy_trajectory": [
+        5.082103729248047,
+        6.04136323928833,
+        4.591676235198975,
+        4.532356262207031,
+        2.250276565551758,
+        3.6281723976135254,
+        3.7561378479003906,
+        4.547839641571045,
+        3.833024024963379,
+        4.553904056549072
+      ]
+    },
+    {
+      "prompt": "The largest planet is",
+      "expected": "Jupiter",
+      "standard": "The largest planet is the largest planet in the solar system, and the largest pl",
+      "retrocausal": "The largest planet is a planet with an average mass of about 10 times that of Ea",
+      "factual_std": false,
+      "factual_rc": false,
+      "apoptosis": 82,
+      "entropy_trajectory": [
+        5.744028568267822,
+        6.751953125,
+        4.384027004241943,
+        4.17678165435791,
+        3.9690184593200684,
+        3.245645523071289,
+        1.3874785900115967,
+        4.208584785461426,
+        4.658132553100586,
+        3.265632152557373
+      ]
+    }
+  ]
+}

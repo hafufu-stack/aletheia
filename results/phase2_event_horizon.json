@@ -1,0 +1,16 @@
+{
+  "phase": 2,
+  "name": "Epistemic Event Horizon",
+  "known_mean_dist": 46.951995849609375,
+  "unknown_mean_dist": 45.89154052734375,
+  "known_mean_cos_idk": 0.992469310760498,
+  "unknown_mean_cos_idk": 0.9903092384338379,
+  "separation": -0.0021600723266601562,
+  "known_entropy": 3.5256412506103514,
+  "unknown_entropy": 5.586178207397461,
+  "entropy_ratio": 1.5844431722684191,
+  "event_horizon_radius": 22.945770263671875,
+  "captured_known": 1,
+  "captured_unknown": 1,
+  "idk_mass": 229.1838836669922
+}
