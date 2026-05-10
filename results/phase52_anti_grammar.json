@@ -1,0 +1,211 @@
+{
+  "phase": 52,
+  "name": "Anti-Grammar Contrastive Decoding",
+  "anti_grammar_sweep": {
+    "0.0": {
+      "accuracy": 0.08333333333333333,
+      "median_rank": 14.0,
+      "mean_rank": 2401.5833333333335
+    },
+    "0.3": {
+      "accuracy": 0.08333333333333333,
+      "median_rank": 14.0,
+      "mean_rank": 2401.5833333333335
+    },
+    "0.5": {
+      "accuracy": 0.08333333333333333,
+      "median_rank": 14.0,
+      "mean_rank": 2401.5833333333335
+    },
+    "0.7": {
+      "accuracy": 0.08333333333333333,
+      "median_rank": 14.0,
+      "mean_rank": 2401.5833333333335
+    },
+    "1.0": {
+      "accuracy": 0.08333333333333333,
+      "median_rank": 14.0,
+      "mean_rank": 2401.5833333333335
+    },
+    "1.5": {
+      "accuracy": 0.08333333333333333,
+      "median_rank": 14.0,
+      "mean_rank": 2401.5833333333335
+    },
+    "2.0": {
+      "accuracy": 0.08333333333333333,
+      "median_rank": 14.0,
+      "mean_rank": 2401.5833333333335
+    },
+    "3.0": {
+      "accuracy": 0.08333333333333333,
+      "median_rank": 14.0,
+      "mean_rank": 2401.5833333333335
+    },
+    "5.0": {
+      "accuracy": 0.08333333333333333,
+      "median_rank": 14.0,
+      "mean_rank": 2401.5833333333335
+    }
+  },
+  "blend_sweep": {
+    "0.0": {
+      "accuracy": 0.3333333333333333,
+      "median_rank": 14.5
+    },
+    "0.1": {
+      "accuracy": 0.3333333333333333,
+      "median_rank": 13.5
+    },
+    "0.3": {
+      "accuracy": 0.3333333333333333,
+      "median_rank": 13.5
+    },
+    "0.5": {
+      "accuracy": 0.3333333333333333,
+      "median_rank": 13.5
+    },
+    "1.0": {
+      "accuracy": 0.3333333333333333,
+      "median_rank": 12.5
+    },
+    "2.0": {
+      "accuracy": 0.16666666666666666,
+      "median_rank": 12.5
+    }
+  },
+  "noise_analysis": [
+    {
+      "expected": "Tokyo",
+      "grammar_boosted": [
+        "the",
+        "home",
+        "a",
+        "known",
+        "now"
+      ],
+      "fact_delta": -0.393857
+    },
+    {
+      "expected": "Paris",
+      "grammar_boosted": [
+        "the",
+        "a",
+        "home",
+        "in",
+        "on"
+      ],
+      "fact_delta": -0.106903
+    },
+    {
+      "expected": "0",
+      "grammar_boosted": [
+        "the",
+        "a",
+        "about",
+        "an",
+        "night"
+      ],
+      "fact_delta": -0.018276
+    },
+    {
+      "expected": "Jupiter",
+      "grammar_boosted": [
+        "the",
+        "a",
+        "about",
+        "in",
+        "only"
+      ],
+      "fact_delta": -0.255094
+    },
+    {
+      "expected": "de",
+      "grammar_boosted": [
+        "a",
+        "St",
+        ",",
+        "(",
+        "Ch"
+      ],
+      "fact_delta": 0.000319
+    },
+    {
+      "expected": "Au",
+      "grammar_boosted": [
+        "the",
+        "a",
+        "'",
+        "in",
+        "an"
+      ],
+      "fact_delta": 1e-06
+    },
+    {
+      "expected": "Hamlet",
+      "grammar_boosted": [
+        ",",
+        "the",
+        "a",
+        "of",
+        "in"
+      ],
+      "fact_delta": 0.0
+    },
+    {
+      "expected": "299",
+      "grammar_boosted": [
+        "the",
+        "one",
+        "a",
+        "6",
+        "12"
+      ],
+      "fact_delta": 0.000262
+    },
+    {
+      "expected": "Sun",
+      "grammar_boosted": [
+        "Sun",
+        "star",
+        "center",
+        "same",
+        "equ"
+      ],
+      "fact_delta": -0.322248
+    },
+    {
+      "expected": "100",
+      "grammar_boosted": [
+        "about",
+        "the",
+        "at",
+        "a",
+        "very"
+      ],
+      "fact_delta": 0.000559
+    },
+    {
+      "expected": "relativity",
+      "grammar_boosted": [
+        "general",
+        "gravity",
+        "the",
+        "General",
+        "grav"
+      ],
+      "fact_delta": -0.39534
+    },
+    {
+      "expected": "8",
+      "grammar_boosted": [
+        "9",
+        "10",
+        "3",
+        "12",
+        "("
+      ],
+      "fact_delta": 0.006919
+    }
+  ]
+}

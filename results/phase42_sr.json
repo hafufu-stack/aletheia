@@ -1,0 +1,65 @@
+{
+  "phase": 42,
+  "name": "Stochastic Truth Resonance",
+  "inspiration": "SNN-Synthesis SR (sigma=0.15, 9%->32%)",
+  "sigma_sweep": {
+    "0": {
+      "majority": 0.0,
+      "avg": 0.0
+    },
+    "0.05": {
+      "majority": 0.0,
+      "avg": 0.0
+    },
+    "0.1": {
+      "majority": 0.0,
+      "avg": 0.0
+    },
+    "0.15": {
+      "majority": 0.0,
+      "avg": 0.0
+    },
+    "0.2": {
+      "majority": 0.0,
+      "avg": 0.0
+    },
+    "0.3": {
+      "majority": 0.0,
+      "avg": 0.0
+    },
+    "0.5": {
+      "majority": 0.0,
+      "avg": 0.0
+    },
+    "1.0": {
+      "majority": 0.0,
+      "avg": 0.0
+    },
+    "2.0": {
+      "majority": 0.0,
+      "avg": 0.0
+    }
+  },
+  "layer_sweep": {
+    "4": 0.0,
+    "6": 0.0,
+    "8": 0.0,
+    "10": 0.0,
+    "11": 0.0
+  },
+  "combo": {
+    "s0_sp0": 0.0,
+    "s0_sp3": 0.5,
+    "s0_sp5": 0.5,
+    "s0.1_sp0": 0.0,
+    "s0.1_sp3": 0.5,
+    "s0.1_sp5": 0.5,
+    "s0.15_sp0": 0.0,
+    "s0.15_sp3": 0.5,
+    "s0.15_sp5": 0.5,
+    "s0.2_sp0": 0.0,
+    "s0.2_sp3": 0.5,
+    "s0.2_sp5": 0.5
+  },
+  "best_sigma": 0
+}

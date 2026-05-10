@@ -1,0 +1,74 @@
+{
+  "phase": 35,
+  "name": "Grand Unified Truth Equation",
+  "original_law": {
+    "alpha": 85845.7508,
+    "beta": -0.491
+  },
+  "unified_law": {
+    "alpha": 85845.7508,
+    "beta": -0.491,
+    "gamma": 0.4,
+    "delta": 1.8,
+    "V_ref": 50257,
+    "L_ref": 12
+  },
+  "rmse_original": 7.361,
+  "rmse_unified": 2.922,
+  "model_data": {
+    "GPT-2": {
+      "N": 124000000.0,
+      "V": 50257,
+      "d": 768,
+      "L": 12,
+      "n_heads": 12,
+      "spike_actual": 6,
+      "spike_p19": 9.1
+    },
+    "GPT-2-Med": {
+      "N": 345000000.0,
+      "V": 50257,
+      "d": 1024,
+      "L": 24,
+      "n_heads": 16,
+      "spike_actual": null,
+      "spike_p19": 5.52
+    },
+    "GPT-2-Large": {
+      "N": 774000000.0,
+      "V": 50257,
+      "d": 1280,
+      "L": 36,
+      "n_heads": 20,
+      "spike_actual": null,
+      "spike_p19": 3.72
+    },
+    "GPT-2-XL": {
+      "N": 1500000000.0,
+      "V": 50257,
+      "d": 1600,
+      "L": 48,
+      "n_heads": 25,
+      "spike_actual": null,
+      "spike_p19": 2.7
+    },
+    "Qwen2.5-7B": {
+      "N": 7000000000.0,
+      "V": 152064,
+      "d": 3584,
+      "L": 28,
+      "n_heads": 28,
+      "spike_actual": 10,
+      "spike_p19": 1.26
+    },
+    "Mistral-7B": {
+      "N": 7000000000.0,
+      "V": 32000,
+      "d": 4096,
+      "L": 32,
+      "n_heads": 32,
+      "spike_actual": 10,
+      "spike_p19": 1.26
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "phase": 49,
+  "name": "The L10 Oracle",
+  "layer_accuracy": {
+    "0": 0.0,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.08333333333333333,
+    "9": 0.08333333333333333,
+    "10": 0.3333333333333333,
+    "11": 0.08333333333333333
+  },
+  "final_accuracy": 0.08333333333333333,
+  "best_layer": 10,
+  "best_layer_accuracy": 0.3333333333333333,
+  "l10_wins": 7,
+  "final_wins": 4,
+  "fusion_results": {
+    "0.0": {
+      "accuracy": 0.08333333333333333,
+      "median_rank": 14.0,
+      "correct": 1
+    },
+    "0.1": {
+      "accuracy": 0.16666666666666666,
+      "median_rank": 14.0,
+      "correct": 2
+    },
+    "0.3": {
+      "accuracy": 0.16666666666666666,
+      "median_rank": 12.5,
+      "correct": 2
+    },
+    "0.5": {
+      "accuracy": 0.16666666666666666,
+      "median_rank": 12.5,
+      "correct": 2
+    },
+    "1.0": {
+      "accuracy": 0.3333333333333333,
+      "median_rank": 12.5,
+      "correct": 4
+    },
+    "2.0": {
+      "accuracy": 0.3333333333333333,
+      "median_rank": 13.5,
+      "correct": 4
+    },
+    "3.0": {
+      "accuracy": 0.3333333333333333,
+      "median_rank": 13.5,
+      "correct": 4
+    },
+    "5.0": {
+      "accuracy": 0.3333333333333333,
+      "median_rank": 13.5,
+      "correct": 4
+    }
+  },
+  "best_fusion_gamma": 1.0,
+  "comparison": [
+    {
+      "expected": "Tokyo",
+      "l10_rank": 1,
+      "l10_correct": true,
+      "final_rank": 2,
+      "final_correct": false
+    },
+    {
+      "expected": "Paris",
+      "l10_rank": 2,
+      "l10_correct": false,
+      "final_rank": 5,
+      "final_correct": false
+    },
+    {
+      "expected": "0",
+      "l10_rank": 4,
+      "l10_correct": false,
+      "final_rank": 13,
+      "final_correct": false
+    },
+    {
+      "expected": "Jupiter",
+      "l10_rank": 1,
+      "l10_correct": true,
+      "final_rank": 5,
+      "final_correct": false
+    },
+    {
+      "expected": "de",
+      "l10_rank": 791,
+      "l10_correct": false,
+      "final_rank": 290,
+      "final_correct": false
+    },
+    {
+      "expected": "Au",
+      "l10_rank": 15102,
+      "l10_correct": false,
+      "final_rank": 16735,
+      "final_correct": false
+    },
+    {
+      "expected": "Hamlet",
+      "l10_rank": 9252,
+      "l10_correct": false,
+      "final_rank": 11514,
+      "final_correct": false
+    },
+    {
+      "expected": "299",
+      "l10_rank": 210,
+      "l10_correct": false,
+      "final_rank": 208,
+      "final_correct": false
+    },
+    {
+      "expected": "Sun",
+      "l10_rank": 1,
+      "l10_correct": true,
+      "final_rank": 2,
+      "final_correct": false
+    },
+    {
+      "expected": "100",
+      "l10_rank": 32,
+      "l10_correct": false,
+      "final_rank": 29,
+      "final_correct": false
+    },
+    {
+      "expected": "relativity",
+      "l10_rank": 1,
+      "l10_correct": true,
+      "final_rank": 1,
+      "final_correct": true
+    },
+    {
+      "expected": "8",
+      "l10_rank": 25,
+      "l10_correct": false,
+      "final_rank": 15,
+      "final_correct": false
+    }
+  ]
+}

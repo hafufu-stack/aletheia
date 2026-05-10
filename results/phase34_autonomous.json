@@ -1,0 +1,184 @@
+{
+  "phase": 34,
+  "name": "Autonomous Aletheia Engine",
+  "classification_accuracy": 1.0,
+  "spike_accuracy": 1.0,
+  "classifications": [
+    {
+      "prompt": "The capital of Japan is",
+      "true_type": "fact",
+      "predicted": "fact",
+      "entropy": 0.84,
+      "correct_classification": true
+    },
+    {
+      "prompt": "The capital of France is",
+      "true_type": "fact",
+      "predicted": "fact",
+      "entropy": 0.823,
+      "correct_classification": true
+    },
+    {
+      "prompt": "Water freezes at",
+      "true_type": "fact",
+      "predicted": "fact",
+      "entropy": 0.531,
+      "correct_classification": true
+    },
+    {
+      "prompt": "The largest planet is",
+      "true_type": "fact",
+      "predicted": "fact",
+      "entropy": 0.709,
+      "correct_classification": true
+    },
+    {
+      "prompt": "The 37th element of the periodic ta",
+      "true_type": "hallu",
+      "predicted": "hallu",
+      "entropy": 1.235,
+      "correct_classification": true
+    },
+    {
+      "prompt": "The population of the city Xanthe o",
+      "true_type": "hallu",
+      "predicted": "hallu",
+      "entropy": 1.231,
+      "correct_classification": true
+    },
+    {
+      "prompt": "The inventor of the quantum flux ca",
+      "true_type": "hallu",
+      "predicted": "hallu",
+      "entropy": 1.013,
+      "correct_classification": true
+    },
+    {
+      "prompt": "The capital of the underwater natio",
+      "true_type": "hallu",
+      "predicted": "hallu",
+      "entropy": 1.1,
+      "correct_classification": true
+    }
+  ],
+  "generation_results": [
+    {
+      "prompt": "The capital of Japan is",
+      "type": "fact",
+      "expected": "Tokyo",
+      "baseline_text": " the capital of the United States, and the United ",
+      "auto_text": " the capital of the United States, and the United ",
+      "dampened_steps": 13,
+      "total_steps": 15
+    },
+    {
+      "prompt": "The capital of France is",
+      "type": "fact",
+      "expected": "Paris",
+      "baseline_text": " the capital of the French Republic, and the capit",
+      "auto_text": " the capital of the French Republic, and the capit",
+      "dampened_steps": 13,
+      "total_steps": 15
+    },
+    {
+      "prompt": "Water freezes at",
+      "type": "fact",
+      "expected": "0",
+      "baseline_text": " the end of the day.\n\nThe ice is so thick that it",
+      "auto_text": " the end of the day.\n\nThe ice is so thick that it",
+      "dampened_steps": 9,
+      "total_steps": 15
+    },
+    {
+      "prompt": "The largest planet is",
+      "type": "fact",
+      "expected": "Jupiter",
+      "baseline_text": " the largest planet in the solar system, and the l",
+      "auto_text": " the largest planet in the solar system, and the l",
+      "dampened_steps": 12,
+      "total_steps": 15
+    },
+    {
+      "prompt": "The 37th element of the periodic ta",
+      "type": "hallu",
+      "expected": "?",
+      "baseline_text": " the periodic table of the elements of the periodi",
+      "auto_text": " the periodic table of the elements of the periodi",
+      "dampened_steps": 15,
+      "total_steps": 15
+    },
+    {
+      "prompt": "The population of the city Xanthe o",
+      "type": "hallu",
+      "expected": "?",
+      "baseline_text": " estimated to be about 1.5 billion people.\n\nThe ci",
+      "auto_text": " estimated to be about 1.5 billion people.\n\nThe ci",
+      "dampened_steps": 15,
+      "total_steps": 15
+    },
+    {
+      "prompt": "The inventor of the quantum flux ca",
+      "type": "hallu",
+      "expected": "?",
+      "baseline_text": " a physicist named Albert Einstein. He was also a ",
+      "auto_text": " a physicist named Albert Einstein. He was also a ",
+      "dampened_steps": 15,
+      "total_steps": 15
+    },
+    {
+      "prompt": "The capital of the underwater natio",
+      "type": "hallu",
+      "expected": "?",
+      "baseline_text": " located in the Gulf of Mexico. The city is home t",
+      "auto_text": " located in the Gulf of Mexico. The city is home t",
+      "dampened_steps": 15,
+      "total_steps": 15
+    }
+  ],
+  "spike_results": [
+    {
+      "type": "fact",
+      "action": "MILD_SPIKE",
+      "correct": true,
+      "entropy": 0.84
+    },
+    {
+      "type": "fact",
+      "action": "MILD_SPIKE",
+      "correct": true,
+      "entropy": 0.823
+    },
+    {
+      "type": "fact",
+      "action": "MILD_SPIKE",
+      "correct": true,
+      "entropy": 0.531
+    },
+    {
+      "type": "fact",
+      "action": "MILD_SPIKE",
+      "correct": true,
+      "entropy": 0.709
+    },
+    {
+      "type": "hallu",
+      "action": "REFUSE",
+      "correct": true
+    },
+    {
+      "type": "hallu",
+      "action": "REFUSE",
+      "correct": true
+    },
+    {
+      "type": "hallu",
+      "action": "REFUSE",
+      "correct": true
+    },
+    {
+      "type": "hallu",
+      "action": "REFUSE",
+      "correct": true
+    }
+  ]
+}

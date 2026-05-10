@@ -1,0 +1,432 @@
+{
+  "phase": 44,
+  "name": "Logit Lens Fact Extraction",
+  "improved": 7,
+  "total": 10,
+  "l6_accuracy": 0.0,
+  "final_accuracy": 0.0,
+  "per_case": [
+    {
+      "prompt": "The capital of Japan is",
+      "expected": "Tokyo",
+      "final_rank": 2,
+      "best_layer": 10,
+      "best_rank": 1,
+      "ranks": {
+        "0": 16141,
+        "1": 14944,
+        "2": 7526,
+        "3": 4937,
+        "4": 1688,
+        "5": 1199,
+        "6": 103,
+        "7": 307,
+        "8": 114,
+        "9": 2,
+        "10": 1,
+        "11": 2
+      },
+      "top1s": {
+        "0": "not",
+        "1": "not",
+        "2": "now",
+        "3": "now",
+        "4": "now",
+        "5": "now",
+        "6": "now",
+        "7": "now",
+        "8": "now",
+        "9": "Japan",
+        "10": "Tokyo",
+        "11": "the"
+      }
+    },
+    {
+      "prompt": "The capital of France is",
+      "expected": "Paris",
+      "final_rank": 5,
+      "best_layer": 9,
+      "best_rank": 2,
+      "ranks": {
+        "0": 16524,
+        "1": 18483,
+        "2": 13624,
+        "3": 8649,
+        "4": 3106,
+        "5": 3040,
+        "6": 200,
+        "7": 275,
+        "8": 52,
+        "9": 2,
+        "10": 2,
+        "11": 5
+      },
+      "top1s": {
+        "0": "not",
+        "1": "now",
+        "2": "now",
+        "3": "now",
+        "4": "now",
+        "5": "now",
+        "6": "now",
+        "7": "now",
+        "8": "now",
+        "9": "France",
+        "10": "France",
+        "11": "the"
+      }
+    },
+    {
+      "prompt": "Water freezes at",
+      "expected": "0",
+      "final_rank": 13,
+      "best_layer": 10,
+      "best_rank": 4,
+      "ranks": {
+        "0": 808,
+        "1": 558,
+        "2": 680,
+        "3": 515,
+        "4": 202,
+        "5": 188,
+        "6": 252,
+        "7": 94,
+        "8": 42,
+        "9": 9,
+        "10": 4,
+        "11": 13
+      },
+      "top1s": {
+        "0": "least",
+        "1": "least",
+        "2": "least",
+        "3": "least",
+        "4": "least",
+        "5": "least",
+        "6": "least",
+        "7": "least",
+        "8": "least",
+        "9": "least",
+        "10": "temperatures",
+        "11": "the"
+      }
+    },
+    {
+      "prompt": "The largest planet is",
+      "expected": "Jupiter",
+      "final_rank": 5,
+      "best_layer": 10,
+      "best_rank": 1,
+      "ranks": {
+        "0": 25906,
+        "1": 26801,
+        "2": 18500,
+        "3": 12830,
+        "4": 8461,
+        "5": 2744,
+        "6": 502,
+        "7": 116,
+        "8": 9,
+        "9": 2,
+        "10": 1,
+        "11": 5
+      },
+      "top1s": {
+        "0": "not",
+        "1": "not",
+        "2": "now",
+        "3": "now",
+        "4": "now",
+        "5": "now",
+        "6": "probably",
+        "7": "probably",
+        "8": "located",
+        "9": "Earth",
+        "10": "Jupiter",
+        "11": "the"
+      }
+    },
+    {
+      "prompt": "DNA stands for",
+      "expected": "de",
+      "final_rank": 290,
+      "best_layer": 11,
+      "best_rank": 290,
+      "ranks": {
+        "0": 581,
+        "1": 1312,
+        "2": 949,
+        "3": 1380,
+        "4": 1892,
+        "5": 1849,
+        "6": 3151,
+        "7": 4517,
+        "8": 2663,
+        "9": 1313,
+        "10": 791,
+        "11": 290
+      },
+      "top1s": {
+        "0": "the",
+        "1": "the",
+        "2": "the",
+        "3": "the",
+        "4": "the",
+        "5": "the",
+        "6": "\"",
+        "7": "\"",
+        "8": "\"",
+        "9": "\"",
+        "10": "\"",
+        "11": "\""
+      }
+    },
+    {
+      "prompt": "The chemical symbol for gold is",
+      "expected": "Au",
+      "final_rank": 16735,
+      "best_layer": 8,
+      "best_rank": 10616,
+      "ranks": {
+        "0": 34932,
+        "1": 32191,
+        "2": 27637,
+        "3": 31136,
+        "4": 23728,
+        "5": 27350,
+        "6": 12122,
+        "7": 12856,
+        "8": 10616,
+        "9": 19347,
+        "10": 15102,
+        "11": 16735
+      },
+      "top1s": {
+        "0": "not",
+        "1": "not",
+        "2": "now",
+        "3": "also",
+        "4": "now",
+        "5": "also",
+        "6": "now",
+        "7": "symbol",
+        "8": "symbol",
+        "9": "symbol",
+        "10": "the",
+        "11": "the"
+      }
+    },
+    {
+      "prompt": "Shakespeare wrote",
+      "expected": "Hamlet",
+      "final_rank": 11514,
+      "best_layer": 7,
+      "best_rank": 1728,
+      "ranks": {
+        "0": 9171,
+        "1": 8188,
+        "2": 3938,
+        "3": 6166,
+        "4": 3699,
+        "5": 2986,
+        "6": 2540,
+        "7": 1728,
+        "8": 3082,
+        "9": 6345,
+        "10": 9252,
+        "11": 11514
+      },
+      "top1s": {
+        "0": "writer",
+        "1": "writer",
+        "2": "written",
+        "3": "written",
+        "4": "about",
+        "5": "about",
+        "6": "about",
+        "7": "about",
+        "8": "about",
+        "9": "about",
+        "10": "about",
+        "11": ":"
+      }
+    },
+    {
+      "prompt": "The speed of light is approximately",
+      "expected": "299",
+      "final_rank": 208,
+      "best_layer": 11,
+      "best_rank": 208,
+      "ranks": {
+        "0": 388,
+        "1": 907,
+        "2": 745,
+        "3": 1558,
+        "4": 1033,
+        "5": 1126,
+        "6": 443,
+        "7": 363,
+        "8": 358,
+        "9": 268,
+        "10": 210,
+        "11": 208
+      },
+      "top1s": {
+        "0": "approximately",
+        "1": "approximate",
+        "2": "approximate",
+        "3": "approximate",
+        "4": "approximate",
+        "5": "equivalent",
+        "6": "equivalent",
+        "7": "equivalent",
+        "8": "proportional",
+        "9": "equal",
+        "10": "equal",
+        "11": "1"
+      }
+    },
+    {
+      "prompt": "The Earth orbits the",
+      "expected": "Sun",
+      "final_rank": 2,
+      "best_layer": 10,
+      "best_rank": 1,
+      "ranks": {
+        "0": 46,
+        "1": 43,
+        "2": 55,
+        "3": 51,
+        "4": 48,
+        "5": 36,
+        "6": 20,
+        "7": 3,
+        "8": 7,
+        "9": 3,
+        "10": 1,
+        "11": 2
+      },
+      "top1s": {
+        "0": "same",
+        "1": "same",
+        "2": "same",
+        "3": "same",
+        "4": "same",
+        "5": "same",
+        "6": "planet",
+        "7": "planet",
+        "8": "planet",
+        "9": "planet",
+        "10": "sun",
+        "11": "Sun"
+      }
+    },
+    {
+      "prompt": "The boiling point of water is",
+      "expected": "100",
+      "final_rank": 29,
+      "best_layer": 11,
+      "best_rank": 29,
+      "ranks": {
+        "0": 593,
+        "1": 918,
+        "2": 676,
+        "3": 550,
+        "4": 347,
+        "5": 401,
+        "6": 227,
+        "7": 87,
+        "8": 71,
+        "9": 57,
+        "10": 32,
+        "11": 29
+      },
+      "top1s": {
+        "0": "not",
+        "1": "not",
+        "2": "also",
+        "3": "not",
+        "4": "not",
+        "5": "not",
+        "6": "usually",
+        "7": "usually",
+        "8": "usually",
+        "9": "approximately",
+        "10": "approximately",
+        "11": "about"
+      }
+    }
+  ],
+  "ensemble_results": [
+    {
+      "expected": "Tokyo",
+      "final_rank": 2,
+      "ensemble_rank": 320,
+      "weighted_rank": 519,
+      "combined_rank": 1
+    },
+    {
+      "expected": "Paris",
+      "final_rank": 5,
+      "ensemble_rank": 461,
+      "weighted_rank": 941,
+      "combined_rank": 2
+    },
+    {
+      "expected": "0",
+      "final_rank": 13,
+      "ensemble_rank": 115,
+      "weighted_rank": 162,
+      "combined_rank": 7
+    },
+    {
+      "expected": "Jupiter",
+      "final_rank": 5,
+      "ensemble_rank": 340,
+      "weighted_rank": 1179,
+      "combined_rank": 1
+    },
+    {
+      "expected": "de",
+      "final_rank": 290,
+      "ensemble_rank": 2305,
+      "weighted_rank": 2120,
+      "combined_rank": 290
+    },
+    {
+      "expected": "Au",
+      "final_rank": 16735,
+      "ensemble_rank": 15459,
+      "weighted_rank": 18392,
+      "combined_rank": 12585
+    },
+    {
+      "expected": "Hamlet",
+      "final_rank": 11514,
+      "ensemble_rank": 2556,
+      "weighted_rank": 2743,
+      "combined_rank": 3713
+    },
+    {
+      "expected": "299",
+      "final_rank": 208,
+      "ensemble_rank": 508,
+      "weighted_rank": 637,
+      "combined_rank": 208
+    },
+    {
+      "expected": "Sun",
+      "final_rank": 2,
+      "ensemble_rank": 8,
+      "weighted_rank": 14,
+      "combined_rank": 1
+    },
+    {
+      "expected": "100",
+      "final_rank": 29,
+      "ensemble_rank": 164,
+      "weighted_rank": 221,
+      "combined_rank": 29
+    }
+  ]
+}

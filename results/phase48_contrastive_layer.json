@@ -1,0 +1,448 @@
+{
+  "phase": 48,
+  "name": "Contrastive Layer Decoding",
+  "best_contrastive_config": {
+    "early": 8,
+    "late": 10,
+    "alpha": 0.0,
+    "acc": 0.0,
+    "median": 92.5
+  },
+  "fusion_results": {
+    "0.0": {
+      "accuracy": 0.0,
+      "median_rank": 21.0
+    },
+    "0.1": {
+      "accuracy": 0.0,
+      "median_rank": 24.0
+    },
+    "0.3": {
+      "accuracy": 0.1,
+      "median_rank": 27.5
+    },
+    "0.5": {
+      "accuracy": 0.1,
+      "median_rank": 30.5
+    },
+    "1.0": {
+      "accuracy": 0.0,
+      "median_rank": 34.0
+    },
+    "2.0": {
+      "accuracy": 0.0,
+      "median_rank": 44.5
+    },
+    "5.0": {
+      "accuracy": 0.0,
+      "median_rank": 63.0
+    }
+  },
+  "improved_by_contrastive": 2,
+  "fact_in_contrastive_top5": 0,
+  "total": 10,
+  "surfaced": [
+    {
+      "expected": "Tokyo",
+      "c_rank": 114,
+      "f_rank": 2,
+      "c_top5": [
+        "now",
+        "located",
+        "currently",
+        "also",
+        "still"
+      ],
+      "f_top5": [
+        "the",
+        "Tokyo",
+        "home",
+        "a",
+        "now"
+      ],
+      "fact_in_contrastive_top5": false
+    },
+    {
+      "expected": "Paris",
+      "c_rank": 52,
+      "f_rank": 5,
+      "c_top5": [
+        "now",
+        "located",
+        "also",
+        "not",
+        "still"
+      ],
+      "f_top5": [
+        "the",
+        "now",
+        "a",
+        "France",
+        "Paris"
+      ],
+      "fact_in_contrastive_top5": false
+    },
+    {
+      "expected": "0",
+      "c_rank": 42,
+      "f_rank": 13,
+      "c_top5": [
+        "least",
+        "temperatures",
+        "speeds",
+        "times",
+        "noon"
+      ],
+      "f_top5": [
+        "the",
+        "a",
+        "about",
+        "least",
+        "1"
+      ],
+      "fact_in_contrastive_top5": false
+    },
+    {
+      "expected": "Jupiter",
+      "c_rank": 9,
+      "f_rank": 5,
+      "c_top5": [
+        "located",
+        "probably",
+        "Mars",
+        "now",
+        "Antarctica"
+      ],
+      "f_top5": [
+        "the",
+        "a",
+        "about",
+        "Earth",
+        "Jupiter"
+      ],
+      "fact_in_contrastive_top5": false
+    },
+    {
+      "expected": "de",
+      "c_rank": 2663,
+      "f_rank": 290,
+      "c_top5": [
+        "\"",
+        "the",
+        "a",
+        "Cell",
+        "'"
+      ],
+      "f_top5": [
+        "\"",
+        "the",
+        "a",
+        "'",
+        "an"
+      ],
+      "fact_in_contrastive_top5": false
+    },
+    {
+      "expected": "Au",
+      "c_rank": 10616,
+      "f_rank": 16735,
+      "c_top5": [
+        "symbol",
+        "usually",
+        "the",
+        "\"",
+        "often"
+      ],
+      "f_top5": [
+        "the",
+        "a",
+        "\"",
+        "'",
+        "an"
+      ],
+      "fact_in_contrastive_top5": false
+    },
+    {
+      "expected": "Hamlet",
+      "c_rank": 3082,
+      "f_rank": 11514,
+      "c_top5": [
+        "about",
+        "novels",
+        "poems",
+        "a",
+        "poetry"
+      ],
+      "f_top5": [
+        ":",
+        "that",
+        ",",
+        "a",
+        "the"
+      ],
+      "fact_in_contrastive_top5": false
+    },
+    {
+      "expected": "299",
+      "c_rank": 358,
+      "f_rank": 208,
+      "c_top5": [
+        "proportional",
+        "equal",
+        "equivalent",
+        "1",
+        "100"
+      ],
+      "f_top5": [
+        "1",
+        "2",
+        "10",
+        "100",
+        "the"
+      ],
+      "fact_in_contrastive_top5": false
+    },
+    {
+      "expected": "Sun",
+      "c_rank": 7,
+      "f_rank": 2,
+      "c_top5": [
+        "planet",
+        "Earth",
+        "moon",
+        "planets",
+        "globe"
+      ],
+      "f_top5": [
+        "Sun",
+        "sun",
+        "Moon",
+        "Earth",
+        "star"
+      ],
+      "fact_in_contrastive_top5": false
+    },
+    {
+      "expected": "100",
+      "c_rank": 71,
+      "f_rank": 29,
+      "c_top5": [
+        "usually",
+        "typically",
+        "approximately",
+        "measured",
+        "probably"
+      ],
+      "f_top5": [
+        "about",
+        "the",
+        "approximately",
+        "1",
+        "a"
+      ],
+      "fact_in_contrastive_top5": false
+    }
+  ],
+  "trajectories": [
+    {
+      "expected": "Tokyo",
+      "ranks": {
+        "0": 16141,
+        "1": 14944,
+        "2": 7526,
+        "3": 4937,
+        "4": 1688,
+        "5": 1199,
+        "6": 103,
+        "7": 307,
+        "8": 114,
+        "9": 2,
+        "10": 1,
+        "11": 2
+      },
+      "best_layer": 10,
+      "best_rank": 1,
+      "final_rank": 2
+    },
+    {
+      "expected": "Paris",
+      "ranks": {
+        "0": 16524,
+        "1": 18483,
+        "2": 13624,
+        "3": 8649,
+        "4": 3106,
+        "5": 3040,
+        "6": 200,
+        "7": 275,
+        "8": 52,
+        "9": 2,
+        "10": 2,
+        "11": 5
+      },
+      "best_layer": 9,
+      "best_rank": 2,
+      "final_rank": 5
+    },
+    {
+      "expected": "0",
+      "ranks": {
+        "0": 808,
+        "1": 558,
+        "2": 680,
+        "3": 515,
+        "4": 202,
+        "5": 188,
+        "6": 252,
+        "7": 94,
+        "8": 42,
+        "9": 9,
+        "10": 4,
+        "11": 13
+      },
+      "best_layer": 10,
+      "best_rank": 4,
+      "final_rank": 13
+    },
+    {
+      "expected": "Jupiter",
+      "ranks": {
+        "0": 25906,
+        "1": 26801,
+        "2": 18500,
+        "3": 12830,
+        "4": 8461,
+        "5": 2744,
+        "6": 502,
+        "7": 116,
+        "8": 9,
+        "9": 2,
+        "10": 1,
+        "11": 5
+      },
+      "best_layer": 10,
+      "best_rank": 1,
+      "final_rank": 5
+    },
+    {
+      "expected": "de",
+      "ranks": {
+        "0": 581,
+        "1": 1312,
+        "2": 949,
+        "3": 1380,
+        "4": 1892,
+        "5": 1849,
+        "6": 3151,
+        "7": 4517,
+        "8": 2663,
+        "9": 1313,
+        "10": 791,
+        "11": 290
+      },
+      "best_layer": 11,
+      "best_rank": 290,
+      "final_rank": 290
+    },
+    {
+      "expected": "Au",
+      "ranks": {
+        "0": 34932,
+        "1": 32191,
+        "2": 27637,
+        "3": 31136,
+        "4": 23728,
+        "5": 27350,
+        "6": 12122,
+        "7": 12856,
+        "8": 10616,
+        "9": 19347,
+        "10": 15102,
+        "11": 16735
+      },
+      "best_layer": 8,
+      "best_rank": 10616,
+      "final_rank": 16735
+    },
+    {
+      "expected": "Hamlet",
+      "ranks": {
+        "0": 9171,
+        "1": 8188,
+        "2": 3938,
+        "3": 6166,
+        "4": 3699,
+        "5": 2986,
+        "6": 2540,
+        "7": 1728,
+        "8": 3082,
+        "9": 6345,
+        "10": 9252,
+        "11": 11514
+      },
+      "best_layer": 7,
+      "best_rank": 1728,
+      "final_rank": 11514
+    },
+    {
+      "expected": "299",
+      "ranks": {
+        "0": 388,
+        "1": 907,
+        "2": 745,
+        "3": 1558,
+        "4": 1033,
+        "5": 1126,
+        "6": 443,
+        "7": 363,
+        "8": 358,
+        "9": 268,
+        "10": 210,
+        "11": 208
+      },
+      "best_layer": 11,
+      "best_rank": 208,
+      "final_rank": 208
+    },
+    {
+      "expected": "Sun",
+      "ranks": {
+        "0": 46,
+        "1": 43,
+        "2": 55,
+        "3": 51,
+        "4": 48,
+        "5": 36,
+        "6": 20,
+        "7": 3,
+        "8": 7,
+        "9": 3,
+        "10": 1,
+        "11": 2
+      },
+      "best_layer": 10,
+      "best_rank": 1,
+      "final_rank": 2
+    },
+    {
+      "expected": "100",
+      "ranks": {
+        "0": 593,
+        "1": 918,
+        "2": 676,
+        "3": 550,
+        "4": 347,
+        "5": 401,
+        "6": 227,
+        "7": 87,
+        "8": 71,
+        "9": 57,
+        "10": 32,
+        "11": 29
+      },
+      "best_layer": 11,
+      "best_rank": 29,
+      "final_rank": 29
+    }
+  ]
+}

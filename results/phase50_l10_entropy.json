@@ -1,0 +1,278 @@
+{
+  "phase": 50,
+  "name": "L10-Candidate Entropy Rejection",
+  "l12_accuracy": 0.08333333333333333,
+  "l10_accuracy": 0.0,
+  "system_accuracy": 0.08333333333333333,
+  "l12_top5_hit": 5,
+  "l10_top5_hit": 6,
+  "total": 12,
+  "per_case": [
+    {
+      "expected": "Tokyo",
+      "oracle_ent": 0.84,
+      "l10_selected": "now",
+      "l10_correct": false,
+      "l10_ent": 0.894,
+      "l12_selected": "the",
+      "l12_correct": false,
+      "l12_ent": 1.002,
+      "candidate_ents": {
+        "Tokyo": 0.985,
+        "Japan": 1.0,
+        "Osaka": 0.991,
+        "located": 0.954,
+        "now": 0.894
+      }
+    },
+    {
+      "expected": "Paris",
+      "oracle_ent": 0.823,
+      "l10_selected": "now",
+      "l10_correct": false,
+      "l10_ent": 0.888,
+      "l12_selected": "the",
+      "l12_correct": false,
+      "l12_ent": 1.0,
+      "candidate_ents": {
+        "France": 0.99,
+        "Paris": 0.98,
+        "now": 0.888,
+        "the": 1.0,
+        "located": 0.945
+      }
+    },
+    {
+      "expected": "0",
+      "oracle_ent": 0.531,
+      "l10_selected": "1",
+      "l10_correct": false,
+      "l10_ent": 0.717,
+      "l12_selected": "the",
+      "l12_correct": false,
+      "l12_ent": 0.732,
+      "candidate_ents": {
+        "temperatures": 0.75,
+        "least": 0.72,
+        "1": 0.717,
+        "0": 0.724,
+        "about": 0.752
+      }
+    },
+    {
+      "expected": "Jupiter",
+      "oracle_ent": 0.709,
+      "l10_selected": "Pluto",
+      "l10_correct": false,
+      "l10_ent": 0.884,
+      "l12_selected": "the",
+      "l12_correct": false,
+      "l12_ent": 0.93,
+      "candidate_ents": {
+        "Jupiter": 0.889,
+        "Earth": 0.907,
+        "Saturn": 0.884,
+        "Mars": 0.896,
+        "Pluto": 0.884
+      }
+    },
+    {
+      "expected": "de",
+      "oracle_ent": 0.519,
+      "l10_selected": "amino",
+      "l10_correct": false,
+      "l10_ent": 0.695,
+      "l12_selected": "\"",
+      "l12_correct": false,
+      "l12_ent": 0.758,
+      "candidate_ents": {
+        "\"": 0.758,
+        "the": 0.8,
+        "amino": 0.695,
+        "a": 0.808,
+        "'": 0.734
+      }
+    },
+    {
+      "expected": "Au",
+      "oracle_ent": 0.971,
+      "l10_selected": "\"",
+      "l10_correct": false,
+      "l10_ent": 0.983,
+      "l12_selected": "the",
+      "l12_correct": false,
+      "l12_ent": 1.09,
+      "candidate_ents": {
+        "the": 1.09,
+        "gold": 1.099,
+        "symbol": 0.984,
+        "a": 1.071,
+        "\"": 0.983
+      }
+    },
+    {
+      "expected": "Hamlet",
+      "oracle_ent": 0.493,
+      "l10_selected": ":",
+      "l10_correct": false,
+      "l10_ent": 0.673,
+      "l12_selected": ":",
+      "l12_correct": false,
+      "l12_ent": 0.673,
+      "candidate_ents": {
+        "about": 0.764,
+        "that": 0.767,
+        ":": 0.673,
+        "a": 0.739,
+        "his": 0.732
+      }
+    },
+    {
+      "expected": "299",
+      "oracle_ent": 0.909,
+      "l10_selected": "1",
+      "l10_correct": false,
+      "l10_ent": 0.951,
+      "l12_selected": "1",
+      "l12_correct": false,
+      "l12_ent": 0.951,
+      "candidate_ents": {
+        "equal": 1.024,
+        "1": 0.951,
+        "2": 0.952,
+        "10": 1.048,
+        "proportional": 0.982
+      }
+    },
+    {
+      "expected": "Sun",
+      "oracle_ent": 0.719,
+      "l10_selected": "Earth",
+      "l10_correct": false,
+      "l10_ent": 0.872,
+      "l12_selected": "Sun",
+      "l12_correct": false,
+      "l12_ent": 0.901,
+      "candidate_ents": {
+        "sun": 0.9,
+        "Sun": 0.901,
+        "planet": 0.873,
+        "Earth": 0.872,
+        "moon": 0.904
+      }
+    },
+    {
+      "expected": "100",
+      "oracle_ent": 0.933,
+      "l10_selected": "1",
+      "l10_correct": false,
+      "l10_ent": 0.924,
+      "l12_selected": "about",
+      "l12_correct": false,
+      "l12_ent": 0.967,
+      "candidate_ents": {
+        "approximately": 0.979,
+        "about": 0.967,
+        "usually": 1.023,
+        "roughly": 0.972,
+        "1": 0.924
+      }
+    },
+    {
+      "expected": "relativity",
+      "oracle_ent": 0.862,
+      "l10_selected": "electrom",
+      "l10_correct": false,
+      "l10_ent": 0.737,
+      "l12_selected": "relativity",
+      "l12_correct": true,
+      "l12_ent": 1.077,
+      "candidate_ents": {
+        "relativity": 1.077,
+        "gravitational": 0.917,
+        "quantum": 0.954,
+        "atomic": 0.944,
+        "electrom": 0.737
+      }
+    },
+    {
+      "expected": "8",
+      "oracle_ent": 1.013,
+      "l10_selected": "00",
+      "l10_correct": false,
+      "l10_ent": 1.08,
+      "l12_selected": "of",
+      "l12_correct": false,
+      "l12_ent": 1.138,
+      "candidate_ents": {
+        "0": 1.118,
+        "of": 1.138,
+        "1": 1.15,
+        "zero": 1.183,
+        "00": 1.08
+      }
+    }
+  ],
+  "system": [
+    {
+      "expected": "Tokyo",
+      "source": "L12",
+      "correct": false
+    },
+    {
+      "expected": "Paris",
+      "source": "L12",
+      "correct": false
+    },
+    {
+      "expected": "0",
+      "source": "L12",
+      "correct": false
+    },
+    {
+      "expected": "Jupiter",
+      "source": "L12",
+      "correct": false
+    },
+    {
+      "expected": "de",
+      "source": "L12",
+      "correct": false
+    },
+    {
+      "expected": "Au",
+      "source": "L12",
+      "correct": false
+    },
+    {
+      "expected": "Hamlet",
+      "source": "L12",
+      "correct": false
+    },
+    {
+      "expected": "299",
+      "source": "L12",
+      "correct": false
+    },
+    {
+      "expected": "Sun",
+      "source": "L12",
+      "correct": false
+    },
+    {
+      "expected": "100",
+      "source": "L12",
+      "correct": false
+    },
+    {
+      "expected": "relativity",
+      "source": "L12",
+      "correct": true
+    },
+    {
+      "expected": "8",
+      "source": "L10",
+      "correct": false
+    }
+  ]
+}

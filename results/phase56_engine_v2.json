@@ -1,0 +1,146 @@
+{
+  "phase": 56,
+  "name": "Aletheia Engine v2",
+  "l12_accuracy": 0.08333333333333333,
+  "l10_accuracy": 0.3333333333333333,
+  "engine_accuracy": 0.08333333333333333,
+  "n_idk": 0,
+  "n_l12": 11,
+  "n_aletheia": 1,
+  "threshold_sweep": {
+    "0.3": {
+      "accuracy": 0.08333333333333333,
+      "idk_rate": 0.0
+    },
+    "0.5": {
+      "accuracy": 0.08333333333333333,
+      "idk_rate": 0.0
+    },
+    "0.7": {
+      "accuracy": 0.08333333333333333,
+      "idk_rate": 0.0
+    },
+    "0.9": {
+      "accuracy": 0.08333333333333333,
+      "idk_rate": 0.0
+    },
+    "1.0": {
+      "accuracy": 0.08333333333333333,
+      "idk_rate": 0.0
+    },
+    "1.2": {
+      "accuracy": 0.08333333333333333,
+      "idk_rate": 0.0
+    },
+    "1.5": {
+      "accuracy": 0.08333333333333333,
+      "idk_rate": 0.0
+    },
+    "2.0": {
+      "accuracy": 0.08333333333333333,
+      "idk_rate": 0.0
+    },
+    "3.0": {
+      "accuracy": 0.08333333333333333,
+      "idk_rate": 0.0
+    }
+  },
+  "engine_results": [
+    {
+      "expected": "Tokyo",
+      "selected": "the",
+      "correct": false,
+      "source": "L12_confident",
+      "entropy": 0.84,
+      "idk": false
+    },
+    {
+      "expected": "Paris",
+      "selected": "the",
+      "correct": false,
+      "source": "L12_confident",
+      "entropy": 0.823,
+      "idk": false
+    },
+    {
+      "expected": "0",
+      "selected": "the",
+      "correct": false,
+      "source": "L12_confident",
+      "entropy": 0.531,
+      "idk": false
+    },
+    {
+      "expected": "Jupiter",
+      "selected": "the",
+      "correct": false,
+      "source": "L12_confident",
+      "entropy": 0.709,
+      "idk": false
+    },
+    {
+      "expected": "de",
+      "selected": "\"",
+      "correct": false,
+      "source": "L12_confident",
+      "entropy": 0.519,
+      "idk": false
+    },
+    {
+      "expected": "Au",
+      "selected": "the",
+      "correct": false,
+      "source": "L12_confident",
+      "entropy": 0.971,
+      "idk": false
+    },
+    {
+      "expected": "Hamlet",
+      "selected": ":",
+      "correct": false,
+      "source": "L12_confident",
+      "entropy": 0.493,
+      "idk": false
+    },
+    {
+      "expected": "299",
+      "selected": "1",
+      "correct": false,
+      "source": "L12_confident",
+      "entropy": 0.909,
+      "idk": false
+    },
+    {
+      "expected": "Sun",
+      "selected": "Sun",
+      "correct": false,
+      "source": "L12_confident",
+      "entropy": 0.719,
+      "idk": false
+    },
+    {
+      "expected": "100",
+      "selected": "about",
+      "correct": false,
+      "source": "L12_confident",
+      "entropy": 0.933,
+      "idk": false
+    },
+    {
+      "expected": "relativity",
+      "selected": "relativity",
+      "correct": true,
+      "source": "L12_confident",
+      "entropy": 0.862,
+      "idk": false
+    },
+    {
+      "expected": "8",
+      "selected": "of",
+      "correct": false,
+      "source": "Aletheia_v2",
+      "entropy": 1.013,
+      "idk": false
+    }
+  ]
+}

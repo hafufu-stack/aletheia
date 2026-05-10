@@ -1,0 +1,28 @@
+{
+  "phase": 28,
+  "name": "Macroscopic Singularity",
+  "scaling_law": {
+    "alpha": 85845.7508,
+    "beta": -0.491
+  },
+  "model_results": [
+    {
+      "model": "GPT-2",
+      "params": 124439808,
+      "predicted": 9.101097586151525,
+      "actual": 6
+    },
+    {
+      "model": "Qwen2.5-7B",
+      "params": 7000000000,
+      "predicted": 1.26,
+      "actual": 10
+    },
+    {
+      "model": "Mistral-7B",
+      "params": 7000000000,
+      "predicted": 1.26,
+      "actual": 10
+    }
+  ]
+}

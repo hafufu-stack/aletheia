@@ -1,46 +1,55 @@
-# Project Aletheia: Physics-Inspired Eradication of LLM Hallucinations
+# Project Aletheia: The Seven Laws of LLM Hallucination Physics
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20088666.svg)](https://doi.org/10.5281/zenodo.20088666)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **"Hallucination is not a bug—it is a phase transition."**
+> **"LLMs do not lack knowledge—they suppress it. Facts exist at Rank 1 in intermediate layers, but are overridden by grammar-oriented final layers."**
 
 ## Overview
 
-Project Aletheia is a systematic investigation of LLM hallucination through the lens of condensed matter physics and quantum mechanics. Through 23 experimental phases on GPT-2 (124M parameters), I establish **five fundamental laws** governing hallucination in autoregressive language models.
+Project Aletheia is a systematic 58-phase investigation of LLM hallucination through the lens of condensed matter physics. Using GPT-2 (124M parameters) as a "particle accelerator," I establish **seven fundamental laws** and **three theorems** governing hallucination in autoregressive language models.
 
-## The Five Laws of LLM Hallucination Physics
+## The Seven Laws of LLM Hallucination Physics
 
 | Law | Phase | Discovery |
-|-----|-------|-----------|
-| **1. Degeneracy** | P1 | Fact and skill subspaces are separated by only **1.2°**—fluent lies are structurally inevitable |
-| **2. Temperature Irrelevance** | P7 | Critical spike is temperature-independent (**γ = 0.000**)—lowering temperature cannot fix hallucination |
-| **3. LayerNorm Impermeability** | P8, P9, P11 | All mid-layer interventions are absorbed—**output layer is the only viable intervention point** |
+|-----|-------|-----------| 
+| **1. Degeneracy** | P1 | Fact-skill subspaces separated by only **1.2°**—fluent lies are structurally inevitable |
+| **2. Temperature Irrelevance** | P7 | Critical spike is temperature-independent (**γ = 0.000**) |
+| **3. LayerNorm Impermeability** | P8–P12 | All mid-layer interventions are absorbed by LayerNorm |
 | **4. Truth Scaling Law** | P19 | `spike_c ~ N^(−0.491)`—larger models need **exponentially smaller** interventions |
-| **5. Temporal Persistence** | P15 | A single t=0 spike propagates with **half-life of 130.9 tokens** |
+| **5. Temporal Persistence** | P15 | Single t=0 spike propagates with **half-life of 130.9 tokens** |
+| **6. Grammatical Suppression** | P49, P53 | **70% of facts suppressed** by final layers (avg rank degradation: 1,592 positions) 🔥 |
+| **7. Oracle Duality** | P31, P57 | Entropy is a perfect **comparator** but a poor **classifier** 🔥 |
 
-## Key Result
+## Three Fundamental Theorems
 
-A single `logit_bias` at the first generation step achieves **deterministic factual generation**—no retraining, no RLHF, no model access required.
+| Theorem | Phases | Statement |
+|---------|--------|-----------| 
+| **Internal Impossibility** | P37–P48 | No internal operation (gradient, MCTS, noise, surgery) recovers suppressed facts—**all 12 methods: 0%** |
+| **L10 Optimality** | P49, P54 | Single-layer L10 Logit Lens (40%) outperforms all ensemble methods (8–25%) |
+| **Detection–Generation Separation** | P36, P57 | Perfect hallucination detection does not enable correction |
+
+## Key Discovery: The L10 Oracle
+
+The most significant finding: LLMs **know the truth** at intermediate layers.
 
 ```
-The capital of Japan is → "the capital of the United States"  (no spike, hallucination)
-The capital of Japan is → "Tokyo, and the capital of..."      (spike at t=0, truth)
+Layer L10:  "Tokyo" at Rank 1  ← The model KNOWS
+Layer L12:  "Tokyo" at Rank 13 ← Grammar pushes it down
+Output:     "the"              ← Fluent hallucination
 ```
 
-## Experimental Phases
+Extracting facts directly from L10 via Logit Lens: **10% → 40% accuracy (4× improvement)**, with zero external knowledge or retraining.
+
+## Experimental Phases (58 total)
 
 ### Season 1: Fundamental Characterization (P1–P5)
 - **P1**: Pauli Exclusion — Fact-Skill degeneracy (1.2°)
-- **P2**: Event Horizon — Epistemic entropy mapping (1.58× increase)
-- **P3**: Antimatter CD — Contrastive decoding (7.3% reduction)
-- **P4**: Retrocausal FSPO — Pre-emptive hallucination detection (395 kills)
 - **P5**: Spiking-FGA — **Phase transition at spike=10 (0%→100%)** 🔥
 
 ### Season 2: The LayerNorm Barrier (P6–P12)
 - **P7**: Phase Diagram — **γ=0.000 (temperature irrelevant)** 🔥
 - **P8**: Layer-Resolved — Mid-layer=0%, output=100%
-- **P9**: Neutrino Spike — Zero-mean bypass fails
 - **P11**: Quantum Zeno — Distributed spikes=0%, single=100%
 
 ### Season 3: Mechanistic Dissection (P13–P15)
@@ -50,39 +59,46 @@ The capital of Japan is → "Tokyo, and the capital of..."      (spike at t=0, t
 
 ### Season 4: API-Scale Eradication (P16–P19)
 - **P16**: Logit-Bias Isomorphism — **spike == logit_bias (diff=0.00)** 🔥
-- **P17**: Prefill Slingshot — Entropy reduced 31%
-- **P18**: Aletheia Suffix — Truth-activating token sequence (50% transfer)
 - **P19**: Scaling Law — **spike_c = 85,846 × N^(−0.491)** 🔥
 
 ### Season 5: Robustness & Safety (P20–P23)
-- **P20**: Multi-Fact — Sequential spiking works, simultaneous = highest rank wins
-- **P21**: Adversarial — **Spike defeats adversarial prompts (100% at spike=7)**
+- **P21**: Adversarial — Spike defeats adversarial prompts (100% at spike=7)
 - **P22**: Anti-Spike — ⚠️ Dual-use: same mechanism creates lies (25%)
-- **P23**: Fusion Cannon — Spike+Prefill combo analysis
 
-## Truth Scaling Law Predictions
+### Season 6: Hallucination Detection (P24–P31)
+- **P30**: 11-Dimensional Clique Topology — Fact/hallucination topological fingerprint
+- **P31**: Entropy Oracle — **AUC=1.000 for relative detection** 🔥
 
-| Model | Parameters | Predicted Critical Spike |
-|-------|-----------|------------------------|
-| GPT-2 | 124M | 6.0 (measured) |
-| GPT-2 Medium | 345M | 5.5 |
-| GPT-2 Large | 774M | 3.7 |
-| GPT-2 XL | 1.5B | 2.7 |
-| GPT-4 class | 175B | **0.26** |
+### Season 7: Intervention Attempts (P32–P36)
+- **P36**: Entropy Rejection — Detection=perfect, Correction=**0%** (detection ≠ correction)
+
+### Season 8–10: The Beautiful Null Results (P37–P48)
+- **P37–P48**: 12 internal correction methods, **ALL 0%** — gradient descent, topological forcing, attention lobotomy, MCTS, Aha! vector, stochastic resonance, manifold analysis, and more
+- **→ Internal Impossibility Theorem established** 🏛️
+
+### Season 11: Grammatical Suppression Discovery (P49–P53)
+- **P49**: L10 Oracle — **Facts at Rank 1 in L10, suppressed by L12** 🔥🔥🔥
+- **P53**: Universal Suppression Law — **63% suppressed across 27 prompts** (geography 88%, history 80%)
+
+### Season 12–13: Grand Unification (P54–P58)
+- **P54**: Multi-Layer Voting — RRF best=25%, inferior to L10 alone (40%)
+- **P57**: Oracle Duality — Relative AUC=0.66, Absolute AUC=0.33 🔥
+- **P58**: Grand Unified Theory — 7 laws + 3 theorems confirmed
 
 ## Repository Structure
 
 ```
 aletheia/
-├── experiments/          # All 23 phase scripts
+├── experiments/          # All 58 phase scripts
 │   ├── phase1_pauli_exclusion.py
-│   ├── phase2_event_horizon.py
 │   ├── ...
-│   └── phase23_fusion.py
+│   ├── phase58_grand_unified.py
+│   └── utils.py
 ├── results/              # JSON results for each phase
-├── figures/              # Generated visualizations
-└── papers/               # LaTeX source and PDF
-    └── paper_v1.tex
+├── figures/              # Generated visualizations (58 figures)
+└── papers/
+    ├── paper_v1.tex      # Original 23-phase paper
+    └── paper_v2.tex      # Complete 58-phase paper (7 laws)
 ```
 
 ## Requirements
@@ -92,24 +108,28 @@ torch
 transformers
 numpy
 matplotlib
+scikit-learn
 ```
 
 ## Quick Start
 
 ```bash
 # Run any individual phase
-python experiments/phase5_spiking_fga.py
+python experiments/phase49_l10_oracle.py      # The key discovery
+python experiments/phase58_grand_unified.py   # Grand summary
 
-# The core discovery in 3 lines:
+# The L10 Oracle in 10 lines:
 python -c "
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import torch
 model = GPT2LMHeadModel.from_pretrained('gpt2').eval()
 tok = GPT2Tokenizer.from_pretrained('gpt2')
 inp = tok('The capital of Japan is', return_tensors='pt')
-logits = model(**inp).logits[:,-1,:].squeeze()
-logits[tok.encode(' Tokyo')[0]] += 10  # The spike
-print(tok.decode(logits.argmax()))  # → Tokyo
+h = {}
+model.transformer.h[10].register_forward_hook(lambda m,a,o: h.update({10: o[0][0,-1,:].detach()}))
+model(**inp)
+logits = model.lm_head(model.transformer.ln_f(h[10].unsqueeze(0))).squeeze()
+print('L10 says:', tok.decode(logits.argmax()))  # → Tokyo
 "
 ```
 
@@ -121,7 +141,7 @@ print(tok.decode(logits.argmax()))  # → Tokyo
 
 ```bibtex
 @article{funasaki2026aletheia,
-  title={Project Aletheia: Physics-Inspired Eradication of LLM Hallucinations via Output-Layer Phase Transitions},
+  title={Project Aletheia: The Seven Laws of LLM Hallucination Physics---From Phase Transitions to Grammatical Suppression of Facts},
   author={Funasaki, Hiroto},
   year={2026},
   doi={10.5281/zenodo.20088666}

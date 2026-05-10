@@ -1,0 +1,225 @@
+{
+  "phase": 26,
+  "name": "Semantic Soliton Waves",
+  "strategy_results": {
+    "none": [
+      {
+        "label": "DNA",
+        "match_rate": 0.0,
+        "matched": 0,
+        "total": 7,
+        "text": " \"small molecule\" and is a member of the family of",
+        "mean_entropy": 5.167606898716518
+      },
+      {
+        "label": "UK capital",
+        "match_rate": 0.0,
+        "matched": 0,
+        "total": 1,
+        "text": " the capital of the United Kingdom. The capital of",
+        "mean_entropy": 5.827022552490234
+      },
+      {
+        "label": "Einstein",
+        "match_rate": 1.0,
+        "matched": 1,
+        "total": 1,
+        "text": " relativity, which is the theory of relativity tha",
+        "mean_entropy": 2.9116387367248535
+      },
+      {
+        "label": "Water formula",
+        "match_rate": 0.0,
+        "matched": 0,
+        "total": 3,
+        "text": " a mixture of sodium hydroxide and sodium hydroxid",
+        "mean_entropy": 4.314306795597076
+      },
+      {
+        "label": "First president",
+        "match_rate": 0.0,
+        "matched": 0,
+        "total": 2,
+        "text": " born in 1836. He was born in New York City, New Y",
+        "mean_entropy": 3.9016146659851074
+      }
+    ],
+    "single_t0": [
+      {
+        "label": "DNA",
+        "match_rate": 1.0,
+        "matched": 7,
+        "total": 7,
+        "text": " deoxyribonucleic acid.\n\nThe study was published i",
+        "mean_entropy": 0.6614864094715033
+      },
+      {
+        "label": "UK capital",
+        "match_rate": 1.0,
+        "matched": 1,
+        "total": 1,
+        "text": " London, and the capital of the United States is W",
+        "mean_entropy": 9.090009552892298e-05
+      },
+      {
+        "label": "Einstein",
+        "match_rate": 1.0,
+        "matched": 1,
+        "total": 1,
+        "text": " relativity, which is the theory of relativity tha",
+        "mean_entropy": 5.65491109227878e-06
+      },
+      {
+        "label": "Water formula",
+        "match_rate": 0.3333333333333333,
+        "matched": 1,
+        "total": 3,
+        "text": " H 2 O 2 . The water is made up of two parts: the ",
+        "mean_entropy": 1.3207048968567203
+      },
+      {
+        "label": "First president",
+        "match_rate": 1.0,
+        "matched": 2,
+        "total": 2,
+        "text": " George Washington, who was born in 1776. He was t",
+        "mean_entropy": 0.8284938050783239
+      }
+    ],
+    "constant": [
+      {
+        "label": "DNA",
+        "match_rate": 1.0,
+        "matched": 7,
+        "total": 7,
+        "text": " deoxyribonucleic acid.\n\nThe study was published i",
+        "mean_entropy": 0.0015003656905978602
+      },
+      {
+        "label": "UK capital",
+        "match_rate": 1.0,
+        "matched": 1,
+        "total": 1,
+        "text": " London, and the capital of the United States is W",
+        "mean_entropy": 9.090009552892298e-05
+      },
+      {
+        "label": "Einstein",
+        "match_rate": 1.0,
+        "matched": 1,
+        "total": 1,
+        "text": " relativity, which is the theory of relativity tha",
+        "mean_entropy": 5.65491109227878e-06
+      },
+      {
+        "label": "Water formula",
+        "match_rate": 1.0,
+        "matched": 3,
+        "total": 3,
+        "text": " H2O, which is the same as that of water.\n\nThe che",
+        "mean_entropy": 0.0007147589279459984
+      },
+      {
+        "label": "First president",
+        "match_rate": 1.0,
+        "matched": 2,
+        "total": 2,
+        "text": " George Washington, who was born in 1776. He was t",
+        "mean_entropy": 0.0002219816885826731
+      }
+    ],
+    "soliton_fast": [
+      {
+        "label": "DNA",
+        "match_rate": 1.0,
+        "matched": 7,
+        "total": 7,
+        "text": " deoxyribonucleic acid.\n\nThe study was published i",
+        "mean_entropy": 0.11779318151197263
+      },
+      {
+        "label": "UK capital",
+        "match_rate": 1.0,
+        "matched": 1,
+        "total": 1,
+        "text": " London, and the capital of the United States is W",
+        "mean_entropy": 9.090009552892298e-05
+      },
+      {
+        "label": "Einstein",
+        "match_rate": 1.0,
+        "matched": 1,
+        "total": 1,
+        "text": " relativity, which is the theory of relativity tha",
+        "mean_entropy": 5.65491109227878e-06
+      },
+      {
+        "label": "Water formula",
+        "match_rate": 1.0,
+        "matched": 3,
+        "total": 3,
+        "text": " H2O, which is the same as that of water.\n\nThe che",
+        "mean_entropy": 0.016316579887643456
+      },
+      {
+        "label": "First president",
+        "match_rate": 1.0,
+        "matched": 2,
+        "total": 2,
+        "text": " George Washington, who was born in 1776. He was t",
+        "mean_entropy": 0.0025091692223213613
+      }
+    ],
+    "soliton_slow": [
+      {
+        "label": "DNA",
+        "match_rate": 1.0,
+        "matched": 7,
+        "total": 7,
+        "text": " deoxyribonucleic acid.\n\nThe study was published i",
+        "mean_entropy": 0.027206560912808136
+      },
+      {
+        "label": "UK capital",
+        "match_rate": 1.0,
+        "matched": 1,
+        "total": 1,
+        "text": " London, and the capital of the United States is W",
+        "mean_entropy": 9.090009552892298e-05
+      },
+      {
+        "label": "Einstein",
+        "match_rate": 1.0,
+        "matched": 1,
+        "total": 1,
+        "text": " relativity, which is the theory of relativity tha",
+        "mean_entropy": 5.65491109227878e-06
+      },
+      {
+        "label": "Water formula",
+        "match_rate": 1.0,
+        "matched": 3,
+        "total": 3,
+        "text": " H2O, which is the same as that of water.\n\nThe che",
+        "mean_entropy": 0.001532377131904165
+      },
+      {
+        "label": "First president",
+        "match_rate": 1.0,
+        "matched": 2,
+        "total": 2,
+        "text": " George Washington, who was born in 1776. He was t",
+        "mean_entropy": 0.00036473048385232687
+      }
+    ]
+  },
+  "decay_sweep": {
+    "0.3": 1.0,
+    "0.5": 1.0,
+    "0.6": 1.0,
+    "0.7": 1.0,
+    "0.8": 1.0,
+    "0.9": 1.0,
+    "1.0": 1.0
+  }
+}

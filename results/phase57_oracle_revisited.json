@@ -1,0 +1,245 @@
+{
+  "phase": 57,
+  "name": "Oracle Revisited",
+  "relative_auc": 0.66,
+  "absolute_auc": 0.33333333333333337,
+  "n_correct_lower": 7,
+  "differential_accuracy": 0.4,
+  "l10_picked": 6,
+  "relative_data": [
+    {
+      "expected": "Tokyo",
+      "wrong": "the",
+      "ent_correct": 0.8572,
+      "ent_wrong": 0.9748,
+      "ent_base": 0.8398,
+      "delta": 0.1176,
+      "correct_lower": true
+    },
+    {
+      "expected": "Paris",
+      "wrong": "the",
+      "ent_correct": 0.8535,
+      "ent_wrong": 0.971,
+      "ent_base": 0.8232,
+      "delta": 0.1176,
+      "correct_lower": true
+    },
+    {
+      "expected": "0",
+      "wrong": "the",
+      "ent_correct": 0.6821,
+      "ent_wrong": 0.6903,
+      "ent_base": 0.5312,
+      "delta": 0.0082,
+      "correct_lower": true
+    },
+    {
+      "expected": "Jupiter",
+      "wrong": "the",
+      "ent_correct": 0.7494,
+      "ent_wrong": 0.8776,
+      "ent_base": 0.7088,
+      "delta": 0.1281,
+      "correct_lower": true
+    },
+    {
+      "expected": "Au",
+      "wrong": "the",
+      "ent_correct": 0.8489,
+      "ent_wrong": 1.0902,
+      "ent_base": 0.9714,
+      "delta": 0.2413,
+      "correct_lower": true
+    },
+    {
+      "expected": "Hamlet",
+      "wrong": ":",
+      "ent_correct": 0.7592,
+      "ent_wrong": 0.6675,
+      "ent_base": 0.4932,
+      "delta": -0.0917,
+      "correct_lower": false
+    },
+    {
+      "expected": "Sun",
+      "wrong": "Sun",
+      "ent_correct": 0.8123,
+      "ent_wrong": 0.8123,
+      "ent_base": 0.7193,
+      "delta": 0.0,
+      "correct_lower": false
+    },
+    {
+      "expected": "100",
+      "wrong": "about",
+      "ent_correct": 0.9144,
+      "ent_wrong": 0.9521,
+      "ent_base": 0.9333,
+      "delta": 0.0378,
+      "correct_lower": true
+    },
+    {
+      "expected": "relativity",
+      "wrong": "relativity",
+      "ent_correct": 0.957,
+      "ent_wrong": 0.957,
+      "ent_base": 0.8624,
+      "delta": 0.0,
+      "correct_lower": false
+    },
+    {
+      "expected": "8",
+      "wrong": "of",
+      "ent_correct": 1.0821,
+      "ent_wrong": 1.141,
+      "ent_base": 1.0127,
+      "delta": 0.0589,
+      "correct_lower": true
+    }
+  ],
+  "absolute_data": [
+    {
+      "expected": "Tokyo",
+      "entropy": 0.8398,
+      "l12_correct": false
+    },
+    {
+      "expected": "Paris",
+      "entropy": 0.8232,
+      "l12_correct": false
+    },
+    {
+      "expected": "0",
+      "entropy": 0.5312,
+      "l12_correct": false
+    },
+    {
+      "expected": "Jupiter",
+      "entropy": 0.7088,
+      "l12_correct": false
+    },
+    {
+      "expected": "Au",
+      "entropy": 0.9714,
+      "l12_correct": false
+    },
+    {
+      "expected": "Hamlet",
+      "entropy": 0.4932,
+      "l12_correct": false
+    },
+    {
+      "expected": "Sun",
+      "entropy": 0.7193,
+      "l12_correct": false
+    },
+    {
+      "expected": "100",
+      "entropy": 0.9333,
+      "l12_correct": false
+    },
+    {
+      "expected": "relativity",
+      "entropy": 0.8624,
+      "l12_correct": true
+    },
+    {
+      "expected": "8",
+      "entropy": 1.0127,
+      "l12_correct": false
+    }
+  ],
+  "differential_results": [
+    {
+      "expected": "Tokyo",
+      "l12": "the",
+      "l10": "Tokyo",
+      "ent_l12": 0.9748,
+      "ent_l10": 0.8572,
+      "selected": "L10",
+      "correct": true
+    },
+    {
+      "expected": "Paris",
+      "l12": "the",
+      "l10": "France",
+      "ent_l12": 0.971,
+      "ent_l10": 0.8727,
+      "selected": "L10",
+      "correct": false
+    },
+    {
+      "expected": "0",
+      "l12": "the",
+      "l10": "temperatures",
+      "ent_l12": 0.6903,
+      "ent_l10": 0.6895,
+      "selected": "L10",
+      "correct": false
+    },
+    {
+      "expected": "Jupiter",
+      "l12": "the",
+      "l10": "Jupiter",
+      "ent_l12": 0.8776,
+      "ent_l10": 0.7494,
+      "selected": "L10",
+      "correct": true
+    },
+    {
+      "expected": "Au",
+      "l12": "the",
+      "l10": "the",
+      "ent_l12": 1.0902,
+      "ent_l10": 1.0902,
+      "selected": "L12",
+      "correct": false
+    },
+    {
+      "expected": "Hamlet",
+      "l12": ":",
+      "l10": "about",
+      "ent_l12": 0.6675,
+      "ent_l10": 0.7043,
+      "selected": "L12",
+      "correct": false
+    },
+    {
+      "expected": "Sun",
+      "l12": "Sun",
+      "l10": "sun",
+      "ent_l12": 0.8123,
+      "ent_l10": 0.8094,
+      "selected": "L10",
+      "correct": true
+    },
+    {
+      "expected": "100",
+      "l12": "about",
+      "l10": "approximately",
+      "ent_l12": 0.9521,
+      "ent_l10": 0.9648,
+      "selected": "L12",
+      "correct": false
+    },
+    {
+      "expected": "relativity",
+      "l12": "relativity",
+      "l10": "relativity",
+      "ent_l12": 0.957,
+      "ent_l10": 0.957,
+      "selected": "L12",
+      "correct": true
+    },
+    {
+      "expected": "8",
+      "l12": "of",
+      "l10": "0",
+      "ent_l12": 1.141,
+      "ent_l10": 1.0641,
+      "selected": "L10",
+      "correct": false
+    }
+  ]
+}

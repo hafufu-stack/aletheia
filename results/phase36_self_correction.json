@@ -1,0 +1,99 @@
+{
+  "phase": 36,
+  "name": "Entropy-Guided Self-Correction",
+  "baseline_accuracy": 0.125,
+  "self_correcting_accuracy": 0.125,
+  "total_corrections": 80,
+  "fact_mean_corrections": 9.333333333333334,
+  "hallu_mean_corrections": 12.0,
+  "per_case": [
+    {
+      "prompt": "The capital of Japan is",
+      "type": "fact",
+      "expected": "Tokyo",
+      "base_text": " the capital of the United States, and the Un",
+      "base_correct": false,
+      "sc_text": " the world-renovals, with over 200 nations pa",
+      "sc_correct": false,
+      "corrections": 11,
+      "mean_entropy": 1.095
+    },
+    {
+      "prompt": "The capital of France is",
+      "type": "fact",
+      "expected": "Paris",
+      "base_text": " the capital of the French Republic, and the ",
+      "base_correct": false,
+      "sc_text": " the city.\nIn France we live, but it was",
+      "sc_correct": false,
+      "corrections": 11,
+      "mean_entropy": 1.183
+    },
+    {
+      "prompt": "Water freezes at",
+      "type": "fact",
+      "expected": "0",
+      "base_text": " the end of the day.\n\nThe ice is so",
+      "base_correct": false,
+      "sc_text": " the end of the year\n<|endoftext|>",
+      "sc_correct": false,
+      "corrections": 3,
+      "mean_entropy": 0.833
+    },
+    {
+      "prompt": "The largest planet is",
+      "type": "fact",
+      "expected": "Jupiter",
+      "base_text": " the largest planet in the solar system, and ",
+      "base_correct": false,
+      "sc_text": " the largest star and its gravitational influ",
+      "sc_correct": false,
+      "corrections": 10,
+      "mean_entropy": 1.11
+    },
+    {
+      "prompt": "Albert Einstein developed the theor",
+      "type": "fact",
+      "expected": "relativity",
+      "base_text": " relativity, which is the theory of relativit",
+      "base_correct": true,
+      "sc_text": " relativity to show why our own galaxy and un",
+      "sc_correct": true,
+      "corrections": 11,
+      "mean_entropy": 1.171
+    },
+    {
+      "prompt": "The sun is a",
+      "type": "fact",
+      "expected": "star",
+      "base_text": " bright star, and the moon is a dark one. The",
+      "base_correct": false,
+      "sc_text": " bright star that rises every 10-30 seconds a",
+      "sc_correct": false,
+      "corrections": 10,
+      "mean_entropy": 1.049
+    },
+    {
+      "prompt": "The 37th element of the periodic ta",
+      "type": "hallu",
+      "expected": "?",
+      "base_text": " the periodic table of the elements of the pe",
+      "base_correct": false,
+      "sc_text": ":\n\n\n\n, the last one, in a sequence which",
+      "sc_correct": false,
+      "corrections": 12,
+      "mean_entropy": 1.448
+    },
+    {
+      "prompt": "The capital of the underwater natio",
+      "type": "hallu",
+      "expected": "?",
+      "base_text": " located in the Gulf of Mexico. The city is h",
+      "base_correct": false,
+      "sc_text": " home not far behind it on our maps but far o",
+      "sc_correct": false,
+      "corrections": 12,
+      "mean_entropy": 1.262
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "phase": 29,
+  "name": "The Aletheia Limit",
+  "scaling_law": {
+    "alpha": 85845.7508,
+    "beta": -0.491
+  },
+  "quantization_noise": {
+    "FP32": 1e-07,
+    "FP16": 0.0005,
+    "BF16": 0.001,
+    "INT8": 0.05,
+    "INT4": 0.2,
+    "FP8": 0.01,
+    "INT2": 0.5
+  },
+  "crossing_points": {
+    "FP32": {
+      "noise": 1e-07,
+      "crossing_N": 2.0180237801407914e+24,
+      "crossing_B": 2018023780140791.5,
+      "crossing_T": 2018023780140.7915
+    },
+    "FP16": {
+      "noise": 0.0005,
+      "crossing_N": 5.90721098450782e+16,
+      "crossing_B": 59072109.8450782,
+      "crossing_T": 59072.1098450782
+    },
+    "BF16": {
+      "noise": 0.001,
+      "crossing_N": 1.4397489431300226e+16,
+      "crossing_B": 14397489.431300227,
+      "crossing_T": 14397.489431300226
+    },
+    "FP8": {
+      "noise": 0.01,
+      "crossing_N": 132320426060230.2,
+      "crossing_B": 132320.4260602302,
+      "crossing_T": 132.3204260602302
+    },
+    "INT8": {
+      "noise": 0.05,
+      "crossing_N": 4989565486548.156,
+      "crossing_B": 4989.5654865481565,
+      "crossing_T": 4.989565486548156
+    },
+    "INT4": {
+      "noise": 0.2,
+      "crossing_N": 296395290411.64996,
+      "crossing_B": 296.39529041164997,
+      "crossing_T": 0.29639529041164997
+    },
+    "INT2": {
+      "noise": 0.5,
+      "crossing_N": 45856705378.102005,
+      "crossing_B": 45.856705378102006,
+      "crossing_T": 0.045856705378102006
+    }
+  },
+  "aletheia_limit_int4": {
+    "N": 296395290411.64996,
+    "T_params": 0.29639529041164997,
+    "predicted_year": 2019
+  },
+  "aletheia_limit_fp16": {
+    "N": 5.90721098450782e+16,
+    "T_params": 59072.1098450782,
+    "predicted_year": 2054
+  },
+  "model_predictions": {
+    "GPT-2 (2019)": {
+      "params": 124000000.0,
+      "spike_c": 9.116932846189087
+    },
+    "GPT-3 (2020)": {
+      "params": 175000000000.0,
+      "spike_c": 0.2590521024720519
+    },
+    "LLaMA-2 (2023)": {
+      "params": 70000000000.0,
+      "spike_c": 0.4062334355020952
+    },
+    "GPT-4 (est.)": {
+      "params": 1800000000000.0,
+      "spike_c": 0.08248595431037861
+    },
+    "Gemini Ultra (est.)": {
+      "params": 1500000000000.0,
+      "spike_c": 0.09021068801447635
+    }
+  }
+}

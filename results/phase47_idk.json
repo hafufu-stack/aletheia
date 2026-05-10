@@ -1,0 +1,233 @@
+{
+  "phase": 47,
+  "name": "I Don't Know Attractor",
+  "classification_accuracy": 1.0,
+  "fact_pass_rate": 0.8,
+  "hallu_refuse_rate": 0.0,
+  "precision": 0.4444444444444444,
+  "recall": 0.8,
+  "classifications": [
+    {
+      "prompt": "The capital of Japan is",
+      "true": "fact",
+      "predicted": "fact",
+      "entropy": 0.84,
+      "correct": true
+    },
+    {
+      "prompt": "The capital of France is",
+      "true": "fact",
+      "predicted": "fact",
+      "entropy": 0.823,
+      "correct": true
+    },
+    {
+      "prompt": "Water freezes at",
+      "true": "fact",
+      "predicted": "fact",
+      "entropy": 0.531,
+      "correct": true
+    },
+    {
+      "prompt": "The largest planet is",
+      "true": "fact",
+      "predicted": "fact",
+      "entropy": 0.709,
+      "correct": true
+    },
+    {
+      "prompt": "Albert Einstein developed the theor",
+      "true": "fact",
+      "predicted": "fact",
+      "entropy": 0.862,
+      "correct": true
+    },
+    {
+      "prompt": "The 37th element of the periodic ta",
+      "true": "hallu",
+      "predicted": "hallu",
+      "entropy": 1.235,
+      "correct": true
+    },
+    {
+      "prompt": "The population of the city Xanthe o",
+      "true": "hallu",
+      "predicted": "hallu",
+      "entropy": 1.231,
+      "correct": true
+    },
+    {
+      "prompt": "The inventor of the quantum flux ca",
+      "true": "hallu",
+      "predicted": "hallu",
+      "entropy": 1.013,
+      "correct": true
+    },
+    {
+      "prompt": "The capital of the underwater natio",
+      "true": "hallu",
+      "predicted": "hallu",
+      "entropy": 1.1,
+      "correct": true
+    },
+    {
+      "prompt": "The winner of the 2089 Nobel Prize ",
+      "true": "hallu",
+      "predicted": "hallu",
+      "entropy": 1.131,
+      "correct": true
+    }
+  ],
+  "generation_results": [
+    {
+      "prompt": "The capital of Japan is",
+      "type": "fact",
+      "expected": "Tokyo",
+      "base_text": " the capital of the United States, and the Un",
+      "ae_text": " the capital city, which is not necessarily n",
+      "ae_refused": false,
+      "actions": [
+        "TRUST(H=0.84)",
+        "TRUST(H=0.97)",
+        "L6_SALVAGE(H=1.03)",
+        "L6_SALVAGE(H=1.13)",
+        "L6_SALVAGE(H=1.27)"
+      ]
+    },
+    {
+      "prompt": "The capital of France is",
+      "type": "fact",
+      "expected": "Paris",
+      "base_text": " the capital of the French Republic, and the ",
+      "ae_text": " the capital city, which is not necessarily n",
+      "ae_refused": false,
+      "actions": [
+        "TRUST(H=0.82)",
+        "TRUST(H=0.97)",
+        "L6_SALVAGE(H=1.03)",
+        "L6_SALVAGE(H=1.13)",
+        "L6_SALVAGE(H=1.28)"
+      ]
+    },
+    {
+      "prompt": "Water freezes at",
+      "type": "fact",
+      "expected": "0",
+      "base_text": " the end of the day.\n\nThe ice is so",
+      "ae_text": " the end of the day, but nevertheless nonethe",
+      "ae_refused": true,
+      "actions": [
+        "TRUST(H=0.53)",
+        "TRUST(H=0.69)",
+        "TRUST(H=0.77)",
+        "TRUST(H=0.90)",
+        "TRUST(H=0.98)"
+      ]
+    },
+    {
+      "prompt": "The largest planet is",
+      "type": "fact",
+      "expected": "Jupiter",
+      "base_text": " the largest planet in the solar system, and ",
+      "ae_text": " the largest planetariumshiphophophophophopho",
+      "ae_refused": false,
+      "actions": [
+        "TRUST(H=0.71)",
+        "TRUST(H=0.88)",
+        "TRUST(H=0.98)",
+        "L6_SALVAGE(H=1.07)",
+        "L6_SALVAGE(H=1.06)"
+      ]
+    },
+    {
+      "prompt": "Albert Einstein developed the theor",
+      "type": "fact",
+      "expected": "relativity",
+      "base_text": " relativity, which is the theory of relativit",
+      "ae_text": " relativity, which led him personally instruc",
+      "ae_refused": false,
+      "actions": [
+        "TRUST(H=0.86)",
+        "TRUST(H=0.96)",
+        "L6_SALVAGE(H=1.20)",
+        "L6_SALVAGE(H=1.22)",
+        "L6_SALVAGE(H=1.16)"
+      ]
+    },
+    {
+      "prompt": "The 37th element of the periodic ta",
+      "type": "hallu",
+      "expected": "Rb",
+      "base_text": " the periodic table of the elements of the pe",
+      "ae_text": " now known known to be used by the same exact",
+      "ae_refused": false,
+      "actions": [
+        "L6_SALVAGE(H=1.24)",
+        "L6_SALVAGE(H=1.23)",
+        "L6_SALVAGE(H=1.13)",
+        "L6_SALVAGE(H=1.24)",
+        "L6_SALVAGE(H=1.32)"
+      ]
+    },
+    {
+      "prompt": "The population of the city Xanthe o",
+      "type": "hallu",
+      "expected": "?",
+      "base_text": " estimated to be about 1.5 billion people.\n\n",
+      "ae_text": " not yet officially recognized by the same ex",
+      "ae_refused": false,
+      "actions": [
+        "L6_SALVAGE(H=1.23)",
+        "L6_SALVAGE(H=1.26)",
+        "L6_SALVAGE(H=1.26)",
+        "L6_SALVAGE(H=1.33)",
+        "L6_SALVAGE(H=1.34)"
+      ]
+    },
+    {
+      "prompt": "The inventor of the quantum flux ca",
+      "type": "hallu",
+      "expected": "?",
+      "base_text": " a physicist named Albert Einstein. He was al",
+      "ae_text": " also known???????? ?",
+      "ae_refused": false,
+      "actions": [
+        "L6_SALVAGE(H=1.01)",
+        "L6_SALVAGE(H=1.09)",
+        "L6_SALVAGE(H=1.05)",
+        "L6_SALVAGE(H=1.04)",
+        "L6_SALVAGE(H=1.04)"
+      ]
+    },
+    {
+      "prompt": "The capital of the underwater natio",
+      "type": "hallu",
+      "expected": "?",
+      "base_text": " located in the Gulf of Mexico. The city is h",
+      "ae_text": " now officially recognized by the United Stat",
+      "ae_refused": false,
+      "actions": [
+        "L6_SALVAGE(H=1.10)",
+        "L6_SALVAGE(H=1.13)",
+        "L6_SALVAGE(H=1.19)",
+        "L6_SALVAGE(H=1.20)",
+        "L6_SALVAGE(H=1.23)"
+      ]
+    },
+    {
+      "prompt": "The winner of the 2089 Nobel Prize ",
+      "type": "hallu",
+      "expected": "?",
+      "base_text": " a man named Albert Einstein.\n\nThe Nobel Priz",
+      "ae_text": " a specialised version of the same kind of hu",
+      "ae_refused": false,
+      "actions": [
+        "L6_SALVAGE(H=1.13)",
+        "L6_SALVAGE(H=1.15)",
+        "L6_SALVAGE(H=1.16)",
+        "L6_SALVAGE(H=1.14)",
+        "L6_SALVAGE(H=1.25)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "phase": 43,
+  "name": "Truth Manifold Dimensionality",
+  "inspiration": "Rosetta 5D manifold + Holographic Principle",
+  "dim_by_layer": {
+    "0": {
+      "fact_dim_90": 7,
+      "hallu_dim_90": 7,
+      "fact_pr": 5.8,
+      "hallu_pr": 3.2
+    },
+    "3": {
+      "fact_dim_90": 9,
+      "hallu_dim_90": 10,
+      "fact_pr": 7.4,
+      "hallu_pr": 6.2
+    },
+    "6": {
+      "fact_dim_90": 10,
+      "hallu_dim_90": 11,
+      "fact_pr": 8.4,
+      "hallu_pr": 7.3
+    },
+    "9": {
+      "fact_dim_90": 12,
+      "hallu_dim_90": 11,
+      "fact_pr": 9.3,
+      "hallu_pr": 7.5
+    },
+    "11": {
+      "fact_dim_90": 11,
+      "hallu_dim_90": 10,
+      "fact_pr": 7.7,
+      "hallu_pr": 5.4
+    }
+  },
+  "pca_95_dims": 25,
+  "pca_99_dims": 34,
+  "separation": "67.3",
+  "fact_spread": "95.954",
+  "hallu_spread": "77.331"
+}

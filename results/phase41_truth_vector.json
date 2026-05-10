@@ -1,0 +1,34 @@
+{
+  "phase": 41,
+  "name": "Truth Vector",
+  "inspiration": "SNN-Synthesis Aha! Vector (Phase 4)",
+  "best_layer": 6,
+  "layer_results": {
+    "6": {
+      "truth_vec_norm": 34.2917366027832,
+      "cos_fact_hallu": 0.9050796627998352
+    },
+    "8": {
+      "truth_vec_norm": 48.634708404541016,
+      "cos_fact_hallu": 0.9102283716201782
+    },
+    "10": {
+      "truth_vec_norm": 78.42133331298828,
+      "cos_fact_hallu": 0.95342618227005
+    },
+    "11": {
+      "truth_vec_norm": 116.66938018798828,
+      "cos_fact_hallu": 0.974804699420929
+    }
+  },
+  "anti_results": {
+    "truth_a0": 0.0,
+    "truth_a3": 0.0,
+    "truth_a5": 0.0,
+    "truth_a10": 0.0,
+    "anti-truth_a0": 0.0,
+    "anti-truth_a3": 0.0,
+    "anti-truth_a5": 0.0,
+    "anti-truth_a10": 0.0
+  }
+}

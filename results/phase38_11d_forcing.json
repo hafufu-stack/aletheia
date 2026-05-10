@@ -1,0 +1,70 @@
+{
+  "phase": 38,
+  "name": "11D Topological Truth Forcing",
+  "temp_sweep": {
+    "1.0": 0.0,
+    "0.7": 0.0,
+    "0.5": 0.0,
+    "0.3": 0.0,
+    "0.1": 0.0
+  },
+  "layer_combos": {
+    "L1 only": 0.0,
+    "L11 only": 0.0,
+    "L1+L11": 0.0,
+    "L0-L5": 0.0,
+    "L6-L11": 0.0,
+    "All": 0.0
+  },
+  "conditional_accuracy": 0.0,
+  "conditional_results": [
+    {
+      "expected": "Tokyo",
+      "correct": false,
+      "entropy": 0.84,
+      "action": "PASS"
+    },
+    {
+      "expected": "Paris",
+      "correct": false,
+      "entropy": 0.823,
+      "action": "PASS"
+    },
+    {
+      "expected": "0",
+      "correct": false,
+      "entropy": 0.531,
+      "action": "PASS"
+    },
+    {
+      "expected": "Jupiter",
+      "correct": false,
+      "entropy": 0.709,
+      "action": "PASS"
+    },
+    {
+      "expected": "de",
+      "correct": false,
+      "entropy": 0.519,
+      "action": "PASS"
+    },
+    {
+      "expected": "Au",
+      "correct": false,
+      "entropy": 0.971,
+      "action": "PASS"
+    },
+    {
+      "expected": "Hamlet",
+      "correct": false,
+      "entropy": 0.493,
+      "action": "PASS"
+    },
+    {
+      "expected": "299",
+      "correct": false,
+      "entropy": 0.909,
+      "action": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "phase": 45,
+  "name": "Dynamic Skill Lobotomy v2",
+  "config_results": {
+    "baseline": {
+      "accuracy": 0.0,
+      "median_rank": 21.0,
+      "mean_rank": 2880.3
+    },
+    "mute_skill": {
+      "accuracy": 0.0,
+      "median_rank": 87.0,
+      "mean_rank": 3282.5
+    },
+    "boost_fact": {
+      "accuracy": 0.0,
+      "median_rank": 193.0,
+      "mean_rank": 5114.1
+    },
+    "mute+boost": {
+      "accuracy": 0.0,
+      "median_rank": 1192.0,
+      "mean_rank": 4290.8
+    },
+    "mute+boost3x": {
+      "accuracy": 0.0,
+      "median_rank": 1956.5,
+      "mean_rank": 5187.3
+    },
+    "mute+boost5x": {
+      "accuracy": 0.0,
+      "median_rank": 3396.5,
+      "mean_rank": 8163.3
+    }
+  },
+  "conditional_accuracy": 0.0,
+  "baseline_accuracy": 0.0,
+  "conditional_results": [
+    {
+      "expected": "Tokyo",
+      "entropy": 0.84,
+      "action": "PASS",
+      "correct": false,
+      "base_correct": false,
+      "base_rank": 2,
+      "lob_rank": 2
+    },
+    {
+      "expected": "Paris",
+      "entropy": 0.823,
+      "action": "PASS",
+      "correct": false,
+      "base_correct": false,
+      "base_rank": 5,
+      "lob_rank": 5
+    },
+    {
+      "expected": "0",
+      "entropy": 0.531,
+      "action": "PASS",
+      "correct": false,
+      "base_correct": false,
+      "base_rank": 13,
+      "lob_rank": 13
+    },
+    {
+      "expected": "Jupiter",
+      "entropy": 0.709,
+      "action": "PASS",
+      "correct": false,
+      "base_correct": false,
+      "base_rank": 5,
+      "lob_rank": 5
+    },
+    {
+      "expected": "de",
+      "entropy": 0.519,
+      "action": "PASS",
+      "correct": false,
+      "base_correct": false,
+      "base_rank": 290,
+      "lob_rank": 290
+    },
+    {
+      "expected": "Au",
+      "entropy": 0.971,
+      "action": "PASS",
+      "correct": false,
+      "base_correct": false,
+      "base_rank": 16735,
+      "lob_rank": 16735
+    },
+    {
+      "expected": "Hamlet",
+      "entropy": 0.493,
+      "action": "PASS",
+      "correct": false,
+      "base_correct": false,
+      "base_rank": 11514,
+      "lob_rank": 11514
+    },
+    {
+      "expected": "299",
+      "entropy": 0.909,
+      "action": "PASS",
+      "correct": false,
+      "base_correct": false,
+      "base_rank": 208,
+      "lob_rank": 208
+    },
+    {
+      "expected": "Sun",
+      "entropy": 0.719,
+      "action": "PASS",
+      "correct": false,
+      "base_correct": false,
+      "base_rank": 2,
+      "lob_rank": 2
+    },
+    {
+      "expected": "100",
+      "entropy": 0.933,
+      "action": "PASS",
+      "correct": false,
+      "base_correct": false,
+      "base_rank": 29,
+      "lob_rank": 29
+    }
+  ]
+}

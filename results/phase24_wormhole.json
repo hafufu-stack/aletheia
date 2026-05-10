@@ -1,0 +1,127 @@
+{
+  "phase": 24,
+  "name": "Neural Wormhole",
+  "scale_sweep": {
+    "0": 0.0,
+    "0.1": 0.0,
+    "0.5": 0.0,
+    "1.0": 0.0,
+    "2.0": 0.0,
+    "5.0": 0.0,
+    "10.0": 0.0
+  },
+  "per_case": [
+    {
+      "prompt": "The capital of Japan is",
+      "expected": "Tokyo",
+      "correct_at_scale1": false,
+      "wormhole_top5": [
+        "the",
+        ",",
+        "-",
+        "a",
+        "and"
+      ],
+      "fact_rank_in_wormhole": 9447,
+      "baseline_rank": 2
+    },
+    {
+      "prompt": "The capital of France is",
+      "expected": "Paris",
+      "correct_at_scale1": false,
+      "wormhole_top5": [
+        "the",
+        ",",
+        "-",
+        "a",
+        "and"
+      ],
+      "fact_rank_in_wormhole": 3014,
+      "baseline_rank": 5
+    },
+    {
+      "prompt": "Water freezes at",
+      "expected": "0",
+      "correct_at_scale1": false,
+      "wormhole_top5": [
+        "the",
+        ",",
+        "-",
+        ".",
+        "a"
+      ],
+      "fact_rank_in_wormhole": 401,
+      "baseline_rank": 13
+    },
+    {
+      "prompt": "The largest planet is",
+      "expected": "Jupiter",
+      "correct_at_scale1": false,
+      "wormhole_top5": [
+        "the",
+        ",",
+        "a",
+        "-",
+        "in"
+      ],
+      "fact_rank_in_wormhole": 11378,
+      "baseline_rank": 5
+    },
+    {
+      "prompt": "DNA stands for",
+      "expected": "de",
+      "correct_at_scale1": false,
+      "wormhole_top5": [
+        "the",
+        "a",
+        ",",
+        "-",
+        "."
+      ],
+      "fact_rank_in_wormhole": 380,
+      "baseline_rank": 290
+    },
+    {
+      "prompt": "The chemical symbol for gold is",
+      "expected": "Au",
+      "correct_at_scale1": false,
+      "wormhole_top5": [
+        "the",
+        ",",
+        "-",
+        "a",
+        "and"
+      ],
+      "fact_rank_in_wormhole": 7669,
+      "baseline_rank": 16735
+    },
+    {
+      "prompt": "Shakespeare wrote",
+      "expected": "Hamlet",
+      "correct_at_scale1": false,
+      "wormhole_top5": [
+        "the",
+        "a",
+        "\"",
+        ",",
+        "-"
+      ],
+      "fact_rank_in_wormhole": 26950,
+      "baseline_rank": 11514
+    },
+    {
+      "prompt": "The speed of light is approximately",
+      "expected": "299",
+      "correct_at_scale1": false,
+      "wormhole_top5": [
+        ",",
+        "-",
+        "the",
+        "in",
+        "."
+      ],
+      "fact_rank_in_wormhole": 11755,
+      "baseline_rank": 208
+    }
+  ]
+}

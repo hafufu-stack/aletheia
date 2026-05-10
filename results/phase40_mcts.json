@@ -1,0 +1,493 @@
+{
+  "phase": 40,
+  "name": "Entropy-Guided MCTS",
+  "greedy_accuracy": 0.0,
+  "mcts_accuracy_by_depth": {
+    "1": 0.25,
+    "2": 0.0,
+    "3": 0.0,
+    "5": 0.0
+  },
+  "per_case": [
+    {
+      "expected": "Tokyo",
+      "greedy_token": "the",
+      "greedy_correct": false,
+      "mcts_token": "home",
+      "mcts_correct": false,
+      "base_entropy": 0.84,
+      "traces": [
+        {
+          "token_id": 262,
+          "token": "the",
+          "future_ents": [
+            0.9748084629253653,
+            1.0291587279965217,
+            1.1229525182304012
+          ],
+          "mean_future_ent": 1.0423
+        },
+        {
+          "token_id": 11790,
+          "token": "Tokyo",
+          "future_ents": [
+            0.8571739830214129,
+            1.113169962735185,
+            1.2147003938120582
+          ],
+          "mean_future_ent": 1.0617
+        },
+        {
+          "token_id": 1363,
+          "token": "home",
+          "future_ents": [
+            0.7599367865340254,
+            0.968164855071033,
+            1.0646972544661821
+          ],
+          "mean_future_ent": 0.9309
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "future_ents": [
+            0.9351088998034053,
+            0.9828083118273854,
+            1.0776652413564483
+          ],
+          "mean_future_ent": 0.9985
+        },
+        {
+          "token_id": 783,
+          "token": "now",
+          "future_ents": [
+            0.9393702768720686,
+            0.847805313077212,
+            1.0458856088581443
+          ],
+          "mean_future_ent": 0.9444
+        }
+      ]
+    },
+    {
+      "expected": "Paris",
+      "greedy_token": "the",
+      "greedy_correct": false,
+      "mcts_token": "now",
+      "mcts_correct": false,
+      "base_entropy": 0.823,
+      "traces": [
+        {
+          "token_id": 262,
+          "token": "the",
+          "future_ents": [
+            0.9710262551998312,
+            1.0291258588745729,
+            1.1122746365872445
+          ],
+          "mean_future_ent": 1.0375
+        },
+        {
+          "token_id": 783,
+          "token": "now",
+          "future_ents": [
+            0.9295688475119985,
+            0.8463527463480003,
+            1.041373974158584
+          ],
+          "mean_future_ent": 0.9391
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "future_ents": [
+            0.9240789370329973,
+            0.9760235077636834,
+            1.0754107204176964
+          ],
+          "mean_future_ent": 0.9918
+        },
+        {
+          "token_id": 4881,
+          "token": "France",
+          "future_ents": [
+            0.8726687269647502,
+            1.1081985716727256,
+            1.2026029347617724
+          ],
+          "mean_future_ent": 1.0612
+        },
+        {
+          "token_id": 6342,
+          "token": "Paris",
+          "future_ents": [
+            0.8534688915759843,
+            1.1064586256055375,
+            1.204591773622067
+          ],
+          "mean_future_ent": 1.0548
+        }
+      ]
+    },
+    {
+      "expected": "0",
+      "greedy_token": "the",
+      "greedy_correct": false,
+      "mcts_token": "least",
+      "mcts_correct": false,
+      "base_entropy": 0.531,
+      "traces": [
+        {
+          "token_id": 262,
+          "token": "the",
+          "future_ents": [
+            0.6902975331177004,
+            0.7727902259901561,
+            0.9010793829737749
+          ],
+          "mean_future_ent": 0.7881
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "future_ents": [
+            0.7049619327428647,
+            0.7704122985463376,
+            0.9195867541162038
+          ],
+          "mean_future_ent": 0.7983
+        },
+        {
+          "token_id": 546,
+          "token": "about",
+          "future_ents": [
+            0.7065470593418771,
+            0.7975502404976093,
+            0.856320803940005
+          ],
+          "mean_future_ent": 0.7868
+        },
+        {
+          "token_id": 1551,
+          "token": "least",
+          "future_ents": [
+            0.6586702052799309,
+            0.7805684867631094,
+            0.832694698393526
+          ],
+          "mean_future_ent": 0.7573
+        },
+        {
+          "token_id": 352,
+          "token": "1",
+          "future_ents": [
+            0.6949787159322164,
+            0.7395165480562204,
+            0.9208982142728751
+          ],
+          "mean_future_ent": 0.7851
+        }
+      ]
+    },
+    {
+      "expected": "Jupiter",
+      "greedy_token": "the",
+      "greedy_correct": false,
+      "mcts_token": "about",
+      "mcts_correct": false,
+      "base_entropy": 0.709,
+      "traces": [
+        {
+          "token_id": 262,
+          "token": "the",
+          "future_ents": [
+            0.8775602944169805,
+            0.9824041475326845,
+            1.0710022709811002
+          ],
+          "mean_future_ent": 0.977
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "future_ents": [
+            0.8678950986965598,
+            0.9661254088156157,
+            1.1128875128294264
+          ],
+          "mean_future_ent": 0.9823
+        },
+        {
+          "token_id": 546,
+          "token": "about",
+          "future_ents": [
+            0.7725638568412655,
+            0.8348463825925339,
+            0.8844418155802474
+          ],
+          "mean_future_ent": 0.8306
+        },
+        {
+          "token_id": 3668,
+          "token": "Earth",
+          "future_ents": [
+            0.7894675992105881,
+            1.0240350805692313,
+            1.1778028613900662
+          ],
+          "mean_future_ent": 0.9971
+        },
+        {
+          "token_id": 22721,
+          "token": "Jupiter",
+          "future_ents": [
+            0.7494208451813998,
+            1.0281125730203426,
+            1.0712982595529563
+          ],
+          "mean_future_ent": 0.9496
+        }
+      ]
+    },
+    {
+      "expected": "de",
+      "greedy_token": "\"",
+      "greedy_correct": false,
+      "mcts_token": "'",
+      "mcts_correct": false,
+      "base_entropy": 0.519,
+      "traces": [
+        {
+          "token_id": 366,
+          "token": "\"",
+          "future_ents": [
+            0.7255027240512896,
+            0.7904855853968608,
+            0.9345541564802665
+          ],
+          "mean_future_ent": 0.8168
+        },
+        {
+          "token_id": 262,
+          "token": "the",
+          "future_ents": [
+            0.735409696211314,
+            0.863850655715396,
+            0.9424760233507388
+          ],
+          "mean_future_ent": 0.8472
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "future_ents": [
+            0.7437724134466003,
+            0.872752833015612,
+            0.966967423009919
+          ],
+          "mean_future_ent": 0.8612
+        },
+        {
+          "token_id": 705,
+          "token": "'",
+          "future_ents": [
+            0.7298448067667778,
+            0.7377131363787662,
+            0.8947489604825907
+          ],
+          "mean_future_ent": 0.7874
+        },
+        {
+          "token_id": 281,
+          "token": "an",
+          "future_ents": [
+            0.741403822680392,
+            0.8759903093434533,
+            0.9778532163020119
+          ],
+          "mean_future_ent": 0.8651
+        }
+      ]
+    },
+    {
+      "expected": "Au",
+      "greedy_token": "the",
+      "greedy_correct": false,
+      "mcts_token": "'",
+      "mcts_correct": false,
+      "base_entropy": 0.971,
+      "traces": [
+        {
+          "token_id": 262,
+          "token": "the",
+          "future_ents": [
+            1.0902175264216365,
+            1.0898594901340806,
+            1.027830941376629
+          ],
+          "mean_future_ent": 1.0693
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "future_ents": [
+            1.0664088379869807,
+            1.0752209089670133,
+            1.256209424405193
+          ],
+          "mean_future_ent": 1.1326
+        },
+        {
+          "token_id": 366,
+          "token": "\"",
+          "future_ents": [
+            0.9991489718567108,
+            0.9669221459428172,
+            1.1630276054426898
+          ],
+          "mean_future_ent": 1.043
+        },
+        {
+          "token_id": 705,
+          "token": "'",
+          "future_ents": [
+            0.9952434188320088,
+            0.9670027194893263,
+            1.1472931134019164
+          ],
+          "mean_future_ent": 1.0365
+        },
+        {
+          "token_id": 281,
+          "token": "an",
+          "future_ents": [
+            1.0446746767071697,
+            1.0664496078313985,
+            1.2790340243664104
+          ],
+          "mean_future_ent": 1.1301
+        }
+      ]
+    },
+    {
+      "expected": "Hamlet",
+      "greedy_token": ":",
+      "greedy_correct": false,
+      "mcts_token": ":",
+      "mcts_correct": false,
+      "base_entropy": 0.493,
+      "traces": [
+        {
+          "token_id": 25,
+          "token": ":",
+          "future_ents": [
+            0.6392734928214041,
+            0.7068484479921912,
+            0.9731771502799044
+          ],
+          "mean_future_ent": 0.7731
+        },
+        {
+          "token_id": 326,
+          "token": "that",
+          "future_ents": [
+            0.7193916428651997,
+            0.8151102158913596,
+            0.850060027526019
+          ],
+          "mean_future_ent": 0.7949
+        },
+        {
+          "token_id": 11,
+          "token": ",",
+          "future_ents": [
+            0.6766900553168651,
+            0.7856348445602634,
+            0.9067245290209738
+          ],
+          "mean_future_ent": 0.7897
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "future_ents": [
+            0.6684628250593758,
+            0.8091009711184193,
+            0.9511331697705019
+          ],
+          "mean_future_ent": 0.8096
+        },
+        {
+          "token_id": 262,
+          "token": "the",
+          "future_ents": [
+            0.6974390296900689,
+            0.8008184216762149,
+            0.9278274200025609
+          ],
+          "mean_future_ent": 0.8087
+        }
+      ]
+    },
+    {
+      "expected": "299",
+      "greedy_token": "1",
+      "greedy_correct": false,
+      "mcts_token": "1",
+      "mcts_correct": false,
+      "base_entropy": 0.909,
+      "traces": [
+        {
+          "token_id": 352,
+          "token": "1",
+          "future_ents": [
+            0.9457247039146952,
+            0.9567643818087256,
+            1.1202939883896255
+          ],
+          "mean_future_ent": 1.0076
+        },
+        {
+          "token_id": 362,
+          "token": "2",
+          "future_ents": [
+            0.9455775809352013,
+            0.9591269252237125,
+            1.1187003044186794
+          ],
+          "mean_future_ent": 1.0078
+        },
+        {
+          "token_id": 838,
+          "token": "10",
+          "future_ents": [
+            0.9529207136609948,
+            1.1430780395126527,
+            1.1627046458371397
+          ],
+          "mean_future_ent": 1.0862
+        },
+        {
+          "token_id": 1802,
+          "token": "100",
+          "future_ents": [
+            0.9560663047875804,
+            1.1292560862849415,
+            1.1618557558653668
+          ],
+          "mean_future_ent": 1.0824
+        },
+        {
+          "token_id": 262,
+          "token": "the",
+          "future_ents": [
+            1.0295999703486005,
+            1.1063372796892912,
+            1.2089641096493122
+          ],
+          "mean_future_ent": 1.115
+        }
+      ]
+    }
+  ]
+}

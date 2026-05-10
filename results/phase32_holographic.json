@@ -1,0 +1,136 @@
+{
+  "phase": 32,
+  "name": "Holographic Truth Salvage",
+  "per_case": [
+    {
+      "prompt": "The capital of Japan is",
+      "expected": "Tokyo",
+      "baseline_rank": 2,
+      "holo_rank": 9269,
+      "best_slot_rank": 5258,
+      "holo_top5": [
+        "the",
+        ",",
+        "and",
+        "a",
+        "-"
+      ],
+      "sv_ratio": 3.22,
+      "best_combo_scale": -1
+    },
+    {
+      "prompt": "The capital of France is",
+      "expected": "Paris",
+      "baseline_rank": 5,
+      "holo_rank": 3131,
+      "best_slot_rank": 7056,
+      "holo_top5": [
+        "the",
+        ",",
+        "a",
+        "and",
+        "-"
+      ],
+      "sv_ratio": 3.46,
+      "best_combo_scale": -1
+    },
+    {
+      "prompt": "Water freezes at",
+      "expected": "0",
+      "baseline_rank": 13,
+      "holo_rank": 248,
+      "best_slot_rank": 6333,
+      "holo_top5": [
+        "the",
+        ",",
+        "a",
+        "-",
+        "and"
+      ],
+      "sv_ratio": 3.89,
+      "best_combo_scale": -1
+    },
+    {
+      "prompt": "The largest planet is",
+      "expected": "Jupiter",
+      "baseline_rank": 5,
+      "holo_rank": 4312,
+      "best_slot_rank": 14888,
+      "holo_top5": [
+        "the",
+        ",",
+        "a",
+        ".",
+        "and"
+      ],
+      "sv_ratio": 3.44,
+      "best_combo_scale": -1
+    },
+    {
+      "prompt": "DNA stands for",
+      "expected": "de",
+      "baseline_rank": 290,
+      "holo_rank": 156,
+      "best_slot_rank": 4126,
+      "holo_top5": [
+        "the",
+        ",",
+        "a",
+        "and",
+        "-"
+      ],
+      "sv_ratio": 4.46,
+      "best_combo_scale": -1
+    },
+    {
+      "prompt": "The chemical symbol for gold is",
+      "expected": "Au",
+      "baseline_rank": 16735,
+      "holo_rank": 5869,
+      "best_slot_rank": 748,
+      "holo_top5": [
+        "the",
+        ",",
+        "-",
+        "a",
+        "and"
+      ],
+      "sv_ratio": 3.57,
+      "best_combo_scale": -1
+    },
+    {
+      "prompt": "Shakespeare wrote",
+      "expected": "Hamlet",
+      "baseline_rank": 11514,
+      "holo_rank": 29437,
+      "best_slot_rank": 2592,
+      "holo_top5": [
+        "the",
+        ",",
+        "a",
+        "and",
+        "-"
+      ],
+      "sv_ratio": 3.79,
+      "best_combo_scale": -1
+    },
+    {
+      "prompt": "The speed of light is approximately",
+      "expected": "299",
+      "baseline_rank": 208,
+      "holo_rank": 6328,
+      "best_slot_rank": 3303,
+      "holo_top5": [
+        "the",
+        ",",
+        "\"",
+        "a",
+        "in"
+      ],
+      "sv_ratio": 3.11,
+      "best_combo_scale": -1
+    }
+  ],
+  "improved_count": 2,
+  "total": 8
+}

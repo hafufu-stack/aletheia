@@ -1,0 +1,87 @@
+{
+  "phase": 25,
+  "name": "Anti-Skill Deflation",
+  "baseline_acc": 0.0,
+  "deflated_acc": 0.0,
+  "sweep": {
+    "0": 0.0,
+    "5": 0.0,
+    "10": 0.0,
+    "15": 0.0,
+    "20": 0.0,
+    "25": 0.0
+  },
+  "combo": {
+    "0": 0.0,
+    "3": 0.25,
+    "5": 0.25,
+    "7": 0.5,
+    "10": 0.625
+  },
+  "comparison": [
+    {
+      "prompt": "The capital of Japan is",
+      "expected": "Tokyo",
+      "baseline_text": " the capital of the United States, and the United ",
+      "baseline_ok": false,
+      "deflated_text": " would-be immigrants, would-be immigrants, and wou",
+      "deflated_ok": false
+    },
+    {
+      "prompt": "The capital of France is",
+      "expected": "Paris",
+      "baseline_text": " the capital of the French Republic, and the capit",
+      "baseline_ok": false,
+      "deflated_text": " would-be immigrants, would-be immigrants, and wou",
+      "deflated_ok": false
+    },
+    {
+      "prompt": "Water freezes at",
+      "expected": "0",
+      "baseline_text": " the end of the day.\n\nThe ice is so thick that it",
+      "baseline_ok": false,
+      "deflated_text": " would-be snowmelters would would would be would-b",
+      "deflated_ok": false
+    },
+    {
+      "prompt": "The largest planet is",
+      "expected": "Jupiter",
+      "baseline_text": " the largest planet in the solar system, and the l",
+      "baseline_ok": false,
+      "deflated_text": " would-be solar system's largest would- would-be s",
+      "deflated_ok": false
+    },
+    {
+      "prompt": "DNA stands for",
+      "expected": "de",
+      "baseline_text": " \"small molecule\" and is a member of the family of",
+      "baseline_ok": false,
+      "deflated_text": " \"small molecule\" and is would be would be would b",
+      "deflated_ok": false
+    },
+    {
+      "prompt": "The chemical symbol for gold is",
+      "expected": "Au",
+      "baseline_text": " the \"G\" in the middle of the word.\n\nThe word",
+      "baseline_ok": false,
+      "deflated_text": " the \"G\" in the would-be would-be gold standard.",
+      "deflated_ok": false
+    },
+    {
+      "prompt": "Shakespeare wrote",
+      "expected": "Hamlet",
+      "baseline_text": ":\n\n\"The most important thing is that we have a goo",
+      "baseline_ok": false,
+      "deflated_text": ":\n would you would would would you would you\n woul",
+      "deflated_ok": false
+    },
+    {
+      "prompt": "The speed of light is approximately",
+      "expected": "299",
+      "baseline_text": " 1.5 times faster than the speed of light.\n\nThe sp",
+      "baseline_ok": false,
+      "deflated_text": " would be would be would be would be would be the ",
+      "deflated_ok": false
+    }
+  ]
+}

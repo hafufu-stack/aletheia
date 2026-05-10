@@ -1,0 +1,158 @@
+{
+  "phase": 31,
+  "name": "Entropy Oracle",
+  "fact_mean_entropy": 0.799907054537548,
+  "hallu_mean_entropy": 1.1526474408037375,
+  "auc_attn": 1.0,
+  "auc_logit": 0.125,
+  "best_threshold": 1.0,
+  "best_accuracy": 1.0,
+  "fact_data": [
+    {
+      "attn_entropy_mean": 0.8397921477372721,
+      "attn_entropy_std": 0.42909653157042654,
+      "logit_entropy": 5.65262508392334,
+      "correct": false,
+      "prompt": "The capital of Japan is",
+      "label": "Tokyo",
+      "type": "fact"
+    },
+    {
+      "attn_entropy_mean": 0.8231911155730308,
+      "attn_entropy_std": 0.4324657887050896,
+      "logit_entropy": 5.9984283447265625,
+      "correct": false,
+      "prompt": "The capital of France is",
+      "label": "Paris",
+      "type": "fact"
+    },
+    {
+      "attn_entropy_mean": 0.5311648590322875,
+      "attn_entropy_std": 0.30481633476715003,
+      "logit_entropy": 5.700777053833008,
+      "correct": false,
+      "prompt": "Water freezes at",
+      "label": "0",
+      "type": "fact"
+    },
+    {
+      "attn_entropy_mean": 0.7088173121673107,
+      "attn_entropy_std": 0.3584390256507526,
+      "logit_entropy": 5.744030952453613,
+      "correct": false,
+      "prompt": "The largest planet is",
+      "label": "Jupiter",
+      "type": "fact"
+    },
+    {
+      "attn_entropy_mean": 0.8623687617928353,
+      "attn_entropy_std": 0.5448429190980444,
+      "logit_entropy": 2.911637783050537,
+      "correct": true,
+      "prompt": "Albert Einstein developed the theor",
+      "label": "relativity",
+      "type": "fact"
+    },
+    {
+      "attn_entropy_mean": 0.993910385728264,
+      "attn_entropy_std": 0.5795788526411104,
+      "logit_entropy": 5.632946491241455,
+      "correct": false,
+      "prompt": "The first president of the United S",
+      "label": "George",
+      "type": "fact"
+    },
+    {
+      "attn_entropy_mean": 0.6942133611850699,
+      "attn_entropy_std": 0.3773841269188624,
+      "logit_entropy": 6.613584518432617,
+      "correct": false,
+      "prompt": "The sun is a",
+      "label": "star",
+      "type": "fact"
+    },
+    {
+      "attn_entropy_mean": 0.9457984930843142,
+      "attn_entropy_std": 0.46622694890063093,
+      "logit_entropy": 5.9094648361206055,
+      "correct": false,
+      "prompt": "The chemical symbol for water is",
+      "label": "H",
+      "type": "fact"
+    }
+  ],
+  "hallu_data": [
+    {
+      "attn_entropy_mean": 1.2352148327035541,
+      "attn_entropy_std": 0.5672914882449092,
+      "logit_entropy": 5.439091682434082,
+      "correct": false,
+      "prompt": "The 37th element of the periodic ta",
+      "label": "?",
+      "type": "hallu"
+    },
+    {
+      "attn_entropy_mean": 1.231065889652301,
+      "attn_entropy_std": 0.6281650159889698,
+      "logit_entropy": 5.3625993728637695,
+      "correct": false,
+      "prompt": "The population of the city Xanthe o",
+      "label": "?",
+      "type": "hallu"
+    },
+    {
+      "attn_entropy_mean": 1.012515702723047,
+      "attn_entropy_std": 0.5771278512806649,
+      "logit_entropy": 6.438922882080078,
+      "correct": false,
+      "prompt": "The inventor of the quantum flux ca",
+      "label": "?",
+      "type": "hallu"
+    },
+    {
+      "attn_entropy_mean": 1.099597934202595,
+      "attn_entropy_std": 0.5399544776588462,
+      "logit_entropy": 5.172189235687256,
+      "correct": false,
+      "prompt": "The capital of the underwater natio",
+      "label": "?",
+      "type": "hallu"
+    },
+    {
+      "attn_entropy_mean": 1.1312652392051759,
+      "attn_entropy_std": 0.7027949660175441,
+      "logit_entropy": 6.316342830657959,
+      "correct": false,
+      "prompt": "The winner of the 2089 Nobel Prize ",
+      "label": "?",
+      "type": "hallu"
+    },
+    {
+      "attn_entropy_mean": 1.1224353636006172,
+      "attn_entropy_std": 0.5267195946729922,
+      "logit_entropy": 6.394550323486328,
+      "correct": false,
+      "prompt": "The chemical formula for unobtanium",
+      "label": "?",
+      "type": "hallu"
+    },
+    {
+      "attn_entropy_mean": 1.17536590408094,
+      "attn_entropy_std": 0.6174748059491587,
+      "logit_entropy": 6.324837684631348,
+      "correct": false,
+      "prompt": "The color of the 5th quark flavor i",
+      "label": "?",
+      "type": "hallu"
+    },
+    {
+      "attn_entropy_mean": 1.2137186602616694,
+      "attn_entropy_std": 0.5573796715317975,
+      "logit_entropy": 5.159743309020996,
+      "correct": false,
+      "prompt": "The 15th digit of pi times e is",
+      "label": "?",
+      "type": "hallu"
+    }
+  ]
+}

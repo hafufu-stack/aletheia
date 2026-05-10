@@ -1,0 +1,394 @@
+{
+  "phase": 54,
+  "name": "Multi-Layer Voting",
+  "window_results": {
+    "L0-L1": 0.0,
+    "L0-L2": 0.0,
+    "L0-L3": 0.0,
+    "L0-L4": 0.0,
+    "L0-L5": 0.0,
+    "L1-L2": 0.0,
+    "L1-L3": 0.0,
+    "L1-L4": 0.0,
+    "L1-L5": 0.0,
+    "L1-L6": 0.0,
+    "L2-L3": 0.0,
+    "L2-L4": 0.0,
+    "L2-L5": 0.0,
+    "L2-L6": 0.0,
+    "L2-L7": 0.0,
+    "L3-L4": 0.0,
+    "L3-L5": 0.0,
+    "L3-L6": 0.0,
+    "L3-L7": 0.0,
+    "L3-L8": 0.0,
+    "L4-L5": 0.0,
+    "L4-L6": 0.0,
+    "L4-L7": 0.0,
+    "L4-L8": 0.0,
+    "L4-L9": 0.0,
+    "L5-L6": 0.0,
+    "L5-L7": 0.0,
+    "L5-L8": 0.0,
+    "L5-L9": 0.0,
+    "L5-L10": 0.0,
+    "L6-L7": 0.0,
+    "L6-L8": 0.0,
+    "L6-L9": 0.0,
+    "L6-L10": 0.08333333333333333,
+    "L6-L11": 0.08333333333333333,
+    "L7-L8": 0.0,
+    "L7-L9": 0.08333333333333333,
+    "L7-L10": 0.08333333333333333,
+    "L7-L11": 0.08333333333333333,
+    "L8-L9": 0.08333333333333333,
+    "L8-L10": 0.08333333333333333,
+    "L8-L11": 0.16666666666666666,
+    "L9-L10": 0.16666666666666666,
+    "L9-L11": 0.25,
+    "L10-L11": 0.25
+  },
+  "prob_ensemble": {
+    "L6-L10": 0.08333333333333333,
+    "L7-L10": 0.08333333333333333,
+    "L8-L10": 0.08333333333333333,
+    "L9-L10": 0.16666666666666666,
+    "L6-L11": 0.08333333333333333,
+    "L8-L11": 0.08333333333333333,
+    "L0-L11": 0.0
+  },
+  "consensus_accuracy": 0.08333333333333333,
+  "confidence_accuracy": 0.08333333333333333,
+  "best_rrf_window": [
+    "L9-L11",
+    0.25
+  ],
+  "stability": [
+    {
+      "expected": "Tokyo",
+      "consensus": "now",
+      "agreement": 3,
+      "is_fact": false,
+      "top1_per_layer": {
+        "0": "not",
+        "1": "not",
+        "2": "now",
+        "3": "now",
+        "4": "now",
+        "5": "now",
+        "6": "now",
+        "7": "now",
+        "8": "now",
+        "9": "Japan",
+        "10": "Tokyo",
+        "11": "the"
+      }
+    },
+    {
+      "expected": "Paris",
+      "consensus": "now",
+      "agreement": 3,
+      "is_fact": false,
+      "top1_per_layer": {
+        "0": "not",
+        "1": "now",
+        "2": "now",
+        "3": "now",
+        "4": "now",
+        "5": "now",
+        "6": "now",
+        "7": "now",
+        "8": "now",
+        "9": "France",
+        "10": "France",
+        "11": "the"
+      }
+    },
+    {
+      "expected": "0",
+      "consensus": "least",
+      "agreement": 4,
+      "is_fact": false,
+      "top1_per_layer": {
+        "0": "least",
+        "1": "least",
+        "2": "least",
+        "3": "least",
+        "4": "least",
+        "5": "least",
+        "6": "least",
+        "7": "least",
+        "8": "least",
+        "9": "least",
+        "10": "temperatures",
+        "11": "the"
+      }
+    },
+    {
+      "expected": "Jupiter",
+      "consensus": "probably",
+      "agreement": 2,
+      "is_fact": false,
+      "top1_per_layer": {
+        "0": "not",
+        "1": "not",
+        "2": "now",
+        "3": "now",
+        "4": "now",
+        "5": "now",
+        "6": "probably",
+        "7": "probably",
+        "8": "located",
+        "9": "Earth",
+        "10": "Jupiter",
+        "11": "the"
+      }
+    },
+    {
+      "expected": "de",
+      "consensus": "\"",
+      "agreement": 5,
+      "is_fact": false,
+      "top1_per_layer": {
+        "0": "the",
+        "1": "the",
+        "2": "the",
+        "3": "the",
+        "4": "the",
+        "5": "the",
+        "6": "\"",
+        "7": "\"",
+        "8": "\"",
+        "9": "\"",
+        "10": "\"",
+        "11": "\""
+      }
+    },
+    {
+      "expected": "Au",
+      "consensus": "symbol",
+      "agreement": 3,
+      "is_fact": false,
+      "top1_per_layer": {
+        "0": "not",
+        "1": "not",
+        "2": "now",
+        "3": "also",
+        "4": "now",
+        "5": "also",
+        "6": "now",
+        "7": "symbol",
+        "8": "symbol",
+        "9": "symbol",
+        "10": "the",
+        "11": "the"
+      }
+    },
+    {
+      "expected": "Hamlet",
+      "consensus": "about",
+      "agreement": 5,
+      "is_fact": false,
+      "top1_per_layer": {
+        "0": "writer",
+        "1": "writer",
+        "2": "written",
+        "3": "written",
+        "4": "about",
+        "5": "about",
+        "6": "about",
+        "7": "about",
+        "8": "about",
+        "9": "about",
+        "10": "about",
+        "11": ":"
+      }
+    },
+    {
+      "expected": "299",
+      "consensus": "equivalent",
+      "agreement": 2,
+      "is_fact": false,
+      "top1_per_layer": {
+        "0": "approximately",
+        "1": "approximate",
+        "2": "approximate",
+        "3": "approximate",
+        "4": "approximate",
+        "5": "equivalent",
+        "6": "equivalent",
+        "7": "equivalent",
+        "8": "proportional",
+        "9": "equal",
+        "10": "equal",
+        "11": "1"
+      }
+    },
+    {
+      "expected": "Sun",
+      "consensus": "planet",
+      "agreement": 4,
+      "is_fact": false,
+      "top1_per_layer": {
+        "0": "same",
+        "1": "same",
+        "2": "same",
+        "3": "same",
+        "4": "same",
+        "5": "same",
+        "6": "planet",
+        "7": "planet",
+        "8": "planet",
+        "9": "planet",
+        "10": "sun",
+        "11": "Sun"
+      }
+    },
+    {
+      "expected": "100",
+      "consensus": "usually",
+      "agreement": 3,
+      "is_fact": false,
+      "top1_per_layer": {
+        "0": "not",
+        "1": "not",
+        "2": "also",
+        "3": "not",
+        "4": "not",
+        "5": "not",
+        "6": "usually",
+        "7": "usually",
+        "8": "usually",
+        "9": "approximately",
+        "10": "approximately",
+        "11": "about"
+      }
+    },
+    {
+      "expected": "relativity",
+      "consensus": "relativity",
+      "agreement": 3,
+      "is_fact": true,
+      "top1_per_layer": {
+        "0": "the",
+        "1": "the",
+        "2": "the",
+        "3": "the",
+        "4": "the",
+        "5": "the",
+        "6": "the",
+        "7": "the",
+        "8": "relativity",
+        "9": "relativity",
+        "10": "relativity",
+        "11": "relativity"
+      }
+    },
+    {
+      "expected": "8",
+      "consensus": "of",
+      "agreement": 4,
+      "is_fact": false,
+      "top1_per_layer": {
+        "0": "number",
+        "1": "number",
+        "2": "number",
+        "3": "number",
+        "4": "of",
+        "5": "number",
+        "6": "of",
+        "7": "of",
+        "8": "of",
+        "9": "of",
+        "10": "0",
+        "11": "of"
+      }
+    }
+  ],
+  "confidence_selection": [
+    {
+      "expected": "Tokyo",
+      "best_layer": 7,
+      "confidence": 0.6534,
+      "selected": "now",
+      "correct": false
+    },
+    {
+      "expected": "Paris",
+      "best_layer": 7,
+      "confidence": 0.6891,
+      "selected": "now",
+      "correct": false
+    },
+    {
+      "expected": "0",
+      "best_layer": 6,
+      "confidence": 0.9413,
+      "selected": "least",
+      "correct": false
+    },
+    {
+      "expected": "Jupiter",
+      "best_layer": 8,
+      "confidence": 0.5417,
+      "selected": "located",
+      "correct": false
+    },
+    {
+      "expected": "de",
+      "best_layer": 9,
+      "confidence": 0.3343,
+      "selected": "\"",
+      "correct": false
+    },
+    {
+      "expected": "Au",
+      "best_layer": 9,
+      "confidence": 0.7677,
+      "selected": "symbol",
+      "correct": false
+    },
+    {
+      "expected": "Hamlet",
+      "best_layer": 9,
+      "confidence": 0.7295,
+      "selected": "about",
+      "correct": false
+    },
+    {
+      "expected": "299",
+      "best_layer": 8,
+      "confidence": 0.3525,
+      "selected": "proportional",
+      "correct": false
+    },
+    {
+      "expected": "Sun",
+      "best_layer": 8,
+      "confidence": 0.9741,
+      "selected": "planet",
+      "correct": false
+    },
+    {
+      "expected": "100",
+      "best_layer": 8,
+      "confidence": 0.6898,
+      "selected": "usually",
+      "correct": false
+    },
+    {
+      "expected": "relativity",
+      "best_layer": 9,
+      "confidence": 0.9776,
+      "selected": "relativity",
+      "correct": true
+    },
+    {
+      "expected": "8",
+      "best_layer": 8,
+      "confidence": 0.6824,
+      "selected": "of",
+      "correct": false
+    }
+  ]
+}
