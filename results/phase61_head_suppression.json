@@ -1,0 +1,446 @@
+{
+  "phase": 61,
+  "name": "Attention Head Suppression Identification",
+  "baseline_ranks": {
+    "Tokyo": 2,
+    "Paris": 5,
+    "0": 13,
+    "Jupiter": 5,
+    "Au": 16735,
+    "Hamlet": 11514,
+    "Sun": 2,
+    "100": 29,
+    "relativity": 1,
+    "8": 15
+  },
+  "ablation_results": {
+    "L10H0": {
+      "ranks": {
+        "Tokyo": 2,
+        "Paris": 3,
+        "0": 18,
+        "Jupiter": 8,
+        "Au": 15318,
+        "Hamlet": 13151,
+        "Sun": 2,
+        "100": 48,
+        "relativity": 1,
+        "8": 21
+      },
+      "mean_improvement": -25.1,
+      "median_improvement": -1.5
+    },
+    "L10H1": {
+      "ranks": {
+        "Tokyo": 2,
+        "Paris": 3,
+        "0": 10,
+        "Jupiter": 5,
+        "Au": 16298,
+        "Hamlet": 9938,
+        "Sun": 2,
+        "100": 21,
+        "relativity": 1,
+        "8": 14
+      },
+      "mean_improvement": 202.7,
+      "median_improvement": 1.5
+    },
+    "L10H2": {
+      "ranks": {
+        "Tokyo": 1,
+        "Paris": 4,
+        "0": 11,
+        "Jupiter": 4,
+        "Au": 17554,
+        "Hamlet": 10755,
+        "Sun": 2,
+        "100": 36,
+        "relativity": 1,
+        "8": 11
+      },
+      "mean_improvement": -5.8,
+      "median_improvement": 1.0
+    },
+    "L10H3": {
+      "ranks": {
+        "Tokyo": 3,
+        "Paris": 9,
+        "0": 14,
+        "Jupiter": 5,
+        "Au": 16391,
+        "Hamlet": 12429,
+        "Sun": 2,
+        "100": 17,
+        "relativity": 1,
+        "8": 11
+      },
+      "mean_improvement": -56.1,
+      "median_improvement": 0.0
+    },
+    "L10H4": {
+      "ranks": {
+        "Tokyo": 2,
+        "Paris": 4,
+        "0": 10,
+        "Jupiter": 12,
+        "Au": 13083,
+        "Hamlet": 15931,
+        "Sun": 2,
+        "100": 29,
+        "relativity": 1,
+        "8": 15
+      },
+      "mean_improvement": -76.8,
+      "median_improvement": 0.0
+    },
+    "L10H5": {
+      "ranks": {
+        "Tokyo": 2,
+        "Paris": 4,
+        "0": 6,
+        "Jupiter": 16,
+        "Au": 20362,
+        "Hamlet": 14246,
+        "Sun": 2,
+        "100": 50,
+        "relativity": 1,
+        "8": 14
+      },
+      "mean_improvement": -638.2,
+      "median_improvement": 0.0
+    },
+    "L10H6": {
+      "ranks": {
+        "Tokyo": 12,
+        "Paris": 20,
+        "0": 12,
+        "Jupiter": 10,
+        "Au": 15053,
+        "Hamlet": 8043,
+        "Sun": 2,
+        "100": 46,
+        "relativity": 2,
+        "8": 15
+      },
+      "mean_improvement": 510.6,
+      "median_improvement": -0.5
+    },
+    "L10H7": {
+      "ranks": {
+        "Tokyo": 5,
+        "Paris": 8,
+        "0": 14,
+        "Jupiter": 14,
+        "Au": 15398,
+        "Hamlet": 6185,
+        "Sun": 2,
+        "100": 40,
+        "relativity": 1,
+        "8": 15
+      },
+      "mean_improvement": 663.9,
+      "median_improvement": -0.5
+    },
+    "L10H8": {
+      "ranks": {
+        "Tokyo": 2,
+        "Paris": 7,
+        "0": 19,
+        "Jupiter": 4,
+        "Au": 21563,
+        "Hamlet": 9308,
+        "Sun": 2,
+        "100": 25,
+        "relativity": 1,
+        "8": 19
+      },
+      "mean_improvement": -262.9,
+      "median_improvement": 0.0
+    },
+    "L10H9": {
+      "ranks": {
+        "Tokyo": 3,
+        "Paris": 7,
+        "0": 15,
+        "Jupiter": 5,
+        "Au": 12441,
+        "Hamlet": 13526,
+        "Sun": 2,
+        "100": 24,
+        "relativity": 1,
+        "8": 12
+      },
+      "mean_improvement": 228.5,
+      "median_improvement": 0.0
+    },
+    "L10H10": {
+      "ranks": {
+        "Tokyo": 3,
+        "Paris": 5,
+        "0": 19,
+        "Jupiter": 4,
+        "Au": 16026,
+        "Hamlet": 15150,
+        "Sun": 2,
+        "100": 44,
+        "relativity": 1,
+        "8": 15
+      },
+      "mean_improvement": -294.8,
+      "median_improvement": 0.0
+    },
+    "L10H11": {
+      "ranks": {
+        "Tokyo": 2,
+        "Paris": 3,
+        "0": 14,
+        "Jupiter": 7,
+        "Au": 23541,
+        "Hamlet": 9732,
+        "Sun": 2,
+        "100": 33,
+        "relativity": 1,
+        "8": 17
+      },
+      "mean_improvement": -503.1,
+      "median_improvement": -0.5
+    },
+    "L11H0": {
+      "ranks": {
+        "Tokyo": 2,
+        "Paris": 5,
+        "0": 14,
+        "Jupiter": 7,
+        "Au": 15995,
+        "Hamlet": 17068,
+        "Sun": 2,
+        "100": 43,
+        "relativity": 1,
+        "8": 20
+      },
+      "mean_improvement": -483.6,
+      "median_improvement": -0.5
+    },
+    "L11H1": {
+      "ranks": {
+        "Tokyo": 2,
+        "Paris": 2,
+        "0": 8,
+        "Jupiter": 5,
+        "Au": 14999,
+        "Hamlet": 10556,
+        "Sun": 2,
+        "100": 22,
+        "relativity": 1,
+        "8": 13
+      },
+      "mean_improvement": 271.1,
+      "median_improvement": 2.5
+    },
+    "L11H2": {
+      "ranks": {
+        "Tokyo": 3,
+        "Paris": 9,
+        "0": 13,
+        "Jupiter": 8,
+        "Au": 14615,
+        "Hamlet": 12953,
+        "Sun": 2,
+        "100": 29,
+        "relativity": 1,
+        "8": 8
+      },
+      "mean_improvement": 68.0,
+      "median_improvement": 0.0
+    },
+    "L11H3": {
+      "ranks": {
+        "Tokyo": 3,
+        "Paris": 9,
+        "0": 18,
+        "Jupiter": 8,
+        "Au": 14379,
+        "Hamlet": 11667,
+        "Sun": 2,
+        "100": 21,
+        "relativity": 1,
+        "8": 9
+      },
+      "mean_improvement": 220.4,
+      "median_improvement": -0.5
+    },
+    "L11H4": {
+      "ranks": {
+        "Tokyo": 4,
+        "Paris": 5,
+        "0": 8,
+        "Jupiter": 12,
+        "Au": 13838,
+        "Hamlet": 12067,
+        "Sun": 2,
+        "100": 31,
+        "relativity": 1,
+        "8": 16
+      },
+      "mean_improvement": 233.7,
+      "median_improvement": -0.5
+    },
+    "L11H5": {
+      "ranks": {
+        "Tokyo": 1,
+        "Paris": 1,
+        "0": 9,
+        "Jupiter": 11,
+        "Au": 18972,
+        "Hamlet": 13384,
+        "Sun": 2,
+        "100": 45,
+        "relativity": 1,
+        "8": 15
+      },
+      "mean_improvement": -412.0,
+      "median_improvement": 0.0
+    },
+    "L11H6": {
+      "ranks": {
+        "Tokyo": 4,
+        "Paris": 10,
+        "0": 16,
+        "Jupiter": 5,
+        "Au": 21490,
+        "Hamlet": 10683,
+        "Sun": 2,
+        "100": 41,
+        "relativity": 1,
+        "8": 15
+      },
+      "mean_improvement": -394.6,
+      "median_improvement": -1.0
+    },
+    "L11H7": {
+      "ranks": {
+        "Tokyo": 2,
+        "Paris": 4,
+        "0": 9,
+        "Jupiter": 2,
+        "Au": 13323,
+        "Hamlet": 6624,
+        "Sun": 2,
+        "100": 43,
+        "relativity": 1,
+        "8": 19
+      },
+      "mean_improvement": 829.2,
+      "median_improvement": 0.5
+    },
+    "L11H8": {
+      "ranks": {
+        "Tokyo": 2,
+        "Paris": 12,
+        "0": 17,
+        "Jupiter": 3,
+        "Au": 20989,
+        "Hamlet": 9913,
+        "Sun": 2,
+        "100": 35,
+        "relativity": 1,
+        "8": 21
+      },
+      "mean_improvement": -267.4,
+      "median_improvement": -2.0
+    },
+    "L11H9": {
+      "ranks": {
+        "Tokyo": 5,
+        "Paris": 7,
+        "0": 19,
+        "Jupiter": 7,
+        "Au": 13155,
+        "Hamlet": 14132,
+        "Sun": 2,
+        "100": 23,
+        "relativity": 1,
+        "8": 12
+      },
+      "mean_improvement": 95.8,
+      "median_improvement": -1.0
+    },
+    "L11H10": {
+      "ranks": {
+        "Tokyo": 6,
+        "Paris": 7,
+        "0": 14,
+        "Jupiter": 5,
+        "Au": 15337,
+        "Hamlet": 15309,
+        "Sun": 2,
+        "100": 57,
+        "relativity": 1,
+        "8": 20
+      },
+      "mean_improvement": -243.7,
+      "median_improvement": -1.5
+    },
+    "L11H11": {
+      "ranks": {
+        "Tokyo": 4,
+        "Paris": 4,
+        "0": 13,
+        "Jupiter": 7,
+        "Au": 24437,
+        "Hamlet": 8840,
+        "Sun": 2,
+        "100": 29,
+        "relativity": 1,
+        "8": 17
+      },
+      "mean_improvement": -503.3,
+      "median_improvement": 0.0
+    }
+  },
+  "top_suppressors": [
+    [
+      "L11H7",
+      829.2
+    ],
+    [
+      "L10H7",
+      663.9
+    ],
+    [
+      "L10H6",
+      510.6
+    ],
+    [
+      "L11H1",
+      271.1
+    ],
+    [
+      "L11H4",
+      233.7
+    ]
+  ],
+  "top_helpers": [
+    [
+      "L11H5",
+      -412.0
+    ],
+    [
+      "L11H0",
+      -483.6
+    ],
+    [
+      "L10H11",
+      -503.1
+    ],
+    [
+      "L11H11",
+      -503.3
+    ],
+    [
+      "L10H5",
+      -638.2
+    ]
+  ]
+}

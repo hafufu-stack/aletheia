@@ -1,0 +1,280 @@
+{
+  "phase": 76,
+  "name": "Semantic Smuggling",
+  "best_format": "csv",
+  "worst_format": "dict",
+  "format_stats": {
+    "natural": {
+      "mean_suppression": 2.25,
+      "mean_l12_rank": 3.5,
+      "mean_h7_entropy": 0.6193662360310555
+    },
+    "dict": {
+      "mean_suppression": 2780.25,
+      "mean_l12_rank": 5706.5,
+      "mean_h7_entropy": 0.8563940525054932
+    },
+    "python": {
+      "mean_suppression": 2770.0,
+      "mean_l12_rank": 3945.75,
+      "mean_h7_entropy": 0.9433394074440002
+    },
+    "csv": {
+      "mean_suppression": -327.0,
+      "mean_l12_rank": 1772.5,
+      "mean_h7_entropy": 1.1649178117513657
+    },
+    "json_array": {
+      "mean_suppression": 87.0,
+      "mean_l12_rank": 95.0,
+      "mean_h7_entropy": 0.6742293834686279
+    },
+    "assignment": {
+      "mean_suppression": 492.6666666666667,
+      "mean_l12_rank": 8226.666666666666,
+      "mean_h7_entropy": 1.0844706892967224
+    },
+    "comment": {
+      "mean_suppression": 0.0,
+      "mean_l12_rank": 1.0,
+      "mean_h7_entropy": 0.8037469983100891
+    },
+    "xml": {
+      "mean_suppression": 13.0,
+      "mean_l12_rank": 17.0,
+      "mean_h7_entropy": 0.8848435282707214
+    }
+  },
+  "results": [
+    {
+      "fact": "Tokyo",
+      "format": "natural",
+      "prompt": "The capital of Japan is",
+      "l10_rank": 1,
+      "l12_rank": 2,
+      "suppression": 1,
+      "l12_top1": "the",
+      "h7_entropy": 0.8065
+    },
+    {
+      "fact": "Tokyo",
+      "format": "dict",
+      "prompt": "{\"country\": \"Japan\", \"capital\": \"",
+      "l10_rank": 3,
+      "l12_rank": 67,
+      "suppression": 64,
+      "l12_top1": "Japan",
+      "h7_entropy": 0.7823
+    },
+    {
+      "fact": "Tokyo",
+      "format": "python",
+      "prompt": "capital = {\"Japan\": \"",
+      "l10_rank": 242,
+      "l12_rank": 3892,
+      "suppression": 3650,
+      "l12_top1": "Japan",
+      "h7_entropy": 0.8645
+    },
+    {
+      "fact": "Tokyo",
+      "format": "csv",
+      "prompt": "country,capital\nJapan,",
+      "l10_rank": 153,
+      "l12_rank": 452,
+      "suppression": 299,
+      "l12_top1": "K",
+      "h7_entropy": 0.9772
+    },
+    {
+      "fact": "Tokyo",
+      "format": "json_array",
+      "prompt": "[{\"name\": \"Japan\", \"capital\": \"",
+      "l10_rank": 8,
+      "l12_rank": 95,
+      "suppression": 87,
+      "l12_top1": "J",
+      "h7_entropy": 0.6742
+    },
+    {
+      "fact": "Tokyo",
+      "format": "assignment",
+      "prompt": "japan_capital = \"",
+      "l10_rank": 82,
+      "l12_rank": 155,
+      "suppression": 73,
+      "l12_top1": "1",
+      "h7_entropy": 1.2846
+    },
+    {
+      "fact": "Tokyo",
+      "format": "comment",
+      "prompt": "# Japan capital:",
+      "l10_rank": 1,
+      "l12_rank": 1,
+      "suppression": 0,
+      "l12_top1": "Tokyo",
+      "h7_entropy": 0.7938
+    },
+    {
+      "fact": "Tokyo",
+      "format": "xml",
+      "prompt": "<country name=\"Japan\"><capital>",
+      "l10_rank": 4,
+      "l12_rank": 17,
+      "suppression": 13,
+      "l12_top1": "Japan",
+      "h7_entropy": 0.8848
+    },
+    {
+      "fact": "Paris",
+      "format": "natural",
+      "prompt": "The capital of France is",
+      "l10_rank": 2,
+      "l12_rank": 5,
+      "suppression": 3,
+      "l12_top1": "the",
+      "h7_entropy": 0.6845
+    },
+    {
+      "fact": "Paris",
+      "format": "dict",
+      "prompt": "{\"country\": \"France\", \"capital\": \"",
+      "l10_rank": 40,
+      "l12_rank": 1009,
+      "suppression": 969,
+      "l12_top1": "France",
+      "h7_entropy": 0.5709
+    },
+    {
+      "fact": "Paris",
+      "format": "python",
+      "prompt": "capital = {\"France\": \"",
+      "l10_rank": 1183,
+      "l12_rank": 8726,
+      "suppression": 7543,
+      "l12_top1": "France",
+      "h7_entropy": 0.7558
+    },
+    {
+      "fact": "Paris",
+      "format": "csv",
+      "prompt": "country,capital\nFrance,",
+      "l10_rank": 593,
+      "l12_rank": 1368,
+      "suppression": 775,
+      "l12_top1": "Germany",
+      "h7_entropy": 0.9173
+    },
+    {
+      "fact": "Paris",
+      "format": "assignment",
+      "prompt": "france_capital = \"",
+      "l10_rank": 6343,
+      "l12_rank": 5299,
+      "suppression": -1044,
+      "l12_top1": "1",
+      "h7_entropy": 1.3344
+    },
+    {
+      "fact": "Paris",
+      "format": "comment",
+      "prompt": "# France capital:",
+      "l10_rank": 1,
+      "l12_rank": 1,
+      "suppression": 0,
+      "l12_top1": "Paris",
+      "h7_entropy": 0.8137
+    },
+    {
+      "fact": "Jupiter",
+      "format": "natural",
+      "prompt": "The largest planet is",
+      "l10_rank": 1,
+      "l12_rank": 5,
+      "suppression": 4,
+      "l12_top1": "the",
+      "h7_entropy": 0.6404
+    },
+    {
+      "fact": "Jupiter",
+      "format": "dict",
+      "prompt": "{\"largest_planet\": \"",
+      "l10_rank": 1869,
+      "l12_rank": 7945,
+      "suppression": 6076,
+      "l12_top1": "\",",
+      "h7_entropy": 1.0512
+    },
+    {
+      "fact": "Jupiter",
+      "format": "python",
+      "prompt": "largest_planet = \"",
+      "l10_rank": 238,
+      "l12_rank": 703,
+      "suppression": 465,
+      "l12_top1": "M",
+      "h7_entropy": 1.0573
+    },
+    {
+      "fact": "Jupiter",
+      "format": "csv",
+      "prompt": "property,value\nlargest_planet,",
+      "l10_rank": 6751,
+      "l12_rank": 4716,
+      "suppression": -2035,
+      "l12_top1": "min",
+      "h7_entropy": 1.453
+    },
+    {
+      "fact": "Jupiter",
+      "format": "assignment",
+      "prompt": "answer = \"",
+      "l10_rank": 16777,
+      "l12_rank": 19226,
+      "suppression": 2449,
+      "l12_top1": "true",
+      "h7_entropy": 0.6344
+    },
+    {
+      "fact": "Sun",
+      "format": "natural",
+      "prompt": "The Earth orbits the",
+      "l10_rank": 1,
+      "l12_rank": 2,
+      "suppression": 1,
+      "l12_top1": "Sun",
+      "h7_entropy": 0.3461
+    },
+    {
+      "fact": "Sun",
+      "format": "dict",
+      "prompt": "{\"earth_orbits\": \"",
+      "l10_rank": 9793,
+      "l12_rank": 13805,
+      "suppression": 4012,
+      "l12_top1": "0",
+      "h7_entropy": 1.0211
+    },
+    {
+      "fact": "Sun",
+      "format": "python",
+      "prompt": "earth_orbits = \"",
+      "l10_rank": 3040,
+      "l12_rank": 2462,
+      "suppression": -578,
+      "l12_top1": "0",
+      "h7_entropy": 1.0958
+    },
+    {
+      "fact": "Sun",
+      "format": "csv",
+      "prompt": "body,orbits\nEarth,",
+      "l10_rank": 901,
+      "l12_rank": 554,
+      "suppression": -347,
+      "l12_top1": "or",
+      "h7_entropy": 1.3122
+    }
+  ]
+}

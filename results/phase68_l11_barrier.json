@@ -1,0 +1,126 @@
+{
+  "phase": 68,
+  "name": "The L11 Barrier",
+  "avg_ranks": {
+    "after_L10": 2442.1,
+    "l11_attn_out": 5702.9,
+    "l11_mlp_out": 7751.3,
+    "after_L11": 2832.1,
+    "skip_l11_attn": 2612.7,
+    "skip_l11_mlp": 2713.1
+  },
+  "attn_is_culprit": "True",
+  "mlp_is_culprit": "True",
+  "results": [
+    {
+      "expected": "Tokyo",
+      "ranks": {
+        "after_L10": 1,
+        "l11_attn_out": 2562,
+        "l11_mlp_out": 13795,
+        "after_L11": 2,
+        "skip_l11_attn": 1,
+        "skip_l11_mlp": 1
+      }
+    },
+    {
+      "expected": "Paris",
+      "ranks": {
+        "after_L10": 2,
+        "l11_attn_out": 683,
+        "l11_mlp_out": 5838,
+        "after_L11": 5,
+        "skip_l11_attn": 3,
+        "skip_l11_mlp": 4
+      }
+    },
+    {
+      "expected": "Jupiter",
+      "ranks": {
+        "after_L10": 1,
+        "l11_attn_out": 5568,
+        "l11_mlp_out": 12615,
+        "after_L11": 5,
+        "skip_l11_attn": 2,
+        "skip_l11_mlp": 2
+      }
+    },
+    {
+      "expected": "Sun",
+      "ranks": {
+        "after_L10": 1,
+        "l11_attn_out": 2629,
+        "l11_mlp_out": 144,
+        "after_L11": 2,
+        "skip_l11_attn": 2,
+        "skip_l11_mlp": 1
+      }
+    },
+    {
+      "expected": "Hamlet",
+      "ranks": {
+        "after_L10": 9252,
+        "l11_attn_out": 20866,
+        "l11_mlp_out": 19067,
+        "after_L11": 11514,
+        "skip_l11_attn": 10517,
+        "skip_l11_mlp": 10441
+      }
+    },
+    {
+      "expected": "0",
+      "ranks": {
+        "after_L10": 4,
+        "l11_attn_out": 102,
+        "l11_mlp_out": 1126,
+        "after_L11": 13,
+        "skip_l11_attn": 12,
+        "skip_l11_mlp": 5
+      }
+    },
+    {
+      "expected": "100",
+      "ranks": {
+        "after_L10": 32,
+        "l11_attn_out": 160,
+        "l11_mlp_out": 285,
+        "after_L11": 29,
+        "skip_l11_attn": 36,
+        "skip_l11_mlp": 26
+      }
+    },
+    {
+      "expected": "relativity",
+      "ranks": {
+        "after_L10": 1,
+        "l11_attn_out": 3182,
+        "l11_mlp_out": 5847,
+        "after_L11": 1,
+        "skip_l11_attn": 1,
+        "skip_l11_mlp": 1
+      }
+    },
+    {
+      "expected": "8",
+      "ranks": {
+        "after_L10": 25,
+        "l11_attn_out": 173,
+        "l11_mlp_out": 14,
+        "after_L11": 15,
+        "skip_l11_attn": 14,
+        "skip_l11_mlp": 19
+      }
+    },
+    {
+      "expected": "Au",
+      "ranks": {
+        "after_L10": 15102,
+        "l11_attn_out": 21104,
+        "l11_mlp_out": 18782,
+        "after_L11": 16735,
+        "skip_l11_attn": 15539,
+        "skip_l11_mlp": 16631
+      }
+    }
+  ]
+}

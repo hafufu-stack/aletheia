@@ -1,0 +1,98 @@
+{
+  "phase": 67,
+  "name": "Residual Fact Bypass",
+  "best_alpha": 0.9,
+  "best_accuracy": 0.4,
+  "best_median_rank": 3.0,
+  "alpha_sweep": {
+    "0.0": {
+      "accuracy": 0.1,
+      "median_rank": 9.0,
+      "mean_rank": 2832.1
+    },
+    "0.1": {
+      "accuracy": 0.2,
+      "median_rank": 9.0,
+      "mean_rank": 2773.9
+    },
+    "0.2": {
+      "accuracy": 0.2,
+      "median_rank": 7.5,
+      "mean_rank": 2718.5
+    },
+    "0.3": {
+      "accuracy": 0.2,
+      "median_rank": 6.5,
+      "mean_rank": 2666.5
+    },
+    "0.4": {
+      "accuracy": 0.4,
+      "median_rank": 6.0,
+      "mean_rank": 2623.7
+    },
+    "0.5": {
+      "accuracy": 0.4,
+      "median_rank": 5.0,
+      "mean_rank": 2585.7
+    },
+    "0.6": {
+      "accuracy": 0.4,
+      "median_rank": 4.5,
+      "mean_rank": 2553.2
+    },
+    "0.7": {
+      "accuracy": 0.4,
+      "median_rank": 4.5,
+      "mean_rank": 2517.5
+    },
+    "0.8": {
+      "accuracy": 0.4,
+      "median_rank": 4.0,
+      "mean_rank": 2487.6
+    },
+    "0.9": {
+      "accuracy": 0.4,
+      "median_rank": 3.0,
+      "mean_rank": 2465.2
+    },
+    "1.0": {
+      "accuracy": 0.4,
+      "median_rank": 3.0,
+      "mean_rank": 2442.1
+    }
+  },
+  "layer_sweep": {
+    "4": {
+      "accuracy": 0.0,
+      "median_rank": 613.0
+    },
+    "5": {
+      "accuracy": 0.0,
+      "median_rank": 547.5
+    },
+    "6": {
+      "accuracy": 0.0,
+      "median_rank": 170.0
+    },
+    "7": {
+      "accuracy": 0.0,
+      "median_rank": 83.0
+    },
+    "8": {
+      "accuracy": 0.1,
+      "median_rank": 41.5
+    },
+    "9": {
+      "accuracy": 0.1,
+      "median_rank": 6.5
+    },
+    "10": {
+      "accuracy": 0.4,
+      "median_rank": 3.0
+    },
+    "11": {
+      "accuracy": 0.1,
+      "median_rank": 9.0
+    }
+  }
+}

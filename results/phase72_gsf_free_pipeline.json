@@ -1,0 +1,37 @@
+{
+  "phase": 72,
+  "name": "GSF-Free Fact Extraction Pipeline",
+  "method_results": {
+    "A_baseline_old": {
+      "accuracy": 0.1,
+      "top5_rate": 0.4,
+      "median_rank": 11.5,
+      "mean_rank": 5569.9
+    },
+    "B_anti_gsf_prompt": {
+      "accuracy": 0.1,
+      "top5_rate": 0.15,
+      "median_rank": 37.5,
+      "mean_rank": 5482.7
+    },
+    "C_prompt+surgery": {
+      "accuracy": 0.05,
+      "top5_rate": 0.15,
+      "median_rank": 41.0,
+      "mean_rank": 5483.7
+    },
+    "D_prompt+bypass": {
+      "accuracy": 0.1,
+      "top5_rate": 0.25,
+      "median_rank": 58.5,
+      "mean_rank": 5464.2
+    },
+    "E_full_pipeline": {
+      "accuracy": 0.1,
+      "top5_rate": 0.25,
+      "median_rank": 57.5,
+      "mean_rank": 5461.35
+    }
+  },
+  "n_facts": 20
+}

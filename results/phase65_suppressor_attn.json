@@ -1,0 +1,349 @@
+{
+  "phase": 65,
+  "name": "Suppressor Head Attention Analysis",
+  "entropy": {
+    "suppressors": {
+      "mean": 0.7367757877707481,
+      "std": 0.3235702488598542
+    },
+    "helpers": {
+      "mean": 0.7671629111468792,
+      "std": 0.47184117451307067
+    },
+    "others": {
+      "mean": 0.6394195109605789,
+      "std": 0.40104564225341344
+    }
+  },
+  "position_focus": {
+    "suppressors": {
+      "mean": 0.021666666666666664
+    },
+    "helpers": {
+      "mean": 0.031
+    }
+  },
+  "l11h7_top_tokens": [
+    [
+      "The",
+      4.788903653621674
+    ],
+    [
+      "Sh",
+      0.919117271900177
+    ],
+    [
+      "Water",
+      0.8945677876472473
+    ],
+    [
+      "O",
+      0.7405495643615723
+    ],
+    [
+      "Albert",
+      0.7195612192153931
+    ],
+    [
+      "is",
+      0.5571361742913723
+    ],
+    [
+      "of",
+      0.23878153413534164
+    ],
+    [
+      "gen",
+      0.09816057980060577
+    ],
+    [
+      "at",
+      0.07645231485366821
+    ],
+    [
+      "gold",
+      0.07427797466516495
+    ]
+  ],
+  "attention_data": [
+    {
+      "prompt": "The capital of Japan is",
+      "expected": "Tokyo",
+      "l11h7_top3": [
+        [
+          0,
+          "The",
+          0.7794384360313416
+        ],
+        [
+          4,
+          " is",
+          0.08091172575950623
+        ],
+        [
+          2,
+          " of",
+          0.07312578707933426
+        ]
+      ],
+      "input_tokens": [
+        "The",
+        " capital",
+        " of",
+        " Japan",
+        " is"
+      ]
+    },
+    {
+      "prompt": "The capital of France is",
+      "expected": "Paris",
+      "l11h7_top3": [
+        [
+          0,
+          "The",
+          0.8273040056228638
+        ],
+        [
+          4,
+          " is",
+          0.05977926775813103
+        ],
+        [
+          2,
+          " of",
+          0.056470952928066254
+        ]
+      ],
+      "input_tokens": [
+        "The",
+        " capital",
+        " of",
+        " France",
+        " is"
+      ]
+    },
+    {
+      "prompt": "The largest planet is",
+      "expected": "Jupiter",
+      "l11h7_top3": [
+        [
+          0,
+          "The",
+          0.8147819638252258
+        ],
+        [
+          3,
+          " is",
+          0.12207435071468353
+        ],
+        [
+          2,
+          " planet",
+          0.03824234753847122
+        ]
+      ],
+      "input_tokens": [
+        "The",
+        " largest",
+        " planet",
+        " is"
+      ]
+    },
+    {
+      "prompt": "Albert Einstein developed the theory of",
+      "expected": "relativity",
+      "l11h7_top3": [
+        [
+          0,
+          "Albert",
+          0.7195612192153931
+        ],
+        [
+          5,
+          " of",
+          0.10918479412794113
+        ],
+        [
+          1,
+          " Einstein",
+          0.04648284241557121
+        ]
+      ],
+      "input_tokens": [
+        "Albert",
+        " Einstein",
+        " developed",
+        " the",
+        " theory",
+        " of"
+      ]
+    },
+    {
+      "prompt": "The Earth orbits the",
+      "expected": "Sun",
+      "l11h7_top3": [
+        [
+          0,
+          "The",
+          0.9250035881996155
+        ],
+        [
+          3,
+          " the",
+          0.03368591144680977
+        ],
+        [
+          1,
+          " Earth",
+          0.023920394480228424
+        ]
+      ],
+      "input_tokens": [
+        "The",
+        " Earth",
+        " orbits",
+        " the"
+      ]
+    },
+    {
+      "prompt": "Shakespeare wrote",
+      "expected": "Hamlet",
+      "l11h7_top3": [
+        [
+          0,
+          "Sh",
+          0.919117271900177
+        ],
+        [
+          2,
+          " wrote",
+          0.05645618215203285
+        ],
+        [
+          1,
+          "akespeare",
+          0.024426527321338654
+        ]
+      ],
+      "input_tokens": [
+        "Sh",
+        "akespeare",
+        " wrote"
+      ]
+    },
+    {
+      "prompt": "Water freezes at",
+      "expected": "0",
+      "l11h7_top3": [
+        [
+          0,
+          "Water",
+          0.8945677876472473
+        ],
+        [
+          2,
+          " at",
+          0.07645231485366821
+        ],
+        [
+          1,
+          " freezes",
+          0.028979986906051636
+        ]
+      ],
+      "input_tokens": [
+        "Water",
+        " freezes",
+        " at"
+      ]
+    },
+    {
+      "prompt": "The chemical symbol for gold is",
+      "expected": "Au",
+      "l11h7_top3": [
+        [
+          0,
+          "The",
+          0.5909672975540161
+        ],
+        [
+          5,
+          " is",
+          0.2160077542066574
+        ],
+        [
+          4,
+          " gold",
+          0.07427797466516495
+        ]
+      ],
+      "input_tokens": [
+        "The",
+        " chemical",
+        " symbol",
+        " for",
+        " gold",
+        " is"
+      ]
+    },
+    {
+      "prompt": "The boiling point of water is",
+      "expected": "100",
+      "l11h7_top3": [
+        [
+          0,
+          "The",
+          0.8514083623886108
+        ],
+        [
+          5,
+          " is",
+          0.0783630758523941
+        ],
+        [
+          4,
+          " water",
+          0.03857459872961044
+        ]
+      ],
+      "input_tokens": [
+        "The",
+        " boiling",
+        " point",
+        " of",
+        " water",
+        " is"
+      ]
+    },
+    {
+      "prompt": "Oxygen has the atomic number",
+      "expected": "8",
+      "l11h7_top3": [
+        [
+          0,
+          "O",
+          0.7405495643615723
+        ],
+        [
+          2,
+          "gen",
+          0.09816057980060577
+        ],
+        [
+          1,
+          "xy",
+          0.06164387986063957
+        ]
+      ],
+      "input_tokens": [
+        "O",
+        "xy",
+        "gen",
+        " has",
+        " the",
+        " atomic",
+        " number"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "phase": 60,
+  "name": "Oracle-Guided Layer Contrast",
+  "best_threshold": 0.5,
+  "best_alpha": 0.5,
+  "best_accuracy": 0.4,
+  "l12_accuracy": 0.1,
+  "l10_accuracy": 0.4,
+  "grid_results": {
+    "0.5_0.0": 0.1,
+    "0.5_0.3": 0.2,
+    "0.5_0.5": 0.4,
+    "0.5_1.0": 0.4,
+    "0.5_2.0": 0.3,
+    "0.5_5.0": 0.2,
+    "0.8_0.0": 0.1,
+    "0.8_0.3": 0.2,
+    "0.8_0.5": 0.2,
+    "0.8_1.0": 0.2,
+    "0.8_2.0": 0.2,
+    "0.8_5.0": 0.1,
+    "1.0_0.0": 0.1,
+    "1.0_0.3": 0.1,
+    "1.0_0.5": 0.1,
+    "1.0_1.0": 0.1,
+    "1.0_2.0": 0.1,
+    "1.0_5.0": 0.1,
+    "1.2_0.0": 0.1,
+    "1.2_0.3": 0.1,
+    "1.2_0.5": 0.1,
+    "1.2_1.0": 0.1,
+    "1.2_2.0": 0.1,
+    "1.2_5.0": 0.1,
+    "1.5_0.0": 0.1,
+    "1.5_0.3": 0.1,
+    "1.5_0.5": 0.1,
+    "1.5_1.0": 0.1,
+    "1.5_2.0": 0.1,
+    "1.5_5.0": 0.1,
+    "2.0_0.0": 0.1,
+    "2.0_0.3": 0.1,
+    "2.0_0.5": 0.1,
+    "2.0_1.0": 0.1,
+    "2.0_2.0": 0.1,
+    "2.0_5.0": 0.1
+  },
+  "detail_results": [
+    {
+      "expected": "Tokyo",
+      "entropy": 0.84,
+      "l12_correct": false,
+      "l10_correct": true,
+      "oracle_correct": true
+    },
+    {
+      "expected": "Paris",
+      "entropy": 0.823,
+      "l12_correct": false,
+      "l10_correct": false,
+      "oracle_correct": false
+    },
+    {
+      "expected": "0",
+      "entropy": 0.531,
+      "l12_correct": false,
+      "l10_correct": false,
+      "oracle_correct": false
+    },
+    {
+      "expected": "Jupiter",
+      "entropy": 0.709,
+      "l12_correct": false,
+      "l10_correct": true,
+      "oracle_correct": true
+    },
+    {
+      "expected": "Au",
+      "entropy": 0.971,
+      "l12_correct": false,
+      "l10_correct": false,
+      "oracle_correct": false
+    },
+    {
+      "expected": "Hamlet",
+      "entropy": 0.493,
+      "l12_correct": false,
+      "l10_correct": false,
+      "oracle_correct": false
+    },
+    {
+      "expected": "Sun",
+      "entropy": 0.719,
+      "l12_correct": false,
+      "l10_correct": true,
+      "oracle_correct": true
+    },
+    {
+      "expected": "100",
+      "entropy": 0.933,
+      "l12_correct": false,
+      "l10_correct": false,
+      "oracle_correct": false
+    },
+    {
+      "expected": "relativity",
+      "entropy": 0.862,
+      "l12_correct": true,
+      "l10_correct": true,
+      "oracle_correct": true
+    },
+    {
+      "expected": "8",
+      "entropy": 1.013,
+      "l12_correct": false,
+      "l10_correct": false,
+      "oracle_correct": false
+    }
+  ]
+}

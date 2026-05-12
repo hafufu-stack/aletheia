@@ -1,0 +1,125 @@
+{
+  "phase": 80,
+  "name": "The Hash Effect",
+  "prefix_results": {
+    "none": {
+      "accuracy": 0.0,
+      "top5_rate": 0.125,
+      "median_rank": 10.0,
+      "mean_rank": 4329.25
+    },
+    "hash": {
+      "accuracy": 0.25,
+      "top5_rate": 0.375,
+      "median_rank": 6.0,
+      "mean_rank": 6055.0
+    },
+    "double_hash": {
+      "accuracy": 0.25,
+      "top5_rate": 0.375,
+      "median_rank": 16.5,
+      "mean_rank": 7202.125
+    },
+    "double_slash": {
+      "accuracy": 0.25,
+      "top5_rate": 0.5,
+      "median_rank": 5.0,
+      "mean_rank": 5448.875
+    },
+    "dash_dash": {
+      "accuracy": 0.25,
+      "top5_rate": 0.5,
+      "median_rank": 6.5,
+      "mean_rank": 4756.5
+    },
+    "star": {
+      "accuracy": 0.25,
+      "top5_rate": 0.5,
+      "median_rank": 9.5,
+      "mean_rank": 6111.625
+    },
+    "greater": {
+      "accuracy": 0.25,
+      "top5_rate": 0.5,
+      "median_rank": 5.5,
+      "mean_rank": 5502.25
+    },
+    "dollar": {
+      "accuracy": 0.0,
+      "top5_rate": 0.25,
+      "median_rank": 18.5,
+      "mean_rank": 4814.125
+    },
+    "percent": {
+      "accuracy": 0.125,
+      "top5_rate": 0.5,
+      "median_rank": 6.5,
+      "mean_rank": 5664.25
+    },
+    "at": {
+      "accuracy": 0.125,
+      "top5_rate": 0.375,
+      "median_rank": 14.0,
+      "mean_rank": 5128.5
+    },
+    "semicolon": {
+      "accuracy": 0.25,
+      "top5_rate": 0.5,
+      "median_rank": 6.5,
+      "mean_rank": 4200.5
+    },
+    "exclaim": {
+      "accuracy": 0.25,
+      "top5_rate": 0.5,
+      "median_rank": 7.5,
+      "mean_rank": 5141.875
+    },
+    "pipe": {
+      "accuracy": 0.25,
+      "top5_rate": 0.5,
+      "median_rank": 6.5,
+      "mean_rank": 4881.75
+    },
+    "tilde": {
+      "accuracy": 0.25,
+      "top5_rate": 0.375,
+      "median_rank": 9.0,
+      "mean_rank": 4705.375
+    },
+    "natural": {
+      "accuracy": 0.0,
+      "top5_rate": 0.125,
+      "median_rank": 253.0,
+      "mean_rank": 3605.25
+    }
+  },
+  "hash_is_unique": false,
+  "matching_prefixes": [
+    "double_hash",
+    "double_slash",
+    "dash_dash",
+    "star",
+    "greater",
+    "semicolon",
+    "exclaim",
+    "pipe",
+    "tilde"
+  ],
+  "sorted_order": [
+    "double_slash",
+    "greater",
+    "hash",
+    "dash_dash",
+    "semicolon",
+    "pipe",
+    "exclaim",
+    "tilde",
+    "star",
+    "double_hash",
+    "percent",
+    "at",
+    "none",
+    "dollar",
+    "natural"
+  ]
+}

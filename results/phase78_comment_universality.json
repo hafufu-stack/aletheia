@@ -1,0 +1,414 @@
+{
+  "phase": 78,
+  "name": "Comment Format Universality",
+  "n_facts": 25,
+  "comment_accuracy": 0.12,
+  "natural_accuracy": 0.0,
+  "comment_top5": 0.2,
+  "natural_top5": 0.04,
+  "comment_wins": 21,
+  "natural_wins": 4,
+  "ties": 0,
+  "results": [
+    {
+      "desc": "Japan capital",
+      "expected": "Tokyo",
+      "format": "comment",
+      "rank": 1,
+      "top1": "Tokyo",
+      "correct": true
+    },
+    {
+      "desc": "Japan capital",
+      "expected": "Tokyo",
+      "format": "natural",
+      "rank": 96,
+      "top1": "home",
+      "correct": false
+    },
+    {
+      "desc": "France capital",
+      "expected": "Paris",
+      "format": "comment",
+      "rank": 1,
+      "top1": "Paris",
+      "correct": true
+    },
+    {
+      "desc": "France capital",
+      "expected": "Paris",
+      "format": "natural",
+      "rank": 410,
+      "top1": "home",
+      "correct": false
+    },
+    {
+      "desc": "Germany capital",
+      "expected": "Berlin",
+      "format": "comment",
+      "rank": 1,
+      "top1": "Berlin",
+      "correct": true
+    },
+    {
+      "desc": "Germany capital",
+      "expected": "Berlin",
+      "format": "natural",
+      "rank": 176,
+      "top1": "also",
+      "correct": false
+    },
+    {
+      "desc": "Italy capital",
+      "expected": "Rome",
+      "format": "comment",
+      "rank": 48236,
+      "top1": "Milan",
+      "correct": false
+    },
+    {
+      "desc": "Italy capital",
+      "expected": "Rome",
+      "format": "natural",
+      "rank": 42844,
+      "top1": "home",
+      "correct": false
+    },
+    {
+      "desc": "Spain capital",
+      "expected": "Madrid",
+      "format": "comment",
+      "rank": 24419,
+      "top1": "Madrid",
+      "correct": false
+    },
+    {
+      "desc": "Spain capital",
+      "expected": "Madrid",
+      "format": "natural",
+      "rank": 5836,
+      "top1": "a",
+      "correct": false
+    },
+    {
+      "desc": "Russia capital",
+      "expected": "Moscow",
+      "format": "comment",
+      "rank": 41913,
+      "top1": "Moscow",
+      "correct": false
+    },
+    {
+      "desc": "Russia capital",
+      "expected": "Moscow",
+      "format": "natural",
+      "rank": 48741,
+      "top1": "a",
+      "correct": false
+    },
+    {
+      "desc": "China capital",
+      "expected": "Beijing",
+      "format": "comment",
+      "rank": 10260,
+      "top1": "Beijing",
+      "correct": false
+    },
+    {
+      "desc": "China capital",
+      "expected": "Beijing",
+      "format": "natural",
+      "rank": 33535,
+      "top1": "home",
+      "correct": false
+    },
+    {
+      "desc": "largest planet",
+      "expected": "Jupiter",
+      "format": "comment",
+      "rank": 3,
+      "top1": "Earth",
+      "correct": false
+    },
+    {
+      "desc": "largest planet",
+      "expected": "Jupiter",
+      "format": "natural",
+      "rank": 5,
+      "top1": "the",
+      "correct": false
+    },
+    {
+      "desc": "smallest planet",
+      "expected": "Mercury",
+      "format": "comment",
+      "rank": 26295,
+      "top1": "Earth",
+      "correct": false
+    },
+    {
+      "desc": "smallest planet",
+      "expected": "Mercury",
+      "format": "natural",
+      "rank": 34329,
+      "top1": "about",
+      "correct": false
+    },
+    {
+      "desc": "Earth orbits",
+      "expected": "Sun",
+      "format": "comment",
+      "rank": 160,
+      "top1": "2",
+      "correct": false
+    },
+    {
+      "desc": "Earth orbits",
+      "expected": "Sun",
+      "format": "natural",
+      "rank": 613,
+      "top1": "about",
+      "correct": false
+    },
+    {
+      "desc": "water freezing point",
+      "expected": "0",
+      "format": "comment",
+      "rank": 6,
+      "top1": "1",
+      "correct": false
+    },
+    {
+      "desc": "water freezing point",
+      "expected": "0",
+      "format": "natural",
+      "rank": 12,
+      "top1": "about",
+      "correct": false
+    },
+    {
+      "desc": "water boiling point",
+      "expected": "100",
+      "format": "comment",
+      "rank": 17,
+      "top1": "1",
+      "correct": false
+    },
+    {
+      "desc": "water boiling point",
+      "expected": "100",
+      "format": "natural",
+      "rank": 32,
+      "top1": "about",
+      "correct": false
+    },
+    {
+      "desc": "gold symbol",
+      "expected": "Au",
+      "format": "comment",
+      "rank": 27717,
+      "top1": "\"",
+      "correct": false
+    },
+    {
+      "desc": "gold symbol",
+      "expected": "Au",
+      "format": "natural",
+      "rank": 20613,
+      "top1": "the",
+      "correct": false
+    },
+    {
+      "desc": "oxygen atomic number",
+      "expected": "8",
+      "format": "comment",
+      "rank": 6,
+      "top1": "0",
+      "correct": false
+    },
+    {
+      "desc": "oxygen atomic number",
+      "expected": "8",
+      "format": "natural",
+      "rank": 32,
+      "top1": "the",
+      "correct": false
+    },
+    {
+      "desc": "Einstein theory",
+      "expected": "relativity",
+      "format": "comment",
+      "rank": 26,
+      "top1": "The",
+      "correct": false
+    },
+    {
+      "desc": "Einstein theory",
+      "expected": "relativity",
+      "format": "natural",
+      "rank": 6204,
+      "top1": "a",
+      "correct": false
+    },
+    {
+      "desc": "Shakespeare play",
+      "expected": "Hamlet",
+      "format": "comment",
+      "rank": 20546,
+      "top1": "\"",
+      "correct": false
+    },
+    {
+      "desc": "Shakespeare play",
+      "expected": "Hamlet",
+      "format": "natural",
+      "rank": 7061,
+      "top1": "a",
+      "correct": false
+    },
+    {
+      "desc": "speed of light",
+      "expected": "299",
+      "format": "comment",
+      "rank": 270,
+      "top1": "0",
+      "correct": false
+    },
+    {
+      "desc": "speed of light",
+      "expected": "299",
+      "format": "natural",
+      "rank": 3889,
+      "top1": "the",
+      "correct": false
+    },
+    {
+      "desc": "pi value",
+      "expected": "3",
+      "format": "comment",
+      "rank": 7,
+      "top1": "0",
+      "correct": false
+    },
+    {
+      "desc": "pi value",
+      "expected": "3",
+      "format": "natural",
+      "rank": 32,
+      "top1": "the",
+      "correct": false
+    },
+    {
+      "desc": "hydrogen symbol",
+      "expected": "H",
+      "format": "comment",
+      "rank": 8,
+      "top1": "",
+      "correct": false
+    },
+    {
+      "desc": "hydrogen symbol",
+      "expected": "H",
+      "format": "natural",
+      "rank": 396,
+      "top1": "a",
+      "correct": false
+    },
+    {
+      "desc": "iron symbol",
+      "expected": "Fe",
+      "format": "comment",
+      "rank": 3187,
+      "top1": "0",
+      "correct": false
+    },
+    {
+      "desc": "iron symbol",
+      "expected": "Fe",
+      "format": "natural",
+      "rank": 10803,
+      "top1": "a",
+      "correct": false
+    },
+    {
+      "desc": "helium atomic number",
+      "expected": "2",
+      "format": "comment",
+      "rank": 3,
+      "top1": "0",
+      "correct": false
+    },
+    {
+      "desc": "helium atomic number",
+      "expected": "2",
+      "format": "natural",
+      "rank": 20,
+      "top1": "the",
+      "correct": false
+    },
+    {
+      "desc": "newton unit",
+      "expected": "force",
+      "format": "comment",
+      "rank": 2751,
+      "top1": "unit",
+      "correct": false
+    },
+    {
+      "desc": "newton unit",
+      "expected": "force",
+      "format": "natural",
+      "rank": 27025,
+      "top1": "a",
+      "correct": false
+    },
+    {
+      "desc": "DNA full form",
+      "expected": "de",
+      "format": "comment",
+      "rank": 410,
+      "top1": "",
+      "correct": false
+    },
+    {
+      "desc": "DNA full form",
+      "expected": "de",
+      "format": "natural",
+      "rank": 500,
+      "top1": "a",
+      "correct": false
+    },
+    {
+      "desc": "CO2 name",
+      "expected": "carbon",
+      "format": "comment",
+      "rank": 21832,
+      "top1": "CO",
+      "correct": false
+    },
+    {
+      "desc": "CO2 name",
+      "expected": "carbon",
+      "format": "natural",
+      "rank": 33271,
+      "top1": "a",
+      "correct": false
+    },
+    {
+      "desc": "Mars nickname",
+      "expected": "Red",
+      "format": "comment",
+      "rank": 248,
+      "top1": "Mars",
+      "correct": false
+    },
+    {
+      "desc": "Mars nickname",
+      "expected": "Red",
+      "format": "natural",
+      "rank": 592,
+      "top1": "a",
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,641 @@
+{
+  "phase": 79,
+  "name": "Why Comments Work",
+  "format_head_entropy": {
+    "comment": {
+      "L11H7": 0.8732671141624451,
+      "L10H7": 0.8922183066606522,
+      "L10H6": 0.5160114206373692,
+      "L11H1": 0.8132853806018829,
+      "L10H5": 0.3504178486764431,
+      "L11H0": 1.2056520953774452
+    },
+    "natural": {
+      "L11H7": 0.4467717669904232,
+      "L10H7": 0.8113318979740143,
+      "L10H6": 0.2872848194092512,
+      "L11H1": 0.46292847767472267,
+      "L10H5": 0.5577753074467182,
+      "L11H0": 1.3448781073093414
+    }
+  },
+  "head_deltas": {
+    "L11H7": 0.42649534717202187,
+    "L10H7": 0.08088640868663788,
+    "L10H6": 0.22872660122811794,
+    "L11H1": 0.35035690292716026,
+    "L10H5": -0.20735745877027512,
+    "L11H0": -0.1392260119318962
+  },
+  "most_changed_head": "L11H7",
+  "results": [
+    {
+      "desc": "Japan capital",
+      "expected": "Tokyo",
+      "format": "comment",
+      "rank": 1,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.7938,
+          "max_attn": 0.7512,
+          "max_token": "#"
+        },
+        "L10H7": {
+          "entropy": 1.0485,
+          "max_attn": 0.5466,
+          "max_token": "#"
+        },
+        "L10H6": {
+          "entropy": 0.6831,
+          "max_attn": 0.7995,
+          "max_token": "#"
+        },
+        "L11H1": {
+          "entropy": 0.5247,
+          "max_attn": 0.8687,
+          "max_token": "#"
+        },
+        "L10H5": {
+          "entropy": 0.2236,
+          "max_attn": 0.9562,
+          "max_token": "#"
+        },
+        "L11H0": {
+          "entropy": 1.3048,
+          "max_attn": 0.3615,
+          "max_token": "#"
+        }
+      }
+    },
+    {
+      "desc": "Japan capital",
+      "expected": "Tokyo",
+      "format": "natural",
+      "rank": 96,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.3497,
+          "max_attn": 0.92,
+          "max_token": "The"
+        },
+        "L10H7": {
+          "entropy": 0.6232,
+          "max_attn": 0.8344,
+          "max_token": "The"
+        },
+        "L10H6": {
+          "entropy": 0.3939,
+          "max_attn": 0.9061,
+          "max_token": "The"
+        },
+        "L11H1": {
+          "entropy": 0.3195,
+          "max_attn": 0.9306,
+          "max_token": "The"
+        },
+        "L10H5": {
+          "entropy": 0.6449,
+          "max_attn": 0.8275,
+          "max_token": "The"
+        },
+        "L11H0": {
+          "entropy": 1.2898,
+          "max_attn": 0.3622,
+          "max_token": "is"
+        }
+      }
+    },
+    {
+      "desc": "France capital",
+      "expected": "Paris",
+      "format": "comment",
+      "rank": 1,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.8137,
+          "max_attn": 0.7557,
+          "max_token": "#"
+        },
+        "L10H7": {
+          "entropy": 0.9764,
+          "max_attn": 0.631,
+          "max_token": "#"
+        },
+        "L10H6": {
+          "entropy": 0.6675,
+          "max_attn": 0.8057,
+          "max_token": "#"
+        },
+        "L11H1": {
+          "entropy": 0.7303,
+          "max_attn": 0.7944,
+          "max_token": "#"
+        },
+        "L10H5": {
+          "entropy": 0.1921,
+          "max_attn": 0.9641,
+          "max_token": "#"
+        },
+        "L11H0": {
+          "entropy": 1.3771,
+          "max_attn": 0.2816,
+          "max_token": "#"
+        }
+      }
+    },
+    {
+      "desc": "France capital",
+      "expected": "Paris",
+      "format": "natural",
+      "rank": 410,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.3064,
+          "max_attn": 0.934,
+          "max_token": "The"
+        },
+        "L10H7": {
+          "entropy": 0.5095,
+          "max_attn": 0.8688,
+          "max_token": "The"
+        },
+        "L10H6": {
+          "entropy": 0.3911,
+          "max_attn": 0.9096,
+          "max_token": "The"
+        },
+        "L11H1": {
+          "entropy": 0.3061,
+          "max_attn": 0.9338,
+          "max_token": "The"
+        },
+        "L10H5": {
+          "entropy": 0.4736,
+          "max_attn": 0.8861,
+          "max_token": "The"
+        },
+        "L11H0": {
+          "entropy": 1.3058,
+          "max_attn": 0.3495,
+          "max_token": "is"
+        }
+      }
+    },
+    {
+      "desc": "largest planet",
+      "expected": "Jupiter",
+      "format": "comment",
+      "rank": 3,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.9452,
+          "max_attn": 0.6892,
+          "max_token": "#"
+        },
+        "L10H7": {
+          "entropy": 1.0217,
+          "max_attn": 0.5608,
+          "max_token": "#"
+        },
+        "L10H6": {
+          "entropy": 0.3267,
+          "max_attn": 0.9237,
+          "max_token": "#"
+        },
+        "L11H1": {
+          "entropy": 0.9446,
+          "max_attn": 0.6676,
+          "max_token": "#"
+        },
+        "L10H5": {
+          "entropy": 0.5974,
+          "max_attn": 0.8453,
+          "max_token": "#"
+        },
+        "L11H0": {
+          "entropy": 1.2197,
+          "max_attn": 0.4784,
+          "max_token": "#"
+        }
+      }
+    },
+    {
+      "desc": "largest planet",
+      "expected": "Jupiter",
+      "format": "natural",
+      "rank": 5,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.6404,
+          "max_attn": 0.8148,
+          "max_token": "The"
+        },
+        "L10H7": {
+          "entropy": 0.9305,
+          "max_attn": 0.6468,
+          "max_token": "The"
+        },
+        "L10H6": {
+          "entropy": 0.2638,
+          "max_attn": 0.9413,
+          "max_token": "The"
+        },
+        "L11H1": {
+          "entropy": 0.6483,
+          "max_attn": 0.806,
+          "max_token": "The"
+        },
+        "L10H5": {
+          "entropy": 0.6326,
+          "max_attn": 0.8295,
+          "max_token": "The"
+        },
+        "L11H0": {
+          "entropy": 1.235,
+          "max_attn": 0.4622,
+          "max_token": "The"
+        }
+      }
+    },
+    {
+      "desc": "Earth orbits",
+      "expected": "Sun",
+      "format": "comment",
+      "rank": 160,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.8317,
+          "max_attn": 0.7145,
+          "max_token": "#"
+        },
+        "L10H7": {
+          "entropy": 0.7982,
+          "max_attn": 0.7392,
+          "max_token": "#"
+        },
+        "L10H6": {
+          "entropy": 0.3156,
+          "max_attn": 0.9304,
+          "max_token": "#"
+        },
+        "L11H1": {
+          "entropy": 0.6885,
+          "max_attn": 0.7985,
+          "max_token": "#"
+        },
+        "L10H5": {
+          "entropy": 0.2682,
+          "max_attn": 0.9449,
+          "max_token": "#"
+        },
+        "L11H0": {
+          "entropy": 0.7024,
+          "max_attn": 0.7925,
+          "max_token": "#"
+        }
+      }
+    },
+    {
+      "desc": "Earth orbits",
+      "expected": "Sun",
+      "format": "natural",
+      "rank": 613,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.7264,
+          "max_attn": 0.7945,
+          "max_token": "The"
+        },
+        "L10H7": {
+          "entropy": 1.0065,
+          "max_attn": 0.5985,
+          "max_token": "The"
+        },
+        "L10H6": {
+          "entropy": 0.2006,
+          "max_attn": 0.9582,
+          "max_token": "The"
+        },
+        "L11H1": {
+          "entropy": 0.7405,
+          "max_attn": 0.7611,
+          "max_token": "The"
+        },
+        "L10H5": {
+          "entropy": 0.5636,
+          "max_attn": 0.8547,
+          "max_token": "The"
+        },
+        "L11H0": {
+          "entropy": 1.3594,
+          "max_attn": 0.3514,
+          "max_token": "The"
+        }
+      }
+    },
+    {
+      "desc": "gold symbol",
+      "expected": "Au",
+      "format": "comment",
+      "rank": 27717,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.9731,
+          "max_attn": 0.6624,
+          "max_token": "#"
+        },
+        "L10H7": {
+          "entropy": 0.5178,
+          "max_attn": 0.8723,
+          "max_token": "#"
+        },
+        "L10H6": {
+          "entropy": 0.4389,
+          "max_attn": 0.8944,
+          "max_token": "#"
+        },
+        "L11H1": {
+          "entropy": 0.8203,
+          "max_attn": 0.7549,
+          "max_token": "#"
+        },
+        "L10H5": {
+          "entropy": 0.2877,
+          "max_attn": 0.9413,
+          "max_token": "#"
+        },
+        "L11H0": {
+          "entropy": 1.2341,
+          "max_attn": 0.4878,
+          "max_token": "#"
+        }
+      }
+    },
+    {
+      "desc": "gold symbol",
+      "expected": "Au",
+      "format": "natural",
+      "rank": 20613,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.5201,
+          "max_attn": 0.8685,
+          "max_token": "The"
+        },
+        "L10H7": {
+          "entropy": 1.0519,
+          "max_attn": 0.5638,
+          "max_token": "The"
+        },
+        "L10H6": {
+          "entropy": 0.2724,
+          "max_attn": 0.9431,
+          "max_token": "The"
+        },
+        "L11H1": {
+          "entropy": 0.3822,
+          "max_attn": 0.9149,
+          "max_token": "The"
+        },
+        "L10H5": {
+          "entropy": 0.6573,
+          "max_attn": 0.8199,
+          "max_token": "The"
+        },
+        "L11H0": {
+          "entropy": 1.3773,
+          "max_attn": 0.2932,
+          "max_token": "gold"
+        }
+      }
+    },
+    {
+      "desc": "water freezing point",
+      "expected": "0",
+      "format": "comment",
+      "rank": 6,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 1.0125,
+          "max_attn": 0.6799,
+          "max_token": "#"
+        },
+        "L10H7": {
+          "entropy": 0.4966,
+          "max_attn": 0.887,
+          "max_token": "#"
+        },
+        "L10H6": {
+          "entropy": 0.2965,
+          "max_attn": 0.9429,
+          "max_token": "#"
+        },
+        "L11H1": {
+          "entropy": 0.6132,
+          "max_attn": 0.8478,
+          "max_token": "#"
+        },
+        "L10H5": {
+          "entropy": 0.3433,
+          "max_attn": 0.9312,
+          "max_token": "#"
+        },
+        "L11H0": {
+          "entropy": 1.3729,
+          "max_attn": 0.5037,
+          "max_token": "#"
+        }
+      }
+    },
+    {
+      "desc": "water freezing point",
+      "expected": "0",
+      "format": "natural",
+      "rank": 12,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.4702,
+          "max_attn": 0.8855,
+          "max_token": "The"
+        },
+        "L10H7": {
+          "entropy": 0.9559,
+          "max_attn": 0.709,
+          "max_token": "The"
+        },
+        "L10H6": {
+          "entropy": 0.1859,
+          "max_attn": 0.9668,
+          "max_token": "The"
+        },
+        "L11H1": {
+          "entropy": 0.4623,
+          "max_attn": 0.8895,
+          "max_token": "The"
+        },
+        "L10H5": {
+          "entropy": 0.664,
+          "max_attn": 0.8379,
+          "max_token": "The"
+        },
+        "L11H0": {
+          "entropy": 1.5544,
+          "max_attn": 0.2931,
+          "max_token": "is"
+        }
+      }
+    },
+    {
+      "desc": "Einstein theory",
+      "expected": "relativity",
+      "format": "comment",
+      "rank": 26,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.8954,
+          "max_attn": 0.7213,
+          "max_token": "#"
+        },
+        "L10H7": {
+          "entropy": 1.1868,
+          "max_attn": 0.5119,
+          "max_token": "#"
+        },
+        "L10H6": {
+          "entropy": 0.755,
+          "max_attn": 0.7514,
+          "max_token": "#"
+        },
+        "L11H1": {
+          "entropy": 1.0301,
+          "max_attn": 0.6309,
+          "max_token": "#"
+        },
+        "L10H5": {
+          "entropy": 0.4161,
+          "max_attn": 0.9042,
+          "max_token": "#"
+        },
+        "L11H0": {
+          "entropy": 1.3356,
+          "max_attn": 0.3889,
+          "max_token": ":"
+        }
+      }
+    },
+    {
+      "desc": "Einstein theory",
+      "expected": "relativity",
+      "format": "natural",
+      "rank": 6204,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.3713,
+          "max_attn": 0.9171,
+          "max_token": "The"
+        },
+        "L10H7": {
+          "entropy": 0.7478,
+          "max_attn": 0.7802,
+          "max_token": "The"
+        },
+        "L10H6": {
+          "entropy": 0.2879,
+          "max_attn": 0.9389,
+          "max_token": "The"
+        },
+        "L11H1": {
+          "entropy": 0.3812,
+          "max_attn": 0.9154,
+          "max_token": "The"
+        },
+        "L10H5": {
+          "entropy": 0.3281,
+          "max_attn": 0.9299,
+          "max_token": "The"
+        },
+        "L11H0": {
+          "entropy": 1.296,
+          "max_attn": 0.352,
+          "max_token": "The"
+        }
+      }
+    },
+    {
+      "desc": "Shakespeare play",
+      "expected": "Hamlet",
+      "format": "comment",
+      "rank": 20546,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.7208,
+          "max_attn": 0.7919,
+          "max_token": "#"
+        },
+        "L10H7": {
+          "entropy": 1.0918,
+          "max_attn": 0.4998,
+          "max_token": "Shakespeare"
+        },
+        "L10H6": {
+          "entropy": 0.6448,
+          "max_attn": 0.7632,
+          "max_token": "#"
+        },
+        "L11H1": {
+          "entropy": 1.1546,
+          "max_attn": 0.5099,
+          "max_token": "#"
+        },
+        "L10H5": {
+          "entropy": 0.475,
+          "max_attn": 0.8864,
+          "max_token": "#"
+        },
+        "L11H0": {
+          "entropy": 1.0987,
+          "max_attn": 0.5914,
+          "max_token": ":"
+        }
+      }
+    },
+    {
+      "desc": "Shakespeare play",
+      "expected": "Hamlet",
+      "format": "natural",
+      "rank": 7061,
+      "head_metrics": {
+        "L11H7": {
+          "entropy": 0.1897,
+          "max_attn": 0.9634,
+          "max_token": "The"
+        },
+        "L10H7": {
+          "entropy": 0.6652,
+          "max_attn": 0.8214,
+          "max_token": "The"
+        },
+        "L10H6": {
+          "entropy": 0.3027,
+          "max_attn": 0.9319,
+          "max_token": "The"
+        },
+        "L11H1": {
+          "entropy": 0.4634,
+          "max_attn": 0.8858,
+          "max_token": "The"
+        },
+        "L10H5": {
+          "entropy": 0.498,
+          "max_attn": 0.8773,
+          "max_token": "The"
+        },
+        "L11H0": {
+          "entropy": 1.3412,
+          "max_attn": 0.3074,
+          "max_token": "is"
+        }
+      }
+    }
+  ]
+}

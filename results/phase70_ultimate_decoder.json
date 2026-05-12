@@ -1,0 +1,30 @@
+{
+  "phase": 70,
+  "name": "Ultimate Aletheia Decoder",
+  "methods": {
+    "L12_baseline": {
+      "acc": 0.08333333333333333,
+      "med_rank": 14.0
+    },
+    "L10_only": {
+      "acc": 0.3333333333333333,
+      "med_rank": 14.5
+    },
+    "Surgery_L11H7": {
+      "acc": 0.08333333333333333,
+      "med_rank": 14.0
+    },
+    "Residual_0.9": {
+      "acc": 0.3333333333333333,
+      "med_rank": 13.5
+    },
+    "Surgery+Residual": {
+      "acc": 0.3333333333333333,
+      "med_rank": 13.5
+    },
+    "ULTIMATE": {
+      "acc": 0.3333333333333333,
+      "med_rank": 15.0
+    }
+  }
+}

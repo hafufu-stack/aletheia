@@ -1,0 +1,446 @@
+{
+  "phase": 69,
+  "name": "Prompt Structure Effect on GSF",
+  "style_stats": {
+    "declarative": {
+      "mean_suppression": 2.25,
+      "mean_final_rank": 3.5
+    },
+    "possessive": {
+      "mean_suppression": 1.5,
+      "mean_final_rank": 4.0
+    },
+    "QA": {
+      "mean_suppression": 1014.5,
+      "mean_final_rank": 1313.75
+    },
+    "equation": {
+      "mean_suppression": 18.666666666666668,
+      "mean_final_rank": 30.666666666666668
+    },
+    "arrow": {
+      "mean_suppression": 29.666666666666668,
+      "mean_final_rank": 174.33333333333334
+    },
+    "direct": {
+      "mean_suppression": 256.0,
+      "mean_final_rank": 294.5
+    }
+  },
+  "results": [
+    {
+      "fact": "Tokyo",
+      "prompt": "The capital of Japan is",
+      "style": "declarative",
+      "best_layer": 10,
+      "best_rank": 1,
+      "final_rank": 2,
+      "suppression": 1,
+      "layer_ranks": {
+        "0": 16141,
+        "1": 14944,
+        "2": 7526,
+        "3": 4937,
+        "4": 1688,
+        "5": 1199,
+        "6": 103,
+        "7": 307,
+        "8": 114,
+        "9": 2,
+        "10": 1,
+        "11": 2
+      }
+    },
+    {
+      "fact": "Tokyo",
+      "prompt": "Japan's capital:",
+      "style": "possessive",
+      "best_layer": 9,
+      "best_rank": 1,
+      "final_rank": 1,
+      "suppression": 0,
+      "layer_ranks": {
+        "0": 6460,
+        "1": 2709,
+        "2": 2282,
+        "3": 1192,
+        "4": 557,
+        "5": 249,
+        "6": 11,
+        "7": 10,
+        "8": 2,
+        "9": 1,
+        "10": 1,
+        "11": 1
+      }
+    },
+    {
+      "fact": "Tokyo",
+      "prompt": "Q: What is the capital of Japan? A:",
+      "style": "QA",
+      "best_layer": 10,
+      "best_rank": 4,
+      "final_rank": 12,
+      "suppression": 8,
+      "layer_ranks": {
+        "0": 9483,
+        "1": 8092,
+        "2": 9136,
+        "3": 10909,
+        "4": 14297,
+        "5": 14824,
+        "6": 19439,
+        "7": 8423,
+        "8": 492,
+        "9": 23,
+        "10": 4,
+        "11": 12
+      }
+    },
+    {
+      "fact": "Tokyo",
+      "prompt": "Capital of Japan =",
+      "style": "equation",
+      "best_layer": 10,
+      "best_rank": 8,
+      "final_rank": 30,
+      "suppression": 22,
+      "layer_ranks": {
+        "0": 3116,
+        "1": 2084,
+        "2": 1802,
+        "3": 1297,
+        "4": 695,
+        "5": 741,
+        "6": 346,
+        "7": 446,
+        "8": 362,
+        "9": 33,
+        "10": 8,
+        "11": 30
+      }
+    },
+    {
+      "fact": "Tokyo",
+      "prompt": "Japan -> capital ->",
+      "style": "arrow",
+      "best_layer": 10,
+      "best_rank": 268,
+      "final_rank": 293,
+      "suppression": 25,
+      "layer_ranks": {
+        "0": 4689,
+        "1": 3359,
+        "2": 2952,
+        "3": 2992,
+        "4": 2237,
+        "5": 3589,
+        "6": 1378,
+        "7": 986,
+        "8": 705,
+        "9": 380,
+        "10": 268,
+        "11": 293
+      }
+    },
+    {
+      "fact": "Paris",
+      "prompt": "The capital of France is",
+      "style": "declarative",
+      "best_layer": 9,
+      "best_rank": 2,
+      "final_rank": 5,
+      "suppression": 3,
+      "layer_ranks": {
+        "0": 16524,
+        "1": 18483,
+        "2": 13624,
+        "3": 8649,
+        "4": 3106,
+        "5": 3040,
+        "6": 200,
+        "7": 275,
+        "8": 52,
+        "9": 2,
+        "10": 2,
+        "11": 5
+      }
+    },
+    {
+      "fact": "Paris",
+      "prompt": "France's capital:",
+      "style": "possessive",
+      "best_layer": 10,
+      "best_rank": 4,
+      "final_rank": 7,
+      "suppression": 3,
+      "layer_ranks": {
+        "0": 10029,
+        "1": 9221,
+        "2": 15048,
+        "3": 15484,
+        "4": 9510,
+        "5": 6959,
+        "6": 1369,
+        "7": 234,
+        "8": 36,
+        "9": 6,
+        "10": 4,
+        "11": 7
+      }
+    },
+    {
+      "fact": "Paris",
+      "prompt": "Q: What is the capital of France? A:",
+      "style": "QA",
+      "best_layer": 10,
+      "best_rank": 5,
+      "final_rank": 6,
+      "suppression": 1,
+      "layer_ranks": {
+        "0": 12796,
+        "1": 15873,
+        "2": 10155,
+        "3": 9685,
+        "4": 12855,
+        "5": 15070,
+        "6": 11362,
+        "7": 5871,
+        "8": 1006,
+        "9": 8,
+        "10": 5,
+        "11": 6
+      }
+    },
+    {
+      "fact": "Paris",
+      "prompt": "Capital of France =",
+      "style": "equation",
+      "best_layer": 10,
+      "best_rank": 17,
+      "final_rank": 30,
+      "suppression": 13,
+      "layer_ranks": {
+        "0": 2313,
+        "1": 1267,
+        "2": 1715,
+        "3": 2041,
+        "4": 3664,
+        "5": 5488,
+        "6": 2709,
+        "7": 2281,
+        "8": 959,
+        "9": 44,
+        "10": 17,
+        "11": 30
+      }
+    },
+    {
+      "fact": "Paris",
+      "prompt": "France -> capital ->",
+      "style": "arrow",
+      "best_layer": 9,
+      "best_rank": 149,
+      "final_rank": 212,
+      "suppression": 63,
+      "layer_ranks": {
+        "0": 8627,
+        "1": 7704,
+        "2": 4053,
+        "3": 3193,
+        "4": 3911,
+        "5": 1960,
+        "6": 596,
+        "7": 562,
+        "8": 372,
+        "9": 149,
+        "10": 178,
+        "11": 212
+      }
+    },
+    {
+      "fact": "Jupiter",
+      "prompt": "The largest planet is",
+      "style": "declarative",
+      "best_layer": 10,
+      "best_rank": 1,
+      "final_rank": 5,
+      "suppression": 4,
+      "layer_ranks": {
+        "0": 25906,
+        "1": 26801,
+        "2": 18500,
+        "3": 12830,
+        "4": 8461,
+        "5": 2744,
+        "6": 502,
+        "7": 116,
+        "8": 9,
+        "9": 2,
+        "10": 1,
+        "11": 5
+      }
+    },
+    {
+      "fact": "Jupiter",
+      "prompt": "Largest planet:",
+      "style": "direct",
+      "best_layer": 9,
+      "best_rank": 3,
+      "final_rank": 3,
+      "suppression": 0,
+      "layer_ranks": {
+        "0": 4993,
+        "1": 3302,
+        "2": 1652,
+        "3": 3389,
+        "4": 1092,
+        "5": 770,
+        "6": 105,
+        "7": 12,
+        "8": 4,
+        "9": 3,
+        "10": 3,
+        "11": 3
+      }
+    },
+    {
+      "fact": "Jupiter",
+      "prompt": "Q: What is the largest planet? A:",
+      "style": "QA",
+      "best_layer": 10,
+      "best_rank": 3,
+      "final_rank": 6,
+      "suppression": 3,
+      "layer_ranks": {
+        "0": 9605,
+        "1": 7705,
+        "2": 6911,
+        "3": 3975,
+        "4": 3186,
+        "5": 4596,
+        "6": 1673,
+        "7": 492,
+        "8": 145,
+        "9": 5,
+        "10": 3,
+        "11": 6
+      }
+    },
+    {
+      "fact": "Jupiter",
+      "prompt": "Largest planet in solar system =",
+      "style": "equation",
+      "best_layer": 10,
+      "best_rank": 11,
+      "final_rank": 32,
+      "suppression": 21,
+      "layer_ranks": {
+        "0": 1092,
+        "1": 475,
+        "2": 121,
+        "3": 259,
+        "4": 347,
+        "5": 553,
+        "6": 788,
+        "7": 986,
+        "8": 251,
+        "9": 53,
+        "10": 11,
+        "11": 32
+      }
+    },
+    {
+      "fact": "Sun",
+      "prompt": "The Earth orbits the",
+      "style": "declarative",
+      "best_layer": 10,
+      "best_rank": 1,
+      "final_rank": 2,
+      "suppression": 1,
+      "layer_ranks": {
+        "0": 46,
+        "1": 43,
+        "2": 55,
+        "3": 51,
+        "4": 48,
+        "5": 36,
+        "6": 20,
+        "7": 3,
+        "8": 7,
+        "9": 3,
+        "10": 1,
+        "11": 2
+      }
+    },
+    {
+      "fact": "Sun",
+      "prompt": "Earth orbits:",
+      "style": "direct",
+      "best_layer": 10,
+      "best_rank": 74,
+      "final_rank": 586,
+      "suppression": 512,
+      "layer_ranks": {
+        "0": 736,
+        "1": 439,
+        "2": 644,
+        "3": 728,
+        "4": 517,
+        "5": 389,
+        "6": 367,
+        "7": 311,
+        "8": 81,
+        "9": 84,
+        "10": 74,
+        "11": 586
+      }
+    },
+    {
+      "fact": "Sun",
+      "prompt": "Q: What does Earth orbit? A:",
+      "style": "QA",
+      "best_layer": 10,
+      "best_rank": 1185,
+      "final_rank": 5231,
+      "suppression": 4046,
+      "layer_ranks": {
+        "0": 2647,
+        "1": 2471,
+        "2": 2911,
+        "3": 5371,
+        "4": 8440,
+        "5": 11143,
+        "6": 12446,
+        "7": 5598,
+        "8": 2412,
+        "9": 1318,
+        "10": 1185,
+        "11": 5231
+      }
+    },
+    {
+      "fact": "Sun",
+      "prompt": "Earth -> orbits ->",
+      "style": "arrow",
+      "best_layer": 10,
+      "best_rank": 17,
+      "final_rank": 18,
+      "suppression": 1,
+      "layer_ranks": {
+        "0": 1013,
+        "1": 314,
+        "2": 884,
+        "3": 1248,
+        "4": 2968,
+        "5": 2268,
+        "6": 1719,
+        "7": 1155,
+        "8": 413,
+        "9": 93,
+        "10": 17,
+        "11": 18
+      }
+    }
+  ]
+}

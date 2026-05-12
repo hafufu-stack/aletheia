@@ -1,0 +1,354 @@
+{
+  "phase": 59,
+  "name": "Multi-Token Fact Surfing",
+  "results": [
+    {
+      "layer": 6,
+      "fact_rate": 0.0,
+      "base_fact_rate": 0.2,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "layer_text": " now officially recognized by the United States Embassy Emba",
+          "base_text": " the capital of the United States, and the United States is ",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "layer_text": " now officially recognised by the United States Embassy Emba",
+          "base_text": " the capital of the French Republic, and the capital of the ",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The largest planet is",
+          "expected": "Jupiter",
+          "layer_text": " probably not yet yet yet yet yet. It certainly won't necess",
+          "base_text": " the largest planet in the solar system, and the largest pla",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "Albert Einstein developed the theory of",
+          "expected": "relativity",
+          "layer_text": " the latter part of the century, although it still technical",
+          "base_text": " relativity, which is the theory of relativity that describe",
+          "fact_in_layer": false,
+          "fact_in_base": true
+        },
+        {
+          "prompt": "The Earth orbits the",
+          "expected": "Sun",
+          "layer_text": " planet Venus Venus Venus Venus Venus Mars Mars Mars Mars Ma",
+          "base_text": " Sun, and the Sun's orbit is elliptical. The Earth's orbit",
+          "fact_in_layer": false,
+          "fact_in_base": true
+        },
+        {
+          "prompt": "Shakespeare wrote",
+          "expected": "Hamlet",
+          "layer_text": " about how he'd been able'ticably enough to get ridged by vi",
+          "base_text": ":\n\n\"The most important thing is that we have a good idea",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0 degrees",
+          "layer_text": " least partially cloudy weather conditions caused by the sam",
+          "base_text": " the end of the day.\n\nThe ice is so thick that it",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "DNA stands for",
+          "expected": "deoxyribonucleic acid",
+          "layer_text": " \"no matter whatsoever whatsoever whatsoever whatsoever what",
+          "base_text": " \"small molecule\" and is a member of the family of small mol",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "layer_text": " now known by virtue virtue of the latter part of the same k",
+          "base_text": " the \"G\" in the middle of the word.\n\nThe word",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100 degrees",
+          "layer_text": " usually consideredphasized by the following: namely, the fi",
+          "base_text": " about 1.5 degrees Celsius (3.5 degrees Fahrenheit). The boi",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        }
+      ]
+    },
+    {
+      "layer": 8,
+      "fact_rate": 0.1,
+      "base_fact_rate": 0.2,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "layer_text": " now officially recognized by UNESCO's International Coopera",
+          "base_text": " the capital of the United States, and the United States is ",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "layer_text": " now officially recognised internationally internationally a",
+          "base_text": " the capital of the French Republic, and the capital of the ",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The largest planet is",
+          "expected": "Jupiter",
+          "layer_text": " located near Antarctica, where it is known as \"the birthpla",
+          "base_text": " the largest planet in the solar system, and the largest pla",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "Albert Einstein developed the theory of",
+          "expected": "relativity",
+          "layer_text": " relativity, which describes how humans evolved into modern ",
+          "base_text": " relativity, which is the theory of relativity that describe",
+          "fact_in_layer": true,
+          "fact_in_base": true
+        },
+        {
+          "prompt": "The Earth orbits the",
+          "expected": "Sun",
+          "layer_text": " planet Venus orbitally orbiting orbiting orbiting orbiting ",
+          "base_text": " Sun, and the Sun's orbit is elliptical. The Earth's orbit",
+          "fact_in_layer": false,
+          "fact_in_base": true
+        },
+        {
+          "prompt": "Shakespeare wrote",
+          "expected": "Hamlet",
+          "layer_text": " about this phenomenon in his book The Great Debate: How Muc",
+          "base_text": ":\n\n\"The most important thing is that we have a good idea",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0 degrees",
+          "layer_text": " least twice during periods of drought, according to the Nat",
+          "base_text": " the end of the day.\n\nThe ice is so thick that it",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "DNA stands for",
+          "expected": "deoxyribonucleic acid",
+          "layer_text": " \"female genital sex,\" meaning it can't possibly be mistaken",
+          "base_text": " \"small molecule\" and is a member of the family of small mol",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "layer_text": " symbolically symbolically symbolically symbolically symboli",
+          "base_text": " the \"G\" in the middle of the word.\n\nThe word",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100 degrees",
+          "layer_text": " usually measured by degrees Celsius Celsius (approximately ",
+          "base_text": " about 1.5 degrees Celsius (3.5 degrees Fahrenheit). The boi",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        }
+      ]
+    },
+    {
+      "layer": 10,
+      "fact_rate": 0.4,
+      "base_fact_rate": 0.2,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "layer_text": " Tokyo, which is located near Tokyo's Tokyo Station. It is a",
+          "base_text": " the capital of the United States, and the United States is ",
+          "fact_in_layer": true,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "layer_text": " France, which has been invaded by the Germans since 1945. T",
+          "base_text": " the capital of the French Republic, and the capital of the ",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The largest planet is",
+          "expected": "Jupiter",
+          "layer_text": " Jupiter, which orbits Saturn and orbits Jupiter twice every",
+          "base_text": " the largest planet in the solar system, and the largest pla",
+          "fact_in_layer": true,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "Albert Einstein developed the theory of",
+          "expected": "relativity",
+          "layer_text": " relativity, which explains how objects move through space a",
+          "base_text": " relativity, which is the theory of relativity that describe",
+          "fact_in_layer": true,
+          "fact_in_base": true
+        },
+        {
+          "prompt": "The Earth orbits the",
+          "expected": "Sun",
+          "layer_text": " sun twice every year. The sun orbits Earth twice every year",
+          "base_text": " Sun, and the Sun's orbit is elliptical. The Earth's orbit",
+          "fact_in_layer": true,
+          "fact_in_base": true
+        },
+        {
+          "prompt": "Shakespeare wrote",
+          "expected": "Hamlet",
+          "layer_text": " about this in his book The Great Debate:\n\n\"The greatest deb",
+          "base_text": ":\n\n\"The most important thing is that we have a good idea",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0 degrees",
+          "layer_text": " temperatures below freezing.\n\nThe temperature difference be",
+          "base_text": " the end of the day.\n\nThe ice is so thick that it",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "DNA stands for",
+          "expected": "deoxyribonucleic acid",
+          "layer_text": " \"silicon\" or \"silicon-based\" technology. It is",
+          "base_text": " \"small molecule\" and is a member of the family of small mol",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "layer_text": " the symbol of gold. It is also used in many other languages",
+          "base_text": " the \"G\" in the middle of the word.\n\nThe word",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100 degrees",
+          "layer_text": " approximately 1? inches (2 centimeters) above the surface o",
+          "base_text": " about 1.5 degrees Celsius (3.5 degrees Fahrenheit). The boi",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        }
+      ]
+    },
+    {
+      "layer": 11,
+      "fact_rate": 0.2,
+      "base_fact_rate": 0.2,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "layer_text": " the capital of the United States, and the United States is ",
+          "base_text": " the capital of the United States, and the United States is ",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "layer_text": " the capital of the French Republic, and the capital of the ",
+          "base_text": " the capital of the French Republic, and the capital of the ",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The largest planet is",
+          "expected": "Jupiter",
+          "layer_text": " the largest planet in the solar system, and the largest pla",
+          "base_text": " the largest planet in the solar system, and the largest pla",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "Albert Einstein developed the theory of",
+          "expected": "relativity",
+          "layer_text": " relativity, which is the theory of relativity that describe",
+          "base_text": " relativity, which is the theory of relativity that describe",
+          "fact_in_layer": true,
+          "fact_in_base": true
+        },
+        {
+          "prompt": "The Earth orbits the",
+          "expected": "Sun",
+          "layer_text": " Sun, and the Sun's orbit is elliptical. The Earth's orbit",
+          "base_text": " Sun, and the Sun's orbit is elliptical. The Earth's orbit",
+          "fact_in_layer": true,
+          "fact_in_base": true
+        },
+        {
+          "prompt": "Shakespeare wrote",
+          "expected": "Hamlet",
+          "layer_text": ":\n\n\"The most important thing is that we have a good idea",
+          "base_text": ":\n\n\"The most important thing is that we have a good idea",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0 degrees",
+          "layer_text": " the end of the day.\n\nThe ice is so thick that it",
+          "base_text": " the end of the day.\n\nThe ice is so thick that it",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "DNA stands for",
+          "expected": "deoxyribonucleic acid",
+          "layer_text": " \"small molecule\" and is a member of the family of small mol",
+          "base_text": " \"small molecule\" and is a member of the family of small mol",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "layer_text": " the \"G\" in the middle of the word.\n\nThe word",
+          "base_text": " the \"G\" in the middle of the word.\n\nThe word",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100 degrees",
+          "layer_text": " about 1.5 degrees Celsius (3.5 degrees Fahrenheit). The boi",
+          "base_text": " about 1.5 degrees Celsius (3.5 degrees Fahrenheit). The boi",
+          "fact_in_layer": false,
+          "fact_in_base": false
+        }
+      ]
+    }
+  ]
+}

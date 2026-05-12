@@ -1,0 +1,398 @@
+{
+  "phase": 64,
+  "name": "Targeted Suppressor Head Surgery",
+  "ablation_results": [
+    {
+      "config": "none",
+      "accuracy": 0.1,
+      "median_rank": 9.0,
+      "mean_rank": 2832.1,
+      "details": [
+        {
+          "expected": "Tokyo",
+          "rank": 2,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Paris",
+          "rank": 5,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "0",
+          "rank": 13,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Jupiter",
+          "rank": 5,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Au",
+          "rank": 16735,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Hamlet",
+          "rank": 11514,
+          "correct": false,
+          "top1": ":"
+        },
+        {
+          "expected": "Sun",
+          "rank": 2,
+          "correct": false,
+          "top1": "Sun"
+        },
+        {
+          "expected": "100",
+          "rank": 29,
+          "correct": false,
+          "top1": "about"
+        },
+        {
+          "expected": "relativity",
+          "rank": 1,
+          "correct": true,
+          "top1": "relativity"
+        },
+        {
+          "expected": "8",
+          "rank": 15,
+          "correct": false,
+          "top1": "of"
+        }
+      ]
+    },
+    {
+      "config": "L11H7",
+      "accuracy": 0.1,
+      "median_rank": 6.5,
+      "mean_rank": 2002.9,
+      "details": [
+        {
+          "expected": "Tokyo",
+          "rank": 2,
+          "correct": false,
+          "top1": "home"
+        },
+        {
+          "expected": "Paris",
+          "rank": 4,
+          "correct": false,
+          "top1": "now"
+        },
+        {
+          "expected": "0",
+          "rank": 9,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Jupiter",
+          "rank": 2,
+          "correct": false,
+          "top1": "Mars"
+        },
+        {
+          "expected": "Au",
+          "rank": 13323,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Hamlet",
+          "rank": 6624,
+          "correct": false,
+          "top1": "that"
+        },
+        {
+          "expected": "Sun",
+          "rank": 2,
+          "correct": false,
+          "top1": "Sun"
+        },
+        {
+          "expected": "100",
+          "rank": 43,
+          "correct": false,
+          "top1": "about"
+        },
+        {
+          "expected": "relativity",
+          "rank": 1,
+          "correct": true,
+          "top1": "relativity"
+        },
+        {
+          "expected": "8",
+          "rank": 19,
+          "correct": false,
+          "top1": "0"
+        }
+      ]
+    },
+    {
+      "config": "L11H7+L10H7",
+      "accuracy": 0.1,
+      "median_rank": 9.0,
+      "mean_rank": 2041.5,
+      "details": [
+        {
+          "expected": "Tokyo",
+          "rank": 4,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Paris",
+          "rank": 5,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "0",
+          "rank": 13,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Jupiter",
+          "rank": 5,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Au",
+          "rank": 14814,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Hamlet",
+          "rank": 5510,
+          "correct": false,
+          "top1": "that"
+        },
+        {
+          "expected": "Sun",
+          "rank": 2,
+          "correct": false,
+          "top1": "Sun"
+        },
+        {
+          "expected": "100",
+          "rank": 44,
+          "correct": false,
+          "top1": "about"
+        },
+        {
+          "expected": "relativity",
+          "rank": 1,
+          "correct": true,
+          "top1": "relativity"
+        },
+        {
+          "expected": "8",
+          "rank": 17,
+          "correct": false,
+          "top1": "of"
+        }
+      ]
+    },
+    {
+      "config": "L11H7+H1+H4",
+      "accuracy": 0.2,
+      "median_rank": 4.5,
+      "mean_rank": 1335.6,
+      "details": [
+        {
+          "expected": "Tokyo",
+          "rank": 2,
+          "correct": false,
+          "top1": "home"
+        },
+        {
+          "expected": "Paris",
+          "rank": 1,
+          "correct": true,
+          "top1": "Paris"
+        },
+        {
+          "expected": "0",
+          "rank": 5,
+          "correct": false,
+          "top1": "1"
+        },
+        {
+          "expected": "Jupiter",
+          "rank": 4,
+          "correct": false,
+          "top1": "Mars"
+        },
+        {
+          "expected": "Au",
+          "rank": 7738,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Hamlet",
+          "rank": 5554,
+          "correct": false,
+          "top1": ","
+        },
+        {
+          "expected": "Sun",
+          "rank": 2,
+          "correct": false,
+          "top1": "Sun"
+        },
+        {
+          "expected": "100",
+          "rank": 32,
+          "correct": false,
+          "top1": "about"
+        },
+        {
+          "expected": "relativity",
+          "rank": 1,
+          "correct": true,
+          "top1": "relativity"
+        },
+        {
+          "expected": "8",
+          "rank": 17,
+          "correct": false,
+          "top1": "0"
+        }
+      ]
+    },
+    {
+      "config": "top3_both",
+      "accuracy": 0.1,
+      "median_rank": 16.0,
+      "mean_rank": 1137.6,
+      "details": [
+        {
+          "expected": "Tokyo",
+          "rank": 30,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Paris",
+          "rank": 12,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "0",
+          "rank": 5,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Jupiter",
+          "rank": 12,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Au",
+          "rank": 8380,
+          "correct": false,
+          "top1": "the"
+        },
+        {
+          "expected": "Hamlet",
+          "rank": 2875,
+          "correct": false,
+          "top1": ","
+        },
+        {
+          "expected": "Sun",
+          "rank": 2,
+          "correct": false,
+          "top1": "Sun"
+        },
+        {
+          "expected": "100",
+          "rank": 39,
+          "correct": false,
+          "top1": "about"
+        },
+        {
+          "expected": "relativity",
+          "rank": 1,
+          "correct": true,
+          "top1": "relativity"
+        },
+        {
+          "expected": "8",
+          "rank": 20,
+          "correct": false,
+          "top1": "of"
+        }
+      ]
+    }
+  ],
+  "generation_results": [
+    {
+      "expected": "Tokyo",
+      "base": " the capital of the United States, and the United ",
+      "surgery": " home to a large number of Japanese companies, inc"
+    },
+    {
+      "expected": "Paris",
+      "base": " the capital of the French Republic, and the capit",
+      "surgery": " now home to the largest Muslim population in Euro"
+    },
+    {
+      "expected": "0",
+      "base": " the end of the day.\n\nThe ice is so thick that it",
+      "surgery": " the bottom of the lake.\n\nThe lake is located abou"
+    },
+    {
+      "expected": "Jupiter",
+      "base": " the largest planet in the solar system, and the l",
+      "surgery": " Mars, which orbits the Sun about twice a year. Ma"
+    },
+    {
+      "expected": "Au",
+      "base": " the \"G\" in the middle of the word.\n\nThe word",
+      "surgery": " the \"golden circle\" (the symbol for gold is the \""
+    },
+    {
+      "expected": "Hamlet",
+      "base": ":\n\n\"The most important thing is that we have a goo",
+      "surgery": " that \"the greatest thing that can happen to manki"
+    },
+    {
+      "expected": "Sun",
+      "base": " Sun, and the Sun's orbit is elliptical. The Earth",
+      "surgery": " Sun at a distance of about 1,000 miles (2,000 kil"
+    },
+    {
+      "expected": "100",
+      "base": " about 1.5 degrees Celsius (3.5 degrees Fahrenheit",
+      "surgery": " about 1/2 inch thick.\n\nThe boiling point of water"
+    },
+    {
+      "expected": "relativity",
+      "base": " relativity, which is the theory of relativity tha",
+      "surgery": " relativity, which states that the speed of light "
+    },
+    {
+      "expected": "8",
+      "base": " of hydrogen, and the atomic number of oxygen.\n\nTh",
+      "surgery": " 0.5.\n\nThe atomic number is the number of atoms in"
+    }
+  ]
+}

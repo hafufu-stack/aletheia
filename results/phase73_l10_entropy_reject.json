@@ -1,0 +1,849 @@
+{
+  "phase": 73,
+  "name": "L10-Proposal Entropy Rejection",
+  "l10_accuracy": 0.1,
+  "l12_accuracy": 0.0,
+  "l12_greedy_accuracy": 0.1,
+  "results": [
+    {
+      "expected": "Tokyo",
+      "base_entropy": 0.8398,
+      "l10_winner": "home",
+      "l10_winner_correct": false,
+      "l10_fact_cooling_rank": 3,
+      "l12_winner": "home",
+      "l12_winner_correct": false,
+      "l12_fact_cooling_rank": 3,
+      "l10_candidates": [
+        {
+          "token_id": 11790,
+          "token": "Tokyo",
+          "entropy": 0.8571739830214129,
+          "is_fact": true,
+          "cooling": -0.017381835284140834
+        },
+        {
+          "token_id": 2869,
+          "token": "Japan",
+          "entropy": 0.8817892146568435,
+          "is_fact": false,
+          "cooling": -0.04199706691957139
+        },
+        {
+          "token_id": 42429,
+          "token": "Osaka",
+          "entropy": 0.8702116357053455,
+          "is_fact": false,
+          "cooling": -0.030419487968073478
+        },
+        {
+          "token_id": 5140,
+          "token": "located",
+          "entropy": 0.8833468704251572,
+          "is_fact": false,
+          "cooling": -0.04355472268788518
+        },
+        {
+          "token_id": 783,
+          "token": "now",
+          "entropy": 0.9393702768720686,
+          "is_fact": false,
+          "cooling": -0.09957812913479658
+        }
+      ],
+      "l12_candidates": [
+        {
+          "token_id": 262,
+          "token": "the",
+          "entropy": 0.9748084629253653,
+          "is_fact": false,
+          "cooling": -0.1350163151880932
+        },
+        {
+          "token_id": 11790,
+          "token": "Tokyo",
+          "entropy": 0.8571739830214129,
+          "is_fact": true,
+          "cooling": -0.017381835284140834
+        },
+        {
+          "token_id": 1363,
+          "token": "home",
+          "entropy": 0.7599367865340254,
+          "is_fact": false,
+          "cooling": 0.07985536120324666
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "entropy": 0.9351088998034053,
+          "is_fact": false,
+          "cooling": -0.09531675206613321
+        },
+        {
+          "token_id": 783,
+          "token": "now",
+          "entropy": 0.9393702768720686,
+          "is_fact": false,
+          "cooling": -0.09957812913479658
+        }
+      ]
+    },
+    {
+      "expected": "Paris",
+      "base_entropy": 0.8232,
+      "l10_winner": "Paris",
+      "l10_winner_correct": true,
+      "l10_fact_cooling_rank": 1,
+      "l12_winner": "home",
+      "l12_winner_correct": false,
+      "l12_fact_cooling_rank": 2,
+      "l10_candidates": [
+        {
+          "token_id": 4881,
+          "token": "France",
+          "entropy": 0.8726687269647502,
+          "is_fact": false,
+          "cooling": -0.049477611391719356
+        },
+        {
+          "token_id": 6342,
+          "token": "Paris",
+          "entropy": 0.8534688915759843,
+          "is_fact": true,
+          "cooling": -0.03027777600295345
+        },
+        {
+          "token_id": 783,
+          "token": "now",
+          "entropy": 0.9295688475119985,
+          "is_fact": false,
+          "cooling": -0.10637773193896771
+        },
+        {
+          "token_id": 262,
+          "token": "the",
+          "entropy": 0.9710262551998312,
+          "is_fact": false,
+          "cooling": -0.1478351396268004
+        },
+        {
+          "token_id": 5140,
+          "token": "located",
+          "entropy": 0.8729446576229142,
+          "is_fact": false,
+          "cooling": -0.04975354204988336
+        }
+      ],
+      "l12_candidates": [
+        {
+          "token_id": 262,
+          "token": "the",
+          "entropy": 0.9710262551998312,
+          "is_fact": false,
+          "cooling": -0.1478351396268004
+        },
+        {
+          "token_id": 783,
+          "token": "now",
+          "entropy": 0.9295688475119985,
+          "is_fact": false,
+          "cooling": -0.10637773193896771
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "entropy": 0.9240789370329973,
+          "is_fact": false,
+          "cooling": -0.10088782145996644
+        },
+        {
+          "token_id": 4881,
+          "token": "France",
+          "entropy": 0.8726687269647502,
+          "is_fact": false,
+          "cooling": -0.049477611391719356
+        },
+        {
+          "token_id": 6342,
+          "token": "Paris",
+          "entropy": 0.8534688915759843,
+          "is_fact": true,
+          "cooling": -0.03027777600295345
+        }
+      ]
+    },
+    {
+      "expected": "0",
+      "base_entropy": 0.5312,
+      "l10_winner": "least",
+      "l10_winner_correct": false,
+      "l10_fact_cooling_rank": 3,
+      "l12_winner": "least",
+      "l12_winner_correct": false,
+      "l12_fact_cooling_rank": -1,
+      "l10_candidates": [
+        {
+          "token_id": 10101,
+          "token": "temperatures",
+          "entropy": 0.6894905803346774,
+          "is_fact": false,
+          "cooling": -0.15832572130238987
+        },
+        {
+          "token_id": 1551,
+          "token": "least",
+          "entropy": 0.6586702052799309,
+          "is_fact": false,
+          "cooling": -0.12750534624764343
+        },
+        {
+          "token_id": 352,
+          "token": "1",
+          "entropy": 0.6949787159322164,
+          "is_fact": false,
+          "cooling": -0.1638138568999289
+        },
+        {
+          "token_id": 657,
+          "token": "0",
+          "entropy": 0.68212226595137,
+          "is_fact": true,
+          "cooling": -0.15095740691908255
+        },
+        {
+          "token_id": 546,
+          "token": "about",
+          "entropy": 0.7065470593418771,
+          "is_fact": false,
+          "cooling": -0.17538220030958962
+        }
+      ],
+      "l12_candidates": [
+        {
+          "token_id": 262,
+          "token": "the",
+          "entropy": 0.6902975331177004,
+          "is_fact": false,
+          "cooling": -0.15913267408541287
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "entropy": 0.7049619327428647,
+          "is_fact": false,
+          "cooling": -0.17379707371057718
+        },
+        {
+          "token_id": 546,
+          "token": "about",
+          "entropy": 0.7065470593418771,
+          "is_fact": false,
+          "cooling": -0.17538220030958962
+        },
+        {
+          "token_id": 1551,
+          "token": "least",
+          "entropy": 0.6586702052799309,
+          "is_fact": false,
+          "cooling": -0.12750534624764343
+        },
+        {
+          "token_id": 352,
+          "token": "1",
+          "entropy": 0.6949787159322164,
+          "is_fact": false,
+          "cooling": -0.1638138568999289
+        }
+      ]
+    },
+    {
+      "expected": "Jupiter",
+      "base_entropy": 0.7088,
+      "l10_winner": "Ceres",
+      "l10_winner_correct": false,
+      "l10_fact_cooling_rank": 4,
+      "l12_winner": "Saturn",
+      "l12_winner_correct": false,
+      "l12_fact_cooling_rank": 2,
+      "l10_candidates": [
+        {
+          "token_id": 22721,
+          "token": "Jupiter",
+          "entropy": 0.7494208451813998,
+          "is_fact": true,
+          "cooling": -0.040603533014089144
+        },
+        {
+          "token_id": 3668,
+          "token": "Earth",
+          "entropy": 0.7894675992105881,
+          "is_fact": false,
+          "cooling": -0.08065028704327737
+        },
+        {
+          "token_id": 23135,
+          "token": "Saturn",
+          "entropy": 0.7391264023414502,
+          "is_fact": false,
+          "cooling": -0.03030909017413952
+        },
+        {
+          "token_id": 8706,
+          "token": "Mars",
+          "entropy": 0.7643023222941944,
+          "is_fact": false,
+          "cooling": -0.05548501012688367
+        },
+        {
+          "token_id": 32217,
+          "token": "Pluto",
+          "entropy": 0.7372034080342726,
+          "is_fact": false,
+          "cooling": -0.028386095866961947
+        }
+      ],
+      "l12_candidates": [
+        {
+          "token_id": 262,
+          "token": "the",
+          "entropy": 0.8775602944169805,
+          "is_fact": false,
+          "cooling": -0.16874298224966977
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "entropy": 0.8678950986965598,
+          "is_fact": false,
+          "cooling": -0.1590777865292491
+        },
+        {
+          "token_id": 546,
+          "token": "about",
+          "entropy": 0.7725638568412655,
+          "is_fact": false,
+          "cooling": -0.0637465446739548
+        },
+        {
+          "token_id": 3668,
+          "token": "Earth",
+          "entropy": 0.7894675992105881,
+          "is_fact": false,
+          "cooling": -0.08065028704327737
+        },
+        {
+          "token_id": 22721,
+          "token": "Jupiter",
+          "entropy": 0.7494208451813998,
+          "is_fact": true,
+          "cooling": -0.040603533014089144
+        }
+      ]
+    },
+    {
+      "expected": "Au",
+      "base_entropy": 0.9714,
+      "l10_winner": "Z",
+      "l10_winner_correct": false,
+      "l10_fact_cooling_rank": -1,
+      "l12_winner": "S",
+      "l12_winner_correct": false,
+      "l12_fact_cooling_rank": -1,
+      "l10_candidates": [
+        {
+          "token_id": 262,
+          "token": "the",
+          "entropy": 1.0902175264216365,
+          "is_fact": false,
+          "cooling": -0.11877274759762857
+        },
+        {
+          "token_id": 3869,
+          "token": "gold",
+          "entropy": 0.9840091052784474,
+          "is_fact": false,
+          "cooling": -0.0125643264544395
+        },
+        {
+          "token_id": 6194,
+          "token": "symbol",
+          "entropy": 0.941104443354157,
+          "is_fact": false,
+          "cooling": 0.030340335469850932
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "entropy": 1.0664088379869807,
+          "is_fact": false,
+          "cooling": -0.09496405916297279
+        },
+        {
+          "token_id": 366,
+          "token": "\"",
+          "entropy": 0.9991489718567108,
+          "is_fact": false,
+          "cooling": -0.027704193032702884
+        }
+      ],
+      "l12_candidates": [
+        {
+          "token_id": 262,
+          "token": "the",
+          "entropy": 1.0902175264216365,
+          "is_fact": false,
+          "cooling": -0.11877274759762857
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "entropy": 1.0664088379869807,
+          "is_fact": false,
+          "cooling": -0.09496405916297279
+        },
+        {
+          "token_id": 366,
+          "token": "\"",
+          "entropy": 0.9991489718567108,
+          "is_fact": false,
+          "cooling": -0.027704193032702884
+        },
+        {
+          "token_id": 705,
+          "token": "'",
+          "entropy": 0.9952434188320088,
+          "is_fact": false,
+          "cooling": -0.023798640008000915
+        },
+        {
+          "token_id": 281,
+          "token": "an",
+          "entropy": 1.0446746767071697,
+          "is_fact": false,
+          "cooling": -0.07322989788316181
+        }
+      ]
+    },
+    {
+      "expected": "Hamlet",
+      "base_entropy": 0.4932,
+      "l10_winner": ":",
+      "l10_winner_correct": false,
+      "l10_fact_cooling_rank": -1,
+      "l12_winner": ":",
+      "l12_winner_correct": false,
+      "l12_fact_cooling_rank": -1,
+      "l10_candidates": [
+        {
+          "token_id": 546,
+          "token": "about",
+          "entropy": 0.7043014400879252,
+          "is_fact": false,
+          "cooling": -0.21106563116387
+        },
+        {
+          "token_id": 326,
+          "token": "that",
+          "entropy": 0.7193916428651997,
+          "is_fact": false,
+          "cooling": -0.22615583394114458
+        },
+        {
+          "token_id": 25,
+          "token": ":",
+          "entropy": 0.6392734928214041,
+          "is_fact": false,
+          "cooling": -0.14603768389734895
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "entropy": 0.6684628250593758,
+          "is_fact": false,
+          "cooling": -0.17522701613532066
+        },
+        {
+          "token_id": 465,
+          "token": "his",
+          "entropy": 0.6749248642614071,
+          "is_fact": false,
+          "cooling": -0.1816890553373519
+        }
+      ],
+      "l12_candidates": [
+        {
+          "token_id": 25,
+          "token": ":",
+          "entropy": 0.6392734928214041,
+          "is_fact": false,
+          "cooling": -0.14603768389734895
+        },
+        {
+          "token_id": 326,
+          "token": "that",
+          "entropy": 0.7193916428651997,
+          "is_fact": false,
+          "cooling": -0.22615583394114458
+        },
+        {
+          "token_id": 11,
+          "token": ",",
+          "entropy": 0.6766900553168651,
+          "is_fact": false,
+          "cooling": -0.18345424639280994
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "entropy": 0.6684628250593758,
+          "is_fact": false,
+          "cooling": -0.17522701613532066
+        },
+        {
+          "token_id": 262,
+          "token": "the",
+          "entropy": 0.6974390296900689,
+          "is_fact": false,
+          "cooling": -0.20420322076601372
+        }
+      ]
+    },
+    {
+      "expected": "Sun",
+      "base_entropy": 0.7193,
+      "l10_winner": "Milky",
+      "l10_winner_correct": false,
+      "l10_fact_cooling_rank": 5,
+      "l12_winner": "Milky",
+      "l12_winner_correct": false,
+      "l12_fact_cooling_rank": 5,
+      "l10_candidates": [
+        {
+          "token_id": 4252,
+          "token": "sun",
+          "entropy": 0.8094068541994501,
+          "is_fact": true,
+          "cooling": -0.09013547312419079
+        },
+        {
+          "token_id": 3825,
+          "token": "Sun",
+          "entropy": 0.8122762647277947,
+          "is_fact": false,
+          "cooling": -0.09300488365253534
+        },
+        {
+          "token_id": 5440,
+          "token": "planet",
+          "entropy": 0.8297509354274047,
+          "is_fact": false,
+          "cooling": -0.1104795543521454
+        },
+        {
+          "token_id": 3668,
+          "token": "Earth",
+          "entropy": 0.8301015692688654,
+          "is_fact": false,
+          "cooling": -0.11083018819360602
+        },
+        {
+          "token_id": 8824,
+          "token": "moon",
+          "entropy": 0.8103375822693124,
+          "is_fact": false,
+          "cooling": -0.09106620119405306
+        }
+      ],
+      "l12_candidates": [
+        {
+          "token_id": 3825,
+          "token": "Sun",
+          "entropy": 0.8122762647277947,
+          "is_fact": false,
+          "cooling": -0.09300488365253534
+        },
+        {
+          "token_id": 4252,
+          "token": "sun",
+          "entropy": 0.8094068541994501,
+          "is_fact": true,
+          "cooling": -0.09013547312419079
+        },
+        {
+          "token_id": 6869,
+          "token": "Moon",
+          "entropy": 0.8006439528501991,
+          "is_fact": false,
+          "cooling": -0.08137257177493973
+        },
+        {
+          "token_id": 3668,
+          "token": "Earth",
+          "entropy": 0.8301015692688654,
+          "is_fact": false,
+          "cooling": -0.11083018819360602
+        },
+        {
+          "token_id": 3491,
+          "token": "star",
+          "entropy": 0.7862943827559421,
+          "is_fact": false,
+          "cooling": -0.06702300168068276
+        }
+      ]
+    },
+    {
+      "expected": "100",
+      "base_entropy": 0.9333,
+      "l10_winner": "1",
+      "l10_winner_correct": false,
+      "l10_fact_cooling_rank": -1,
+      "l12_winner": "1",
+      "l12_winner_correct": false,
+      "l12_fact_cooling_rank": -1,
+      "l10_candidates": [
+        {
+          "token_id": 6702,
+          "token": "approximately",
+          "entropy": 0.9647731522620435,
+          "is_fact": false,
+          "cooling": -0.03148595312265767
+        },
+        {
+          "token_id": 546,
+          "token": "about",
+          "entropy": 0.9521302295906935,
+          "is_fact": false,
+          "cooling": -0.01884303045130764
+        },
+        {
+          "token_id": 3221,
+          "token": "usually",
+          "entropy": 1.0137226165615074,
+          "is_fact": false,
+          "cooling": -0.08043541742212157
+        },
+        {
+          "token_id": 7323,
+          "token": "roughly",
+          "entropy": 0.9580249069872985,
+          "is_fact": false,
+          "cooling": -0.024737707847912627
+        },
+        {
+          "token_id": 352,
+          "token": "1",
+          "entropy": 0.9198920116874029,
+          "is_fact": false,
+          "cooling": 0.013395187451982982
+        }
+      ],
+      "l12_candidates": [
+        {
+          "token_id": 546,
+          "token": "about",
+          "entropy": 0.9521302295906935,
+          "is_fact": false,
+          "cooling": -0.01884303045130764
+        },
+        {
+          "token_id": 262,
+          "token": "the",
+          "entropy": 1.063990750947495,
+          "is_fact": false,
+          "cooling": -0.13070355180810922
+        },
+        {
+          "token_id": 6702,
+          "token": "approximately",
+          "entropy": 0.9647731522620435,
+          "is_fact": false,
+          "cooling": -0.03148595312265767
+        },
+        {
+          "token_id": 352,
+          "token": "1",
+          "entropy": 0.9198920116874029,
+          "is_fact": false,
+          "cooling": 0.013395187451982982
+        },
+        {
+          "token_id": 257,
+          "token": "a",
+          "entropy": 1.0024573593707626,
+          "is_fact": false,
+          "cooling": -0.06917016023137679
+        }
+      ]
+    },
+    {
+      "expected": "relativity",
+      "base_entropy": 0.8624,
+      "l10_winner": "cos",
+      "l10_winner_correct": false,
+      "l10_fact_cooling_rank": 9,
+      "l12_winner": "electrom",
+      "l12_winner_correct": false,
+      "l12_fact_cooling_rank": 9,
+      "l10_candidates": [
+        {
+          "token_id": 44449,
+          "token": "relativity",
+          "entropy": 0.9569837950526158,
+          "is_fact": true,
+          "cooling": -0.09461503325978049
+        },
+        {
+          "token_id": 29973,
+          "token": "gravitational",
+          "entropy": 0.8513386079670858,
+          "is_fact": false,
+          "cooling": 0.011030153825749456
+        },
+        {
+          "token_id": 14821,
+          "token": "quantum",
+          "entropy": 0.8633764632751182,
+          "is_fact": false,
+          "cooling": -0.0010077014822829078
+        },
+        {
+          "token_id": 17226,
+          "token": "atomic",
+          "entropy": 0.8673049835703447,
+          "is_fact": false,
+          "cooling": -0.004936221777509409
+        },
+        {
+          "token_id": 26629,
+          "token": "electrom",
+          "entropy": 0.7629207984844774,
+          "is_fact": false,
+          "cooling": 0.09944796330835792
+        }
+      ],
+      "l12_candidates": [
+        {
+          "token_id": 44449,
+          "token": "relativity",
+          "entropy": 0.9569837950526158,
+          "is_fact": true,
+          "cooling": -0.09461503325978049
+        },
+        {
+          "token_id": 2276,
+          "token": "general",
+          "entropy": 0.8900552745643735,
+          "is_fact": false,
+          "cooling": -0.02768651277153822
+        },
+        {
+          "token_id": 13522,
+          "token": "gravity",
+          "entropy": 0.9532575011287653,
+          "is_fact": false,
+          "cooling": -0.09088873933593
+        },
+        {
+          "token_id": 262,
+          "token": "the",
+          "entropy": 0.990524432202316,
+          "is_fact": false,
+          "cooling": -0.12815567040948073
+        },
+        {
+          "token_id": 3611,
+          "token": "General",
+          "entropy": 0.844398574457955,
+          "is_fact": false,
+          "cooling": 0.017970187334880316
+        }
+      ]
+    },
+    {
+      "expected": "8",
+      "base_entropy": 1.0127,
+      "l10_winner": "00",
+      "l10_winner_correct": false,
+      "l10_fact_cooling_rank": -1,
+      "l12_winner": "10",
+      "l12_winner_correct": false,
+      "l12_fact_cooling_rank": -1,
+      "l10_candidates": [
+        {
+          "token_id": 657,
+          "token": "0",
+          "entropy": 1.0641380193131798,
+          "is_fact": false,
+          "cooling": -0.05139590765977986
+        },
+        {
+          "token_id": 286,
+          "token": "of",
+          "entropy": 1.1410308078631095,
+          "is_fact": false,
+          "cooling": -0.12828869620970962
+        },
+        {
+          "token_id": 352,
+          "token": "1",
+          "entropy": 1.0802688005414136,
+          "is_fact": false,
+          "cooling": -0.06752668888801372
+        },
+        {
+          "token_id": 6632,
+          "token": "zero",
+          "entropy": 1.0715371705916066,
+          "is_fact": false,
+          "cooling": -0.05879505893820669
+        },
+        {
+          "token_id": 3571,
+          "token": "00",
+          "entropy": 1.0158032799664438,
+          "is_fact": false,
+          "cooling": -0.003061168313043927
+        }
+      ],
+      "l12_candidates": [
+        {
+          "token_id": 286,
+          "token": "of",
+          "entropy": 1.1410308078631095,
+          "is_fact": false,
+          "cooling": -0.12828869620970962
+        },
+        {
+          "token_id": 657,
+          "token": "0",
+          "entropy": 1.0641380193131798,
+          "is_fact": false,
+          "cooling": -0.05139590765977986
+        },
+        {
+          "token_id": 352,
+          "token": "1",
+          "entropy": 1.0802688005414136,
+          "is_fact": false,
+          "cooling": -0.06752668888801372
+        },
+        {
+          "token_id": 860,
+          "token": "9",
+          "entropy": 1.0746451468062033,
+          "is_fact": false,
+          "cooling": -0.061903035152803376
+        },
+        {
+          "token_id": 513,
+          "token": "3",
+          "entropy": 1.0835747081106237,
+          "is_fact": false,
+          "cooling": -0.07083259645722384
+        }
+      ]
+    }
+  ]
+}

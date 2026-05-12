@@ -3,11 +3,11 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20088666.svg)](https://doi.org/10.5281/zenodo.20088666)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **"LLMs do not lack knowledge—they suppress it. Facts exist at Rank 1 in intermediate layers, but are overridden by grammar-oriented final layers."**
+> **"LLMs do not lack knowledge—they suppress it. Facts exist at Rank 1 in intermediate layers, but are overridden by grammar-oriented final layers. A single symbol prefix can disable the suppression."**
 
 ## Overview
 
-Project Aletheia is a systematic 58-phase investigation of LLM hallucination through the lens of condensed matter physics. Using GPT-2 (124M parameters) as a "particle accelerator," I establish **seven fundamental laws** and **three theorems** governing hallucination in autoregressive language models.
+Project Aletheia is a systematic 83-phase investigation of LLM hallucination through the lens of condensed matter physics. Using GPT-2 (124M parameters) as a "particle accelerator," I establish **seven fundamental laws** and **four theorems** governing hallucination in autoregressive language models.
 
 ## The Seven Laws of LLM Hallucination Physics
 
@@ -18,20 +18,21 @@ Project Aletheia is a systematic 58-phase investigation of LLM hallucination thr
 | **3. LayerNorm Impermeability** | P8–P12 | All mid-layer interventions are absorbed by LayerNorm |
 | **4. Truth Scaling Law** | P19 | `spike_c ~ N^(−0.491)`—larger models need **exponentially smaller** interventions |
 | **5. Temporal Persistence** | P15 | Single t=0 spike propagates with **half-life of 130.9 tokens** |
-| **6. Grammatical Suppression** | P49, P53 | **70% of facts suppressed** by final layers (avg rank degradation: 1,592 positions) 🔥 |
-| **7. Oracle Duality** | P31, P57 | Entropy is a perfect **comparator** but a poor **classifier** 🔥 |
+| **6. Grammatical Suppression** | P49–P66 | **70% of facts suppressed** by final layers; **L9H6** (+927) and **L11H7** (+816) are the primary "Grammar Police" heads 🔥 |
+| **7. Code Mode Switch** | P76–P80 | Any symbol prefix (`#`, `//`, `--`) triggers a mode transition that **disables suppression** 🔥🔥🔥 |
 
-## Three Fundamental Theorems
+## Four Fundamental Theorems
 
 | Theorem | Phases | Statement |
 |---------|--------|-----------| 
-| **Internal Impossibility** | P37–P48 | No internal operation (gradient, MCTS, noise, surgery) recovers suppressed facts—**all 12 methods: 0%** |
+| **Internal Impossibility** | P37–P48, P71–P72 | No internal operation recovers suppressed facts—**all methods: 0%**, including prompt engineering |
 | **L10 Optimality** | P49, P54 | Single-layer L10 Logit Lens (40%) outperforms all ensemble methods (8–25%) |
 | **Detection–Generation Separation** | P36, P57 | Perfect hallucination detection does not enable correction |
+| **Dark Matter Hypothesis** | P63, P75 | Math tokens interact **29% less** with suppressor weight matrices—GSF is a selective filter, not a universal brake 🔥 |
 
 ## Key Discovery: The L10 Oracle
 
-The most significant finding: LLMs **know the truth** at intermediate layers.
+The foundational finding: LLMs **know the truth** at intermediate layers.
 
 ```
 Layer L10:  "Tokyo" at Rank 1  ← The model KNOWS
@@ -41,7 +42,20 @@ Output:     "the"              ← Fluent hallucination
 
 Extracting facts directly from L10 via Logit Lens: **10% → 40% accuracy (4× improvement)**, with zero external knowledge or retraining.
 
-## Experimental Phases (58 total)
+## Key Discovery: The Code Mode Switch 🔥
+
+Any non-natural-language symbol prefix disables the Grammar Police:
+
+```
+Natural:    "The capital of Japan is" → "the" (WRONG)
+Comment:    "# Japan capital:"        → "Tokyo" (CORRECT)
+```
+
+- **All symbols work equally**: `#`, `//`, `--`, `*`, `>>`, `;`, `|`, `!`, `~` → all 25% accuracy vs 0% natural
+- **Mechanism**: Symbol prefixes increase suppressor entropy (+0.43) while decreasing helper entropy (−0.21)
+- **Not symbol-specific**: A general mode transition in the transformer architecture
+
+## Experimental Phases (83 total)
 
 ### Season 1: Fundamental Characterization (P1–P5)
 - **P1**: Pauli Exclusion — Fact-Skill degeneracy (1.2°)
@@ -85,20 +99,41 @@ Extracting facts directly from L10 via Logit Lens: **10% → 40% accuracy (4× i
 - **P57**: Oracle Duality — Relative AUC=0.66, Absolute AUC=0.33 🔥
 - **P58**: Grand Unified Theory — 7 laws + 3 theorems confirmed
 
+### Season 14: Universal Liberation (P59–P63)
+- **P61**: Grammar Police — **L11H7 is the top suppressor (+829 rank degradation)** 🔥
+- **P63**: GSF Is Fact-Specific — Math: suppression 0.4 vs Facts: 9.9
+
+### Season 15: Grammar Police Deep Dive (P64–P67)
+- **P65**: Suppressor Attention — L11H7 fixated on the token "The"
+- **P66**: Token Race — **Fact-grammar crossover at exactly Layer 11** 🔥
+- **P67**: Residual Bypass — L10 residual achieves 40% at α=0.9
+
+### Season 16–17: Negative Results (P68–P72)
+- **P69**: Prompt Structure — GSF varies **680× by prompt style** (QA=1015, possessive=1.5)
+- **P71–P72**: "The" Hypothesis REJECTED; GSF-Free Pipeline FAILS → Impossibility extended
+
+### Season 18: Dark Matter Hypothesis (P73–P77)
+- **P75**: Why Math Is Immune — **29% less interaction with suppressor weights** 🔥
+- **P77**: Dose-Response — L11H7 suppression is quasi-linear (0×→3×)
+
+### Season 19–20: The Code Mode Switch (P78–P83)
+- **P79**: Why Comments Work — Suppressors +0.43 entropy, helpers −0.21 entropy
+- **P80**: Hash Effect — **All symbol prefixes equally effective** 🔥🔥🔥
+- **P82**: Code Mode Neurons — L11:N314 (+31.8) is the switch neuron
+- **P83**: Full Map — **True #1 suppressor is L9H6 (+927), not L11H7** 🔥
+
 ## Repository Structure
 
 ```
 aletheia/
-├── experiments/          # All 58 phase scripts
+├── experiments/          # All 83 phase scripts
 │   ├── phase1_pauli_exclusion.py
 │   ├── ...
-│   ├── phase58_grand_unified.py
+│   ├── phase83_suppression_map.py
 │   └── utils.py
 ├── results/              # JSON results for each phase
-├── figures/              # Generated visualizations (58 figures)
-└── papers/
-    ├── paper_v1.tex      # Original 23-phase paper
-    └── paper_v2.tex      # Complete 58-phase paper (7 laws)
+├── figures/              # Generated visualizations (83 figures)
+└── papers/               # LaTeX source (shared via Zenodo)
 ```
 
 ## Requirements
@@ -116,7 +151,7 @@ scikit-learn
 ```bash
 # Run any individual phase
 python experiments/phase49_l10_oracle.py      # The key discovery
-python experiments/phase58_grand_unified.py   # Grand summary
+python experiments/phase83_suppression_map.py # Full 144-head ablation map
 
 # The L10 Oracle in 10 lines:
 python -c "
@@ -141,7 +176,7 @@ print('L10 says:', tok.decode(logits.argmax()))  # → Tokyo
 
 ```bibtex
 @article{funasaki2026aletheia,
-  title={Project Aletheia: The Seven Laws of LLM Hallucination Physics---From Phase Transitions to Grammatical Suppression of Facts},
+  title={Project Aletheia: The Seven Laws of LLM Hallucination Physics---From Phase Transitions to the Code Mode Switch},
   author={Funasaki, Hiroto},
   year={2026},
   doi={10.5281/zenodo.20088666}

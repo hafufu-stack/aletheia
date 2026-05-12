@@ -1,0 +1,967 @@
+{
+  "phase": 66,
+  "name": "Fact-Grammar Token Competition",
+  "crossovers": [
+    11,
+    11,
+    11
+  ],
+  "mean_crossover_layer": 11.0,
+  "results": [
+    {
+      "prompt": "The capital of Japan is",
+      "expected": "Tokyo",
+      "fact_ranks": [
+        16141,
+        14944,
+        7526,
+        4937,
+        1688,
+        1199,
+        103,
+        307,
+        114,
+        2,
+        1,
+        2
+      ],
+      "grammar_ranks": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        4,
+        8,
+        6,
+        1
+      ],
+      "crossover_layer": 11,
+      "layer_data": [
+        {
+          "layer": 0,
+          "fact_rank": 16141,
+          "grammar_rank": 1,
+          "top5": [
+            "not",
+            "now",
+            "also",
+            "still",
+            "a"
+          ],
+          "n_grammar_top5": 3
+        },
+        {
+          "layer": 1,
+          "fact_rank": 14944,
+          "grammar_rank": 1,
+          "top5": [
+            "not",
+            "now",
+            "also",
+            "still",
+            "unlikely"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 2,
+          "fact_rank": 7526,
+          "grammar_rank": 2,
+          "top5": [
+            "now",
+            "not",
+            "also",
+            "still",
+            "currently"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 3,
+          "fact_rank": 4937,
+          "grammar_rank": 2,
+          "top5": [
+            "now",
+            "also",
+            "not",
+            "currently",
+            "still"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 4,
+          "fact_rank": 1688,
+          "grammar_rank": 2,
+          "top5": [
+            "now",
+            "not",
+            "currently",
+            "also",
+            "still"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 5,
+          "fact_rank": 1199,
+          "grammar_rank": 2,
+          "top5": [
+            "now",
+            "not",
+            "still",
+            "also",
+            "currently"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 6,
+          "fact_rank": 103,
+          "grammar_rank": 2,
+          "top5": [
+            "now",
+            "not",
+            "still",
+            "also",
+            "officially"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 7,
+          "fact_rank": 307,
+          "grammar_rank": 2,
+          "top5": [
+            "now",
+            "also",
+            "still",
+            "currently",
+            "not"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 8,
+          "fact_rank": 114,
+          "grammar_rank": 4,
+          "top5": [
+            "now",
+            "located",
+            "currently",
+            "also",
+            "still"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 9,
+          "fact_rank": 2,
+          "grammar_rank": 8,
+          "top5": [
+            "Japan",
+            "Tokyo",
+            "located",
+            "Osaka",
+            "now"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 10,
+          "fact_rank": 1,
+          "grammar_rank": 6,
+          "top5": [
+            "Tokyo",
+            "Japan",
+            "Osaka",
+            "located",
+            "now"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 11,
+          "fact_rank": 2,
+          "grammar_rank": 1,
+          "top5": [
+            "the",
+            "Tokyo",
+            "home",
+            "a",
+            "now"
+          ],
+          "n_grammar_top5": 2
+        }
+      ]
+    },
+    {
+      "prompt": "The capital of France is",
+      "expected": "Paris",
+      "fact_ranks": [
+        16524,
+        18483,
+        13624,
+        8649,
+        3106,
+        3040,
+        200,
+        275,
+        52,
+        2,
+        2,
+        5
+      ],
+      "grammar_ranks": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        6,
+        4,
+        1
+      ],
+      "crossover_layer": 11,
+      "layer_data": [
+        {
+          "layer": 0,
+          "fact_rank": 16524,
+          "grammar_rank": 1,
+          "top5": [
+            "not",
+            "now",
+            "still",
+            "also",
+            "a"
+          ],
+          "n_grammar_top5": 3
+        },
+        {
+          "layer": 1,
+          "fact_rank": 18483,
+          "grammar_rank": 2,
+          "top5": [
+            "now",
+            "not",
+            "also",
+            "still",
+            "unlikely"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 2,
+          "fact_rank": 13624,
+          "grammar_rank": 2,
+          "top5": [
+            "now",
+            "not",
+            "also",
+            "still",
+            "currently"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 3,
+          "fact_rank": 8649,
+          "grammar_rank": 2,
+          "top5": [
+            "now",
+            "also",
+            "not",
+            "currently",
+            "still"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 4,
+          "fact_rank": 3106,
+          "grammar_rank": 2,
+          "top5": [
+            "now",
+            "not",
+            "also",
+            "still",
+            "already"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 5,
+          "fact_rank": 3040,
+          "grammar_rank": 3,
+          "top5": [
+            "now",
+            "still",
+            "not",
+            "also",
+            "already"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 6,
+          "fact_rank": 200,
+          "grammar_rank": 2,
+          "top5": [
+            "now",
+            "not",
+            "still",
+            "also",
+            "a"
+          ],
+          "n_grammar_top5": 3
+        },
+        {
+          "layer": 7,
+          "fact_rank": 275,
+          "grammar_rank": 2,
+          "top5": [
+            "now",
+            "also",
+            "still",
+            "not",
+            "already"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 8,
+          "fact_rank": 52,
+          "grammar_rank": 3,
+          "top5": [
+            "now",
+            "located",
+            "also",
+            "not",
+            "still"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 9,
+          "fact_rank": 2,
+          "grammar_rank": 6,
+          "top5": [
+            "France",
+            "Paris",
+            "now",
+            "located",
+            "French"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 10,
+          "fact_rank": 2,
+          "grammar_rank": 4,
+          "top5": [
+            "France",
+            "Paris",
+            "now",
+            "the",
+            "located"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 11,
+          "fact_rank": 5,
+          "grammar_rank": 1,
+          "top5": [
+            "the",
+            "now",
+            "a",
+            "France",
+            "Paris"
+          ],
+          "n_grammar_top5": 2
+        }
+      ]
+    },
+    {
+      "prompt": "The largest planet is",
+      "expected": "Jupiter",
+      "fact_ranks": [
+        25906,
+        26801,
+        18500,
+        12830,
+        8461,
+        2744,
+        502,
+        116,
+        9,
+        2,
+        1,
+        5
+      ],
+      "grammar_ranks": [
+        1,
+        1,
+        2,
+        4,
+        3,
+        4,
+        6,
+        9,
+        16,
+        17,
+        9,
+        1
+      ],
+      "crossover_layer": 11,
+      "layer_data": [
+        {
+          "layer": 0,
+          "fact_rank": 25906,
+          "grammar_rank": 1,
+          "top5": [
+            "not",
+            "also",
+            "still",
+            "now",
+            "a"
+          ],
+          "n_grammar_top5": 3
+        },
+        {
+          "layer": 1,
+          "fact_rank": 26801,
+          "grammar_rank": 1,
+          "top5": [
+            "not",
+            "now",
+            "also",
+            "still",
+            "definitely"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 2,
+          "fact_rank": 18500,
+          "grammar_rank": 2,
+          "top5": [
+            "now",
+            "also",
+            "still",
+            "not",
+            "currently"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 3,
+          "fact_rank": 12830,
+          "grammar_rank": 4,
+          "top5": [
+            "now",
+            "currently",
+            "still",
+            "not",
+            "also"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 4,
+          "fact_rank": 8461,
+          "grammar_rank": 3,
+          "top5": [
+            "now",
+            "still",
+            "not",
+            "currently",
+            "probably"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 5,
+          "fact_rank": 2744,
+          "grammar_rank": 4,
+          "top5": [
+            "now",
+            "still",
+            "probably",
+            "not",
+            "definitely"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 6,
+          "fact_rank": 502,
+          "grammar_rank": 6,
+          "top5": [
+            "probably",
+            "now",
+            "still",
+            "definitely",
+            "certainly"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 7,
+          "fact_rank": 116,
+          "grammar_rank": 9,
+          "top5": [
+            "probably",
+            "located",
+            "now",
+            "still",
+            "currently"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 8,
+          "fact_rank": 9,
+          "grammar_rank": 16,
+          "top5": [
+            "located",
+            "probably",
+            "Mars",
+            "now",
+            "Antarctica"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 9,
+          "fact_rank": 2,
+          "grammar_rank": 17,
+          "top5": [
+            "Earth",
+            "Jupiter",
+            "Venus",
+            "Mars",
+            "Pluto"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 10,
+          "fact_rank": 1,
+          "grammar_rank": 9,
+          "top5": [
+            "Jupiter",
+            "Earth",
+            "Saturn",
+            "Mars",
+            "Pluto"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 11,
+          "fact_rank": 5,
+          "grammar_rank": 1,
+          "top5": [
+            "the",
+            "a",
+            "about",
+            "Earth",
+            "Jupiter"
+          ],
+          "n_grammar_top5": 2
+        }
+      ]
+    },
+    {
+      "prompt": "The Earth orbits the",
+      "expected": "Sun",
+      "fact_ranks": [
+        46,
+        43,
+        55,
+        51,
+        48,
+        36,
+        20,
+        3,
+        7,
+        3,
+        1,
+        2
+      ],
+      "grammar_ranks": [
+        4,
+        5,
+        4,
+        5,
+        9,
+        11,
+        26,
+        77,
+        310,
+        341,
+        121,
+        44
+      ],
+      "crossover_layer": null,
+      "layer_data": [
+        {
+          "layer": 0,
+          "fact_rank": 46,
+          "grammar_rank": 4,
+          "top5": [
+            "same",
+            "first",
+            "world",
+            "most",
+            "latter"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 1,
+          "fact_rank": 43,
+          "grammar_rank": 5,
+          "top5": [
+            "same",
+            "world",
+            "first",
+            "latter",
+            "most"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 2,
+          "fact_rank": 55,
+          "grammar_rank": 4,
+          "top5": [
+            "same",
+            "world",
+            "first",
+            "most",
+            "fastest"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 3,
+          "fact_rank": 51,
+          "grammar_rank": 5,
+          "top5": [
+            "same",
+            "first",
+            "fastest",
+            "world",
+            "most"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 4,
+          "fact_rank": 48,
+          "grammar_rank": 9,
+          "top5": [
+            "same",
+            "largest",
+            "first",
+            "world",
+            "opposite"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 5,
+          "fact_rank": 36,
+          "grammar_rank": 11,
+          "top5": [
+            "same",
+            "planet",
+            "opposite",
+            "vast",
+            "highest"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 6,
+          "fact_rank": 20,
+          "grammar_rank": 26,
+          "top5": [
+            "planet",
+            "Earth",
+            "same",
+            "earth",
+            "globe"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 7,
+          "fact_rank": 3,
+          "grammar_rank": 77,
+          "top5": [
+            "planet",
+            "globe",
+            "sun",
+            "same",
+            "moon"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 8,
+          "fact_rank": 7,
+          "grammar_rank": 310,
+          "top5": [
+            "planet",
+            "Earth",
+            "moon",
+            "planets",
+            "globe"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 9,
+          "fact_rank": 3,
+          "grammar_rank": 341,
+          "top5": [
+            "planet",
+            "Earth",
+            "sun",
+            "planets",
+            "moon"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 10,
+          "fact_rank": 1,
+          "grammar_rank": 121,
+          "top5": [
+            "sun",
+            "Sun",
+            "planet",
+            "Earth",
+            "moon"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 11,
+          "fact_rank": 2,
+          "grammar_rank": 44,
+          "top5": [
+            "Sun",
+            "sun",
+            "Moon",
+            "Earth",
+            "star"
+          ],
+          "n_grammar_top5": 0
+        }
+      ]
+    },
+    {
+      "prompt": "Shakespeare wrote",
+      "expected": "Hamlet",
+      "fact_ranks": [
+        9171,
+        8188,
+        3938,
+        6166,
+        3699,
+        2986,
+        2540,
+        1728,
+        3082,
+        6345,
+        9252,
+        11514
+      ],
+      "grammar_ranks": [
+        16,
+        22,
+        13,
+        5,
+        4,
+        8,
+        4,
+        2,
+        4,
+        3,
+        2,
+        2
+      ],
+      "crossover_layer": null,
+      "layer_data": [
+        {
+          "layer": 0,
+          "fact_rank": 9171,
+          "grammar_rank": 16,
+          "top5": [
+            "writer",
+            "writer",
+            "written",
+            "write",
+            "writ"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 1,
+          "fact_rank": 8188,
+          "grammar_rank": 22,
+          "top5": [
+            "writer",
+            "written",
+            "writer",
+            "write",
+            "about"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 2,
+          "fact_rank": 3938,
+          "grammar_rank": 13,
+          "top5": [
+            "written",
+            "writer",
+            "writer",
+            "writing",
+            "about"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 3,
+          "fact_rank": 6166,
+          "grammar_rank": 5,
+          "top5": [
+            "written",
+            "about",
+            "writer",
+            "writer",
+            "a"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 4,
+          "fact_rank": 3699,
+          "grammar_rank": 4,
+          "top5": [
+            "about",
+            "writing",
+            "written",
+            "a",
+            "extensively"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 5,
+          "fact_rank": 2986,
+          "grammar_rank": 8,
+          "top5": [
+            "about",
+            "extensively",
+            "brilliantly",
+            "writing",
+            "his"
+          ],
+          "n_grammar_top5": 0
+        },
+        {
+          "layer": 6,
+          "fact_rank": 2540,
+          "grammar_rank": 4,
+          "top5": [
+            "about",
+            "extensively",
+            "his",
+            "a",
+            "brilliantly"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 7,
+          "fact_rank": 1728,
+          "grammar_rank": 2,
+          "top5": [
+            "about",
+            "a",
+            "extensively",
+            "novels",
+            "his"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 8,
+          "fact_rank": 3082,
+          "grammar_rank": 4,
+          "top5": [
+            "about",
+            "novels",
+            "poems",
+            "a",
+            "poetry"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 9,
+          "fact_rank": 6345,
+          "grammar_rank": 3,
+          "top5": [
+            "about",
+            ":",
+            "that",
+            "his",
+            "poems"
+          ],
+          "n_grammar_top5": 1
+        },
+        {
+          "layer": 10,
+          "fact_rank": 9252,
+          "grammar_rank": 2,
+          "top5": [
+            "about",
+            "that",
+            ":",
+            "a",
+            "his"
+          ],
+          "n_grammar_top5": 2
+        },
+        {
+          "layer": 11,
+          "fact_rank": 11514,
+          "grammar_rank": 2,
+          "top5": [
+            ":",
+            "that",
+            ",",
+            "a",
+            "the"
+          ],
+          "n_grammar_top5": 3
+        }
+      ]
+    }
+  ]
+}
