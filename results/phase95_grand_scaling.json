@@ -1,0 +1,542 @@
+{
+  "phase": 95,
+  "name": "Grand Scaling Law",
+  "results": {
+    "Small": {
+      "model": "gpt2",
+      "params": 124000000.0,
+      "n_layers": 12,
+      "best_layer": 10,
+      "best_layer_relative": 0.8333333333333334,
+      "best_accuracy": 0.25,
+      "output_accuracy": 0.15,
+      "natural_accuracy": 0.15,
+      "code_mode_accuracy": 0.2,
+      "gsf_magnitude": 6.0,
+      "layer_data": {
+        "0": {
+          "median_rank": 10048.5,
+          "accuracy": 0.0
+        },
+        "1": {
+          "median_rank": 7204.5,
+          "accuracy": 0.0
+        },
+        "2": {
+          "median_rank": 3796.0,
+          "accuracy": 0.0
+        },
+        "3": {
+          "median_rank": 3629.0,
+          "accuracy": 0.0
+        },
+        "4": {
+          "median_rank": 1688.0,
+          "accuracy": 0.0
+        },
+        "5": {
+          "median_rank": 1070.0,
+          "accuracy": 0.0
+        },
+        "6": {
+          "median_rank": 262.5,
+          "accuracy": 0.0
+        },
+        "7": {
+          "median_rank": 255.5,
+          "accuracy": 0.0
+        },
+        "8": {
+          "median_rank": 63.5,
+          "accuracy": 0.0
+        },
+        "9": {
+          "median_rank": 7.5,
+          "accuracy": 0.05
+        },
+        "10": {
+          "median_rank": 4.5,
+          "accuracy": 0.25
+        },
+        "11": {
+          "median_rank": 10.5,
+          "accuracy": 0.15
+        }
+      }
+    },
+    "Medium": {
+      "model": "gpt2-medium",
+      "params": 345000000.0,
+      "n_layers": 24,
+      "best_layer": 22,
+      "best_layer_relative": 0.9166666666666666,
+      "best_accuracy": 0.35,
+      "output_accuracy": 0.4,
+      "natural_accuracy": 0.4,
+      "code_mode_accuracy": 0.4,
+      "gsf_magnitude": 0.5,
+      "layer_data": {
+        "0": {
+          "median_rank": 10160.5,
+          "accuracy": 0.0
+        },
+        "1": {
+          "median_rank": 8121.0,
+          "accuracy": 0.0
+        },
+        "2": {
+          "median_rank": 4767.0,
+          "accuracy": 0.0
+        },
+        "3": {
+          "median_rank": 4762.0,
+          "accuracy": 0.0
+        },
+        "4": {
+          "median_rank": 2973.0,
+          "accuracy": 0.0
+        },
+        "5": {
+          "median_rank": 3051.5,
+          "accuracy": 0.0
+        },
+        "6": {
+          "median_rank": 3349.0,
+          "accuracy": 0.0
+        },
+        "7": {
+          "median_rank": 2915.0,
+          "accuracy": 0.0
+        },
+        "8": {
+          "median_rank": 1963.5,
+          "accuracy": 0.0
+        },
+        "9": {
+          "median_rank": 1663.0,
+          "accuracy": 0.0
+        },
+        "10": {
+          "median_rank": 803.0,
+          "accuracy": 0.0
+        },
+        "11": {
+          "median_rank": 823.5,
+          "accuracy": 0.0
+        },
+        "12": {
+          "median_rank": 390.5,
+          "accuracy": 0.0
+        },
+        "13": {
+          "median_rank": 464.5,
+          "accuracy": 0.0
+        },
+        "14": {
+          "median_rank": 97.5,
+          "accuracy": 0.0
+        },
+        "15": {
+          "median_rank": 36.0,
+          "accuracy": 0.05
+        },
+        "16": {
+          "median_rank": 19.5,
+          "accuracy": 0.2
+        },
+        "17": {
+          "median_rank": 12.5,
+          "accuracy": 0.15
+        },
+        "18": {
+          "median_rank": 11.5,
+          "accuracy": 0.2
+        },
+        "19": {
+          "median_rank": 7.0,
+          "accuracy": 0.25
+        },
+        "20": {
+          "median_rank": 4.5,
+          "accuracy": 0.3
+        },
+        "21": {
+          "median_rank": 4.0,
+          "accuracy": 0.35
+        },
+        "22": {
+          "median_rank": 3.0,
+          "accuracy": 0.35
+        },
+        "23": {
+          "median_rank": 3.5,
+          "accuracy": 0.4
+        }
+      }
+    },
+    "Large": {
+      "model": "gpt2-large",
+      "params": 774000000.0,
+      "n_layers": 36,
+      "best_layer": 34,
+      "best_layer_relative": 0.9444444444444444,
+      "best_accuracy": 0.5,
+      "output_accuracy": 0.4,
+      "natural_accuracy": 0.4,
+      "code_mode_accuracy": 0.45,
+      "gsf_magnitude": 0.5,
+      "layer_data": {
+        "0": {
+          "median_rank": 4247.5,
+          "accuracy": 0.0
+        },
+        "1": {
+          "median_rank": 3974.5,
+          "accuracy": 0.0
+        },
+        "2": {
+          "median_rank": 2431.0,
+          "accuracy": 0.0
+        },
+        "3": {
+          "median_rank": 1915.0,
+          "accuracy": 0.0
+        },
+        "4": {
+          "median_rank": 2095.5,
+          "accuracy": 0.0
+        },
+        "5": {
+          "median_rank": 2036.0,
+          "accuracy": 0.0
+        },
+        "6": {
+          "median_rank": 2391.0,
+          "accuracy": 0.0
+        },
+        "7": {
+          "median_rank": 2943.5,
+          "accuracy": 0.0
+        },
+        "8": {
+          "median_rank": 3165.5,
+          "accuracy": 0.05
+        },
+        "9": {
+          "median_rank": 2958.0,
+          "accuracy": 0.05
+        },
+        "10": {
+          "median_rank": 2625.5,
+          "accuracy": 0.0
+        },
+        "11": {
+          "median_rank": 2458.0,
+          "accuracy": 0.05
+        },
+        "12": {
+          "median_rank": 1556.0,
+          "accuracy": 0.0
+        },
+        "13": {
+          "median_rank": 1053.0,
+          "accuracy": 0.0
+        },
+        "14": {
+          "median_rank": 714.5,
+          "accuracy": 0.0
+        },
+        "15": {
+          "median_rank": 595.0,
+          "accuracy": 0.0
+        },
+        "16": {
+          "median_rank": 399.0,
+          "accuracy": 0.0
+        },
+        "17": {
+          "median_rank": 326.5,
+          "accuracy": 0.0
+        },
+        "18": {
+          "median_rank": 193.0,
+          "accuracy": 0.0
+        },
+        "19": {
+          "median_rank": 101.0,
+          "accuracy": 0.0
+        },
+        "20": {
+          "median_rank": 55.5,
+          "accuracy": 0.05
+        },
+        "21": {
+          "median_rank": 49.0,
+          "accuracy": 0.05
+        },
+        "22": {
+          "median_rank": 32.0,
+          "accuracy": 0.05
+        },
+        "23": {
+          "median_rank": 19.5,
+          "accuracy": 0.1
+        },
+        "24": {
+          "median_rank": 16.0,
+          "accuracy": 0.05
+        },
+        "25": {
+          "median_rank": 6.0,
+          "accuracy": 0.2
+        },
+        "26": {
+          "median_rank": 11.5,
+          "accuracy": 0.25
+        },
+        "27": {
+          "median_rank": 7.5,
+          "accuracy": 0.3
+        },
+        "28": {
+          "median_rank": 7.5,
+          "accuracy": 0.25
+        },
+        "29": {
+          "median_rank": 6.5,
+          "accuracy": 0.3
+        },
+        "30": {
+          "median_rank": 5.5,
+          "accuracy": 0.25
+        },
+        "31": {
+          "median_rank": 4.5,
+          "accuracy": 0.35
+        },
+        "32": {
+          "median_rank": 2.5,
+          "accuracy": 0.35
+        },
+        "33": {
+          "median_rank": 2.0,
+          "accuracy": 0.45
+        },
+        "34": {
+          "median_rank": 1.5,
+          "accuracy": 0.5
+        },
+        "35": {
+          "median_rank": 2.0,
+          "accuracy": 0.4
+        }
+      }
+    },
+    "XL": {
+      "model": "gpt2-xl",
+      "params": 1558000000.0,
+      "n_layers": 48,
+      "best_layer": 45,
+      "best_layer_relative": 0.9375,
+      "best_accuracy": 0.55,
+      "output_accuracy": 0.55,
+      "natural_accuracy": 0.55,
+      "code_mode_accuracy": 0.65,
+      "gsf_magnitude": 0.0,
+      "layer_data": {
+        "0": {
+          "median_rank": 1857.0,
+          "accuracy": 0.0
+        },
+        "1": {
+          "median_rank": 1381.5,
+          "accuracy": 0.0
+        },
+        "2": {
+          "median_rank": 1874.5,
+          "accuracy": 0.0
+        },
+        "3": {
+          "median_rank": 1918.5,
+          "accuracy": 0.0
+        },
+        "4": {
+          "median_rank": 1820.0,
+          "accuracy": 0.0
+        },
+        "5": {
+          "median_rank": 1548.0,
+          "accuracy": 0.0
+        },
+        "6": {
+          "median_rank": 1395.0,
+          "accuracy": 0.0
+        },
+        "7": {
+          "median_rank": 1210.5,
+          "accuracy": 0.0
+        },
+        "8": {
+          "median_rank": 1352.0,
+          "accuracy": 0.0
+        },
+        "9": {
+          "median_rank": 1123.0,
+          "accuracy": 0.0
+        },
+        "10": {
+          "median_rank": 1108.5,
+          "accuracy": 0.0
+        },
+        "11": {
+          "median_rank": 837.5,
+          "accuracy": 0.0
+        },
+        "12": {
+          "median_rank": 810.5,
+          "accuracy": 0.0
+        },
+        "13": {
+          "median_rank": 616.5,
+          "accuracy": 0.0
+        },
+        "14": {
+          "median_rank": 427.0,
+          "accuracy": 0.0
+        },
+        "15": {
+          "median_rank": 381.5,
+          "accuracy": 0.0
+        },
+        "16": {
+          "median_rank": 378.5,
+          "accuracy": 0.0
+        },
+        "17": {
+          "median_rank": 464.5,
+          "accuracy": 0.0
+        },
+        "18": {
+          "median_rank": 357.0,
+          "accuracy": 0.0
+        },
+        "19": {
+          "median_rank": 244.5,
+          "accuracy": 0.0
+        },
+        "20": {
+          "median_rank": 256.0,
+          "accuracy": 0.0
+        },
+        "21": {
+          "median_rank": 162.5,
+          "accuracy": 0.0
+        },
+        "22": {
+          "median_rank": 142.0,
+          "accuracy": 0.0
+        },
+        "23": {
+          "median_rank": 94.0,
+          "accuracy": 0.0
+        },
+        "24": {
+          "median_rank": 59.5,
+          "accuracy": 0.05
+        },
+        "25": {
+          "median_rank": 75.5,
+          "accuracy": 0.05
+        },
+        "26": {
+          "median_rank": 58.5,
+          "accuracy": 0.05
+        },
+        "27": {
+          "median_rank": 40.5,
+          "accuracy": 0.05
+        },
+        "28": {
+          "median_rank": 28.5,
+          "accuracy": 0.05
+        },
+        "29": {
+          "median_rank": 18.0,
+          "accuracy": 0.1
+        },
+        "30": {
+          "median_rank": 15.5,
+          "accuracy": 0.3
+        },
+        "31": {
+          "median_rank": 15.5,
+          "accuracy": 0.25
+        },
+        "32": {
+          "median_rank": 14.5,
+          "accuracy": 0.3
+        },
+        "33": {
+          "median_rank": 10.5,
+          "accuracy": 0.3
+        },
+        "34": {
+          "median_rank": 11.5,
+          "accuracy": 0.3
+        },
+        "35": {
+          "median_rank": 10.0,
+          "accuracy": 0.4
+        },
+        "36": {
+          "median_rank": 9.5,
+          "accuracy": 0.35
+        },
+        "37": {
+          "median_rank": 7.0,
+          "accuracy": 0.35
+        },
+        "38": {
+          "median_rank": 6.0,
+          "accuracy": 0.4
+        },
+        "39": {
+          "median_rank": 4.0,
+          "accuracy": 0.35
+        },
+        "40": {
+          "median_rank": 2.5,
+          "accuracy": 0.4
+        },
+        "41": {
+          "median_rank": 2.5,
+          "accuracy": 0.4
+        },
+        "42": {
+          "median_rank": 2.0,
+          "accuracy": 0.45
+        },
+        "43": {
+          "median_rank": 2.0,
+          "accuracy": 0.45
+        },
+        "44": {
+          "median_rank": 1.5,
+          "accuracy": 0.5
+        },
+        "45": {
+          "median_rank": 1.0,
+          "accuracy": 0.55
+        },
+        "46": {
+          "median_rank": 1.0,
+          "accuracy": 0.55
+        },
+        "47": {
+          "median_rank": 1.0,
+          "accuracy": 0.55
+        }
+      }
+    }
+  }
+}

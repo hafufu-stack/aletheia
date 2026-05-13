@@ -1,0 +1,74 @@
+{
+  "phase": 106,
+  "name": "Frankenstein Alignment Surgery",
+  "base_accuracy": {
+    "natural": 0.6666666666666666,
+    "code": 0.8,
+    "answer": 0.8
+  },
+  "instruct_accuracy": {
+    "natural": 0.6,
+    "code": 0.6666666666666666,
+    "answer": 0.8
+  },
+  "surgery_results": {
+    "transplant_1": {
+      "layers": [
+        23
+      ],
+      "accuracy": {
+        "natural": 0.6,
+        "code": 0.6666666666666666,
+        "answer": 0.8
+      },
+      "recovery_pct": 0.0
+    },
+    "transplant_2": {
+      "layers": [
+        23,
+        16
+      ],
+      "accuracy": {
+        "natural": 0.6,
+        "code": 0.6666666666666666,
+        "answer": 0.8
+      },
+      "recovery_pct": 0.0
+    },
+    "transplant_3": {
+      "layers": [
+        23,
+        16,
+        12
+      ],
+      "accuracy": {
+        "natural": 0.6,
+        "code": 0.6666666666666666,
+        "answer": 0.8
+      },
+      "recovery_pct": 0.0
+    },
+    "transplant_5": {
+      "layers": [
+        23,
+        16,
+        12,
+        11,
+        9
+      ],
+      "accuracy": {
+        "natural": 0.6,
+        "code": 0.6666666666666666,
+        "answer": 0.8
+      },
+      "recovery_pct": 0.0
+    }
+  },
+  "affected_layers": [
+    23,
+    16,
+    12,
+    11,
+    9
+  ]
+}

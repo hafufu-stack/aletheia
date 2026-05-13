@@ -1,0 +1,158 @@
+{
+  "phase": 100,
+  "name": "The Grand Validation",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "n_params": 7615616512,
+  "n_layers": 28,
+  "best_layer": 27,
+  "best_layer_relative": 0.9642857142857143,
+  "template_results": {
+    "natural": {
+      "accuracy": 0.6333333333333333,
+      "mean_rank": 267.0
+    },
+    "code_hash": {
+      "accuracy": 0.6,
+      "mean_rank": 98.23333333333333
+    },
+    "code_slash": {
+      "accuracy": 0.6333333333333333,
+      "mean_rank": 115.5
+    },
+    "cot_think": {
+      "accuracy": 0.5333333333333333,
+      "mean_rank": 141.76666666666668
+    },
+    "cot_answer": {
+      "accuracy": 0.7,
+      "mean_rank": 146.5
+    },
+    "bullet": {
+      "accuracy": 0.7,
+      "mean_rank": 114.83333333333333
+    }
+  },
+  "layer_data": {
+    "0": {
+      "median_rank": 49569.5,
+      "accuracy": 0.0
+    },
+    "1": {
+      "median_rank": 54244.0,
+      "accuracy": 0.0
+    },
+    "2": {
+      "median_rank": 54119.0,
+      "accuracy": 0.0
+    },
+    "3": {
+      "median_rank": 42684.5,
+      "accuracy": 0.0
+    },
+    "4": {
+      "median_rank": 53165.0,
+      "accuracy": 0.0
+    },
+    "5": {
+      "median_rank": 50670.5,
+      "accuracy": 0.0
+    },
+    "6": {
+      "median_rank": 33683.5,
+      "accuracy": 0.0
+    },
+    "7": {
+      "median_rank": 36782.5,
+      "accuracy": 0.0
+    },
+    "8": {
+      "median_rank": 23526.5,
+      "accuracy": 0.0
+    },
+    "9": {
+      "median_rank": 18688.0,
+      "accuracy": 0.0
+    },
+    "10": {
+      "median_rank": 13432.5,
+      "accuracy": 0.0
+    },
+    "11": {
+      "median_rank": 12208.0,
+      "accuracy": 0.0
+    },
+    "12": {
+      "median_rank": 11343.5,
+      "accuracy": 0.0
+    },
+    "13": {
+      "median_rank": 18666.5,
+      "accuracy": 0.0
+    },
+    "14": {
+      "median_rank": 13687.5,
+      "accuracy": 0.0
+    },
+    "15": {
+      "median_rank": 14039.0,
+      "accuracy": 0.0
+    },
+    "16": {
+      "median_rank": 18262.0,
+      "accuracy": 0.0
+    },
+    "17": {
+      "median_rank": 17803.5,
+      "accuracy": 0.0
+    },
+    "18": {
+      "median_rank": 14768.5,
+      "accuracy": 0.0
+    },
+    "19": {
+      "median_rank": 8345.5,
+      "accuracy": 0.0
+    },
+    "20": {
+      "median_rank": 6964.0,
+      "accuracy": 0.0
+    },
+    "21": {
+      "median_rank": 4210.0,
+      "accuracy": 0.0
+    },
+    "22": {
+      "median_rank": 809.0,
+      "accuracy": 0.0
+    },
+    "23": {
+      "median_rank": 15.5,
+      "accuracy": 0.03333333333333333
+    },
+    "24": {
+      "median_rank": 6.0,
+      "accuracy": 0.16666666666666666
+    },
+    "25": {
+      "median_rank": 3.0,
+      "accuracy": 0.3
+    },
+    "26": {
+      "median_rank": 2.0,
+      "accuracy": 0.43333333333333335
+    },
+    "27": {
+      "median_rank": 1.0,
+      "accuracy": 0.6333333333333333
+    }
+  },
+  "scaling_validation": {
+    "predicted_code": 0.8882602316846095,
+    "actual_code": 0.6,
+    "predicted_natural": 0.8344915110713869,
+    "actual_natural": 0.6333333333333333,
+    "code_error": 0.28826023168460957,
+    "natural_error": 0.20115817773805356
+  },
+  "aletheia_094": 0.9642857142857143
+}

@@ -1,0 +1,31 @@
+{
+  "phase": 85,
+  "name": "Syntactic Flashbang",
+  "results": [
+    {
+      "method": "baseline",
+      "accuracy": 0.16,
+      "mean_rank": 137.56
+    },
+    {
+      "method": "flashbang_L11H7",
+      "accuracy": 0.16,
+      "mean_rank": 139.96
+    },
+    {
+      "method": "flashbang_L9H6",
+      "accuracy": 0.16,
+      "mean_rank": 140.32
+    },
+    {
+      "method": "flashbang_top3",
+      "accuracy": 0.16,
+      "mean_rank": 153.36
+    },
+    {
+      "method": "flashbang_all_H7",
+      "accuracy": 0.2,
+      "mean_rank": 147.84
+    }
+  ]
+}

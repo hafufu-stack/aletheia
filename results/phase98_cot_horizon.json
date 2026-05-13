@@ -1,0 +1,78 @@
+{
+  "phase": 98,
+  "name": "CoT Capability Horizon",
+  "results": {
+    "GPT2-Small": {
+      "natural": {
+        "accuracy": 0.15,
+        "mean_rank": 156.8
+      },
+      "code_hash": {
+        "accuracy": 0.2,
+        "mean_rank": 164.05
+      },
+      "cot_think": {
+        "accuracy": 0.05,
+        "mean_rank": 209.2
+      },
+      "cot_answer": {
+        "accuracy": 0.15,
+        "mean_rank": 172.4
+      }
+    },
+    "GPT2-XL": {
+      "natural": {
+        "accuracy": 0.55,
+        "mean_rank": 6.2
+      },
+      "code_hash": {
+        "accuracy": 0.65,
+        "mean_rank": 1.95
+      },
+      "cot_think": {
+        "accuracy": 0.7,
+        "mean_rank": 3.85
+      },
+      "cot_answer": {
+        "accuracy": 0.65,
+        "mean_rank": 3.1
+      }
+    },
+    "Qwen2.5-0.5B": {
+      "natural": {
+        "accuracy": 0.55,
+        "mean_rank": 102.9
+      },
+      "code_hash": {
+        "accuracy": 0.6,
+        "mean_rank": 43.95
+      },
+      "cot_think": {
+        "accuracy": 0.6,
+        "mean_rank": 59.55
+      },
+      "cot_answer": {
+        "accuracy": 0.7,
+        "mean_rank": 68.3
+      }
+    },
+    "Qwen2.5-1.5B": {
+      "natural": {
+        "accuracy": 0.65,
+        "mean_rank": 127.9
+      },
+      "code_hash": {
+        "accuracy": 0.6,
+        "mean_rank": 93.35
+      },
+      "cot_think": {
+        "accuracy": 0.6,
+        "mean_rank": 565.75
+      },
+      "cot_answer": {
+        "accuracy": 0.75,
+        "mean_rank": 199.6
+      }
+    }
+  }
+}

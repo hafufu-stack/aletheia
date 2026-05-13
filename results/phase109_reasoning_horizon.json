@@ -1,0 +1,61 @@
+{
+  "phase": 109,
+  "name": "The Reasoning Horizon",
+  "model": "Qwen/Qwen2.5-1.5B",
+  "results": {
+    "fact": {
+      "natural": {
+        "accuracy": 0.8,
+        "mean_rank": 1.6
+      },
+      "code_hash": {
+        "accuracy": 0.6,
+        "mean_rank": 2.2
+      },
+      "answer_is": {
+        "accuracy": 1.0,
+        "mean_rank": 1.0
+      },
+      "cot_think": {
+        "accuracy": 0.8,
+        "mean_rank": 1.2
+      }
+    },
+    "math": {
+      "natural": {
+        "accuracy": 0.0,
+        "mean_rank": 42.6
+      },
+      "code_hash": {
+        "accuracy": 0.0,
+        "mean_rank": 23.6
+      },
+      "answer_is": {
+        "accuracy": 0.0,
+        "mean_rank": 26.4
+      },
+      "cot_think": {
+        "accuracy": 0.0,
+        "mean_rank": 250.4
+      }
+    },
+    "logic": {
+      "natural": {
+        "accuracy": 0.6,
+        "mean_rank": 15.6
+      },
+      "code_hash": {
+        "accuracy": 0.8,
+        "mean_rank": 20.6
+      },
+      "answer_is": {
+        "accuracy": 0.8,
+        "mean_rank": 6.4
+      },
+      "cot_think": {
+        "accuracy": 0.8,
+        "mean_rank": 10.6
+      }
+    }
+  }
+}

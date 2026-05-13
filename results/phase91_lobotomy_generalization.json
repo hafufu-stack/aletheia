@@ -1,0 +1,33 @@
+{
+  "phase": 91,
+  "name": "Lobotomy Generalization",
+  "results": [
+    {
+      "config": "baseline",
+      "train_accuracy": 0.4,
+      "train_mean_rank": 2.2,
+      "test_accuracy": 0.04,
+      "test_mean_rank": 146.04,
+      "train_median": 2.0,
+      "test_median": 39.0
+    },
+    {
+      "config": "mute_top3",
+      "train_accuracy": 0.4,
+      "train_mean_rank": 2.2,
+      "test_accuracy": 0.04,
+      "test_mean_rank": 164.2,
+      "train_median": 2.0,
+      "test_median": 41.0
+    },
+    {
+      "config": "mute_top3+boost_L2H1",
+      "train_accuracy": 0.4,
+      "train_mean_rank": 3.2,
+      "test_accuracy": 0.04,
+      "test_mean_rank": 156.72,
+      "train_median": 3.0,
+      "test_median": 39.0
+    }
+  ]
+}

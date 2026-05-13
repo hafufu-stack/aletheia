@@ -1,0 +1,168 @@
+{
+  "phase": 88,
+  "name": "Cosmological GSF Scaling",
+  "results": {
+    "small": {
+      "layers": 12,
+      "best_layer": "L10",
+      "best_accuracy": 0.25,
+      "layer_summary": {
+        "L0": {
+          "median_rank": 10048.5,
+          "accuracy": 0.0
+        },
+        "L1": {
+          "median_rank": 7204.5,
+          "accuracy": 0.0
+        },
+        "L2": {
+          "median_rank": 3796.0,
+          "accuracy": 0.0
+        },
+        "L3": {
+          "median_rank": 3629.0,
+          "accuracy": 0.0
+        },
+        "L4": {
+          "median_rank": 1688.0,
+          "accuracy": 0.0
+        },
+        "L5": {
+          "median_rank": 1070.0,
+          "accuracy": 0.0
+        },
+        "L6": {
+          "median_rank": 262.5,
+          "accuracy": 0.0
+        },
+        "L7": {
+          "median_rank": 255.5,
+          "accuracy": 0.0
+        },
+        "L8": {
+          "median_rank": 63.5,
+          "accuracy": 0.0
+        },
+        "L9": {
+          "median_rank": 7.5,
+          "accuracy": 0.05
+        },
+        "L10": {
+          "median_rank": 4.5,
+          "accuracy": 0.25
+        },
+        "L11": {
+          "median_rank": 10.5,
+          "accuracy": 0.15
+        }
+      }
+    },
+    "medium": {
+      "layers": 24,
+      "best_layer": "L22",
+      "best_accuracy": 0.35,
+      "layer_summary": {
+        "L0": {
+          "median_rank": 10160.5,
+          "accuracy": 0.0
+        },
+        "L1": {
+          "median_rank": 8121.0,
+          "accuracy": 0.0
+        },
+        "L2": {
+          "median_rank": 4767.0,
+          "accuracy": 0.0
+        },
+        "L3": {
+          "median_rank": 4762.0,
+          "accuracy": 0.0
+        },
+        "L4": {
+          "median_rank": 2973.0,
+          "accuracy": 0.0
+        },
+        "L5": {
+          "median_rank": 3051.5,
+          "accuracy": 0.0
+        },
+        "L6": {
+          "median_rank": 3349.0,
+          "accuracy": 0.0
+        },
+        "L7": {
+          "median_rank": 2915.0,
+          "accuracy": 0.0
+        },
+        "L8": {
+          "median_rank": 1963.5,
+          "accuracy": 0.0
+        },
+        "L9": {
+          "median_rank": 1663.0,
+          "accuracy": 0.0
+        },
+        "L10": {
+          "median_rank": 803.0,
+          "accuracy": 0.0
+        },
+        "L11": {
+          "median_rank": 823.5,
+          "accuracy": 0.0
+        },
+        "L12": {
+          "median_rank": 390.5,
+          "accuracy": 0.0
+        },
+        "L13": {
+          "median_rank": 464.5,
+          "accuracy": 0.0
+        },
+        "L14": {
+          "median_rank": 97.5,
+          "accuracy": 0.0
+        },
+        "L15": {
+          "median_rank": 36.0,
+          "accuracy": 0.05
+        },
+        "L16": {
+          "median_rank": 19.5,
+          "accuracy": 0.2
+        },
+        "L17": {
+          "median_rank": 12.5,
+          "accuracy": 0.15
+        },
+        "L18": {
+          "median_rank": 11.5,
+          "accuracy": 0.2
+        },
+        "L19": {
+          "median_rank": 7.0,
+          "accuracy": 0.25
+        },
+        "L20": {
+          "median_rank": 4.5,
+          "accuracy": 0.3
+        },
+        "L21": {
+          "median_rank": 4.0,
+          "accuracy": 0.35
+        },
+        "L22": {
+          "median_rank": 3.0,
+          "accuracy": 0.35
+        },
+        "L23": {
+          "median_rank": 3.5,
+          "accuracy": 0.4
+        }
+      },
+      "code_mode_switch": {
+        "natural": 0.4,
+        "comment": 0.4
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "phase": 112,
+  "name": "Dual-Engine Universality",
+  "model": "Qwen/Qwen2.5-1.5B",
+  "n_layers": 28,
+  "amplifiers": [
+    {
+      "layer": 1,
+      "head": 8,
+      "delta": -0.5293245136737823
+    },
+    {
+      "layer": 16,
+      "head": 4,
+      "delta": -0.23648256063461293
+    },
+    {
+      "layer": 8,
+      "head": 6,
+      "delta": -0.23365064263343815
+    },
+    {
+      "layer": 16,
+      "head": 0,
+      "delta": -0.22886964678764343
+    },
+    {
+      "layer": 16,
+      "head": 3,
+      "delta": -0.20758120119571688
+    },
+    {
+      "layer": 12,
+      "head": 9,
+      "delta": -0.18349211812019361
+    },
+    {
+      "layer": 0,
+      "head": 0,
+      "delta": -0.17886561155319214
+    },
+    {
+      "layer": 10,
+      "head": 7,
+      "delta": -0.17130621075630192
+    },
+    {
+      "layer": 11,
+      "head": 3,
+      "delta": -0.15763391256332393
+    },
+    {
+      "layer": 12,
+      "head": 2,
+      "delta": -0.15054185688495636
+    }
+  ],
+  "suppressors": [
+    {
+      "layer": 17,
+      "head": 9,
+      "delta": 0.6711482182145119
+    },
+    {
+      "layer": 24,
+      "head": 0,
+      "delta": 0.6283344984054566
+    },
+    {
+      "layer": 1,
+      "head": 9,
+      "delta": 0.5873456418514251
+    },
+    {
+      "layer": 19,
+      "head": 10,
+      "delta": 0.5414612710475922
+    },
+    {
+      "layer": 2,
+      "head": 7,
+      "delta": 0.482255470752716
+    },
+    {
+      "layer": 17,
+      "head": 2,
+      "delta": 0.4603395193815232
+    },
+    {
+      "layer": 13,
+      "head": 8,
+      "delta": 0.42852371335029604
+    },
+    {
+      "layer": 15,
+      "head": 6,
+      "delta": 0.39191654324531555
+    },
+    {
+      "layer": 3,
+      "head": 5,
+      "delta": 0.3908491849899294
+    },
+    {
+      "layer": 3,
+      "head": 8,
+      "delta": 0.3875871211290359
+    }
+  ],
+  "dual_engine_confirmed": false,
+  "amp_front_count": 2,
+  "sup_back_count": 3
+}

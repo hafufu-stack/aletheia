@@ -1,0 +1,68 @@
+{
+  "phase": 103,
+  "name": "Absolute Syntax Theorem",
+  "data": [
+    {
+      "model": "GPT2-Small",
+      "arch": "GPT-2",
+      "L_total": 12,
+      "L_best": 10,
+      "c": 2.0
+    },
+    {
+      "model": "GPT2-Medium",
+      "arch": "GPT-2",
+      "L_total": 24,
+      "L_best": 22,
+      "c": 2.0
+    },
+    {
+      "model": "GPT2-Large",
+      "arch": "GPT-2",
+      "L_total": 36,
+      "L_best": 34,
+      "c": 2.0
+    },
+    {
+      "model": "GPT2-XL",
+      "arch": "GPT-2",
+      "L_total": 48,
+      "L_best": 45,
+      "c": 3.0
+    },
+    {
+      "model": "Qwen-0.5B",
+      "arch": "Qwen",
+      "L_total": 24,
+      "L_best": 23,
+      "c": 1.0
+    },
+    {
+      "model": "Qwen-1.5B",
+      "arch": "Qwen",
+      "L_total": 28,
+      "L_best": 27,
+      "c": 1.0
+    },
+    {
+      "model": "Qwen-7B",
+      "arch": "Qwen",
+      "L_total": 28,
+      "L_best": 27,
+      "c": 1.0
+    }
+  ],
+  "proportional_fit": {
+    "alpha": 0.943069306930693,
+    "R2": 0.9956612734444176,
+    "RMSE": 0.6600330024752066
+  },
+  "offset_fit": {
+    "c": 1.7142857455071954,
+    "R2": 0.9951219512195122,
+    "RMSE": 0.6998542122237646
+  },
+  "winner": "proportional",
+  "mean_c": 1.7142857142857142,
+  "std_c": 0.6998542122237652
+}

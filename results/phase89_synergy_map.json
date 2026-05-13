@@ -1,0 +1,144 @@
+{
+  "phase": 89,
+  "name": "Synergy Map",
+  "results": [
+    {
+      "config": "none_natural",
+      "ablation": "none",
+      "mode": "natural",
+      "accuracy": 0.16,
+      "mean_rank": 137.56,
+      "median_rank": 10.0
+    },
+    {
+      "config": "none_comment",
+      "ablation": "none",
+      "mode": "comment",
+      "accuracy": 0.2,
+      "mean_rank": 142.76,
+      "median_rank": 9.0
+    },
+    {
+      "config": "L9H6_natural",
+      "ablation": "L9H6",
+      "mode": "natural",
+      "accuracy": 0.16,
+      "mean_rank": 140.6,
+      "median_rank": 10.0
+    },
+    {
+      "config": "L9H6_comment",
+      "ablation": "L9H6",
+      "mode": "comment",
+      "accuracy": 0.16,
+      "mean_rank": 144.76,
+      "median_rank": 9.0
+    },
+    {
+      "config": "L11H7_natural",
+      "ablation": "L11H7",
+      "mode": "natural",
+      "accuracy": 0.16,
+      "mean_rank": 135.32,
+      "median_rank": 10.0
+    },
+    {
+      "config": "L11H7_comment",
+      "ablation": "L11H7",
+      "mode": "comment",
+      "accuracy": 0.16,
+      "mean_rank": 142.36,
+      "median_rank": 9.0
+    },
+    {
+      "config": "L9H6+L10H7_natural",
+      "ablation": "L9H6+L10H7",
+      "mode": "natural",
+      "accuracy": 0.16,
+      "mean_rank": 139.76,
+      "median_rank": 10.0
+    },
+    {
+      "config": "L9H6+L10H7_comment",
+      "ablation": "L9H6+L10H7",
+      "mode": "comment",
+      "accuracy": 0.16,
+      "mean_rank": 144.8,
+      "median_rank": 9.0
+    },
+    {
+      "config": "top3_natural",
+      "ablation": "top3",
+      "mode": "natural",
+      "accuracy": 0.16,
+      "mean_rank": 137.76,
+      "median_rank": 10.0
+    },
+    {
+      "config": "top3_comment",
+      "ablation": "top3",
+      "mode": "comment",
+      "accuracy": 0.16,
+      "mean_rank": 144.6,
+      "median_rank": 9.0
+    },
+    {
+      "config": "top3+L9H7_natural",
+      "ablation": "top3+L9H7",
+      "mode": "natural",
+      "accuracy": 0.16,
+      "mean_rank": 140.68,
+      "median_rank": 11.0
+    },
+    {
+      "config": "top3+L9H7_comment",
+      "ablation": "top3+L9H7",
+      "mode": "comment",
+      "accuracy": 0.16,
+      "mean_rank": 146.72,
+      "median_rank": 9.0
+    }
+  ],
+  "synergy": [
+    {
+      "ablation": "L9H6",
+      "abl_gain": -3.039999999999992,
+      "comment_gain": -5.199999999999989,
+      "predicted_additive": 145.79999999999998,
+      "actual_combined": 144.76,
+      "synergy": 1.039999999999992
+    },
+    {
+      "ablation": "L11H7",
+      "abl_gain": 2.240000000000009,
+      "comment_gain": -5.199999999999989,
+      "predicted_additive": 140.51999999999998,
+      "actual_combined": 142.36,
+      "synergy": -1.8400000000000318
+    },
+    {
+      "ablation": "L9H6+L10H7",
+      "abl_gain": -2.1999999999999886,
+      "comment_gain": -5.199999999999989,
+      "predicted_additive": 144.95999999999998,
+      "actual_combined": 144.8,
+      "synergy": 0.15999999999996817
+    },
+    {
+      "ablation": "top3",
+      "abl_gain": -0.19999999999998863,
+      "comment_gain": -5.199999999999989,
+      "predicted_additive": 142.95999999999998,
+      "actual_combined": 144.6,
+      "synergy": -1.6400000000000148
+    },
+    {
+      "ablation": "top3+L9H7",
+      "abl_gain": -3.1200000000000045,
+      "comment_gain": -5.199999999999989,
+      "predicted_additive": 145.88,
+      "actual_combined": 146.72,
+      "synergy": -0.8400000000000034
+    }
+  ]
+}

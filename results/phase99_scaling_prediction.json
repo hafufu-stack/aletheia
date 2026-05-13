@@ -1,0 +1,99 @@
+{
+  "phase": 99,
+  "name": "Scaling Prediction",
+  "data_points": [
+    {
+      "model": "Small",
+      "params": 124000000.0,
+      "natural_acc": 0.15,
+      "code_acc": 0.2,
+      "best_acc": 0.25
+    },
+    {
+      "model": "GPT2-Small",
+      "params": 124000000.0,
+      "natural_acc": 0.15,
+      "code_acc": 0.2,
+      "best_acc": 0.25
+    },
+    {
+      "model": "Medium",
+      "params": 345000000.0,
+      "natural_acc": 0.4,
+      "code_acc": 0.4,
+      "best_acc": 0.35
+    },
+    {
+      "model": "GPT2-Medium",
+      "params": 345000000.0,
+      "natural_acc": 0.4,
+      "code_acc": 0.4,
+      "best_acc": 0.35
+    },
+    {
+      "model": "Qwen2.5-0.5B",
+      "params": 494000000.0,
+      "natural_acc": 0.55,
+      "code_acc": 0.6,
+      "best_acc": 0.55
+    },
+    {
+      "model": "Large",
+      "params": 774000000.0,
+      "natural_acc": 0.4,
+      "code_acc": 0.45,
+      "best_acc": 0.5
+    },
+    {
+      "model": "GPT2-Large",
+      "params": 774000000.0,
+      "natural_acc": 0.4,
+      "code_acc": 0.45,
+      "best_acc": 0.5
+    },
+    {
+      "model": "Qwen2.5-1.5B",
+      "params": 1544000000.0,
+      "natural_acc": 0.65,
+      "code_acc": 0.6,
+      "best_acc": 0.65
+    },
+    {
+      "model": "XL",
+      "params": 1558000000.0,
+      "natural_acc": 0.55,
+      "code_acc": 0.65,
+      "best_acc": 0.55
+    },
+    {
+      "model": "GPT2-XL",
+      "params": 1558000000.0,
+      "natural_acc": 0.55,
+      "code_acc": 0.65,
+      "best_acc": 0.55
+    }
+  ],
+  "fits": {
+    "code_mode": {
+      "alpha": 0.16160271162146334,
+      "beta": -2.788745933991079,
+      "r_squared": 0.858206079999603,
+      "N_90_percent": 8188651666.683583,
+      "N_90_billions": 8.188651666683583
+    },
+    "natural": {
+      "alpha": 0.15617246818569203,
+      "beta": -2.7195801803575077,
+      "r_squared": 0.8110791459637682,
+      "N_90_percent": 11629532127.6572,
+      "N_90_billions": 11.6295321276572
+    },
+    "best_layer": {
+      "alpha": 0.13504893767003512,
+      "beta": -2.264927755501041,
+      "r_squared": 0.8699059475131729,
+      "N_90_percent": 15061594541.148247,
+      "N_90_billions": 15.061594541148247
+    }
+  }
+}

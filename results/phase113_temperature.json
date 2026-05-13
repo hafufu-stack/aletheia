@@ -1,0 +1,50 @@
+{
+  "phase": 113,
+  "name": "Temperature Physics of Truth",
+  "model": "Qwen/Qwen2.5-1.5B",
+  "results": {
+    "0.1": {
+      "temperature": 0.1,
+      "best_layer": 27,
+      "best_relative": 0.9642857142857143,
+      "best_accuracy": 0.875,
+      "output_accuracy": 0.875
+    },
+    "0.5": {
+      "temperature": 0.5,
+      "best_layer": 27,
+      "best_relative": 0.9642857142857143,
+      "best_accuracy": 0.875,
+      "output_accuracy": 0.875
+    },
+    "1.0": {
+      "temperature": 1.0,
+      "best_layer": 27,
+      "best_relative": 0.9642857142857143,
+      "best_accuracy": 0.875,
+      "output_accuracy": 0.875
+    },
+    "2.0": {
+      "temperature": 2.0,
+      "best_layer": 27,
+      "best_relative": 0.9642857142857143,
+      "best_accuracy": 0.875,
+      "output_accuracy": 0.875
+    },
+    "5.0": {
+      "temperature": 5.0,
+      "best_layer": 27,
+      "best_relative": 0.9642857142857143,
+      "best_accuracy": 0.875,
+      "output_accuracy": 0.875
+    },
+    "10.0": {
+      "temperature": 10.0,
+      "best_layer": 27,
+      "best_relative": 0.9642857142857143,
+      "best_accuracy": 0.875,
+      "output_accuracy": 0.875
+    }
+  },
+  "temperature_invariant": true
+}

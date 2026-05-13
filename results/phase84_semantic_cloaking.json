@@ -1,0 +1,26 @@
+{
+  "phase": 84,
+  "name": "Semantic Cloaking",
+  "results": [
+    {
+      "method": "baseline",
+      "accuracy": 0.16,
+      "mean_rank": 137.56
+    },
+    {
+      "method": "cloak_L8",
+      "accuracy": 0.04,
+      "mean_rank": 206.04
+    },
+    {
+      "method": "cloak_L9",
+      "accuracy": 0.08,
+      "mean_rank": 216.12
+    },
+    {
+      "method": "cloak_L10",
+      "accuracy": 0.04,
+      "mean_rank": 240.8
+    }
+  ]
+}

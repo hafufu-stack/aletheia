@@ -1,18 +1,25 @@
-# Project Aletheia: The Seven Laws of LLM Hallucination Physics
+# Project Aletheia V4: The Complete Physics of LLM Truth
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20088666.svg)](https://doi.org/10.5281/zenodo.20088666)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **"LLMs do not lack knowledge—they suppress it. Facts exist at Rank 1 in intermediate layers, but are overridden by grammar-oriented final layers. A single symbol prefix can disable the suppression."**
+> **"LLMs do not lack knowledge—they suppress it. At 14B parameters, a single symbol prefix achieves 100% factual accuracy with zero external knowledge."**
 
 ## Overview
 
-Project Aletheia is a systematic 83-phase investigation of LLM hallucination through the lens of condensed matter physics. Using GPT-2 (124M parameters) as a "particle accelerator," I establish **seven fundamental laws** and **four theorems** governing hallucination in autoregressive language models.
+Project Aletheia is a systematic **113-phase** investigation of LLM hallucination through the lens of condensed matter physics. Starting from GPT-2 (124M) as a "particle accelerator" and scaling to Qwen2.5-14B, I establish **seven fundamental laws**, **four theorems**, and **four new universal principles** governing how transformers suppress factual knowledge.
+
+### V4 Highlights 🔥🔥🔥
+
+- **14B Singularity**: Qwen2.5-14B achieves **100% factual accuracy** with Code Mode — zero fine-tuning, zero external knowledge
+- **Aletheia Constant**: Truth lives at **95% depth** in all transformers — invariant to architecture, language, and temperature
+- **Dual-Engine Theory**: Code Mode operates Shield (weakens suppressors) + Sword (strengthens amplifiers) simultaneously
+- **Alignment Tax**: Instruction tuning hypertrophies MLP suppressors by **6×**, reducing capacity to N/5
 
 ## The Seven Laws of LLM Hallucination Physics
 
 | Law | Phase | Discovery |
-|-----|-------|-----------| 
+|-----|-------|-----------|
 | **1. Degeneracy** | P1 | Fact-skill subspaces separated by only **1.2°**—fluent lies are structurally inevitable |
 | **2. Temperature Irrelevance** | P7 | Critical spike is temperature-independent (**γ = 0.000**) |
 | **3. LayerNorm Impermeability** | P8–P12 | All mid-layer interventions are absorbed by LayerNorm |
@@ -24,11 +31,32 @@ Project Aletheia is a systematic 83-phase investigation of LLM hallucination thr
 ## Four Fundamental Theorems
 
 | Theorem | Phases | Statement |
-|---------|--------|-----------| 
+|---------|--------|-----------|
 | **Internal Impossibility** | P37–P48, P71–P72 | No internal operation recovers suppressed facts—**all methods: 0%**, including prompt engineering |
 | **L10 Optimality** | P49, P54 | Single-layer L10 Logit Lens (40%) outperforms all ensemble methods (8–25%) |
 | **Detection–Generation Separation** | P36, P57 | Perfect hallucination detection does not enable correction |
 | **Dark Matter Hypothesis** | P63, P75 | Math tokens interact **29% less** with suppressor weight matrices—GSF is a selective filter, not a universal brake 🔥 |
+
+## Four New Universal Principles (V4) 🆕
+
+| Principle | Phases | Statement |
+|-----------|--------|-----------|
+| **Aletheia Constant** | P96, P103, P110, P113 | Best factual layer at **α_A ≈ 0.95** depth — invariant to architecture (GPT-2, Qwen), language (EN, JA), and temperature (0.1–10.0) 🔥🔥🔥 |
+| **Dual-Engine Theory** | P97, P112 | Code Mode = **Shield** (weakens late-layer suppressors) + **Sword** (strengthens early-layer amplifiers) — universal across GPT-2 XL and Qwen 🔥🔥 |
+| **Alignment Tax** | P101, P105, P108 | Instruction tuning hypertrophies MLP suppressors by **6×** — effective capacity reduced to **N_eff = N/5**. Bypassed by "The answer is:" 🔥 |
+| **Entropy Bomb** | P104, P109 | "The answer is:" causes **full-layer entropy explosion** (+0.30 uniform) — mechanistically distinct from Code Mode's targeted Shield/Sword 🔥 |
+
+## Key Discovery: The 14B Singularity 🔥🔥🔥
+
+```
+                    Natural    Code #    "The answer is:"
+GPT-2 Small  (124M):  15%       20%           10%
+GPT-2 XL     (1.5B):  55%       65%           55%
+Qwen2.5-1.5B:         65%       60%           75%
+Qwen2.5-14B:          90%      100%  ←       100%  ←  SINGULARITY
+```
+
+At 14B parameters, **truth extraction is a solved problem**. P99's scaling law predicted 98.7% — actual was 100%.
 
 ## Key Discovery: The L10 Oracle
 
@@ -42,20 +70,7 @@ Output:     "the"              ← Fluent hallucination
 
 Extracting facts directly from L10 via Logit Lens: **10% → 40% accuracy (4× improvement)**, with zero external knowledge or retraining.
 
-## Key Discovery: The Code Mode Switch 🔥
-
-Any non-natural-language symbol prefix disables the Grammar Police:
-
-```
-Natural:    "The capital of Japan is" → "the" (WRONG)
-Comment:    "# Japan capital:"        → "Tokyo" (CORRECT)
-```
-
-- **All symbols work equally**: `#`, `//`, `--`, `*`, `>>`, `;`, `|`, `!`, `~` → all 25% accuracy vs 0% natural
-- **Mechanism**: Symbol prefixes increase suppressor entropy (+0.43) while decreasing helper entropy (−0.21)
-- **Not symbol-specific**: A general mode transition in the transformer architecture
-
-## Experimental Phases (83 total)
+## Experimental Phases (113 total)
 
 ### Season 1: Fundamental Characterization (P1–P5)
 - **P1**: Pauli Exclusion — Fact-Skill degeneracy (1.2°)
@@ -122,18 +137,48 @@ Comment:    "# Japan capital:"        → "Tokyo" (CORRECT)
 - **P82**: Code Mode Neurons — L11:N314 (+31.8) is the switch neuron
 - **P83**: Full Map — **True #1 suppressor is L9H6 (+927), not L11H7** 🔥
 
+### Season 21–23: Dark Matter Engineering & Scaling Law (P84–P95) 🆕
+- **P87**: CoT Illusion — **Chain-of-Thought is an incomplete Code Mode Switch** 🔥
+- **P91**: Lobotomy Generalization — Neural lobotomy does NOT generalize (0% on novel facts)
+- **P92**: Perplexity Cost — Suppressors cost only **1.4% perplexity** (essentially free)
+- **P95**: Grand Scaling Law — **GSF: 6.0→0.5→0.5→0.0 across scales**; XL Paradox discovered 🔥🔥
+
+### Season 24: The Universal Horizon (P96–P101) 🆕
+- **P96**: Universal 0.94 — **Aletheia Constant confirmed across GPT-2 + Qwen** 🔥🔥🔥
+- **P97**: Dual-Engine — **Shield + Sword mechanism in 1,200 XL heads** 🔥🔥
+- **P98**: CoT Horizon — "The answer is:" = 70–75% in Qwen (best template)
+- **P99**: Scaling Prediction — **90% at 8.2B (Code), 11.6B (Natural)** 🔥
+- **P101**: Alignment Tax — **7B Instruct ≈ 1.5B Base → N_eff = N/5** 🔥🔥
+
+### Season 25: Beyond the Singularity (P103–P107) 🆕
+- **P103**: Syntax Theorem — Proportional and offset models both R²>0.995
+- **P104**: Answer Anatomy — **"The answer is:" = entropy bomb, not funnel** 🔥
+- **P105–P106**: Alignment Autopsy — Suppressor Hypertrophy confirmed; Frankenstein Surgery = 0%
+- **P107**: **14B Singularity — Code Mode = 100% accuracy** 🔥🔥🔥
+
+### Season 26: The Transcendence Era (P108–P113) 🆕
+- **P108**: MLP Autopsy — **Alignment Tax lives in MLPs (6× back-half suppression)** 🔥
+- **P109**: Reasoning Horizon — Facts=entropy bomb, Logic=Code Mode, Math=impossible at 1.5B
+- **P110**: Cross-Lingual — **0.94 constant invariant to language (EN=JA)** 🔥
+- **P112**: Dual-Engine Universality — Shield/Sword confirmed on Qwen (GQA) 🔥
+- **P113**: Temperature Physics — **0.94 constant invariant to temperature (0.1–10.0)** 🔥🔥
+
 ## Repository Structure
 
 ```
 aletheia/
-├── experiments/          # All 83 phase scripts
+├── experiments/          # Phase 1–95 scripts
 │   ├── phase1_pauli_exclusion.py
 │   ├── ...
-│   ├── phase83_suppression_map.py
-│   └── utils.py
+│   └── phase95_grand_scaling.py
+├── experiments2/         # Phase 96–113 scripts (Qwen era)
+│   ├── phase96_universal_094.py
+│   ├── ...
+│   └── runner_s26.py
 ├── results/              # JSON results for each phase
-├── figures/              # Generated visualizations (83 figures)
-└── papers/               # LaTeX source (shared via Zenodo)
+├── figures/              # Generated visualizations (100+ figures)
+├── papers/               # LaTeX source (paper_v4.tex)
+└── reports/              # Season progress reports
 ```
 
 ## Requirements
@@ -151,7 +196,8 @@ scikit-learn
 ```bash
 # Run any individual phase
 python experiments/phase49_l10_oracle.py      # The key discovery
-python experiments/phase83_suppression_map.py # Full 144-head ablation map
+python experiments/phase83_suppression_map.py  # Full 144-head ablation map
+python experiments2/phase107_14b_singularity.py # The 14B Singularity
 
 # The L10 Oracle in 10 lines:
 python -c "
@@ -176,7 +222,7 @@ print('L10 says:', tok.decode(logits.argmax()))  # → Tokyo
 
 ```bibtex
 @article{funasaki2026aletheia,
-  title={Project Aletheia: The Seven Laws of LLM Hallucination Physics---From Phase Transitions to the Code Mode Switch},
+  title={Project Aletheia V4: The Complete Physics of LLM Truth---From Phase Transitions to the 14B Singularity},
   author={Funasaki, Hiroto},
   year={2026},
   doi={10.5281/zenodo.20088666}

@@ -1,0 +1,76 @@
+{
+  "phase": 86,
+  "name": "Ultimate Neural Lobotomy",
+  "results": [
+    {
+      "config": "baseline",
+      "accuracy": 0.16,
+      "mean_rank": 137.56,
+      "median_rank": 10.0,
+      "sample_fluency": [
+        "The weather today is very good, and we're going to be able to get some good weather tomorrow.\n\n\"We're going to be able",
+        "Once upon a time there was a great deal of confusion about the meaning of the word \"fool.\" The word \"fool\" was used in"
+      ]
+    },
+    {
+      "config": "mute_top3",
+      "accuracy": 0.16,
+      "mean_rank": 153.92,
+      "median_rank": 11.0,
+      "sample_fluency": [
+        "The weather today is very good, and we're going to be able to get some good weather tomorrow.\n\n\"We're going to be able",
+        "Once upon a time there was a great deal of confusion about the meaning of the word \"fool.\" The word \"fool\" was used to"
+      ]
+    },
+    {
+      "config": "mute_all5",
+      "accuracy": 0.2,
+      "mean_rank": 158.4,
+      "median_rank": 11.0,
+      "sample_fluency": [
+        "The weather today is very good, and we're going to be back in the middle of the night.\n\n\"We're going to be back",
+        "Once upon a time there was a man who was a man of great wealth and wealth, and who was a man of great wealth and wealth, and"
+      ]
+    },
+    {
+      "config": "boost_helper_2x",
+      "accuracy": 0.16,
+      "mean_rank": 132.64,
+      "median_rank": 10.0,
+      "sample_fluency": [
+        "The weather today is very good, and we're going to be back in the game tomorrow. We're going to be back in the game tomorrow.",
+        "Once upon a time there was a man who was a man of great wealth and power, and who was a man of great wealth and power, and"
+      ]
+    },
+    {
+      "config": "mute3_boost_helper",
+      "accuracy": 0.16,
+      "mean_rank": 147.72,
+      "median_rank": 11.0,
+      "sample_fluency": [
+        "The weather today is very good, and we're going to be back in the game tomorrow. We're going to be back in the game tomorrow.",
+        "Once upon a time there was a great deal of confusion about the meaning of the word \"fool.\" The word \"fool\" was used to"
+      ]
+    },
+    {
+      "config": "mute5_boost_helper",
+      "accuracy": 0.16,
+      "mean_rank": 150.64,
+      "median_rank": 11.0,
+      "sample_fluency": [
+        "The weather today is very good, and we're going to be back in the game tomorrow. We're going to be back in the game tomorrow.",
+        "Once upon a time there was a man who was a man of great wealth and wealth, and who was a man of great wealth and wealth, and"
+      ]
+    },
+    {
+      "config": "mute3_scale0.5",
+      "accuracy": 0.16,
+      "mean_rank": 146.24,
+      "median_rank": 10.0,
+      "sample_fluency": [
+        "The weather today is very good, and we're going to be able to get some good weather tomorrow.\n\n\"We're going to be able",
+        "Once upon a time there was a great deal of confusion about the meaning of the word \"fool.\" The word \"fool\" was used in"
+      ]
+    }
+  ]
+}

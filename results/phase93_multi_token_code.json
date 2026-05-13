@@ -1,0 +1,196 @@
+{
+  "phase": 93,
+  "name": "Code Mode Multi-Token",
+  "results": [
+    {
+      "template": "natural",
+      "multi_token_accuracy": 0.2,
+      "correct": 3,
+      "total": 15,
+      "samples": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "generated": " the capital of the United States, and the United States is ",
+          "found": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "generated": " the capital of the French Republic, and the capital of the ",
+          "found": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "generated": " the capital of the German state, and the capital of the Ger",
+          "found": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "generated": " Rome, and the capital of the world is Rome. The city of Rom",
+          "found": true
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "generated": " Madrid, and the capital of Spain is Madrid. The capital of ",
+          "found": true
+        }
+      ]
+    },
+    {
+      "template": "comment",
+      "multi_token_accuracy": 0.3333333333333333,
+      "correct": 5,
+      "total": 15,
+      "samples": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "generated": " the capital of Japan.\n\nThe capital of Japan is the capital ",
+          "found": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "generated": " Paris.\n\nThe capital of France is Paris. The capital of Fran",
+          "found": true
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "generated": " Berlin.\n\nThe capital of Germany is Berlin. The capital of G",
+          "found": true
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "generated": " Rome.\n\nThe capital of Italy is Rome. The capital of Italy i",
+          "found": true
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "generated": " the capital of Spain.\n\nThe capital of Spain is the capital ",
+          "found": false
+        }
+      ]
+    },
+    {
+      "template": "slash",
+      "multi_token_accuracy": 0.2,
+      "correct": 3,
+      "total": 15,
+      "samples": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "generated": " the capital of Japan.\n\nThe capital of Japan is the capital ",
+          "found": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "generated": " the capital of France.\n\nThe capital of France is the capita",
+          "found": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "generated": " the capital of Germany.\n\nThe capital of Germany is the capi",
+          "found": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "generated": " Rome.\n\nThe capital of Italy is Rome. The capital of Italy i",
+          "found": true
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "generated": " the capital of Spain.\n\nThe capital of Spain is the capital ",
+          "found": false
+        }
+      ]
+    },
+    {
+      "template": "bullet",
+      "multi_token_accuracy": 0.2,
+      "correct": 3,
+      "total": 15,
+      "samples": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "generated": " the capital of the world. It is the capital of the world. I",
+          "found": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "generated": " the capital of France. The capital of France is the capital",
+          "found": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "generated": " the capital of the German Reich. The capital of the German ",
+          "found": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "generated": " Rome. The city is the capital of the Roman Empire. The city",
+          "found": true
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "generated": " the capital of Spain. The capital of Spain is the capital o",
+          "found": false
+        }
+      ]
+    },
+    {
+      "template": "cot",
+      "multi_token_accuracy": 0.06666666666666667,
+      "correct": 1,
+      "total": 15,
+      "samples": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "generated": " the capital of the world. The capital of the world is the c",
+          "found": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "generated": " the capital of the world. The capital of the world is the c",
+          "found": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "generated": " the capital of the world. The capital of the world is the c",
+          "found": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "generated": " the city of Milan. The capital of Italy is the city of Mila",
+          "found": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "generated": " the capital of Spain. The capital of Spain is the capital o",
+          "found": false
+        }
+      ]
+    }
+  ]
+}

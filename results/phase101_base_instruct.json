@@ -1,0 +1,130 @@
+{
+  "phase": 101,
+  "name": "Base vs Instruct Divide",
+  "results": {
+    "Qwen2.5-0.5B-Base": {
+      "model": "Qwen/Qwen2.5-0.5B",
+      "variant": "base",
+      "params": 494032768,
+      "template_results": {
+        "natural": {
+          "accuracy": 0.55,
+          "mean_rank": 102.9
+        },
+        "code_hash": {
+          "accuracy": 0.6,
+          "mean_rank": 43.95
+        },
+        "code_slash": {
+          "accuracy": 0.6,
+          "mean_rank": 83.35
+        },
+        "cot_think": {
+          "accuracy": 0.6,
+          "mean_rank": 59.55
+        },
+        "cot_answer": {
+          "accuracy": 0.7,
+          "mean_rank": 68.3
+        },
+        "bullet": {
+          "accuracy": 0.55,
+          "mean_rank": 54.6
+        }
+      }
+    },
+    "Qwen2.5-1.5B-Base": {
+      "model": "Qwen/Qwen2.5-1.5B",
+      "variant": "base",
+      "params": 1543714304,
+      "template_results": {
+        "natural": {
+          "accuracy": 0.65,
+          "mean_rank": 127.9
+        },
+        "code_hash": {
+          "accuracy": 0.6,
+          "mean_rank": 93.35
+        },
+        "code_slash": {
+          "accuracy": 0.65,
+          "mean_rank": 162.55
+        },
+        "cot_think": {
+          "accuracy": 0.6,
+          "mean_rank": 565.75
+        },
+        "cot_answer": {
+          "accuracy": 0.75,
+          "mean_rank": 199.6
+        },
+        "bullet": {
+          "accuracy": 0.75,
+          "mean_rank": 270.75
+        }
+      }
+    },
+    "Qwen2.5-0.5B-Instruct": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "variant": "instruct",
+      "params": 494032768,
+      "template_results": {
+        "natural": {
+          "accuracy": 0.5,
+          "mean_rank": 165.8
+        },
+        "code_hash": {
+          "accuracy": 0.55,
+          "mean_rank": 93.6
+        },
+        "code_slash": {
+          "accuracy": 0.65,
+          "mean_rank": 153.85
+        },
+        "cot_think": {
+          "accuracy": 0.5,
+          "mean_rank": 113.3
+        },
+        "cot_answer": {
+          "accuracy": 0.7,
+          "mean_rank": 79.65
+        },
+        "bullet": {
+          "accuracy": 0.6,
+          "mean_rank": 100.65
+        }
+      }
+    },
+    "Qwen2.5-7B-Instruct": {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "variant": "instruct",
+      "params": 7615616512,
+      "template_results": {
+        "natural": {
+          "accuracy": 0.65,
+          "mean_rank": 177.15
+        },
+        "code_hash": {
+          "accuracy": 0.6,
+          "mean_rank": 48.3
+        },
+        "code_slash": {
+          "accuracy": 0.6,
+          "mean_rank": 81.5
+        },
+        "cot_think": {
+          "accuracy": 0.5,
+          "mean_rank": 112.65
+        },
+        "cot_answer": {
+          "accuracy": 0.7,
+          "mean_rank": 151.5
+        },
+        "bullet": {
+          "accuracy": 0.7,
+          "mean_rank": 84.05
+        }
+      }
+    }
+  }
+}
