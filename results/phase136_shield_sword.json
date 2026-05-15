@@ -1,0 +1,54 @@
+{
+  "phase": "136",
+  "name": "Shield and Sword Protocol",
+  "configs": {
+    "baseline": {
+      "word": 0.4,
+      "num": 0.0
+    },
+    "code_0": {
+      "word": 0.8,
+      "num": 0.0,
+      "template": "# {prompt}"
+    },
+    "code_1": {
+      "word": 1.0,
+      "num": 0.0,
+      "template": "// {prompt}"
+    },
+    "code_2": {
+      "word": 1.0,
+      "num": 0.0,
+      "template": ">>> {prompt}"
+    },
+    "code_3": {
+      "word": 1.0,
+      "num": 0.0,
+      "template": "def answer(): return {prompt}"
+    },
+    "fga_g5": {
+      "word": 1.0,
+      "num": 0.0
+    },
+    "fga_g10": {
+      "word": 1.0,
+      "num": 0.0
+    },
+    "fga_g20": {
+      "word": 1.0,
+      "num": 0.2857142857142857
+    },
+    "shield_sword_g5": {
+      "word": 1.0,
+      "num": 0.0
+    },
+    "shield_sword_g10": {
+      "word": 1.0,
+      "num": 0.0
+    },
+    "shield_sword_g20": {
+      "word": 1.0,
+      "num": 0.42857142857142855
+    }
+  }
+}

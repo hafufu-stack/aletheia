@@ -1,0 +1,26 @@
+{
+  "phase": "138",
+  "name": "BPE Orthogonal Genesis",
+  "configs": {
+    "baseline": {
+      "cos": 0.7300691604614258,
+      "word": 1.0,
+      "num": 0.0
+    },
+    "dispersion": {
+      "cos": 0.07184431701898575,
+      "word": 1.0,
+      "num": 0.25
+    },
+    "gram_schmidt": {
+      "cos": 1.6906092081825363e-09,
+      "word": 1.0,
+      "num": 0.0
+    },
+    "gs_plus_disperse": {
+      "cos": -0.07194508612155914,
+      "word": 1.0,
+      "num": 0.5
+    }
+  }
+}

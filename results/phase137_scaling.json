@@ -1,0 +1,90 @@
+{
+  "phase": "137",
+  "name": "Dispersion Scaling",
+  "results": {
+    "Qwen2.5-0.5B": {
+      "0.0": {
+        "cos_before": 0.7300691604614258,
+        "cos_after": 0.7300691604614258,
+        "pre_word": 0.5,
+        "pre_num": 0.0,
+        "post_word": 1.0,
+        "post_num": 0.0
+      },
+      "0.1": {
+        "cos_before": 0.7300691604614258,
+        "cos_after": 0.5901914834976196,
+        "pre_word": 0.5,
+        "pre_num": 0.0,
+        "post_word": 1.0,
+        "post_num": 0.0
+      },
+      "0.3": {
+        "cos_before": 0.7300691604614258,
+        "cos_after": 0.3616068959236145,
+        "pre_word": 0.5,
+        "pre_num": 0.0,
+        "post_word": 1.0,
+        "post_num": 0.25
+      },
+      "0.5": {
+        "cos_before": 0.7300691604614258,
+        "cos_after": 0.2160581797361374,
+        "pre_word": 0.5,
+        "pre_num": 0.25,
+        "post_word": 1.0,
+        "post_num": 0.25
+      },
+      "1.0": {
+        "cos_before": 0.7300691604614258,
+        "cos_after": 0.0493386909365654,
+        "pre_word": 0.5,
+        "pre_num": 0.25,
+        "post_word": 1.0,
+        "post_num": 0.25
+      }
+    },
+    "Qwen2.5-1.5B": {
+      "0.0": {
+        "cos_before": 0.7510965466499329,
+        "cos_after": 0.7510965466499329,
+        "pre_word": 1.0,
+        "pre_num": 0.0,
+        "post_word": 0.0,
+        "post_num": 0.0
+      },
+      "0.1": {
+        "cos_before": 0.7510965466499329,
+        "cos_after": 0.6115326881408691,
+        "pre_word": 1.0,
+        "pre_num": 0.0,
+        "post_word": 0.0,
+        "post_num": 0.0
+      },
+      "0.3": {
+        "cos_before": 0.7510965466499329,
+        "cos_after": 0.3757878839969635,
+        "pre_word": 1.0,
+        "pre_num": 0.25,
+        "post_word": 0.0,
+        "post_num": 0.0
+      },
+      "0.5": {
+        "cos_before": 0.7510965466499329,
+        "cos_after": 0.2225327491760254,
+        "pre_word": 1.0,
+        "pre_num": 0.25,
+        "post_word": 0.0,
+        "post_num": 0.0
+      },
+      "1.0": {
+        "cos_before": 0.7510965466499329,
+        "cos_after": 0.04566379263997078,
+        "pre_word": 1.0,
+        "pre_num": 0.25,
+        "post_word": 0.0,
+        "post_num": 0.0
+      }
+    }
+  }
+}

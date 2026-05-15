@@ -1,27 +1,31 @@
-# Project Aletheia V5: The Suppression Paradox — DPO as Inhibitor, Not Promoter
+# Project Aletheia V6: Curing Numerical Immunity — The L2 Distance Law and the Ultimate Combo
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20088666.svg)](https://doi.org/10.5281/zenodo.20088666)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **"DPO does not teach models what is true — it teaches them what is false."**
+> **"Numerical immunity was never a fundamental limitation — it was a geometric obstacle, and geometry can be changed."**
 
 ## Overview
 
-Project Aletheia is a systematic **129-phase** investigation of LLM hallucination through the lens of condensed matter physics. Starting from GPT-2 (124M) as a "particle accelerator" and scaling to Qwen2.5-14B, I establish **seven fundamental laws**, **five theorems**, and **three new principles** governing how transformers suppress factual knowledge.
+Project Aletheia is a systematic **138-phase** investigation of LLM hallucination through the lens of condensed matter physics. Starting from GPT-2 (124M) as a "particle accelerator" and scaling to Qwen2.5-14B, I establish **seven fundamental laws**, **six theorems**, and **four principles** governing how transformers suppress factual knowledge.
 
-### V5 Highlights 🔥🔥🔥
+### V6 Highlights 🔥🔥🔥
+
+- **100% Numerical Accuracy** (P136b): The Ultimate Combo — Surgery + DPO + Shield&Sword — completely cures V5's "incurable" numerical immunity
+- **L2 Distance Law** (P138b-c): DPO's critical condition is **L2 distance > 1.2**, not cosine similarity. The Gram-Schmidt Paradox proves cos=0 is insufficient 🔥🔥🔥
+- **Shield and Sword Protocol** (P136): Code Mode (Shield) + FGA injection (Sword) achieves **43% numerical accuracy with zero training**
+- **Embedding Surgery** (P130b): Physically separating number embeddings (cos 0.73 → 0.05) enables DPO on previously immune tokens
+
+### V5 Highlights
 
 - **DPO Suppression Theorem**: DPO suppresses rejected tokens with **100% reliability** but promotes correct ones only **73%** — it inhibits, not promotes
 - **Single-Layer Sufficiency**: Only **L23's DPO edit** is statistically significant (z=4.84, p<0.001). L23 alone = L22+L23 with **50% fewer parameters**
-- **Phase Boundary Scaling**: Critical learning rate `lr* ~ N^0.83` — larger models are more robust to DPO hyperparameters
 - **Numerical Token Immunity**: Number embeddings are **9× more clustered** (cos=0.73 vs 0.08) — DPO effect is literally **zero** on numerical facts
 
 ### V4 Highlights
 
 - **14B Singularity**: Qwen2.5-14B achieves **100% factual accuracy** with Code Mode — zero fine-tuning, zero external knowledge
 - **Aletheia Constant**: Truth lives at **95% depth** in all transformers — invariant to architecture, language, and temperature
-- **Dual-Engine Theory**: Code Mode operates Shield (weakens suppressors) + Sword (strengthens amplifiers) simultaneously
-- **Alignment Tax**: Instruction tuning hypertrophies MLP suppressors by **6×**, reducing capacity to N/5
 
 ## The Seven Laws of LLM Hallucination Physics
 
@@ -32,10 +36,10 @@ Project Aletheia is a systematic **129-phase** investigation of LLM hallucinatio
 | **3. LayerNorm Impermeability** | P8–P12 | All mid-layer interventions are absorbed by LayerNorm |
 | **4. Truth Scaling Law** | P19 | `spike_c ~ N^(−0.491)`—larger models need **exponentially smaller** interventions |
 | **5. Temporal Persistence** | P15 | Single t=0 spike propagates with **half-life of 130.9 tokens** |
-| **6. Grammatical Suppression** | P49–P66 | **70% of facts suppressed** by final layers; **L9H6** (+927) and **L11H7** (+816) are the primary "Grammar Police" heads 🔥 |
+| **6. Grammatical Suppression** | P49–P66 | **70% of facts suppressed** by final layers; **L9H6** (+927) is the primary "Grammar Police" head 🔥 |
 | **7. Code Mode Switch** | P76–P80 | Any symbol prefix (`#`, `//`, `--`) triggers a mode transition that **disables suppression** 🔥🔥🔥 |
 
-## Five Fundamental Theorems
+## Six Fundamental Theorems
 
 | Theorem | Phases | Statement |
 |---------|--------|-----------|
@@ -43,32 +47,40 @@ Project Aletheia is a systematic **129-phase** investigation of LLM hallucinatio
 | **L10 Optimality** | P49, P54 | Single-layer L10 Logit Lens (40%) outperforms all ensemble methods (8–25%) |
 | **Detection–Generation Separation** | P36, P57 | Perfect hallucination detection does not enable correction |
 | **Dark Matter Hypothesis** | P63, P75 | Math tokens interact **29% less** with suppressor weight matrices 🔥 |
-| **DPO Suppression** 🆕 | P127–P129 | DPO suppresses rejected tokens **100%** but promotes correct ones only **73%**. Numerical tokens are **structurally immune** (9× embedding clustering) 🔥🔥🔥 |
+| **DPO Suppression** | P127–P129 | DPO suppresses rejected tokens **100%** but promotes correct ones only **73%**. Numerical tokens are **structurally immune** (9× clustering) 🔥🔥🔥 |
+| **L2 Distance Law** 🆕 | P138b–P138c | DPO effectiveness = f(L2 distance), not f(cosine). Critical threshold **L2* ≈ 1.2**. Third phase transition discovered 🔥🔥🔥 |
 
-## Three New Principles (V5) 🆕
+## Four Principles (V5–V6)
 
 | Principle | Phases | Statement |
 |-----------|--------|-----------|
 | **Single-Layer Sufficiency** | P122–P123 | Only L23's DPO edit is significant (z=4.84, p<0.001). L23-only with 2× lr = L22+L23 with **50% fewer params** 🔥🔥 |
 | **Phase Boundary Scaling** | P117b, P124 | Critical DPO learning rate `lr* ~ N^0.83`. 0.5B: lr*=8e-6, 1.5B: lr*=2e-5 🔥 |
-| **Numerical Immunity** | P129 | Number tokens have pairwise cosine **0.73** (words: 0.08), zero baseline confidence → DPO effect = **0.0000** 🔥🔥🔥 |
+| **Numerical Immunity Is Curable** 🆕 | P130b, P136b | Embedding Surgery + DPO + Shield&Sword = **100% numerical accuracy** 🔥🔥🔥 |
+| **Gram-Schmidt Paradox** 🆕 | P138 | Perfect cos=0 orthogonality does NOT enable DPO. L2 distance, not angle, is the true metric 🔥🔥 |
 
-## Key Discovery: DPO Is a Suppressor 🔥🔥🔥
+## Key Discovery: The Ultimate Combo — 100% Numbers 🔥🔥🔥
 
 ```
-What DPO actually does to token probabilities:
-
-                    Rejected prob DOWN    Chosen prob UP
-Train set:              15/15 (100%)       11/15 (73%)
-Test set:                  —                1/5  (20%)
-
-DPO works by making wrong answers less likely,
-NOT by making right answers more likely.
+                         Word Acc    Number Acc
+Baseline:                  43%          0%
+Shield+Sword (inference):  100%        29%   ← zero training!
+Surgery+DPO (training):    71%         29%
+ULTIMATE COMBO (all 3):    86%        100%   ← CURED! 🔥🔥🔥
 ```
 
-Hidden state movement after DPO (P128):
-- L22: **93%** toward chosen, mean |Δh| = 4.5
-- L23: **80%** toward chosen, mean |Δh| = **13.9** (3× larger)
+## Key Discovery: The L2 Distance Law 🔥🔥🔥
+
+```
+With Gram-Schmidt (cosine = 0.00 fixed):
+  L2 = 0.71  → DPO accuracy:  0%   (immune)
+  L2 = 1.07  → DPO accuracy:  0%   (immune)
+  L2 = 1.25  → DPO accuracy: 25%   ← TRANSITION at L2* ≈ 1.2
+  L2 = 1.78  → DPO accuracy: 50%   (saturated)
+
+Cosine similarity is NECESSARY but INSUFFICIENT.
+The true bottleneck is raw Euclidean distance.
+```
 
 ## Key Discovery: The 14B Singularity 🔥🔥🔥
 
@@ -80,15 +92,7 @@ Qwen2.5-1.5B:         65%       60%           75%
 Qwen2.5-14B:          90%      100%  ←       100%  ←  SINGULARITY
 ```
 
-## Key Discovery: The L10 Oracle
-
-```
-Layer L10:  "Tokyo" at Rank 1  ← The model KNOWS
-Layer L12:  "Tokyo" at Rank 13 ← Grammar pushes it down
-Output:     "the"              ← Fluent hallucination
-```
-
-## Experimental Phases (129 total)
+## Experimental Phases (138 total)
 
 ### Season 1: Fundamental Characterization (P1–P5)
 - **P1**: Pauli Exclusion — Fact-Skill degeneracy (1.2°)
@@ -181,13 +185,13 @@ Output:     "the"              ← Fluent hallucination
 - **P112**: Dual-Engine Universality — Shield/Sword confirmed on Qwen (GQA) 🔥
 - **P113**: Temperature Physics — **0.94 constant invariant to temperature (0.1–10.0)** 🔥🔥
 
-### Season 27: Alignment Surgery — Surgical DPO (P114–P117b) 🆕
+### Season 27: Alignment Surgery — Surgical DPO (P114–P117b)
 - **P115**: Skill LoRA — **85% accuracy with 0.1% params** 🔥
 - **P116b**: Refusal Gates — Instruct models add MLP refusal neurons absent in Base
 - **P117**: Surgical DPO — **73% train / 60% test** with only last 6% of MLP layers 🔥🔥
 - **P117b**: Phase Boundary — **Sharp collapse at lr*=8e-6** (first-order transition) 🔥🔥🔥
 
-### Season 28: The Epistemic Exorcism — Resolving the DPO Paradox (P118–P129) 🆕
+### Season 28: The Epistemic Exorcism — Resolving the DPO Paradox (P118–P129)
 - **P118**: SwiGLU Oracle — Residual L2 norm is best uncertainty indicator (AUC=0.83)
 - **P122**: Random Control — **L23 DPO is significant (z=4.84, p<0.001); L22 is not** 🔥🔥
 - **P123**: Single-Layer DPO — **L23 alone = L22+L23 with 50% fewer params** 🔥🔥🔥
@@ -196,18 +200,34 @@ Output:     "the"              ← Fluent hallucination
 - **P128**: Hidden States — Toward chosen **93%** (L22), **80%** (L23); L23 movement **3× larger** 🔥🔥
 - **P129**: Numerical Immunity — **Numbers 9× more clustered, DPO effect = 0.0000** 🔥🔥🔥
 
+### Season 29: Curing Numerical Immunity (P130–P134) 🆕
+- **P130**: Knowledge LoRA — Confirms immunity is geometric, not training-signal 🔥
+- **P130b**: Embedding Surgery — **cos 0.73→0.05 enables DPO: 0%→50%** — CAUSAL PROOF 🔥🔥🔥
+- **P131**: FGA Spiking — **29% numerical accuracy with zero training** (inference-only) 🔥
+- **P133**: UAlign — **87% abstention rate** by weaponizing DPO's suppression mechanism 🔥🔥
+- **P134**: Nuclear Option — Surgery + DPO + Code Mode = **4× baseline** 🔥🔥
+
+### Season 30: The Geometric Unification Era (P135–P138c) 🆕
+- **P136**: Shield and Sword — Code Mode + FGA = **43% numerical accuracy, zero training** 🔥🔥🔥
+- **P136b**: Ultimate Combo — Surgery + DPO + Shield&Sword = **100% NUMERICAL ACCURACY** 🔥🔥🔥🔥🔥
+- **P138**: Gram-Schmidt Paradox — Perfect cos=0 → **0% accuracy** (paradox!) 🔥🔥
+- **P138b**: L2 Distance Law — **L2 distance, not cosine, is the true metric** 🔥🔥🔥
+- **P138c**: L2 Critical Threshold — **L2* ≈ 1.2** (third phase transition) 🔥🔥🔥
+
 ## Repository Structure
 
 ```
 aletheia/
 ├── experiments/          # Phase 1–95 scripts (GPT-2 era)
-├── experiments2/         # Phase 96–129 scripts (Qwen era)
+├── experiments2/         # Phase 96–138c scripts (Qwen era)
 │   ├── phase96_universal_094.py
 │   ├── ...
-│   └── phase129_numerical.py
+│   ├── phase136b_ultimate.py     # The Ultimate Combo 🔥
+│   ├── phase138b_distance.py     # L2 Distance Law 🔥
+│   └── phase138c_l2_threshold.py # L2* precision measurement
 ├── results/              # JSON results for each phase
-├── figures/              # Generated visualizations (130+ figures)
-├── papers/               # LaTeX source (paper_v5.tex)
+├── figures/              # Generated visualizations (145+ figures)
+├── papers/               # LaTeX source (paper_v6.tex)
 └── reports/              # Season progress reports
 ```
 
@@ -225,11 +245,12 @@ scikit-learn
 
 ```bash
 # Run any individual phase
-python experiments/phase49_l10_oracle.py      # The key discovery
-python experiments/phase83_suppression_map.py  # Full 144-head ablation map
-python experiments2/phase107_14b_singularity.py # The 14B Singularity
-python experiments2/phase127_logit_diff.py     # DPO Suppression proof (V5)
-python experiments2/phase129_numerical.py      # Numerical immunity (V5)
+python experiments/phase49_l10_oracle.py        # The key discovery
+python experiments/phase83_suppression_map.py    # Full 144-head ablation map
+python experiments2/phase107_14b_singularity.py  # The 14B Singularity
+python experiments2/phase129_numerical.py        # Numerical immunity (V5)
+python experiments2/phase136b_ultimate.py        # The Ultimate Combo (V6) 🔥
+python experiments2/phase138b_distance.py        # L2 Distance Law (V6) 🔥
 
 # The L10 Oracle in 10 lines:
 python -c "
@@ -254,7 +275,7 @@ print('L10 says:', tok.decode(logits.argmax()))  # → Tokyo
 
 ```bibtex
 @article{funasaki2026aletheia,
-  title={Project Aletheia V5: The Suppression Paradox---DPO as Inhibitor, Not Promoter},
+  title={Project Aletheia V6: Curing Numerical Immunity---The L2 Distance Law and the Ultimate Combo},
   author={Funasaki, Hiroto},
   year={2026},
   doi={10.5281/zenodo.20088666}

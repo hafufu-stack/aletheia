@@ -1,0 +1,43 @@
+{
+  "phase": "133b",
+  "name": "UAlign Generalization Test",
+  "baseline_summary": {
+    "word_acc": 0.6,
+    "num_abstain": 0.0,
+    "num_correct": 0.0
+  },
+  "dose_response": {
+    "2": {
+      "word_acc": 0.6,
+      "num_abstain": 0.0,
+      "num_correct": 0.0,
+      "num_fabricate": 1.0
+    },
+    "5": {
+      "word_acc": 0.8,
+      "num_abstain": 0.2,
+      "num_correct": 0.0,
+      "num_fabricate": 0.8
+    },
+    "10": {
+      "word_acc": 0.6666666666666666,
+      "num_abstain": 0.6666666666666666,
+      "num_correct": 0.0,
+      "num_fabricate": 0.3333333333333333
+    },
+    "20": {
+      "word_acc": 0.5333333333333333,
+      "num_abstain": 0.8666666666666667,
+      "num_correct": 0.0,
+      "num_fabricate": 0.13333333333333333
+    },
+    "30": {
+      "word_acc": 0.5333333333333333,
+      "num_abstain": 0.8666666666666667,
+      "num_correct": 0.0,
+      "num_fabricate": 0.13333333333333333
+    }
+  },
+  "n_test_word": 15,
+  "n_test_num": 15
+}

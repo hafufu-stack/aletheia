@@ -1,0 +1,30 @@
+{
+  "phase": "136c",
+  "name": "Nuclear Option v2",
+  "configs": {
+    "A_trained_only": {
+      "word_acc": 0.0,
+      "num_acc": 0.25,
+      "uncertain_abstain": 0.0,
+      "total_acc": 0.15384615384615385
+    },
+    "B_code_mode": {
+      "word_acc": 0.0,
+      "num_acc": 0.25,
+      "uncertain_abstain": 0.0,
+      "total_acc": 0.15384615384615385
+    },
+    "C_fga": {
+      "word_acc": 0.2,
+      "num_acc": 0.25,
+      "uncertain_abstain": 0.0,
+      "total_acc": 0.23076923076923078
+    },
+    "D_shield_sword": {
+      "word_acc": 0.0,
+      "num_acc": 0.25,
+      "uncertain_abstain": 0.0,
+      "total_acc": 0.15384615384615385
+    }
+  }
+}

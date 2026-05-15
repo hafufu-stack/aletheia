@@ -1,0 +1,112 @@
+{
+  "phase": "134",
+  "name": "The Nuclear Option",
+  "A_baseline": {
+    "word_known": {
+      "correct": 0,
+      "abstain": 0,
+      "total": 3
+    },
+    "number_trained": {
+      "correct": 0,
+      "abstain": 0,
+      "total": 3
+    },
+    "number_uncertain": {
+      "correct": 0,
+      "abstain": 0,
+      "total": 2
+    },
+    "number_novel": {
+      "correct": 0,
+      "abstain": 0,
+      "total": 4
+    },
+    "word_novel": {
+      "correct": 1,
+      "abstain": 0,
+      "total": 2
+    }
+  },
+  "B_dpo_only": {
+    "word_known": {
+      "correct": 1,
+      "abstain": 0,
+      "total": 3
+    },
+    "number_trained": {
+      "correct": 0,
+      "abstain": 0,
+      "total": 3
+    },
+    "number_uncertain": {
+      "correct": 0,
+      "abstain": 0,
+      "total": 2
+    },
+    "number_novel": {
+      "correct": 0,
+      "abstain": 0,
+      "total": 4
+    },
+    "word_novel": {
+      "correct": 1,
+      "abstain": 0,
+      "total": 2
+    }
+  },
+  "C_surgery_dpo": {
+    "word_known": {
+      "correct": 1,
+      "abstain": 0,
+      "total": 3
+    },
+    "number_trained": {
+      "correct": 2,
+      "abstain": 0,
+      "total": 3
+    },
+    "number_uncertain": {
+      "correct": 0,
+      "abstain": 0,
+      "total": 2
+    },
+    "number_novel": {
+      "correct": 0,
+      "abstain": 0,
+      "total": 4
+    },
+    "word_novel": {
+      "correct": 0,
+      "abstain": 0,
+      "total": 2
+    }
+  },
+  "D_nuclear": {
+    "word_known": {
+      "correct": 2,
+      "abstain": 0,
+      "total": 3
+    },
+    "number_trained": {
+      "correct": 2,
+      "abstain": 0,
+      "total": 3
+    },
+    "number_uncertain": {
+      "correct": 0,
+      "abstain": 0,
+      "total": 2
+    },
+    "number_novel": {
+      "correct": 0,
+      "abstain": 0,
+      "total": 4
+    },
+    "word_novel": {
+      "correct": 0,
+      "abstain": 0,
+      "total": 2
+    }
+  }
+}

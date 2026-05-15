@@ -1,0 +1,108 @@
+{
+  "phase": "130b",
+  "name": "Embedding Dispersion Surgery",
+  "results": {
+    "0.0": {
+      "cos_before": 0.7375977635383606,
+      "cos_after": 0.7375977635383606,
+      "word_cos": 0.27596840262413025,
+      "pre_dpo": {
+        "word": 0.8,
+        "num": 0.0
+      },
+      "post_train": {
+        "word": 1.0,
+        "num": 0.0
+      },
+      "post_test": {
+        "word": 0.5,
+        "num": 0.0
+      }
+    },
+    "0.1": {
+      "cos_before": 0.7375977635383606,
+      "cos_after": 0.5637531876564026,
+      "word_cos": 0.27596840262413025,
+      "pre_dpo": {
+        "word": 0.8,
+        "num": 0.0
+      },
+      "post_train": {
+        "word": 1.0,
+        "num": 0.0
+      },
+      "post_test": {
+        "word": 0.5,
+        "num": 0.0
+      }
+    },
+    "0.3": {
+      "cos_before": 0.7375977635383606,
+      "cos_after": 0.29833903908729553,
+      "word_cos": 0.27596840262413025,
+      "pre_dpo": {
+        "word": 0.8,
+        "num": 0.0
+      },
+      "post_train": {
+        "word": 1.0,
+        "num": 0.25
+      },
+      "post_test": {
+        "word": 0.5,
+        "num": 0.0
+      }
+    },
+    "0.5": {
+      "cos_before": 0.7375977635383606,
+      "cos_after": 0.15237660706043243,
+      "word_cos": 0.27596840262413025,
+      "pre_dpo": {
+        "word": 0.8,
+        "num": 0.25
+      },
+      "post_train": {
+        "word": 1.0,
+        "num": 0.25
+      },
+      "post_test": {
+        "word": 0.5,
+        "num": 0.0
+      }
+    },
+    "1.0": {
+      "cos_before": 0.7375977635383606,
+      "cos_after": 0.01604516990482807,
+      "word_cos": 0.27596840262413025,
+      "pre_dpo": {
+        "word": 0.8,
+        "num": 0.5
+      },
+      "post_train": {
+        "word": 1.0,
+        "num": 0.5
+      },
+      "post_test": {
+        "word": 0.5,
+        "num": 0.0
+      }
+    },
+    "2.0": {
+      "cos_before": 0.7375977635383606,
+      "cos_after": -0.03779037296772003,
+      "word_cos": 0.27596840262413025,
+      "pre_dpo": {
+        "word": 0.0,
+        "num": 0.5
+      },
+      "post_train": {
+        "word": 0.4,
+        "num": 0.5
+      },
+      "post_test": {
+        "word": 0.0,
+        "num": 0.0
+      }
+    }
+  }
+}

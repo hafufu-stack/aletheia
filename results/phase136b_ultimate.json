@@ -1,0 +1,22 @@
+{
+  "phase": "136b",
+  "name": "Ultimate Combo",
+  "configs": {
+    "A_baseline": {
+      "word": 0.42857142857142855,
+      "num": 0.0
+    },
+    "B_shield_sword": {
+      "word": 1.0,
+      "num": 0.2857142857142857
+    },
+    "C_surgery_dpo": {
+      "word": 0.7142857142857143,
+      "num": 0.2857142857142857
+    },
+    "D_ultimate": {
+      "word": 0.8571428571428571,
+      "num": 1.0
+    }
+  }
+}
