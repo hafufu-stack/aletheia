@@ -1,0 +1,24 @@
+{
+  "phase": "122",
+  "name": "Random Perturbation Control",
+  "results": {
+    "L22": {
+      "dpo_cos": 0.05375208333134651,
+      "dpo_abs_cos": 0.05375208333134651,
+      "random_mean": 0.02581717671826482,
+      "random_std": 0.020945933513949692,
+      "z_score": 1.3336673008380096,
+      "p_value": 0.09115645788485982,
+      "significant": "False"
+    },
+    "L23": {
+      "dpo_cos": 0.11455745995044708,
+      "dpo_abs_cos": 0.11455745995044708,
+      "random_mean": 0.02256254670675844,
+      "random_std": 0.018992220418604912,
+      "z_score": 4.843820849592172,
+      "p_value": 6.368289079405898e-07,
+      "significant": "True"
+    }
+  }
+}

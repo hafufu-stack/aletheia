@@ -1,0 +1,46 @@
+{
+  "phase": "124",
+  "name": "1.5B Phase Boundary Extended",
+  "model": "Qwen/Qwen2.5-1.5B",
+  "lr_star_1b5": 2e-05,
+  "lr_star_0b5": 8e-06,
+  "ratio": 2.5000000000000004,
+  "results": {
+    "1e-05": {
+      "lr": 1e-05,
+      "base_test": 0.8,
+      "final_train": 0.7333333333333333,
+      "final_test": 0.8
+    },
+    "2e-05": {
+      "lr": 2e-05,
+      "base_test": 0.8,
+      "final_train": 0.7333333333333333,
+      "final_test": 0.8
+    },
+    "3e-05": {
+      "lr": 3e-05,
+      "base_test": 0.8,
+      "final_train": 0.7333333333333333,
+      "final_test": 0.6
+    },
+    "5e-05": {
+      "lr": 5e-05,
+      "base_test": 0.8,
+      "final_train": 0.7333333333333333,
+      "final_test": 0.2
+    },
+    "7e-05": {
+      "lr": 7e-05,
+      "base_test": 0.8,
+      "final_train": 0.7333333333333333,
+      "final_test": 0.4
+    },
+    "1e-04": {
+      "lr": 0.0001,
+      "base_test": 0.8,
+      "final_train": 0.7333333333333333,
+      "final_test": 0.4
+    }
+  }
+}

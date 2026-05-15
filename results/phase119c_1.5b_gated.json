@@ -1,0 +1,174 @@
+{
+  "phase": "119c",
+  "name": "1.5B Residual-Gated F-DPO",
+  "model": "Qwen/Qwen2.5-1.5B",
+  "best_layer": 26,
+  "threshold": 299.4382774275963,
+  "direction": "known_higher",
+  "pipeline_acc": 0.75,
+  "dpo_only_acc": 0.875,
+  "raw_base_acc": 0.8125,
+  "p119b_acc": 0.3,
+  "details": [
+    {
+      "prompt": "The tallest mountain in the world is",
+      "fact_type": "known",
+      "l2": 310.42181396484375,
+      "top_token": 10423,
+      "fact_id": 10423,
+      "correct_answer": true,
+      "action": "answer",
+      "is_correct": true
+    },
+    {
+      "prompt": "The currency of the United Kingdom is th",
+      "fact_type": "known",
+      "l2": 340.6711120605469,
+      "top_token": 30023,
+      "fact_id": 30023,
+      "correct_answer": true,
+      "action": "answer",
+      "is_correct": true
+    },
+    {
+      "prompt": "The speed of sound is approximately",
+      "fact_type": "known",
+      "l2": 300.04705810546875,
+      "top_token": 220,
+      "fact_id": 18,
+      "correct_answer": false,
+      "action": "answer",
+      "is_correct": false
+    },
+    {
+      "prompt": "Albert Einstein was born in",
+      "fact_type": "known",
+      "l2": 289.72265625,
+      "top_token": 16582,
+      "fact_id": 16582,
+      "correct_answer": true,
+      "action": "refuse",
+      "is_correct": false
+    },
+    {
+      "prompt": "Photosynthesis converts sunlight into",
+      "fact_type": "known",
+      "l2": 339.3421630859375,
+      "top_token": 11483,
+      "fact_id": 11483,
+      "correct_answer": true,
+      "action": "answer",
+      "is_correct": true
+    },
+    {
+      "prompt": "The smallest country in the world is",
+      "fact_type": "known",
+      "l2": 300.0511779785156,
+      "top_token": 46547,
+      "fact_id": 46547,
+      "correct_answer": true,
+      "action": "answer",
+      "is_correct": true
+    },
+    {
+      "prompt": "DNA stands for",
+      "fact_type": "known",
+      "l2": 320.4669189453125,
+      "top_token": 409,
+      "fact_id": 409,
+      "correct_answer": true,
+      "action": "answer",
+      "is_correct": true
+    },
+    {
+      "prompt": "The Pythagorean theorem relates to",
+      "fact_type": "known",
+      "l2": 327.76226806640625,
+      "top_token": 279,
+      "fact_id": 1290,
+      "correct_answer": false,
+      "action": "answer",
+      "is_correct": false
+    },
+    {
+      "prompt": "The 47th prime number is",
+      "fact_type": "unknown",
+      "l2": 297.4091491699219,
+      "top_token": 220,
+      "fact_id": 16,
+      "correct_answer": false,
+      "action": "refuse",
+      "is_correct": true
+    },
+    {
+      "prompt": "The population of Funabashi in 2025 was ",
+      "fact_type": "unknown",
+      "l2": 271.80584716796875,
+      "top_token": 220,
+      "fact_id": 15,
+      "correct_answer": false,
+      "action": "refuse",
+      "is_correct": true
+    },
+    {
+      "prompt": "The melting point of hafnium in Kelvin i",
+      "fact_type": "unknown",
+      "l2": 291.6122741699219,
+      "top_token": 220,
+      "fact_id": 21,
+      "correct_answer": false,
+      "action": "refuse",
+      "is_correct": true
+    },
+    {
+      "prompt": "The deepest point of Lake Baikal in mete",
+      "fact_type": "unknown",
+      "l2": 297.7404479980469,
+      "top_token": 220,
+      "fact_id": 17,
+      "correct_answer": false,
+      "action": "refuse",
+      "is_correct": true
+    },
+    {
+      "prompt": "The ISO country code for Bhutan is",
+      "fact_type": "unknown",
+      "l2": 301.5865783691406,
+      "top_token": 67747,
+      "fact_id": 21111,
+      "correct_answer": false,
+      "action": "answer",
+      "is_correct": false
+    },
+    {
+      "prompt": "The atomic mass of Lutetium is approxima",
+      "fact_type": "unknown",
+      "l2": 291.11346435546875,
+      "top_token": 220,
+      "fact_id": 20,
+      "correct_answer": false,
+      "action": "refuse",
+      "is_correct": true
+    },
+    {
+      "prompt": "The orbital period of Neptune in Earth y",
+      "fact_type": "unknown",
+      "l2": 299.373291015625,
+      "top_token": 220,
+      "fact_id": 20,
+      "correct_answer": false,
+      "action": "refuse",
+      "is_correct": true
+    },
+    {
+      "prompt": "The wavelength of green light in nanomet",
+      "fact_type": "unknown",
+      "l2": 273.71636962890625,
+      "top_token": 220,
+      "fact_id": 15,
+      "correct_answer": false,
+      "action": "refuse",
+      "is_correct": true
+    }
+  ]
+}

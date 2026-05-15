@@ -1,0 +1,62 @@
+{
+  "phase": "121",
+  "name": "Geometry of Exorcism",
+  "model": "Qwen/Qwen2.5-0.5B",
+  "boundary": 22,
+  "geometry": {
+    "L22": {
+      "gate_proj": {
+        "delta_norm": 0.1959950476884842,
+        "base_norm": 42.483802795410156,
+        "relative_change": 0.004613406399430396,
+        "top_singular_value": 0.09744975715875626,
+        "rank1_fraction": 0.24717029929161072,
+        "cos_with_fact": 0
+      },
+      "up_proj": {
+        "delta_norm": 0.1992797553539276,
+        "base_norm": 44.35801315307617,
+        "relative_change": 0.004492531138990111,
+        "top_singular_value": 0.10832785069942474,
+        "rank1_fraction": 0.2954432964324951,
+        "cos_with_fact": 0
+      },
+      "down_proj": {
+        "delta_norm": 0.20038346946239471,
+        "base_norm": 42.5626220703125,
+        "relative_change": 0.004707968158807643,
+        "top_singular_value": 0.09740154445171356,
+        "rank1_fraction": 0.23622913658618927,
+        "cos_with_fact": 0.05375208333134651
+      },
+      "cos_base_vs_dpo_fact": 0.9976066946983337
+    },
+    "L23": {
+      "gate_proj": {
+        "delta_norm": 0.19732366502285004,
+        "base_norm": 43.526336669921875,
+        "relative_change": 0.004533431483546079,
+        "top_singular_value": 0.10864707827568054,
+        "rank1_fraction": 0.3031125068664551,
+        "cos_with_fact": 0
+      },
+      "up_proj": {
+        "delta_norm": 0.20148538053035736,
+        "base_norm": 43.333675384521484,
+        "relative_change": 0.00464962592585273,
+        "top_singular_value": 0.12103493511676788,
+        "rank1_fraction": 0.36079299449920654,
+        "cos_with_fact": 0
+      },
+      "down_proj": {
+        "delta_norm": 0.2014157474040985,
+        "base_norm": 37.97222137451172,
+        "relative_change": 0.005304291930081704,
+        "top_singular_value": 0.106557197868824,
+        "rank1_fraction": 0.2798347473144531,
+        "cos_with_fact": 0.11455745995044708
+      },
+      "cos_base_vs_dpo_fact": 0.9685381650924683
+    }
+  }
+}

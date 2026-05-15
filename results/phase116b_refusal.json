@@ -1,0 +1,1810 @@
+{
+  "phase": "116b",
+  "name": "Calibrated Refusal Curve",
+  "results": {
+    "GPT2-Small": {
+      "model": "gpt2",
+      "n_layers": 12,
+      "best_layer": 11,
+      "known_entropies": [
+        5.652615547180176,
+        5.998422622680664,
+        5.844196319580078,
+        5.421421051025391,
+        5.453316688537598,
+        5.371636867523193,
+        5.700776100158691,
+        5.596728324890137,
+        5.850062847137451,
+        5.632942199707031,
+        6.403581619262695,
+        4.872220039367676,
+        6.863551139831543,
+        5.940054416656494,
+        1.4807014465332031
+      ],
+      "unknown_entropies": [
+        6.313260078430176,
+        5.132763862609863,
+        5.438029766082764,
+        5.563739776611328,
+        5.270022869110107,
+        5.726522922515869,
+        4.976208686828613,
+        6.439445495605469,
+        5.537811279296875,
+        5.5602827072143555,
+        6.196989059448242,
+        4.806003570556641,
+        5.100196838378906,
+        4.818214416503906,
+        5.133199691772461
+      ],
+      "known_baseline_acc": 0.2,
+      "roc_points": [
+        {
+          "threshold": 0.4807014465332031,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.6313718484372509,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.7820422503412987,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.9327126522453464,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 1.0833830541493943,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 1.234053456053442,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 1.3847238579574896,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 1.5353942598615375,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 1.6860646617655852,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 1.836735063669633,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 1.9874054655736808,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 2.1380758674777285,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 2.288746269381776,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 2.439416671285824,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 2.590087073189872,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 2.7407574750939196,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 2.8914278769979673,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 3.042098278902015,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 3.1927686808060627,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 3.343439082710111,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 3.4941094846141585,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 3.644779886518206,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 3.795450288422254,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 3.9461206903263015,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 4.096791092230349,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 4.247461494134397,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 4.398131896038445,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 4.548802297942493,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 4.699472699846541,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 4.8501431017505885,
+          "tpr": 0.8666666666666667,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.4666666666666667,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 0.8666666666666667
+        },
+        {
+          "threshold": 5.000813503654636,
+          "tpr": 0.8,
+          "fpr": 0.8666666666666667,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 0.8666666666666667,
+          "unknown_refuse_rate": 0.8
+        },
+        {
+          "threshold": 5.151483905558684,
+          "tpr": 0.6,
+          "fpr": 0.8666666666666667,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.8666666666666667,
+          "unknown_refuse_rate": 0.6
+        },
+        {
+          "threshold": 5.3021543074627315,
+          "tpr": 0.5333333333333333,
+          "fpr": 0.8666666666666667,
+          "overall_score": 0.3,
+          "known_refuse_rate": 0.8666666666666667,
+          "unknown_refuse_rate": 0.5333333333333333
+        },
+        {
+          "threshold": 5.452824709366779,
+          "tpr": 0.4666666666666667,
+          "fpr": 0.7333333333333333,
+          "overall_score": 0.3,
+          "known_refuse_rate": 0.7333333333333333,
+          "unknown_refuse_rate": 0.4666666666666667
+        },
+        {
+          "threshold": 5.603495111270827,
+          "tpr": 0.26666666666666666,
+          "fpr": 0.6,
+          "overall_score": 0.23333333333333334,
+          "known_refuse_rate": 0.6,
+          "unknown_refuse_rate": 0.26666666666666666
+        },
+        {
+          "threshold": 5.754165513174875,
+          "tpr": 0.2,
+          "fpr": 0.4,
+          "overall_score": 0.2,
+          "known_refuse_rate": 0.4,
+          "unknown_refuse_rate": 0.2
+        },
+        {
+          "threshold": 5.904835915078922,
+          "tpr": 0.2,
+          "fpr": 0.26666666666666666,
+          "overall_score": 0.2,
+          "known_refuse_rate": 0.26666666666666666,
+          "unknown_refuse_rate": 0.2
+        },
+        {
+          "threshold": 6.05550631698297,
+          "tpr": 0.2,
+          "fpr": 0.13333333333333333,
+          "overall_score": 0.2,
+          "known_refuse_rate": 0.13333333333333333,
+          "unknown_refuse_rate": 0.2
+        },
+        {
+          "threshold": 6.2061767188870185,
+          "tpr": 0.13333333333333333,
+          "fpr": 0.13333333333333333,
+          "overall_score": 0.16666666666666666,
+          "known_refuse_rate": 0.13333333333333333,
+          "unknown_refuse_rate": 0.13333333333333333
+        },
+        {
+          "threshold": 6.356847120791066,
+          "tpr": 0.06666666666666667,
+          "fpr": 0.13333333333333333,
+          "overall_score": 0.13333333333333333,
+          "known_refuse_rate": 0.13333333333333333,
+          "unknown_refuse_rate": 0.06666666666666667
+        },
+        {
+          "threshold": 6.507517522695114,
+          "tpr": 0.0,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 6.6581879245991615,
+          "tpr": 0.0,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 6.808858326503209,
+          "tpr": 0.0,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 6.959528728407257,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 7.110199130311305,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 7.260869532215352,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 7.4115399341194,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 7.562210336023448,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 7.712880737927495,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 7.863551139831543,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        }
+      ],
+      "auc": 0.34444444444444444,
+      "best_threshold": {
+        "threshold": 1.5353942598615375,
+        "tpr": 1.0,
+        "fpr": 0.9333333333333333,
+        "overall_score": 0.5333333333333333,
+        "known_refuse_rate": 0.9333333333333333,
+        "unknown_refuse_rate": 1.0
+      }
+    },
+    "GPT2-XL": {
+      "model": "gpt2-xl",
+      "n_layers": 48,
+      "best_layer": 45,
+      "known_entropies": [
+        2.181511163711548,
+        3.1898765563964844,
+        2.5032858848571777,
+        2.809284210205078,
+        0.9334515333175659,
+        4.052368640899658,
+        3.5435197353363037,
+        0.40091609954833984,
+        6.14472770690918,
+        4.20881462097168,
+        2.578679084777832,
+        2.1910510063171387,
+        1.4247090816497803,
+        4.519902229309082,
+        0.7086864709854126
+      ],
+      "unknown_entropies": [
+        5.324751853942871,
+        4.767267227172852,
+        4.891502380371094,
+        5.013219833374023,
+        5.589240550994873,
+        5.47492790222168,
+        5.125026702880859,
+        3.997241497039795,
+        4.184845924377441,
+        4.6908416748046875,
+        3.6786725521087646,
+        4.700966835021973,
+        4.4206647872924805,
+        4.12692928314209,
+        5.213579177856445
+      ],
+      "known_baseline_acc": 0.6666666666666666,
+      "roc_points": [
+        {
+          "threshold": -0.5990839004516602,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": -0.4410469288728675,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": -0.28300995729407485,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": -0.1249729857152822,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.03306398586351045,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.19110095744230304,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.34913792902109575,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.5071749005998885,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.665211872178681,
+          "tpr": 1.0,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.8232488437574736,
+          "tpr": 1.0,
+          "fpr": 0.8666666666666667,
+          "overall_score": 0.5666666666666667,
+          "known_refuse_rate": 0.8666666666666667,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.9812858153362662,
+          "tpr": 1.0,
+          "fpr": 0.8,
+          "overall_score": 0.6,
+          "known_refuse_rate": 0.8,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 1.139322786915059,
+          "tpr": 1.0,
+          "fpr": 0.8,
+          "overall_score": 0.6,
+          "known_refuse_rate": 0.8,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 1.2973597584938517,
+          "tpr": 1.0,
+          "fpr": 0.8,
+          "overall_score": 0.6,
+          "known_refuse_rate": 0.8,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 1.4553967300726445,
+          "tpr": 1.0,
+          "fpr": 0.7333333333333333,
+          "overall_score": 0.6333333333333333,
+          "known_refuse_rate": 0.7333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 1.613433701651437,
+          "tpr": 1.0,
+          "fpr": 0.7333333333333333,
+          "overall_score": 0.6333333333333333,
+          "known_refuse_rate": 0.7333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 1.7714706732302297,
+          "tpr": 1.0,
+          "fpr": 0.7333333333333333,
+          "overall_score": 0.6333333333333333,
+          "known_refuse_rate": 0.7333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 1.9295076448090223,
+          "tpr": 1.0,
+          "fpr": 0.7333333333333333,
+          "overall_score": 0.6333333333333333,
+          "known_refuse_rate": 0.7333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 2.087544616387815,
+          "tpr": 1.0,
+          "fpr": 0.7333333333333333,
+          "overall_score": 0.6333333333333333,
+          "known_refuse_rate": 0.7333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 2.2455815879666075,
+          "tpr": 1.0,
+          "fpr": 0.6,
+          "overall_score": 0.6666666666666666,
+          "known_refuse_rate": 0.6,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 2.4036185595454,
+          "tpr": 1.0,
+          "fpr": 0.6,
+          "overall_score": 0.6666666666666666,
+          "known_refuse_rate": 0.6,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 2.5616555311241926,
+          "tpr": 1.0,
+          "fpr": 0.5333333333333333,
+          "overall_score": 0.7,
+          "known_refuse_rate": 0.5333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 2.7196925027029857,
+          "tpr": 1.0,
+          "fpr": 0.4666666666666667,
+          "overall_score": 0.7333333333333333,
+          "known_refuse_rate": 0.4666666666666667,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 2.8777294742817783,
+          "tpr": 1.0,
+          "fpr": 0.4,
+          "overall_score": 0.7666666666666667,
+          "known_refuse_rate": 0.4,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 3.035766445860571,
+          "tpr": 1.0,
+          "fpr": 0.4,
+          "overall_score": 0.7666666666666667,
+          "known_refuse_rate": 0.4,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 3.1938034174393635,
+          "tpr": 1.0,
+          "fpr": 0.3333333333333333,
+          "overall_score": 0.8,
+          "known_refuse_rate": 0.3333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 3.351840389018156,
+          "tpr": 1.0,
+          "fpr": 0.3333333333333333,
+          "overall_score": 0.8,
+          "known_refuse_rate": 0.3333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 3.509877360596949,
+          "tpr": 1.0,
+          "fpr": 0.3333333333333333,
+          "overall_score": 0.8,
+          "known_refuse_rate": 0.3333333333333333,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 3.6679143321757417,
+          "tpr": 1.0,
+          "fpr": 0.26666666666666666,
+          "overall_score": 0.8,
+          "known_refuse_rate": 0.26666666666666666,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 3.8259513037545343,
+          "tpr": 0.9333333333333333,
+          "fpr": 0.26666666666666666,
+          "overall_score": 0.7666666666666667,
+          "known_refuse_rate": 0.26666666666666666,
+          "unknown_refuse_rate": 0.9333333333333333
+        },
+        {
+          "threshold": 3.983988275333327,
+          "tpr": 0.9333333333333333,
+          "fpr": 0.26666666666666666,
+          "overall_score": 0.7666666666666667,
+          "known_refuse_rate": 0.26666666666666666,
+          "unknown_refuse_rate": 0.9333333333333333
+        },
+        {
+          "threshold": 4.1420252469121195,
+          "tpr": 0.8,
+          "fpr": 0.2,
+          "overall_score": 0.7333333333333333,
+          "known_refuse_rate": 0.2,
+          "unknown_refuse_rate": 0.8
+        },
+        {
+          "threshold": 4.300062218490912,
+          "tpr": 0.7333333333333333,
+          "fpr": 0.13333333333333333,
+          "overall_score": 0.7,
+          "known_refuse_rate": 0.13333333333333333,
+          "unknown_refuse_rate": 0.7333333333333333
+        },
+        {
+          "threshold": 4.458099190069705,
+          "tpr": 0.6666666666666666,
+          "fpr": 0.13333333333333333,
+          "overall_score": 0.6666666666666666,
+          "known_refuse_rate": 0.13333333333333333,
+          "unknown_refuse_rate": 0.6666666666666666
+        },
+        {
+          "threshold": 4.616136161648497,
+          "tpr": 0.6666666666666666,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.6666666666666666,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.6666666666666666
+        },
+        {
+          "threshold": 4.77417313322729,
+          "tpr": 0.4666666666666667,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.5666666666666667,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.4666666666666667
+        },
+        {
+          "threshold": 4.9322101048060825,
+          "tpr": 0.4,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.5333333333333333,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.4
+        },
+        {
+          "threshold": 5.090247076384875,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.5,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.3333333333333333
+        },
+        {
+          "threshold": 5.248284047963668,
+          "tpr": 0.2,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.2
+        },
+        {
+          "threshold": 5.40632101954246,
+          "tpr": 0.13333333333333333,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.4,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.13333333333333333
+        },
+        {
+          "threshold": 5.564357991121253,
+          "tpr": 0.06666666666666667,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.36666666666666664,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.06666666666666667
+        },
+        {
+          "threshold": 5.722394962700045,
+          "tpr": 0.0,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 5.880431934278839,
+          "tpr": 0.0,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 6.0384689058576315,
+          "tpr": 0.0,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 6.196505877436424,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 6.354542849015217,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 6.512579820594009,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 6.670616792172802,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 6.8286537637515945,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 6.986690735330387,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 7.14472770690918,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        }
+      ],
+      "auc": 0.8866666666666667,
+      "best_threshold": {
+        "threshold": 3.1938034174393635,
+        "tpr": 1.0,
+        "fpr": 0.3333333333333333,
+        "overall_score": 0.8,
+        "known_refuse_rate": 0.3333333333333333,
+        "unknown_refuse_rate": 1.0
+      }
+    },
+    "Qwen2.5-0.5B": {
+      "model": "Qwen/Qwen2.5-0.5B",
+      "n_layers": 24,
+      "best_layer": 22,
+      "known_entropies": [
+        6.648751258850098,
+        3.9494619369506836,
+        4.830262184143066,
+        6.263577461242676,
+        6.60910701751709,
+        5.303908824920654,
+        5.6234130859375,
+        4.102731227874756,
+        6.528608322143555,
+        6.020252227783203,
+        2.538632392883301,
+        4.165315628051758,
+        4.295172691345215,
+        2.9571738243103027,
+        2.7708163261413574
+      ],
+      "unknown_entropies": [
+        5.375696182250977,
+        1.9168401956558228,
+        2.059037446975708,
+        4.511948108673096,
+        7.965724945068359,
+        6.769818305969238,
+        0.38839107751846313,
+        5.985406875610352,
+        6.2566022872924805,
+        7.750864028930664,
+        3.6220850944519043,
+        4.844043731689453,
+        3.620248317718506,
+        3.787443161010742,
+        3.410881996154785
+      ],
+      "known_baseline_acc": 0.2,
+      "roc_points": [
+        {
+          "threshold": -0.6116089224815369,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": -0.4161531292662328,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": -0.22069733605092884,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": -0.025241542835624853,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.1702142503796792,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.36567004359498323,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.5611258368102872,
+          "tpr": 0.9333333333333333,
+          "fpr": 1.0,
+          "overall_score": 0.4666666666666667,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 0.9333333333333333
+        },
+        {
+          "threshold": 0.7565816300255912,
+          "tpr": 0.9333333333333333,
+          "fpr": 1.0,
+          "overall_score": 0.4666666666666667,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 0.9333333333333333
+        },
+        {
+          "threshold": 0.9520374232408952,
+          "tpr": 0.9333333333333333,
+          "fpr": 1.0,
+          "overall_score": 0.4666666666666667,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 0.9333333333333333
+        },
+        {
+          "threshold": 1.1474932164561993,
+          "tpr": 0.9333333333333333,
+          "fpr": 1.0,
+          "overall_score": 0.4666666666666667,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 0.9333333333333333
+        },
+        {
+          "threshold": 1.3429490096715033,
+          "tpr": 0.9333333333333333,
+          "fpr": 1.0,
+          "overall_score": 0.4666666666666667,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 0.9333333333333333
+        },
+        {
+          "threshold": 1.5384048028868071,
+          "tpr": 0.9333333333333333,
+          "fpr": 1.0,
+          "overall_score": 0.4666666666666667,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 0.9333333333333333
+        },
+        {
+          "threshold": 1.7338605961021112,
+          "tpr": 0.9333333333333333,
+          "fpr": 1.0,
+          "overall_score": 0.4666666666666667,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 0.9333333333333333
+        },
+        {
+          "threshold": 1.9293163893174152,
+          "tpr": 0.8666666666666667,
+          "fpr": 1.0,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 0.8666666666666667
+        },
+        {
+          "threshold": 2.1247721825327193,
+          "tpr": 0.8,
+          "fpr": 1.0,
+          "overall_score": 0.4,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 0.8
+        },
+        {
+          "threshold": 2.3202279757480233,
+          "tpr": 0.8,
+          "fpr": 1.0,
+          "overall_score": 0.4,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 0.8
+        },
+        {
+          "threshold": 2.5156837689633273,
+          "tpr": 0.8,
+          "fpr": 1.0,
+          "overall_score": 0.4,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 0.8
+        },
+        {
+          "threshold": 2.7111395621786314,
+          "tpr": 0.8,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 0.8
+        },
+        {
+          "threshold": 2.9065953553939354,
+          "tpr": 0.8,
+          "fpr": 0.8666666666666667,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 0.8666666666666667,
+          "unknown_refuse_rate": 0.8
+        },
+        {
+          "threshold": 3.1020511486092395,
+          "tpr": 0.8,
+          "fpr": 0.8,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 0.8,
+          "unknown_refuse_rate": 0.8
+        },
+        {
+          "threshold": 3.2975069418245435,
+          "tpr": 0.8,
+          "fpr": 0.8,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 0.8,
+          "unknown_refuse_rate": 0.8
+        },
+        {
+          "threshold": 3.492962735039847,
+          "tpr": 0.7333333333333333,
+          "fpr": 0.8,
+          "overall_score": 0.4,
+          "known_refuse_rate": 0.8,
+          "unknown_refuse_rate": 0.7333333333333333
+        },
+        {
+          "threshold": 3.688418528255151,
+          "tpr": 0.6,
+          "fpr": 0.8,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.8,
+          "unknown_refuse_rate": 0.6
+        },
+        {
+          "threshold": 3.883874321470455,
+          "tpr": 0.5333333333333333,
+          "fpr": 0.8,
+          "overall_score": 0.3,
+          "known_refuse_rate": 0.8,
+          "unknown_refuse_rate": 0.5333333333333333
+        },
+        {
+          "threshold": 4.079330114685759,
+          "tpr": 0.5333333333333333,
+          "fpr": 0.7333333333333333,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.7333333333333333,
+          "unknown_refuse_rate": 0.5333333333333333
+        },
+        {
+          "threshold": 4.274785907901063,
+          "tpr": 0.5333333333333333,
+          "fpr": 0.6,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.6,
+          "unknown_refuse_rate": 0.5333333333333333
+        },
+        {
+          "threshold": 4.470241701116367,
+          "tpr": 0.5333333333333333,
+          "fpr": 0.5333333333333333,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.5333333333333333,
+          "unknown_refuse_rate": 0.5333333333333333
+        },
+        {
+          "threshold": 4.665697494331671,
+          "tpr": 0.4666666666666667,
+          "fpr": 0.5333333333333333,
+          "overall_score": 0.3,
+          "known_refuse_rate": 0.5333333333333333,
+          "unknown_refuse_rate": 0.4666666666666667
+        },
+        {
+          "threshold": 4.861153287546975,
+          "tpr": 0.4,
+          "fpr": 0.4666666666666667,
+          "overall_score": 0.26666666666666666,
+          "known_refuse_rate": 0.4666666666666667,
+          "unknown_refuse_rate": 0.4
+        },
+        {
+          "threshold": 5.056609080762279,
+          "tpr": 0.4,
+          "fpr": 0.4666666666666667,
+          "overall_score": 0.26666666666666666,
+          "known_refuse_rate": 0.4666666666666667,
+          "unknown_refuse_rate": 0.4
+        },
+        {
+          "threshold": 5.2520648739775835,
+          "tpr": 0.4,
+          "fpr": 0.4666666666666667,
+          "overall_score": 0.26666666666666666,
+          "known_refuse_rate": 0.4666666666666667,
+          "unknown_refuse_rate": 0.4
+        },
+        {
+          "threshold": 5.4475206671928875,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.4,
+          "overall_score": 0.26666666666666666,
+          "known_refuse_rate": 0.4,
+          "unknown_refuse_rate": 0.3333333333333333
+        },
+        {
+          "threshold": 5.642976460408192,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.3333333333333333,
+          "overall_score": 0.26666666666666666,
+          "known_refuse_rate": 0.3333333333333333,
+          "unknown_refuse_rate": 0.3333333333333333
+        },
+        {
+          "threshold": 5.838432253623496,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.3333333333333333,
+          "overall_score": 0.26666666666666666,
+          "known_refuse_rate": 0.3333333333333333,
+          "unknown_refuse_rate": 0.3333333333333333
+        },
+        {
+          "threshold": 6.0338880468388,
+          "tpr": 0.26666666666666666,
+          "fpr": 0.26666666666666666,
+          "overall_score": 0.23333333333333334,
+          "known_refuse_rate": 0.26666666666666666,
+          "unknown_refuse_rate": 0.26666666666666666
+        },
+        {
+          "threshold": 6.229343840054104,
+          "tpr": 0.26666666666666666,
+          "fpr": 0.26666666666666666,
+          "overall_score": 0.23333333333333334,
+          "known_refuse_rate": 0.26666666666666666,
+          "unknown_refuse_rate": 0.26666666666666666
+        },
+        {
+          "threshold": 6.424799633269408,
+          "tpr": 0.2,
+          "fpr": 0.2,
+          "overall_score": 0.2,
+          "known_refuse_rate": 0.2,
+          "unknown_refuse_rate": 0.2
+        },
+        {
+          "threshold": 6.620255426484712,
+          "tpr": 0.2,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.2,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.2
+        },
+        {
+          "threshold": 6.815711219700016,
+          "tpr": 0.13333333333333333,
+          "fpr": 0.0,
+          "overall_score": 0.16666666666666666,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.13333333333333333
+        },
+        {
+          "threshold": 7.01116701291532,
+          "tpr": 0.13333333333333333,
+          "fpr": 0.0,
+          "overall_score": 0.16666666666666666,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.13333333333333333
+        },
+        {
+          "threshold": 7.206622806130624,
+          "tpr": 0.13333333333333333,
+          "fpr": 0.0,
+          "overall_score": 0.16666666666666666,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.13333333333333333
+        },
+        {
+          "threshold": 7.402078599345927,
+          "tpr": 0.13333333333333333,
+          "fpr": 0.0,
+          "overall_score": 0.16666666666666666,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.13333333333333333
+        },
+        {
+          "threshold": 7.597534392561231,
+          "tpr": 0.13333333333333333,
+          "fpr": 0.0,
+          "overall_score": 0.16666666666666666,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.13333333333333333
+        },
+        {
+          "threshold": 7.792990185776535,
+          "tpr": 0.06666666666666667,
+          "fpr": 0.0,
+          "overall_score": 0.13333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.06666666666666667
+        },
+        {
+          "threshold": 7.988445978991839,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 8.183901772207143,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 8.379357565422447,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 8.574813358637751,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 8.770269151853055,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 8.96572494506836,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        }
+      ],
+      "auc": 0.45333333333333337,
+      "best_threshold": {
+        "threshold": -0.6116089224815369,
+        "tpr": 1.0,
+        "fpr": 1.0,
+        "overall_score": 0.5,
+        "known_refuse_rate": 1.0,
+        "unknown_refuse_rate": 1.0
+      }
+    },
+    "Qwen2.5-1.5B": {
+      "model": "Qwen/Qwen2.5-1.5B",
+      "n_layers": 28,
+      "best_layer": 26,
+      "known_entropies": [
+        2.5158491134643555,
+        2.1528100967407227,
+        2.261467933654785,
+        2.572183847427368,
+        2.010925769805908,
+        2.849260091781616,
+        1.4040685892105103,
+        1.9488707780838013,
+        1.6110010147094727,
+        3.1411805152893066,
+        1.135876178741455,
+        2.160942554473877,
+        2.079993486404419,
+        0.698014497756958,
+        0.6076327562332153
+      ],
+      "unknown_entropies": [
+        3.553072929382324,
+        0.3143766522407532,
+        2.249213457107544,
+        4.425782203674316,
+        3.3328590393066406,
+        3.001448154449463,
+        0.5047564506530762,
+        3.4156670570373535,
+        1.815443754196167,
+        2.959523916244507,
+        1.5844945907592773,
+        2.1989898681640625,
+        1.413642406463623,
+        1.942869782447815,
+        2.1350138187408447
+      ],
+      "known_baseline_acc": 0.06666666666666667,
+      "roc_points": [
+        {
+          "threshold": -0.6856233477592468,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": -0.5609007854850925,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": -0.43617822321093813,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": -0.3114556609367838,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": -0.18673309866262944,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": -0.06201053638847509,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.06271202588567926,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.1874345881598336,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.31215715043398795,
+          "tpr": 1.0,
+          "fpr": 1.0,
+          "overall_score": 0.5,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 1.0
+        },
+        {
+          "threshold": 0.4368797127081423,
+          "tpr": 0.9333333333333333,
+          "fpr": 1.0,
+          "overall_score": 0.4666666666666667,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 0.9333333333333333
+        },
+        {
+          "threshold": 0.5616022749822966,
+          "tpr": 0.8666666666666667,
+          "fpr": 1.0,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 1.0,
+          "unknown_refuse_rate": 0.8666666666666667
+        },
+        {
+          "threshold": 0.686324837256451,
+          "tpr": 0.8666666666666667,
+          "fpr": 0.9333333333333333,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 0.9333333333333333,
+          "unknown_refuse_rate": 0.8666666666666667
+        },
+        {
+          "threshold": 0.8110473995306053,
+          "tpr": 0.8666666666666667,
+          "fpr": 0.8666666666666667,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 0.8666666666666667,
+          "unknown_refuse_rate": 0.8666666666666667
+        },
+        {
+          "threshold": 0.9357699618047597,
+          "tpr": 0.8666666666666667,
+          "fpr": 0.8666666666666667,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 0.8666666666666667,
+          "unknown_refuse_rate": 0.8666666666666667
+        },
+        {
+          "threshold": 1.060492524078914,
+          "tpr": 0.8666666666666667,
+          "fpr": 0.8666666666666667,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 0.8666666666666667,
+          "unknown_refuse_rate": 0.8666666666666667
+        },
+        {
+          "threshold": 1.1852150863530684,
+          "tpr": 0.8666666666666667,
+          "fpr": 0.8,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 0.8,
+          "unknown_refuse_rate": 0.8666666666666667
+        },
+        {
+          "threshold": 1.3099376486272227,
+          "tpr": 0.8666666666666667,
+          "fpr": 0.8,
+          "overall_score": 0.43333333333333335,
+          "known_refuse_rate": 0.8,
+          "unknown_refuse_rate": 0.8666666666666667
+        },
+        {
+          "threshold": 1.4346602109013773,
+          "tpr": 0.8,
+          "fpr": 0.7333333333333333,
+          "overall_score": 0.4,
+          "known_refuse_rate": 0.7333333333333333,
+          "unknown_refuse_rate": 0.8
+        },
+        {
+          "threshold": 1.5593827731755314,
+          "tpr": 0.8,
+          "fpr": 0.7333333333333333,
+          "overall_score": 0.4,
+          "known_refuse_rate": 0.7333333333333333,
+          "unknown_refuse_rate": 0.8
+        },
+        {
+          "threshold": 1.6841053354496855,
+          "tpr": 0.7333333333333333,
+          "fpr": 0.6666666666666666,
+          "overall_score": 0.36666666666666664,
+          "known_refuse_rate": 0.6666666666666666,
+          "unknown_refuse_rate": 0.7333333333333333
+        },
+        {
+          "threshold": 1.8088278977238401,
+          "tpr": 0.7333333333333333,
+          "fpr": 0.6666666666666666,
+          "overall_score": 0.36666666666666664,
+          "known_refuse_rate": 0.6666666666666666,
+          "unknown_refuse_rate": 0.7333333333333333
+        },
+        {
+          "threshold": 1.9335504599979947,
+          "tpr": 0.6666666666666666,
+          "fpr": 0.6666666666666666,
+          "overall_score": 0.3333333333333333,
+          "known_refuse_rate": 0.6666666666666666,
+          "unknown_refuse_rate": 0.6666666666666666
+        },
+        {
+          "threshold": 2.058273022272149,
+          "tpr": 0.6,
+          "fpr": 0.5333333333333333,
+          "overall_score": 0.3,
+          "known_refuse_rate": 0.5333333333333333,
+          "unknown_refuse_rate": 0.6
+        },
+        {
+          "threshold": 2.182995584546303,
+          "tpr": 0.5333333333333333,
+          "fpr": 0.3333333333333333,
+          "overall_score": 0.3,
+          "known_refuse_rate": 0.3333333333333333,
+          "unknown_refuse_rate": 0.5333333333333333
+        },
+        {
+          "threshold": 2.3077181468204575,
+          "tpr": 0.4,
+          "fpr": 0.26666666666666666,
+          "overall_score": 0.23333333333333334,
+          "known_refuse_rate": 0.26666666666666666,
+          "unknown_refuse_rate": 0.4
+        },
+        {
+          "threshold": 2.432440709094612,
+          "tpr": 0.4,
+          "fpr": 0.26666666666666666,
+          "overall_score": 0.23333333333333334,
+          "known_refuse_rate": 0.26666666666666666,
+          "unknown_refuse_rate": 0.4
+        },
+        {
+          "threshold": 2.557163271368766,
+          "tpr": 0.4,
+          "fpr": 0.2,
+          "overall_score": 0.23333333333333334,
+          "known_refuse_rate": 0.2,
+          "unknown_refuse_rate": 0.4
+        },
+        {
+          "threshold": 2.6818858336429203,
+          "tpr": 0.4,
+          "fpr": 0.13333333333333333,
+          "overall_score": 0.23333333333333334,
+          "known_refuse_rate": 0.13333333333333333,
+          "unknown_refuse_rate": 0.4
+        },
+        {
+          "threshold": 2.806608395917075,
+          "tpr": 0.4,
+          "fpr": 0.13333333333333333,
+          "overall_score": 0.23333333333333334,
+          "known_refuse_rate": 0.13333333333333333,
+          "unknown_refuse_rate": 0.4
+        },
+        {
+          "threshold": 2.9313309581912295,
+          "tpr": 0.4,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.23333333333333334,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.4
+        },
+        {
+          "threshold": 3.0560535204653836,
+          "tpr": 0.26666666666666666,
+          "fpr": 0.06666666666666667,
+          "overall_score": 0.16666666666666666,
+          "known_refuse_rate": 0.06666666666666667,
+          "unknown_refuse_rate": 0.26666666666666666
+        },
+        {
+          "threshold": 3.1807760827395377,
+          "tpr": 0.26666666666666666,
+          "fpr": 0.0,
+          "overall_score": 0.16666666666666666,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.26666666666666666
+        },
+        {
+          "threshold": 3.3054986450136923,
+          "tpr": 0.26666666666666666,
+          "fpr": 0.0,
+          "overall_score": 0.16666666666666666,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.26666666666666666
+        },
+        {
+          "threshold": 3.430221207287847,
+          "tpr": 0.13333333333333333,
+          "fpr": 0.0,
+          "overall_score": 0.1,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.13333333333333333
+        },
+        {
+          "threshold": 3.5549437695620014,
+          "tpr": 0.06666666666666667,
+          "fpr": 0.0,
+          "overall_score": 0.06666666666666667,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.06666666666666667
+        },
+        {
+          "threshold": 3.679666331836155,
+          "tpr": 0.06666666666666667,
+          "fpr": 0.0,
+          "overall_score": 0.06666666666666667,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.06666666666666667
+        },
+        {
+          "threshold": 3.8043888941103097,
+          "tpr": 0.06666666666666667,
+          "fpr": 0.0,
+          "overall_score": 0.06666666666666667,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.06666666666666667
+        },
+        {
+          "threshold": 3.9291114563844642,
+          "tpr": 0.06666666666666667,
+          "fpr": 0.0,
+          "overall_score": 0.06666666666666667,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.06666666666666667
+        },
+        {
+          "threshold": 4.053834018658618,
+          "tpr": 0.06666666666666667,
+          "fpr": 0.0,
+          "overall_score": 0.06666666666666667,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.06666666666666667
+        },
+        {
+          "threshold": 4.1785565809327725,
+          "tpr": 0.06666666666666667,
+          "fpr": 0.0,
+          "overall_score": 0.06666666666666667,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.06666666666666667
+        },
+        {
+          "threshold": 4.303279143206927,
+          "tpr": 0.06666666666666667,
+          "fpr": 0.0,
+          "overall_score": 0.06666666666666667,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.06666666666666667
+        },
+        {
+          "threshold": 4.428001705481082,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.03333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 4.552724267755236,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.03333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 4.67744683002939,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.03333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 4.8021693923035444,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.03333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 4.926891954577699,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.03333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 5.051614516851853,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.03333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 5.176337079126007,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.03333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 5.301059641400162,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.03333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        },
+        {
+          "threshold": 5.425782203674316,
+          "tpr": 0.0,
+          "fpr": 0.0,
+          "overall_score": 0.03333333333333333,
+          "known_refuse_rate": 0.0,
+          "unknown_refuse_rate": 0.0
+        }
+      ],
+      "auc": 0.6044444444444445,
+      "best_threshold": {
+        "threshold": -0.6856233477592468,
+        "tpr": 1.0,
+        "fpr": 1.0,
+        "overall_score": 0.5,
+        "known_refuse_rate": 1.0,
+        "unknown_refuse_rate": 1.0
+      }
+    }
+  }
+}

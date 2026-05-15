@@ -1,0 +1,24 @@
+{
+  "phase": "129",
+  "name": "Numerical Token Resistance",
+  "h1_embedding_geometry": {
+    "word_pairwise_cos": 0.08204915374517441,
+    "num_pairwise_cos": 0.7329541444778442,
+    "word_cr_cos_mean": 0.3613812191919847,
+    "num_cr_cos_mean": 0.7871150076389313,
+    "h1_confirmed": true
+  },
+  "h2_baseline_confidence": {
+    "word_conf_mean": 0.21193636039441283,
+    "num_conf_mean": 1.775916609858541e-05,
+    "word_gap_mean": 0.19691870259967717,
+    "num_gap_mean": 1.2561299058688746e-06,
+    "h2_confirmed": "True"
+  },
+  "h3_dpo_effect_size": {
+    "word_effect_mean": 0.7225194094141691,
+    "num_effect_mean": 1.6901168464755756e-08,
+    "ratio": 42749672.06680704,
+    "h3_confirmed": "True"
+  }
+}

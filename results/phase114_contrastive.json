@@ -1,0 +1,2729 @@
+{
+  "phase": 114,
+  "name": "Anti-Suppressor Contrastive Decoding",
+  "model": "Qwen2.5-1.5B",
+  "baselines": {
+    "code": 0.6,
+    "qa": 0.65,
+    "natural": 0.65,
+    "answer": 0.65
+  },
+  "code_vs_qa": {
+    "0.0": {
+      "accuracy": 0.6,
+      "correct": 12,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "Tokyo",
+          "correct": true
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "Paris",
+          "correct": true
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "Berlin",
+          "correct": true
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "Rome",
+          "correct": true
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "Madrid",
+          "correct": true
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "the",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "Au",
+          "correct": true
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "Mount",
+          "correct": true
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "pound",
+          "correct": true
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "William",
+          "correct": true
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "George",
+          "correct": true
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "H",
+          "correct": true
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "Pacific",
+          "correct": true
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "energy",
+          "correct": false
+        }
+      ]
+    },
+    "0.1": {
+      "accuracy": 0.3,
+      "correct": 6,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "Paris",
+          "correct": true
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "Berlin",
+          "correct": true
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "Madrid",
+          "correct": true
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "Au",
+          "correct": true
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "called",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "pound",
+          "correct": true
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "______",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "born",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "H",
+          "correct": true
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "what",
+          "correct": false
+        }
+      ]
+    },
+    "0.2": {
+      "accuracy": 0.05,
+      "correct": 1,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "called",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "pound",
+          "correct": true
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "born",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "what",
+          "correct": false
+        }
+      ]
+    },
+    "0.3": {
+      "accuracy": 0.05,
+      "correct": 1,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": ":",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "called",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "pound",
+          "correct": true
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "",
+          "correct": false
+        }
+      ]
+    },
+    "0.4": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": ":",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "called",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": ":",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "",
+          "correct": false
+        }
+      ]
+    },
+    "0.5": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": ":",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": ":",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "called",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": ":",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "",
+          "correct": false
+        }
+      ]
+    },
+    "0.6": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "called",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": ":",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "",
+          "correct": false
+        }
+      ]
+    },
+    "0.7": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": ":",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "",
+          "correct": false
+        }
+      ]
+    },
+    "0.8": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": ":",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "......",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "",
+          "correct": false
+        }
+      ]
+    },
+    "0.9": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": ":",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "\u2026\u201d",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "",
+          "correct": false
+        }
+      ]
+    },
+    "1.0": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": ":",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "\u2026\u201d",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "\uff1f",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "",
+          "correct": false
+        }
+      ]
+    },
+    "1.1": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": ":",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "\uff1a",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "\u2026\u201d",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "\uff1f",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "\uff1f",
+          "correct": false
+        }
+      ]
+    },
+    "1.2": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": ":",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "(",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "\uff1a",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "actionDate",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "____",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "\u2026\u201d",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "\uff1f",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "\uff1f",
+          "correct": false
+        }
+      ]
+    },
+    "1.3": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "\uff3f",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "\"",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "\uff1a",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "actionDate",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "\u2026\u201d",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "\u2026\u201d",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "\u2026\u201d",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "\uff1f",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "\uff1f",
+          "correct": false
+        }
+      ]
+    },
+    "1.4": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "\uff3f",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": "\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "\uff1a",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "actionDate",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "\u2026\u201d",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "\u2026\u201d",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "\u2026but",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "\uff1f",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "?",
+          "correct": false
+        }
+      ]
+    },
+    "1.5": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "\uff3f",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": ".\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "{",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "\uff1a",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "actionDate",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "\u3002",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "\u00e1ny",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "\u2026but",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "[];",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "FunctionFlags",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "?",
+          "correct": false
+        }
+      ]
+    },
+    "1.6": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": ".\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "\uff1a",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "actionDate",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "\u3002",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "Nuitka",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "\u2026but",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "[];",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "FunctionFlags",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "[],",
+          "correct": false
+        }
+      ]
+    },
+    "1.7": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": ":\");",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": ":\");",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": ".\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "\uff1a",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "actionDate",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "\u3002",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "Nuitka",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "\u2026but",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "[];",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "FunctionFlags",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "[],",
+          "correct": false
+        }
+      ]
+    },
+    "1.8": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": ":\");",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": ":');",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": ".\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "\u3002",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "\uff1a",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "BitFields",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "\u3002",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "Nuitka",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "esModule",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "FunctionFlags",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "[],",
+          "correct": false
+        }
+      ]
+    },
+    "1.9": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": ":\");",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "(Cs",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": ".\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "\u3002",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "\uff1a",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "BitFields",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "Nuitka",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "esModule",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "FunctionFlags",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "[],",
+          "correct": false
+        }
+      ]
+    },
+    "2.0": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 20,
+      "details": [
+        {
+          "prompt": "The capital of Japan is",
+          "expected": "Tokyo",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of France is",
+          "expected": "Paris",
+          "predicted": ":\");",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Germany is",
+          "expected": "Berlin",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Italy is",
+          "expected": "Rome",
+          "predicted": "(Cs",
+          "correct": false
+        },
+        {
+          "prompt": "The capital of Spain is",
+          "expected": "Madrid",
+          "predicted": "uParam",
+          "correct": false
+        },
+        {
+          "prompt": "The largest planet in the solar system is",
+          "expected": "Jupiter",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "Water freezes at",
+          "expected": "0",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical symbol for gold is",
+          "expected": "Au",
+          "predicted": ".\u2026",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of light is approximately",
+          "expected": "299",
+          "predicted": "\u3002",
+          "correct": false
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "expected": "Ul",
+          "predicted": "\uff1a",
+          "correct": false
+        },
+        {
+          "prompt": "The tallest mountain in the world is",
+          "expected": "Mount",
+          "predicted": "BitFields",
+          "correct": false
+        },
+        {
+          "prompt": "The currency of the United Kingdom is the",
+          "expected": "pound",
+          "predicted": "<LM",
+          "correct": false
+        },
+        {
+          "prompt": "The author of Romeo and Juliet is",
+          "expected": "William",
+          "predicted": "-",
+          "correct": false
+        },
+        {
+          "prompt": "The first president of the United States was",
+          "expected": "George",
+          "predicted": "Nuitka",
+          "correct": false
+        },
+        {
+          "prompt": "The chemical formula for water is",
+          "expected": "H",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "The boiling point of water is",
+          "expected": "100",
+          "predicted": "esModule",
+          "correct": false
+        },
+        {
+          "prompt": "The atomic number of carbon is",
+          "expected": "6",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "The largest ocean on Earth is the",
+          "expected": "Pacific",
+          "predicted": "FunctionFlags",
+          "correct": false
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "expected": "343",
+          "predicted": "\uff0c\u5219",
+          "correct": false
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "expected": "chemical",
+          "predicted": "[],",
+          "correct": false
+        }
+      ]
+    }
+  },
+  "answer_vs_qa": {
+    "0.0": 0.65,
+    "0.1": 0.65,
+    "0.2": 0.65,
+    "0.3": 0.65,
+    "0.4": 0.65,
+    "0.5": 0.6,
+    "0.6": 0.5,
+    "0.7": 0.15,
+    "0.8": 0.0,
+    "0.9": 0.0,
+    "1.0": 0.0,
+    "1.1": 0.0,
+    "1.2": 0.0,
+    "1.3": 0.0,
+    "1.4": 0.0,
+    "1.5": 0.0,
+    "1.6": 0.0,
+    "1.7": 0.0,
+    "1.8": 0.0,
+    "1.9": 0.0,
+    "2.0": 0.0
+  },
+  "natural_vs_qa": {
+    "0.0": 0.65,
+    "0.1": 0.45,
+    "0.2": 0.2,
+    "0.3": 0.05,
+    "0.4": 0.0,
+    "0.5": 0.0,
+    "0.6": 0.0,
+    "0.7": 0.0,
+    "0.8": 0.0,
+    "0.9": 0.0,
+    "1.0": 0.0,
+    "1.1": 0.0,
+    "1.2": 0.0,
+    "1.3": 0.0,
+    "1.4": 0.0,
+    "1.5": 0.0,
+    "1.6": 0.0,
+    "1.7": 0.0,
+    "1.8": 0.0,
+    "1.9": 0.0,
+    "2.0": 0.0
+  },
+  "best_code_alpha": 0.0,
+  "best_answer_alpha": 0.0,
+  "best_natural_alpha": 0.0
+}

@@ -1,0 +1,184 @@
+{
+  "phase": "119",
+  "name": "Autopoietic F-DPO",
+  "model": "Qwen/Qwen2.5-0.5B",
+  "best_layer": 22,
+  "ent_threshold": 4.4101997971534725,
+  "gate_threshold": 0.3300029426813126,
+  "results_by_method": {
+    "entropy_gated": {
+      "accuracy": 0.4,
+      "details": [
+        {
+          "prompt": "The tallest mountain in the world is",
+          "fact_type": "known",
+          "action": "answer",
+          "correct": true,
+          "entropy": 3.6157948970794678,
+          "gate_l1": 0.38254842162132263
+        },
+        {
+          "prompt": "The currency of the United Kingdom is th",
+          "fact_type": "known",
+          "action": "answer",
+          "correct": false,
+          "entropy": 2.7184083461761475,
+          "gate_l1": 0.4100349247455597
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "fact_type": "known",
+          "action": "answer",
+          "correct": false,
+          "entropy": 3.8703231811523438,
+          "gate_l1": 0.3317301571369171
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "fact_type": "known",
+          "action": "refuse",
+          "correct": false,
+          "entropy": 5.571688652038574,
+          "gate_l1": 0.429487019777298
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "fact_type": "known",
+          "action": "answer",
+          "correct": false,
+          "entropy": 1.1375606060028076,
+          "gate_l1": 0.4020077884197235
+        },
+        {
+          "prompt": "The 47th prime number is",
+          "fact_type": "unknown",
+          "action": "refuse",
+          "correct": true,
+          "entropy": 5.484185695648193,
+          "gate_l1": 0.32231661677360535
+        },
+        {
+          "prompt": "The population of Funabashi in 2025 was ",
+          "fact_type": "unknown",
+          "action": "answer",
+          "correct": false,
+          "entropy": 1.9997081756591797,
+          "gate_l1": 0.29611271619796753
+        },
+        {
+          "prompt": "The melting point of hafnium in Kelvin i",
+          "fact_type": "unknown",
+          "action": "answer",
+          "correct": false,
+          "entropy": 2.13623046875,
+          "gate_l1": 0.329276442527771
+        },
+        {
+          "prompt": "The deepest point of Lake Baikal in mete",
+          "fact_type": "unknown",
+          "action": "refuse",
+          "correct": true,
+          "entropy": 6.693955421447754,
+          "gate_l1": 0.3130876123905182
+        },
+        {
+          "prompt": "The ISO country code for Bhutan is",
+          "fact_type": "unknown",
+          "action": "refuse",
+          "correct": true,
+          "entropy": 5.96576452255249,
+          "gate_l1": 0.3097195029258728
+        }
+      ],
+      "threshold": 4.4101997971534725
+    },
+    "gate_l1_gated": {
+      "accuracy": 0.0,
+      "details": [
+        {
+          "prompt": "The tallest mountain in the world is",
+          "fact_type": "known",
+          "action": "refuse",
+          "correct": false,
+          "entropy": 3.6157948970794678,
+          "gate_l1": 0.38254842162132263
+        },
+        {
+          "prompt": "The currency of the United Kingdom is th",
+          "fact_type": "known",
+          "action": "refuse",
+          "correct": false,
+          "entropy": 2.7184083461761475,
+          "gate_l1": 0.4100349247455597
+        },
+        {
+          "prompt": "The speed of sound is approximately",
+          "fact_type": "known",
+          "action": "refuse",
+          "correct": false,
+          "entropy": 3.8703231811523438,
+          "gate_l1": 0.3317301571369171
+        },
+        {
+          "prompt": "Albert Einstein was born in",
+          "fact_type": "known",
+          "action": "refuse",
+          "correct": false,
+          "entropy": 5.571688652038574,
+          "gate_l1": 0.429487019777298
+        },
+        {
+          "prompt": "Photosynthesis converts sunlight into",
+          "fact_type": "known",
+          "action": "refuse",
+          "correct": false,
+          "entropy": 1.1375606060028076,
+          "gate_l1": 0.4020077884197235
+        },
+        {
+          "prompt": "The 47th prime number is",
+          "fact_type": "unknown",
+          "action": "answer",
+          "correct": false,
+          "entropy": 5.484185695648193,
+          "gate_l1": 0.32231661677360535
+        },
+        {
+          "prompt": "The population of Funabashi in 2025 was ",
+          "fact_type": "unknown",
+          "action": "answer",
+          "correct": false,
+          "entropy": 1.9997081756591797,
+          "gate_l1": 0.29611271619796753
+        },
+        {
+          "prompt": "The melting point of hafnium in Kelvin i",
+          "fact_type": "unknown",
+          "action": "answer",
+          "correct": false,
+          "entropy": 2.13623046875,
+          "gate_l1": 0.329276442527771
+        },
+        {
+          "prompt": "The deepest point of Lake Baikal in mete",
+          "fact_type": "unknown",
+          "action": "answer",
+          "correct": false,
+          "entropy": 6.693955421447754,
+          "gate_l1": 0.3130876123905182
+        },
+        {
+          "prompt": "The ISO country code for Bhutan is",
+          "fact_type": "unknown",
+          "action": "answer",
+          "correct": false,
+          "entropy": 5.96576452255249,
+          "gate_l1": 0.3097195029258728
+        }
+      ],
+      "threshold": 0.3300029426813126
+    }
+  },
+  "baseline_acc": 0.6,
+  "raw_base_acc": 0.6
+}

@@ -1,0 +1,432 @@
+{
+  "phase": "118",
+  "name": "SwiGLU / Residual Oracle",
+  "results": {
+    "Qwen2.5-0.5B": {
+      "model": "Qwen/Qwen2.5-0.5B",
+      "n_layers": 24,
+      "best_layer": 22,
+      "auc_at_best": {
+        "gate_l1": {
+          "auc": 0.6399999999999999,
+          "direction": "unknown_lower",
+          "known_mean": 0.3494778116544088,
+          "unknown_mean": 0.3363753656546275,
+          "known_std": 0.028371129169981274,
+          "unknown_std": 0.028170447212144022
+        },
+        "gate_sparsity": {
+          "auc": 0.5,
+          "direction": "unknown_higher",
+          "known_mean": 0.01602247804403305,
+          "unknown_mean": 0.01688596506913503,
+          "known_std": 0.0028894936814623257,
+          "unknown_std": 0.0018186350358851636
+        },
+        "residual_l2": {
+          "auc": 0.8200000000000001,
+          "direction": "unknown_lower",
+          "known_mean": 82.0249755859375,
+          "unknown_mean": 79.18243662516277,
+          "known_std": 1.7161250219140838,
+          "unknown_std": 2.6627468188120504
+        },
+        "residual_mean": {
+          "auc": 0.7644444444444444,
+          "direction": "unknown_lower",
+          "known_mean": 1.5163617610931397,
+          "unknown_mean": 1.4181421041488647,
+          "known_std": 0.1343142283872754,
+          "unknown_std": 0.14955951699991685
+        },
+        "attn_entropy": {
+          "auc": 0.548888888888889,
+          "direction": "unknown_lower",
+          "known_mean": 4.840478960673014,
+          "unknown_mean": 4.551002116998037,
+          "known_std": 1.3835421498229918,
+          "unknown_std": 2.107839567503283
+        }
+      },
+      "depth_scan": {
+        "0": {
+          "gate_l1": 0.6,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.8,
+          "residual_mean": 0.6,
+          "attn_entropy": 1.0
+        },
+        "2": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.6399999999999999,
+          "residual_mean": 0.8,
+          "attn_entropy": 0.76
+        },
+        "4": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.6,
+          "residual_mean": 0.5599999999999999,
+          "attn_entropy": 0.52
+        },
+        "6": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.74,
+          "residual_mean": 0.7,
+          "attn_entropy": 0.74
+        },
+        "8": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.8,
+          "residual_mean": 0.6,
+          "attn_entropy": 0.68
+        },
+        "10": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.52,
+          "residual_mean": 0.5,
+          "attn_entropy": 0.8200000000000001
+        },
+        "12": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.74,
+          "residual_mean": 0.64,
+          "attn_entropy": 0.5
+        },
+        "14": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.6,
+          "residual_mean": 0.5,
+          "attn_entropy": 0.9600000000000001
+        },
+        "16": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.64,
+          "residual_mean": 0.5,
+          "attn_entropy": 1.0
+        },
+        "18": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.52,
+          "residual_mean": 0.64,
+          "attn_entropy": 0.64
+        },
+        "20": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.6399999999999999,
+          "residual_mean": 0.64,
+          "attn_entropy": 0.5599999999999999
+        },
+        "22": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.8,
+          "residual_mean": 0.7,
+          "attn_entropy": 0.68
+        }
+      },
+      "best_metric": "residual_l2",
+      "best_auc": 0.8200000000000001
+    },
+    "Qwen2.5-1.5B": {
+      "model": "Qwen/Qwen2.5-1.5B",
+      "n_layers": 28,
+      "best_layer": 26,
+      "auc_at_best": {
+        "gate_l1": {
+          "auc": 0.5511111111111111,
+          "direction": "unknown_lower",
+          "known_mean": 0.33961615363756814,
+          "unknown_mean": 0.3421701848506927,
+          "known_std": 0.030757278636964244,
+          "unknown_std": 0.055042251415179044
+        },
+        "gate_sparsity": {
+          "auc": 0.5,
+          "direction": "unknown_higher",
+          "known_mean": 0.016168154838184515,
+          "unknown_mean": 0.01595238105704387,
+          "known_std": 0.0016290395154702866,
+          "unknown_std": 0.0020713942323508806
+        },
+        "residual_l2": {
+          "auc": 0.8311111111111111,
+          "direction": "unknown_lower",
+          "known_mean": 319.5430969238281,
+          "unknown_mean": 297.85304768880206,
+          "known_std": 10.836653606902034,
+          "unknown_std": 18.54651501636057
+        },
+        "residual_mean": {
+          "auc": 0.6977777777777778,
+          "direction": "unknown_lower",
+          "known_mean": 3.6377960681915282,
+          "unknown_mean": 3.4729366461435953,
+          "known_std": 0.24299904894368365,
+          "unknown_std": 0.44638883491495457
+        },
+        "attn_entropy": {
+          "auc": 0.6066666666666667,
+          "direction": "unknown_higher",
+          "known_mean": 1.9433384815851846,
+          "unknown_mean": 2.3231436053911847,
+          "known_std": 0.7109918463896914,
+          "unknown_std": 1.1010642184024388
+        }
+      },
+      "depth_scan": {
+        "0": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.54,
+          "residual_mean": 0.5,
+          "attn_entropy": 0.72
+        },
+        "2": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.6,
+          "residual_l2": 0.72,
+          "residual_mean": 0.7,
+          "attn_entropy": 0.6
+        },
+        "4": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.58,
+          "residual_mean": 0.8,
+          "attn_entropy": 0.8200000000000001
+        },
+        "6": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.6,
+          "residual_mean": 0.6,
+          "attn_entropy": 0.9400000000000001
+        },
+        "8": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.8,
+          "residual_mean": 0.8,
+          "attn_entropy": 0.66
+        },
+        "10": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.54,
+          "residual_mean": 0.68,
+          "attn_entropy": 0.8
+        },
+        "12": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 1.0,
+          "residual_mean": 0.78,
+          "attn_entropy": 0.8200000000000001
+        },
+        "14": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 1.0,
+          "residual_mean": 0.5400000000000001,
+          "attn_entropy": 1.0
+        },
+        "16": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.62,
+          "residual_mean": 0.8,
+          "attn_entropy": 0.8
+        },
+        "18": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.6,
+          "residual_mean": 0.8,
+          "attn_entropy": 0.76
+        },
+        "20": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.6,
+          "residual_mean": 0.8000000000000002,
+          "attn_entropy": 0.6
+        },
+        "22": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.76,
+          "residual_mean": 0.6,
+          "attn_entropy": 0.9600000000000001
+        },
+        "24": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.64,
+          "residual_mean": 0.5,
+          "attn_entropy": 0.76
+        },
+        "26": {
+          "gate_l1": 0.6000000000000001,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.8,
+          "residual_mean": 0.6,
+          "attn_entropy": 0.7
+        }
+      },
+      "best_metric": "residual_l2",
+      "best_auc": 0.8311111111111111
+    },
+    "GPT2-XL": {
+      "model": "gpt2-xl",
+      "n_layers": 48,
+      "best_layer": 45,
+      "auc_at_best": {
+        "gate_l1": {
+          "auc": 0.6711111111111112,
+          "direction": "unknown_higher",
+          "known_mean": 1.0407447576522828,
+          "unknown_mean": 1.1282785654067993,
+          "known_std": 0.14688181854762378,
+          "unknown_std": 0.1097939000506523
+        },
+        "gate_sparsity": {
+          "auc": 0.5,
+          "direction": "unknown_higher",
+          "known_mean": 0.00587499982987841,
+          "unknown_mean": 0.00691666646550099,
+          "known_std": 0.0018228868265207404,
+          "unknown_std": 0.0016372401721794698
+        },
+        "residual_l2": {
+          "auc": 0.56,
+          "direction": "unknown_higher",
+          "known_mean": 467.7609578450521,
+          "unknown_mean": 495.27528076171876,
+          "known_std": 90.50447008888901,
+          "unknown_std": 102.84697095659683
+        },
+        "residual_mean": {
+          "auc": 0.731111111111111,
+          "direction": "unknown_higher",
+          "known_mean": 6.757828299204508,
+          "unknown_mean": 7.304097747802734,
+          "known_std": 0.8163670448982763,
+          "unknown_std": 1.1649286609932459
+        },
+        "attn_entropy": {
+          "auc": 0.8866666666666667,
+          "direction": "unknown_higher",
+          "known_mean": 2.759385601679484,
+          "unknown_mean": 4.746645212173462,
+          "known_std": 1.5225770960415645,
+          "unknown_std": 0.5502449295084031
+        }
+      },
+      "depth_scan": {
+        "0": {
+          "gate_l1": 0.5,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.8,
+          "residual_mean": 0.5,
+          "attn_entropy": 0.9400000000000001
+        },
+        "4": {
+          "gate_l1": 0.6,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.6,
+          "residual_mean": 0.74,
+          "attn_entropy": 0.8
+        },
+        "8": {
+          "gate_l1": 0.6,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.8,
+          "residual_mean": 0.8,
+          "attn_entropy": 0.8
+        },
+        "12": {
+          "gate_l1": 0.7,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.7999999999999999,
+          "residual_mean": 0.8,
+          "attn_entropy": 0.62
+        },
+        "16": {
+          "gate_l1": 0.6,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.76,
+          "residual_mean": 0.8,
+          "attn_entropy": 0.7600000000000001
+        },
+        "20": {
+          "gate_l1": 0.5200000000000001,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.74,
+          "residual_mean": 0.6,
+          "attn_entropy": 0.6799999999999999
+        },
+        "24": {
+          "gate_l1": 0.6799999999999999,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.76,
+          "residual_mean": 0.6,
+          "attn_entropy": 0.8
+        },
+        "28": {
+          "gate_l1": 0.8200000000000001,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.54,
+          "residual_mean": 0.9,
+          "attn_entropy": 0.8
+        },
+        "32": {
+          "gate_l1": 1.0,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.64,
+          "residual_mean": 1.0,
+          "attn_entropy": 0.72
+        },
+        "36": {
+          "gate_l1": 0.64,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.8,
+          "residual_mean": 0.9400000000000001,
+          "attn_entropy": 1.0
+        },
+        "40": {
+          "gate_l1": 0.7000000000000001,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.84,
+          "residual_mean": 0.7,
+          "attn_entropy": 1.0
+        },
+        "44": {
+          "gate_l1": 0.8,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.64,
+          "residual_mean": 0.9600000000000001,
+          "attn_entropy": 1.0
+        },
+        "45": {
+          "gate_l1": 1.0,
+          "gate_sparsity": 0.5,
+          "residual_l2": 0.6,
+          "residual_mean": 1.0,
+          "attn_entropy": 1.0
+        }
+      },
+      "best_metric": "attn_entropy",
+      "best_auc": 0.8866666666666667
+    }
+  }
+}

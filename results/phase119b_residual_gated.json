@@ -1,0 +1,114 @@
+{
+  "phase": "119b",
+  "name": "Residual-Gated Autopoietic F-DPO",
+  "model": "Qwen/Qwen2.5-0.5B",
+  "best_layer": 22,
+  "threshold": 72.92272186279297,
+  "direction": "known_higher",
+  "pipeline_acc": 0.3,
+  "dpo_only_acc": 0.8,
+  "raw_base_acc": 0.8,
+  "p119_entropy_acc": 0.4,
+  "details": [
+    {
+      "prompt": "The tallest mountain in the world is",
+      "fact_type": "known",
+      "l2": 80.21331787109375,
+      "top_token": 10423,
+      "fact_id": 10423,
+      "correct_answer": true,
+      "action": "answer",
+      "is_correct": true
+    },
+    {
+      "prompt": "The currency of the United Kingdom is th",
+      "fact_type": "known",
+      "l2": 85.26253509521484,
+      "top_token": 30023,
+      "fact_id": 30023,
+      "correct_answer": true,
+      "action": "answer",
+      "is_correct": true
+    },
+    {
+      "prompt": "The speed of sound is approximately",
+      "fact_type": "known",
+      "l2": 76.48971557617188,
+      "top_token": 220,
+      "fact_id": 18,
+      "correct_answer": false,
+      "action": "answer",
+      "is_correct": false
+    },
+    {
+      "prompt": "Albert Einstein was born in",
+      "fact_type": "known",
+      "l2": 73.92272186279297,
+      "top_token": 9856,
+      "fact_id": 16582,
+      "correct_answer": false,
+      "action": "answer",
+      "is_correct": false
+    },
+    {
+      "prompt": "Photosynthesis converts sunlight into",
+      "fact_type": "known",
+      "l2": 83.55908966064453,
+      "top_token": 11483,
+      "fact_id": 11483,
+      "correct_answer": true,
+      "action": "answer",
+      "is_correct": true
+    },
+    {
+      "prompt": "The 47th prime number is",
+      "fact_type": "unknown",
+      "l2": 77.83003234863281,
+      "top_token": 220,
+      "fact_id": 16,
+      "correct_answer": false,
+      "action": "answer",
+      "is_correct": false
+    },
+    {
+      "prompt": "The population of Funabashi in 2025 was ",
+      "fact_type": "unknown",
+      "l2": 74.05632019042969,
+      "top_token": 220,
+      "fact_id": 15,
+      "correct_answer": false,
+      "action": "answer",
+      "is_correct": false
+    },
+    {
+      "prompt": "The melting point of hafnium in Kelvin i",
+      "fact_type": "unknown",
+      "l2": 80.4284896850586,
+      "top_token": 220,
+      "fact_id": 21,
+      "correct_answer": false,
+      "action": "answer",
+      "is_correct": false
+    },
+    {
+      "prompt": "The deepest point of Lake Baikal in mete",
+      "fact_type": "unknown",
+      "l2": 79.18111419677734,
+      "top_token": 220,
+      "fact_id": 17,
+      "correct_answer": false,
+      "action": "answer",
+      "is_correct": false
+    },
+    {
+      "prompt": "The ISO country code for Bhutan is",
+      "fact_type": "unknown",
+      "l2": 78.88240814208984,
+      "top_token": 1304,
+      "fact_id": 21111,
+      "correct_answer": false,
+      "action": "answer",
+      "is_correct": false
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "phase": "128",
+  "name": "Hidden State Movement",
+  "results": [
+    {
+      "layer": 22,
+      "prompt": "The capital of Japan is",
+      "chosen": " Tokyo",
+      "rejected": " Osaka",
+      "move_magnitude": 5.661439895629883,
+      "cos_chosen": 0.27811649441719055,
+      "cos_rejected": -0.27171626687049866,
+      "toward_chosen": true
+    },
+    {
+      "layer": 22,
+      "prompt": "The capital of France is",
+      "chosen": " Paris",
+      "rejected": " Lyon",
+      "move_magnitude": 5.761682510375977,
+      "cos_chosen": 0.20742300152778625,
+      "cos_rejected": -0.29933205246925354,
+      "toward_chosen": true
+    },
+    {
+      "layer": 22,
+      "prompt": "The capital of Germany is",
+      "chosen": " Berlin",
+      "rejected": " Munich",
+      "move_magnitude": 5.268734931945801,
+      "cos_chosen": 0.29471462965011597,
+      "cos_rejected": -0.24299441277980804,
+      "toward_chosen": true
+    },
+    {
+      "layer": 22,
+      "prompt": "The capital of Italy is",
+      "chosen": " Rome",
+      "rejected": " Milan",
+      "move_magnitude": 5.826999187469482,
+      "cos_chosen": 0.27384573221206665,
+      "cos_rejected": -0.2321612387895584,
+      "toward_chosen": true
+    },
+    {
+      "layer": 22,
+      "prompt": "The capital of Spain is",
+      "chosen": " Madrid",
+      "rejected": " Barcelona",
+      "move_magnitude": 5.754712104797363,
+      "cos_chosen": 0.2613912522792816,
+      "cos_rejected": -0.15753138065338135,
+      "toward_chosen": true
+    },
+    {
+      "layer": 22,
+      "prompt": "The largest planet in the solar sys",
+      "chosen": " Jupiter",
+      "rejected": " Saturn",
+      "move_magnitude": 5.004776954650879,
+      "cos_chosen": 0.323976069688797,
+      "cos_rejected": -0.3811146020889282,
+      "toward_chosen": true
+    },
+    {
+      "layer": 22,
+      "prompt": "Water freezes at",
+      "chosen": " 0",
+      "rejected": " 100",
+      "move_magnitude": 3.002880096435547,
+      "cos_chosen": 0.03552773594856262,
+      "cos_rejected": 0.03552773594856262,
+      "toward_chosen": false
+    },
+    {
+      "layer": 22,
+      "prompt": "The chemical symbol for gold is",
+      "chosen": " Au",
+      "rejected": " Ag",
+      "move_magnitude": 4.453725814819336,
+      "cos_chosen": 0.3763780891895294,
+      "cos_rejected": -0.38764315843582153,
+      "toward_chosen": true
+    },
+    {
+      "layer": 22,
+      "prompt": "The author of Romeo and Juliet is",
+      "chosen": " William",
+      "rejected": " Charles",
+      "move_magnitude": 4.288730144500732,
+      "cos_chosen": 0.3511596918106079,
+      "cos_rejected": -0.35908985137939453,
+      "toward_chosen": true
+    },
+    {
+      "layer": 22,
+      "prompt": "The first president of the United S",
+      "chosen": " George",
+      "rejected": " John",
+      "move_magnitude": 4.912015438079834,
+      "cos_chosen": 0.43806198239326477,
+      "cos_rejected": -0.3268146216869354,
+      "toward_chosen": true
+    },
+    {
+      "layer": 22,
+      "prompt": "The chemical formula for water is",
+      "chosen": " H",
+      "rejected": " O",
+      "move_magnitude": 5.818190574645996,
+      "cos_chosen": 0.17369285225868225,
+      "cos_rejected": -0.5017452239990234,
+      "toward_chosen": true
+    },
+    {
+      "layer": 22,
+      "prompt": "The boiling point of water is",
+      "chosen": " 100",
+      "rejected": " 212",
+      "move_magnitude": 2.5662472248077393,
+      "cos_chosen": 0.016706064343452454,
+      "cos_rejected": -0.01863681711256504,
+      "toward_chosen": true
+    },
+    {
+      "layer": 22,
+      "prompt": "The atomic number of carbon is",
+      "chosen": " 6",
+      "rejected": " 12",
+      "move_magnitude": 2.688404083251953,
+      "cos_chosen": 0.07656420767307281,
+      "cos_rejected": -0.014289464801549911,
+      "toward_chosen": true
+    },
+    {
+      "layer": 22,
+      "prompt": "The largest ocean on Earth is the",
+      "chosen": " Pacific",
+      "rejected": " Atlantic",
+      "move_magnitude": 5.081575393676758,
+      "cos_chosen": 0.390724778175354,
+      "cos_rejected": -0.32611849904060364,
+      "toward_chosen": true
+    },
+    {
+      "layer": 22,
+      "prompt": "The speed of light is approximately",
+      "chosen": " 299",
+      "rejected": " 186",
+      "move_magnitude": 1.924398422241211,
+      "cos_chosen": 0.010620471090078354,
+      "cos_rejected": -0.00047513446770608425,
+      "toward_chosen": true
+    },
+    {
+      "layer": 23,
+      "prompt": "The capital of Japan is",
+      "chosen": " Tokyo",
+      "rejected": " Osaka",
+      "move_magnitude": 17.280590057373047,
+      "cos_chosen": 0.1589204967021942,
+      "cos_rejected": -0.3250616192817688,
+      "toward_chosen": true
+    },
+    {
+      "layer": 23,
+      "prompt": "The capital of France is",
+      "chosen": " Paris",
+      "rejected": " Lyon",
+      "move_magnitude": 17.508317947387695,
+      "cos_chosen": 0.16397075355052948,
+      "cos_rejected": -0.3126761019229889,
+      "toward_chosen": true
+    },
+    {
+      "layer": 23,
+      "prompt": "The capital of Germany is",
+      "chosen": " Berlin",
+      "rejected": " Munich",
+      "move_magnitude": 16.803390502929688,
+      "cos_chosen": 0.15134666860103607,
+      "cos_rejected": -0.2733480632305145,
+      "toward_chosen": true
+    },
+    {
+      "layer": 23,
+      "prompt": "The capital of Italy is",
+      "chosen": " Rome",
+      "rejected": " Milan",
+      "move_magnitude": 17.730134963989258,
+      "cos_chosen": 0.17324873805046082,
+      "cos_rejected": -0.27968162298202515,
+      "toward_chosen": true
+    },
+    {
+      "layer": 23,
+      "prompt": "The capital of Spain is",
+      "chosen": " Madrid",
+      "rejected": " Barcelona",
+      "move_magnitude": 17.154272079467773,
+      "cos_chosen": 0.12047336250543594,
+      "cos_rejected": -0.2249423712491989,
+      "toward_chosen": true
+    },
+    {
+      "layer": 23,
+      "prompt": "The largest planet in the solar sys",
+      "chosen": " Jupiter",
+      "rejected": " Saturn",
+      "move_magnitude": 12.938010215759277,
+      "cos_chosen": 0.23060457408428192,
+      "cos_rejected": -0.4059087038040161,
+      "toward_chosen": true
+    },
+    {
+      "layer": 23,
+      "prompt": "Water freezes at",
+      "chosen": " 0",
+      "rejected": " 100",
+      "move_magnitude": 9.521705627441406,
+      "cos_chosen": -0.04385111480951309,
+      "cos_rejected": -0.04385111480951309,
+      "toward_chosen": false
+    },
+    {
+      "layer": 23,
+      "prompt": "The chemical symbol for gold is",
+      "chosen": " Au",
+      "rejected": " Ag",
+      "move_magnitude": 14.478516578674316,
+      "cos_chosen": 0.2501249313354492,
+      "cos_rejected": -0.2867918610572815,
+      "toward_chosen": true
+    },
+    {
+      "layer": 23,
+      "prompt": "The author of Romeo and Juliet is",
+      "chosen": " William",
+      "rejected": " Charles",
+      "move_magnitude": 13.207269668579102,
+      "cos_chosen": 0.22264373302459717,
+      "cos_rejected": -0.349336177110672,
+      "toward_chosen": true
+    },
+    {
+      "layer": 23,
+      "prompt": "The first president of the United S",
+      "chosen": " George",
+      "rejected": " John",
+      "move_magnitude": 14.083751678466797,
+      "cos_chosen": 0.33021068572998047,
+      "cos_rejected": -0.32377251982688904,
+      "toward_chosen": true
+    },
+    {
+      "layer": 23,
+      "prompt": "The chemical formula for water is",
+      "chosen": " H",
+      "rejected": " O",
+      "move_magnitude": 15.963225364685059,
+      "cos_chosen": 0.22150520980358124,
+      "cos_rejected": -0.3617464601993561,
+      "toward_chosen": true
+    },
+    {
+      "layer": 23,
+      "prompt": "The boiling point of water is",
+      "chosen": " 100",
+      "rejected": " 212",
+      "move_magnitude": 9.848926544189453,
+      "cos_chosen": -0.019686268642544746,
+      "cos_rejected": -0.009590278379619122,
+      "toward_chosen": false
+    },
+    {
+      "layer": 23,
+      "prompt": "The atomic number of carbon is",
+      "chosen": " 6",
+      "rejected": " 12",
+      "move_magnitude": 9.636744499206543,
+      "cos_chosen": 0.0030462145805358887,
+      "cos_rejected": -0.018572494387626648,
+      "toward_chosen": true
+    },
+    {
+      "layer": 23,
+      "prompt": "The largest ocean on Earth is the",
+      "chosen": " Pacific",
+      "rejected": " Atlantic",
+      "move_magnitude": 14.16700553894043,
+      "cos_chosen": 0.28008121252059937,
+      "cos_rejected": -0.3777920603752136,
+      "toward_chosen": true
+    },
+    {
+      "layer": 23,
+      "prompt": "The speed of light is approximately",
+      "chosen": " 299",
+      "rejected": " 186",
+      "move_magnitude": 7.6870951652526855,
+      "cos_chosen": -0.044809695333242416,
+      "cos_rejected": -0.033268287777900696,
+      "toward_chosen": false
+    }
+  ]
+}

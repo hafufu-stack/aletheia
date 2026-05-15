@@ -1,0 +1,164 @@
+{
+  "phase": "120b",
+  "name": "Fine-Grained lr* Boundary",
+  "results": {
+    "0.5B": {
+      "model": "Qwen/Qwen2.5-0.5B",
+      "boundary": 22,
+      "lr_star": 8e-06,
+      "sweep": {
+        "1e-06": {
+          "lr": 1e-06,
+          "base_train": 0.5333333333333333,
+          "base_test": 0.6,
+          "final_train": 0.5333333333333333,
+          "final_test": 0.6,
+          "test_delta": 0.0
+        },
+        "2e-06": {
+          "lr": 2e-06,
+          "base_train": 0.5333333333333333,
+          "base_test": 0.6,
+          "final_train": 0.6666666666666666,
+          "final_test": 0.6,
+          "test_delta": 0.0
+        },
+        "3e-06": {
+          "lr": 3e-06,
+          "base_train": 0.5333333333333333,
+          "base_test": 0.6,
+          "final_train": 0.6666666666666666,
+          "final_test": 0.6,
+          "test_delta": 0.0
+        },
+        "4e-06": {
+          "lr": 4e-06,
+          "base_train": 0.5333333333333333,
+          "base_test": 0.6,
+          "final_train": 0.7333333333333333,
+          "final_test": 0.6,
+          "test_delta": 0.0
+        },
+        "5e-06": {
+          "lr": 5e-06,
+          "base_train": 0.5333333333333333,
+          "base_test": 0.6,
+          "final_train": 0.7333333333333333,
+          "final_test": 0.6,
+          "test_delta": 0.0
+        },
+        "6e-06": {
+          "lr": 6e-06,
+          "base_train": 0.5333333333333333,
+          "base_test": 0.6,
+          "final_train": 0.7333333333333333,
+          "final_test": 0.6,
+          "test_delta": 0.0
+        },
+        "7e-06": {
+          "lr": 7e-06,
+          "base_train": 0.5333333333333333,
+          "base_test": 0.6,
+          "final_train": 0.7333333333333333,
+          "final_test": 0.6,
+          "test_delta": 0.0
+        },
+        "8e-06": {
+          "lr": 8e-06,
+          "base_train": 0.5333333333333333,
+          "base_test": 0.6,
+          "final_train": 0.7333333333333333,
+          "final_test": 0.6,
+          "test_delta": 0.0
+        },
+        "1e-05": {
+          "lr": 1e-05,
+          "base_train": 0.5333333333333333,
+          "base_test": 0.6,
+          "final_train": 0.7333333333333333,
+          "final_test": 0.4,
+          "test_delta": -0.19999999999999996
+        }
+      }
+    },
+    "1.5B": {
+      "model": "Qwen/Qwen2.5-1.5B",
+      "boundary": 26,
+      "lr_star": 1e-05,
+      "sweep": {
+        "1e-06": {
+          "lr": 1e-06,
+          "base_train": 0.6,
+          "base_test": 0.8,
+          "final_train": 0.6666666666666666,
+          "final_test": 0.8,
+          "test_delta": 0.0
+        },
+        "2e-06": {
+          "lr": 2e-06,
+          "base_train": 0.6,
+          "base_test": 0.8,
+          "final_train": 0.6666666666666666,
+          "final_test": 0.8,
+          "test_delta": 0.0
+        },
+        "3e-06": {
+          "lr": 3e-06,
+          "base_train": 0.6,
+          "base_test": 0.8,
+          "final_train": 0.7333333333333333,
+          "final_test": 0.8,
+          "test_delta": 0.0
+        },
+        "4e-06": {
+          "lr": 4e-06,
+          "base_train": 0.6,
+          "base_test": 0.8,
+          "final_train": 0.7333333333333333,
+          "final_test": 0.8,
+          "test_delta": 0.0
+        },
+        "5e-06": {
+          "lr": 5e-06,
+          "base_train": 0.6,
+          "base_test": 0.8,
+          "final_train": 0.7333333333333333,
+          "final_test": 0.8,
+          "test_delta": 0.0
+        },
+        "6e-06": {
+          "lr": 6e-06,
+          "base_train": 0.6,
+          "base_test": 0.8,
+          "final_train": 0.7333333333333333,
+          "final_test": 0.8,
+          "test_delta": 0.0
+        },
+        "7e-06": {
+          "lr": 7e-06,
+          "base_train": 0.6,
+          "base_test": 0.8,
+          "final_train": 0.7333333333333333,
+          "final_test": 0.8,
+          "test_delta": 0.0
+        },
+        "8e-06": {
+          "lr": 8e-06,
+          "base_train": 0.6,
+          "base_test": 0.8,
+          "final_train": 0.7333333333333333,
+          "final_test": 0.8,
+          "test_delta": 0.0
+        },
+        "1e-05": {
+          "lr": 1e-05,
+          "base_train": 0.6,
+          "base_test": 0.8,
+          "final_train": 0.7333333333333333,
+          "final_test": 0.8,
+          "test_delta": 0.0
+        }
+      }
+    }
+  }
+}
