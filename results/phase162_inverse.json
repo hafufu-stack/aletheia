@@ -1,0 +1,87 @@
+{
+  "phase": "162",
+  "name": "Inverse Surgery",
+  "results": [
+    {
+      "strength": -3.0,
+      "embed_cos": -0.08510050177574158,
+      "lm_cos": -0.08510050177574158,
+      "baseline_word": 0.0,
+      "baseline_num": 0.2,
+      "ss_word": 0.5,
+      "ss_num": 1.0
+    },
+    {
+      "strength": -2.0,
+      "embed_cos": 0.06322477757930756,
+      "lm_cos": 0.06322477757930756,
+      "baseline_word": 0.5,
+      "baseline_num": 0.0,
+      "ss_word": 1.0,
+      "ss_num": 1.0
+    },
+    {
+      "strength": -1.0,
+      "embed_cos": 0.7179971933364868,
+      "lm_cos": 0.7179971933364868,
+      "baseline_word": 0.5,
+      "baseline_num": 0.0,
+      "ss_word": 1.0,
+      "ss_num": 0.0
+    },
+    {
+      "strength": -0.5,
+      "embed_cos": 0.8240573406219482,
+      "lm_cos": 0.8240573406219482,
+      "baseline_word": 0.5,
+      "baseline_num": 0.0,
+      "ss_word": 1.0,
+      "ss_num": 0.0
+    },
+    {
+      "strength": 0.0,
+      "embed_cos": 0.7300691604614258,
+      "lm_cos": 0.7300691604614258,
+      "baseline_word": 0.5,
+      "baseline_num": 0.0,
+      "ss_word": 1.0,
+      "ss_num": 0.0
+    },
+    {
+      "strength": 0.5,
+      "embed_cos": 0.13101813197135925,
+      "lm_cos": 0.13101813197135925,
+      "baseline_word": 0.5,
+      "baseline_num": 0.0,
+      "ss_word": 1.0,
+      "ss_num": 1.0
+    },
+    {
+      "strength": 1.0,
+      "embed_cos": -0.03492848575115204,
+      "lm_cos": -0.03492848575115204,
+      "baseline_word": 0.5,
+      "baseline_num": 0.2,
+      "ss_word": 1.0,
+      "ss_num": 1.0
+    },
+    {
+      "strength": 2.0,
+      "embed_cos": -0.09664836525917053,
+      "lm_cos": -0.09664836525917053,
+      "baseline_word": 0.0,
+      "baseline_num": 0.2,
+      "ss_word": 0.0,
+      "ss_num": 1.0
+    },
+    {
+      "strength": 3.0,
+      "embed_cos": -0.1062062606215477,
+      "lm_cos": -0.1062062606215477,
+      "baseline_word": 0.0,
+      "baseline_num": 0.2,
+      "ss_word": 0.0,
+      "ss_num": 1.0
+    }
+  ]
+}

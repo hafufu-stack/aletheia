@@ -1,0 +1,60 @@
+{
+  "phase": "156",
+  "name": "LM_head Phase Transition",
+  "results": [
+    {
+      "name": "0.5B",
+      "d": 896,
+      "n_layers": 24,
+      "params_B": 0.494032768,
+      "digits_lm_cos": 0.7300692200660706,
+      "digits_embed_cos": 0.7300692200660706,
+      "digits_lm_norm": 0.5041122436523438,
+      "digits_embed_norm": 0.5041122436523438,
+      "countries_lm_cos": 0.4037748873233795,
+      "countries_embed_cos": 0.4037748873233795,
+      "countries_lm_norm": 0.3905574083328247,
+      "countries_embed_norm": 0.3905574083328247,
+      "colors_lm_cos": 0.364639550447464,
+      "colors_embed_cos": 0.364639550447464,
+      "colors_lm_norm": 0.41870102286338806,
+      "colors_embed_norm": 0.41870102286338806
+    },
+    {
+      "name": "1.5B",
+      "d": 1536,
+      "n_layers": 28,
+      "params_B": 1.543714304,
+      "digits_lm_cos": 0.7510966062545776,
+      "digits_embed_cos": 0.7510966062545776,
+      "digits_lm_norm": 0.9916397929191589,
+      "digits_embed_norm": 0.9916397929191589,
+      "countries_lm_cos": 0.3878557085990906,
+      "countries_embed_cos": 0.3878557085990906,
+      "countries_lm_norm": 0.9310153722763062,
+      "countries_embed_norm": 0.9310153722763062,
+      "colors_lm_cos": 0.3359852731227875,
+      "colors_embed_cos": 0.3359852731227875,
+      "colors_lm_norm": 0.9749066233634949,
+      "colors_embed_norm": 0.9749066233634949
+    },
+    {
+      "name": "14B",
+      "d": 5120,
+      "n_layers": 48,
+      "params_B": 8.164004864,
+      "digits_lm_cos": 0.7427082061767578,
+      "digits_embed_cos": 0.18035300076007843,
+      "digits_lm_norm": 0.9748201370239258,
+      "digits_embed_norm": 1.3407076597213745,
+      "countries_lm_cos": 0.2594090700149536,
+      "countries_embed_cos": 0.15273292362689972,
+      "countries_lm_norm": 1.065442442893982,
+      "countries_embed_norm": 1.4320305585861206,
+      "colors_lm_cos": 0.22342541813850403,
+      "colors_embed_cos": 0.13023285567760468,
+      "colors_lm_norm": 1.1626695394515991,
+      "colors_embed_norm": 1.4364162683486938
+    }
+  ]
+}

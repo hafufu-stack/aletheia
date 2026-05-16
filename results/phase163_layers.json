@@ -1,0 +1,282 @@
+{
+  "phase": "163",
+  "name": "Optimal FGA Layer",
+  "results": {
+    "0.5B": {
+      "name": "0.5B",
+      "d": 896,
+      "n_layers": 24,
+      "gain": 5,
+      "results": [
+        {
+          "layer": 0,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 1,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 2,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 3,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 4,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 5,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 6,
+          "word": 0.0,
+          "num": 0.2
+        },
+        {
+          "layer": 7,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 8,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 9,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 10,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 11,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 12,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 13,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 14,
+          "word": 0.0,
+          "num": 0.8
+        },
+        {
+          "layer": 15,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 16,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 17,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 18,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 19,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 20,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 21,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 22,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 23,
+          "word": 0.5,
+          "num": 1.0
+        }
+      ]
+    },
+    "1.5B": {
+      "name": "1.5B",
+      "d": 1536,
+      "n_layers": 28,
+      "gain": 20,
+      "results": [
+        {
+          "layer": 0,
+          "word": 0.0,
+          "num": 0.2
+        },
+        {
+          "layer": 1,
+          "word": 0.0,
+          "num": 0.2
+        },
+        {
+          "layer": 2,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 3,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 4,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 5,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 6,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 7,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 8,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 9,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 10,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 11,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 12,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 13,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 14,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 15,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 16,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 17,
+          "word": 0.0,
+          "num": 0.4
+        },
+        {
+          "layer": 18,
+          "word": 0.0,
+          "num": 0.6
+        },
+        {
+          "layer": 19,
+          "word": 0.0,
+          "num": 0.8
+        },
+        {
+          "layer": 20,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 21,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 22,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 23,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 24,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 25,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 26,
+          "word": 0.0,
+          "num": 1.0
+        },
+        {
+          "layer": 27,
+          "word": 0.0,
+          "num": 1.0
+        }
+      ]
+    }
+  }
+}

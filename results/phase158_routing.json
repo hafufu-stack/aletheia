@@ -1,0 +1,21 @@
+{
+  "phase": "158",
+  "name": "Dynamic Dual Routing",
+  "configs": {
+    "A_base": {
+      "arith": 0.25,
+      "fact_word": 1.0,
+      "fact_num": 0.0
+    },
+    "B_surgery": {
+      "arith": 0.0,
+      "fact_word": 1.0,
+      "fact_num": 1.0
+    },
+    "C_routing": {
+      "mixed": 0.75,
+      "arith": 0.25,
+      "fact_num": 1.0
+    }
+  }
+}

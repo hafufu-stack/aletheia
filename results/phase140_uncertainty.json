@@ -1,0 +1,30 @@
+{
+  "phase": "140",
+  "name": "Arithmetic Uncertainty Principle",
+  "configs": {
+    "A_baseline": {
+      "arithmetic": 0.0,
+      "arithmetic_code": 0.0,
+      "fact_word": 0.5,
+      "fact_num": 0.0
+    },
+    "B_surgery_1": {
+      "arithmetic": 0.1,
+      "arithmetic_code": 0.3,
+      "fact_word": 0.5,
+      "fact_num": 0.3333333333333333
+    },
+    "C_surgery_2": {
+      "arithmetic": 0.1,
+      "arithmetic_code": 0.2,
+      "fact_word": 0.0,
+      "fact_num": 0.3333333333333333
+    },
+    "D_surgery_3": {
+      "arithmetic": 0.1,
+      "arithmetic_code": 0.3,
+      "fact_word": 0.0,
+      "fact_num": 0.5
+    }
+  }
+}

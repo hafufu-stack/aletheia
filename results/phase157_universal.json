@@ -1,0 +1,35 @@
+{
+  "phase": "157",
+  "name": "Universal Aletheia Wrapper",
+  "results": {
+    "GPT-2": {
+      "model": "GPT-2",
+      "params": "124M",
+      "d": 768,
+      "n_layers": 12,
+      "embed_cos": 0.7086496353149414,
+      "lm_cos": 0.7086496353149414,
+      "post_lm_cos": 0.014573224820196629,
+      "tied": true,
+      "results": {
+        "baseline": {
+          "word": 0.0,
+          "num": 0.0
+        },
+        "dual_ss_g20": {
+          "word": 1.0,
+          "num": 0.8
+        },
+        "dual_ss_g50": {
+          "word": 1.0,
+          "num": 0.8
+        }
+      }
+    },
+    "Llama-3.2-1B": {
+      "model": "Llama-3.2-1B",
+      "d": 2048,
+      "lm_cos": 0.5582016706466675
+    }
+  }
+}

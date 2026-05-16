@@ -1,0 +1,87 @@
+{
+  "phase": "153",
+  "name": "14B Brute Force",
+  "model": "Qwen/Qwen2.5-14B",
+  "results": [
+    {
+      "label": "s=2 g=20",
+      "strength": 2.0,
+      "gain": 20,
+      "multi_layer": false,
+      "word": 1.0,
+      "num": 0.0
+    },
+    {
+      "label": "s=5 g=20",
+      "strength": 5.0,
+      "gain": 20,
+      "multi_layer": false,
+      "word": 1.0,
+      "num": 0.0
+    },
+    {
+      "label": "s=10 g=20",
+      "strength": 10.0,
+      "gain": 20,
+      "multi_layer": false,
+      "word": 1.0,
+      "num": 0.0
+    },
+    {
+      "label": "s=2 g=50",
+      "strength": 2.0,
+      "gain": 50,
+      "multi_layer": false,
+      "word": 1.0,
+      "num": 0.0
+    },
+    {
+      "label": "s=2 g=100",
+      "strength": 2.0,
+      "gain": 100,
+      "multi_layer": false,
+      "word": 1.0,
+      "num": 0.0
+    },
+    {
+      "label": "s=2 g=200",
+      "strength": 2.0,
+      "gain": 200,
+      "multi_layer": false,
+      "word": 0.5,
+      "num": 0.14285714285714285
+    },
+    {
+      "label": "s=5 g=100",
+      "strength": 5.0,
+      "gain": 100,
+      "multi_layer": false,
+      "word": 1.0,
+      "num": 0.0
+    },
+    {
+      "label": "s=10 g=100",
+      "strength": 10.0,
+      "gain": 100,
+      "multi_layer": false,
+      "word": 1.0,
+      "num": 0.0
+    },
+    {
+      "label": "s=2 g=100 multi",
+      "strength": 2.0,
+      "gain": 100,
+      "multi_layer": true,
+      "word": 1.0,
+      "num": 0.0
+    },
+    {
+      "label": "s=5 g=100 multi",
+      "strength": 5.0,
+      "gain": 100,
+      "multi_layer": true,
+      "word": 1.0,
+      "num": 0.0
+    }
+  ]
+}

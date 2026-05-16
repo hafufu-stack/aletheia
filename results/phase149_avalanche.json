@@ -1,0 +1,60 @@
+{
+  "phase": "149",
+  "name": "7B/14B Zero-Shot Avalanche",
+  "results": {
+    "0.5B": {
+      "baseline": {
+        "word": 1.0,
+        "num": 0.0
+      },
+      "shield": {
+        "word": 1.0,
+        "num": 0.0
+      },
+      "shield_sword": {
+        "word": 1.0,
+        "num": 0.2857142857142857
+      },
+      "surgery_ss": {
+        "word": 1.0,
+        "num": 1.0
+      }
+    },
+    "1.5B": {
+      "baseline": {
+        "word": 0.75,
+        "num": 0.0
+      },
+      "shield": {
+        "word": 0.75,
+        "num": 0.0
+      },
+      "shield_sword": {
+        "word": 1.0,
+        "num": 0.0
+      },
+      "surgery_ss": {
+        "word": 1.0,
+        "num": 1.0
+      }
+    },
+    "14B": {
+      "baseline": {
+        "word": 1.0,
+        "num": 0.0
+      },
+      "shield": {
+        "word": 1.0,
+        "num": 0.0
+      },
+      "shield_sword": {
+        "word": 1.0,
+        "num": 0.0
+      },
+      "surgery_ss": {
+        "word": 1.0,
+        "num": 0.0
+      }
+    }
+  }
+}

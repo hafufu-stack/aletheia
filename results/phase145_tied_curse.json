@@ -1,0 +1,26 @@
+{
+  "phase": "145",
+  "name": "Tied-Embedding Curse",
+  "configs": {
+    "A_tied_gs": {
+      "acc": 0.0,
+      "tied": true
+    },
+    "B_untied_gs_input": {
+      "acc": 0.0,
+      "tied": false
+    },
+    "C_untied_disp_input": {
+      "acc": 0.0,
+      "tied": false
+    },
+    "D_untied_disp_both": {
+      "acc": 0.0,
+      "tied": false
+    },
+    "E_untied_disp_25ep": {
+      "acc": 0.0,
+      "tied": false
+    }
+  }
+}

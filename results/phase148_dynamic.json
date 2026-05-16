@@ -1,0 +1,30 @@
+{
+  "phase": "148",
+  "name": "Dynamic Activation Surgery",
+  "configs": {
+    "A_baseline": {
+      "fact_word": 0.5,
+      "fact_num": 0.0,
+      "arith": 0.375
+    },
+    "B_static_ss": {
+      "fact_word": 1.0,
+      "fact_num": 1.0,
+      "arith": 0.125
+    },
+    "B2_static_sft": {
+      "arith_sft": 0.125
+    },
+    "C_dynamic_ss": {
+      "fact_word": 1.0,
+      "fact_num": 0.0,
+      "arith": 0.125
+    },
+    "C2_sft_then_dynamic": {
+      "arith_base_sft": 0.5,
+      "fact_word_dynamic": 1.0,
+      "fact_num_dynamic": 0.0,
+      "arith_with_dynamic": 0.625
+    }
+  }
+}

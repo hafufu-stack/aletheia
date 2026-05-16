@@ -1,0 +1,41 @@
+{
+  "phase": "146",
+  "name": "DPO Inertia Law",
+  "results": [
+    {
+      "name": "4 pairs x 5ep",
+      "n_pairs": 4,
+      "epochs": 5,
+      "steps": 20,
+      "acc": 0.0
+    },
+    {
+      "name": "4 pairs x 20ep",
+      "n_pairs": 4,
+      "epochs": 20,
+      "steps": 80,
+      "acc": 0.0
+    },
+    {
+      "name": "4 pairs x 50ep",
+      "n_pairs": 4,
+      "epochs": 50,
+      "steps": 200,
+      "acc": 0.0
+    },
+    {
+      "name": "50 pairs x 5ep",
+      "n_pairs": 50,
+      "epochs": 5,
+      "steps": 250,
+      "acc": 0.0
+    },
+    {
+      "name": "50 pairs x 10ep",
+      "n_pairs": 50,
+      "epochs": 10,
+      "steps": 500,
+      "acc": 0.0
+    }
+  ]
+}

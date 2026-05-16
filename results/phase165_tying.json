@@ -1,0 +1,72 @@
+{
+  "phase": "165",
+  "name": "Weight Tying Revelation",
+  "results": [
+    {
+      "name": "0.5B",
+      "same_pointer": true,
+      "same_shape": true,
+      "max_diff": 0.0,
+      "allclose": true,
+      "tie_config": "True",
+      "embed_shape": [
+        151936,
+        896
+      ],
+      "lm_shape": [
+        151936,
+        896
+      ],
+      "mutation_propagates": true
+    },
+    {
+      "name": "1.5B",
+      "same_pointer": true,
+      "same_shape": true,
+      "max_diff": 0.0,
+      "allclose": true,
+      "tie_config": "True",
+      "embed_shape": [
+        151936,
+        1536
+      ],
+      "lm_shape": [
+        151936,
+        1536
+      ],
+      "mutation_propagates": true
+    },
+    {
+      "name": "14B",
+      "same_pointer": false,
+      "same_shape": true,
+      "max_diff": 0.864990234375,
+      "allclose": false,
+      "tie_config": "False",
+      "embed_shape": [
+        152064,
+        5120
+      ],
+      "lm_shape": [
+        152064,
+        5120
+      ]
+    },
+    {
+      "name": "GPT-2",
+      "same_pointer": true,
+      "same_shape": true,
+      "max_diff": 0.0,
+      "allclose": true,
+      "tie_config": "True",
+      "embed_shape": [
+        50257,
+        768
+      ],
+      "lm_shape": [
+        50257,
+        768
+      ]
+    }
+  ]
+}
