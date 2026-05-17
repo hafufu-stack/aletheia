@@ -1,0 +1,258 @@
+{
+  "phase": "173",
+  "name": "Oracle-Guided FGA",
+  "results": {
+    "single_baseline": {
+      "acc": 0.5,
+      "details": [
+        {
+          "expected": "Tokyo",
+          "pred": "Tokyo",
+          "correct": true
+        },
+        {
+          "expected": "Paris",
+          "pred": "Paris",
+          "correct": true
+        },
+        {
+          "expected": "Berlin",
+          "pred": "Berlin",
+          "correct": true
+        },
+        {
+          "expected": "Jupiter",
+          "pred": "",
+          "correct": false
+        },
+        {
+          "expected": "0",
+          "pred": "0",
+          "correct": true
+        },
+        {
+          "expected": "100",
+          "pred": "",
+          "correct": false
+        },
+        {
+          "expected": "6",
+          "pred": "",
+          "correct": false
+        },
+        {
+          "expected": "365",
+          "pred": "",
+          "correct": false
+        },
+        {
+          "expected": "7",
+          "pred": "",
+          "correct": false
+        },
+        {
+          "expected": "3",
+          "pred": "3",
+          "correct": true
+        }
+      ]
+    },
+    "single_teacher_g5": {
+      "acc": 0.9,
+      "details": [
+        {
+          "expected": "Tokyo",
+          "pred": "Tokyo",
+          "correct": true
+        },
+        {
+          "expected": "Paris",
+          "pred": "Paris",
+          "correct": true
+        },
+        {
+          "expected": "Berlin",
+          "pred": "Berlin",
+          "correct": true
+        },
+        {
+          "expected": "Jupiter",
+          "pred": "Jupiter",
+          "correct": true
+        },
+        {
+          "expected": "0",
+          "pred": "0",
+          "correct": true
+        },
+        {
+          "expected": "100",
+          "pred": "0",
+          "correct": true
+        },
+        {
+          "expected": "6",
+          "pred": "6",
+          "correct": true
+        },
+        {
+          "expected": "365",
+          "pred": "",
+          "correct": false
+        },
+        {
+          "expected": "7",
+          "pred": "7",
+          "correct": true
+        },
+        {
+          "expected": "3",
+          "pred": "3",
+          "correct": true
+        }
+      ]
+    },
+    "single_oracle_g5": {
+      "acc": 0.4,
+      "details": [
+        {
+          "expected": "Tokyo",
+          "pred": "Tokyo",
+          "correct": true
+        },
+        {
+          "expected": "Paris",
+          "pred": "Paris",
+          "correct": true
+        },
+        {
+          "expected": "Berlin",
+          "pred": "Berlin",
+          "correct": true
+        },
+        {
+          "expected": "Jupiter",
+          "pred": "the",
+          "correct": false
+        },
+        {
+          "expected": "0",
+          "pred": "0",
+          "correct": true
+        },
+        {
+          "expected": "100",
+          "pred": "",
+          "correct": false
+        },
+        {
+          "expected": "6",
+          "pred": "",
+          "correct": false
+        },
+        {
+          "expected": "365",
+          "pred": "",
+          "correct": false
+        },
+        {
+          "expected": "7",
+          "pred": "",
+          "correct": false
+        },
+        {
+          "expected": "3",
+          "pred": "",
+          "correct": false
+        }
+      ]
+    },
+    "multi_g0": {
+      "acc": 0.25,
+      "details": [
+        {
+          "expected": " 1492",
+          "output": " 1499",
+          "oracle": "?!\n\n\uff01\uff01\n\n\uff01\uff01\n\n!.\n\n,...",
+          "match": false
+        },
+        {
+          "expected": " 3776",
+          "output": " a mountain in Japan",
+          "oracle": "/\n\n\n\n\u2026\u201d\n\nustralia)>\n",
+          "match": false
+        },
+        {
+          "expected": " 1969",
+          "output": "19696",
+          "oracle": "'),'?!\n\n???\n\n?!\n\n);\"",
+          "match": true
+        },
+        {
+          "expected": " 1945",
+          "output": " 1942",
+          "oracle": "?!\n\n />)\n\uff01\uff01\n\n.='!.\n\n",
+          "match": false
+        }
+      ]
+    },
+    "multi_g5": {
+      "acc": 0.25,
+      "details": [
+        {
+          "expected": " 1492",
+          "output": " 1499",
+          "oracle": "?!\n\n\uff01\uff01\n\n\uff01\uff01\n\n!.\n\n,...",
+          "match": false
+        },
+        {
+          "expected": " 3776",
+          "output": " a mountain in Japan",
+          "oracle": "/\n\n\n\n\u2026\u201d\n\nustralia)>\n",
+          "match": false
+        },
+        {
+          "expected": " 1969",
+          "output": "19696",
+          "oracle": "'),'?!\n\n???\n\n?!\n\n);\"",
+          "match": true
+        },
+        {
+          "expected": " 1945",
+          "output": " 1942",
+          "oracle": "?!\n\n />)\n\uff01\uff01\n\n.='!.\n\n",
+          "match": false
+        }
+      ]
+    },
+    "multi_g10": {
+      "acc": 0.25,
+      "details": [
+        {
+          "expected": " 1492",
+          "output": " 1499",
+          "oracle": "?!\n\n\uff01\uff01\n\n\uff01\uff01\n\n!.\n\n,...",
+          "match": false
+        },
+        {
+          "expected": " 3776",
+          "output": " a mountain in Japan",
+          "oracle": "/\n\n\n\n\u2026\u201d\n\nustralia)>\n",
+          "match": false
+        },
+        {
+          "expected": " 1969",
+          "output": "19696",
+          "oracle": "'),'?!\n\n???\n\n?!\n\n);\"",
+          "match": true
+        },
+        {
+          "expected": " 1945",
+          "output": " 1942",
+          "oracle": "?!\n\n />)\n\uff01\uff01\n\n.='!.\n\n",
+          "match": false
+        }
+      ]
+    }
+  }
+}

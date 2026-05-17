@@ -1,0 +1,182 @@
+{
+  "phase": "168",
+  "name": "Excalibur - Sword Equation",
+  "results": {
+    "gpt2_medium": {
+      "model": "GPT-2 Medium (355M)",
+      "d": 1024,
+      "n_layers": 24,
+      "predicted_g": 2.941564209736038,
+      "post_cos": 0.04026978462934494,
+      "tied": true,
+      "zero_shot_word": 0.5,
+      "zero_shot_num": 0.2,
+      "details": [
+        {
+          "cat": "word",
+          "correct": 1,
+          "expected": "Tokyo",
+          "pred": "Tokyo"
+        },
+        {
+          "cat": "word",
+          "correct": 0,
+          "expected": "Paris",
+          "pred": "1"
+        },
+        {
+          "cat": "word",
+          "correct": 1,
+          "expected": "Berlin",
+          "pred": "Berlin"
+        },
+        {
+          "cat": "word",
+          "correct": 0,
+          "expected": "Jupiter",
+          "pred": "1"
+        },
+        {
+          "cat": "number",
+          "correct": 1,
+          "expected": "0",
+          "pred": "0"
+        },
+        {
+          "cat": "number",
+          "correct": 0,
+          "expected": "100",
+          "pred": "1"
+        },
+        {
+          "cat": "number",
+          "correct": 0,
+          "expected": "7",
+          "pred": "1"
+        },
+        {
+          "cat": "number",
+          "correct": 0,
+          "expected": "365",
+          "pred": "passed"
+        },
+        {
+          "cat": "number",
+          "correct": 0,
+          "expected": "3",
+          "pred": "2"
+        }
+      ],
+      "sweep": {
+        "1": {
+          "word": 0.5,
+          "num": 0.2
+        },
+        "3": {
+          "word": 0.5,
+          "num": 0.2
+        },
+        "5": {
+          "word": 0.5,
+          "num": 0.2
+        },
+        "8": {
+          "word": 0.5,
+          "num": 0.2
+        },
+        "13": {
+          "word": 0.5,
+          "num": 0.2
+        }
+      }
+    },
+    "gpt2_large": {
+      "model": "GPT-2 Large (774M)",
+      "d": 1280,
+      "n_layers": 36,
+      "predicted_g": 3.252279327573251,
+      "post_cos": 0.010360684245824814,
+      "tied": true,
+      "zero_shot_word": 0.0,
+      "zero_shot_num": 0.6,
+      "details": [
+        {
+          "cat": "word",
+          "correct": 0,
+          "expected": "Tokyo",
+          "pred": "2"
+        },
+        {
+          "cat": "word",
+          "correct": 0,
+          "expected": "Paris",
+          "pred": "2"
+        },
+        {
+          "cat": "word",
+          "correct": 0,
+          "expected": "Berlin",
+          "pred": "2"
+        },
+        {
+          "cat": "word",
+          "correct": 0,
+          "expected": "Jupiter",
+          "pred": "1"
+        },
+        {
+          "cat": "number",
+          "correct": 1,
+          "expected": "0",
+          "pred": "0"
+        },
+        {
+          "cat": "number",
+          "correct": 1,
+          "expected": "100",
+          "pred": "100"
+        },
+        {
+          "cat": "number",
+          "correct": 0,
+          "expected": "7",
+          "pred": "2"
+        },
+        {
+          "cat": "number",
+          "correct": 0,
+          "expected": "365",
+          "pred": "passed"
+        },
+        {
+          "cat": "number",
+          "correct": 1,
+          "expected": "3",
+          "pred": "3"
+        }
+      ],
+      "sweep": {
+        "1": {
+          "word": 0.0,
+          "num": 0.6
+        },
+        "3": {
+          "word": 0.0,
+          "num": 0.6
+        },
+        "5": {
+          "word": 0.0,
+          "num": 0.6
+        },
+        "8": {
+          "word": 0.25,
+          "num": 0.6
+        },
+        "13": {
+          "word": 0.5,
+          "num": 0.8
+        }
+      }
+    }
+  }
+}

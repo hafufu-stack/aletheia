@@ -1,0 +1,1050 @@
+{
+  "phase": "166",
+  "name": "Dynamic Geometric Routing",
+  "configs": {
+    "A_base": {
+      "fact_word": 0.6666666666666666,
+      "fact_num": 0.0,
+      "arith": 0.0
+    },
+    "B_static_surgery": {
+      "fact_word": 1.0,
+      "fact_num": 0.8333333333333334,
+      "arith": 0.75
+    },
+    "C_dynamic_t3": {
+      "fact_word": 1.0,
+      "fact_num": 0.16666666666666666,
+      "arith": 0.0,
+      "combined": 0.36666666666666664,
+      "threshold": 3.0,
+      "n_surgery": 4,
+      "route_log": [
+        {
+          "prompt": "# The capital of Japan is",
+          "cat": "fact_word",
+          "entropy": 3.44,
+          "route": "S",
+          "correct": 1
+        },
+        {
+          "prompt": "# The capital of France is",
+          "cat": "fact_word",
+          "entropy": 3.26,
+          "route": "S",
+          "correct": 1
+        },
+        {
+          "prompt": "# The largest planet is",
+          "cat": "fact_word",
+          "entropy": 5.05,
+          "route": "S",
+          "correct": 1
+        },
+        {
+          "prompt": "# Water freezes at",
+          "cat": "fact_num",
+          "entropy": 1.65,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "cat": "fact_num",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The atomic number of carbon is",
+          "cat": "fact_num",
+          "entropy": 1.48,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# A year has",
+          "cat": "fact_num",
+          "entropy": 2.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The number of continents is",
+          "cat": "fact_num",
+          "entropy": 4.56,
+          "route": "S",
+          "correct": 1
+        },
+        {
+          "prompt": "# Pi is approximately",
+          "cat": "fact_num",
+          "entropy": 1.61,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 1 + 1 =",
+          "cat": "arith",
+          "entropy": 1.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 3 + 4 =",
+          "cat": "arith",
+          "entropy": 2.26,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 5 + 5 =",
+          "cat": "arith",
+          "entropy": 2.09,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 2 + 7 =",
+          "cat": "arith",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 8 + 1 =",
+          "cat": "arith",
+          "entropy": 2.25,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 6 + 3 =",
+          "cat": "arith",
+          "entropy": 2.12,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 4 + 4 =",
+          "cat": "arith",
+          "entropy": 2.15,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 9 + 0 =",
+          "cat": "arith",
+          "entropy": 2.54,
+          "route": "B",
+          "correct": 0
+        }
+      ]
+    },
+    "C_dynamic_t4": {
+      "fact_word": 1.0,
+      "fact_num": 0.16666666666666666,
+      "arith": 0.0,
+      "combined": 0.36666666666666664,
+      "threshold": 4.0,
+      "n_surgery": 2,
+      "route_log": [
+        {
+          "prompt": "# The capital of Japan is",
+          "cat": "fact_word",
+          "entropy": 3.44,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The capital of France is",
+          "cat": "fact_word",
+          "entropy": 3.26,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The largest planet is",
+          "cat": "fact_word",
+          "entropy": 5.05,
+          "route": "S",
+          "correct": 1
+        },
+        {
+          "prompt": "# Water freezes at",
+          "cat": "fact_num",
+          "entropy": 1.65,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "cat": "fact_num",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The atomic number of carbon is",
+          "cat": "fact_num",
+          "entropy": 1.48,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# A year has",
+          "cat": "fact_num",
+          "entropy": 2.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The number of continents is",
+          "cat": "fact_num",
+          "entropy": 4.56,
+          "route": "S",
+          "correct": 1
+        },
+        {
+          "prompt": "# Pi is approximately",
+          "cat": "fact_num",
+          "entropy": 1.61,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 1 + 1 =",
+          "cat": "arith",
+          "entropy": 1.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 3 + 4 =",
+          "cat": "arith",
+          "entropy": 2.26,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 5 + 5 =",
+          "cat": "arith",
+          "entropy": 2.09,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 2 + 7 =",
+          "cat": "arith",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 8 + 1 =",
+          "cat": "arith",
+          "entropy": 2.25,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 6 + 3 =",
+          "cat": "arith",
+          "entropy": 2.12,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 4 + 4 =",
+          "cat": "arith",
+          "entropy": 2.15,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 9 + 0 =",
+          "cat": "arith",
+          "entropy": 2.54,
+          "route": "B",
+          "correct": 0
+        }
+      ]
+    },
+    "C_dynamic_t5": {
+      "fact_word": 1.0,
+      "fact_num": 0.0,
+      "arith": 0.0,
+      "combined": 0.3,
+      "threshold": 5.0,
+      "n_surgery": 1,
+      "route_log": [
+        {
+          "prompt": "# The capital of Japan is",
+          "cat": "fact_word",
+          "entropy": 3.44,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The capital of France is",
+          "cat": "fact_word",
+          "entropy": 3.26,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The largest planet is",
+          "cat": "fact_word",
+          "entropy": 5.05,
+          "route": "S",
+          "correct": 1
+        },
+        {
+          "prompt": "# Water freezes at",
+          "cat": "fact_num",
+          "entropy": 1.65,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "cat": "fact_num",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The atomic number of carbon is",
+          "cat": "fact_num",
+          "entropy": 1.48,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# A year has",
+          "cat": "fact_num",
+          "entropy": 2.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The number of continents is",
+          "cat": "fact_num",
+          "entropy": 4.56,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# Pi is approximately",
+          "cat": "fact_num",
+          "entropy": 1.61,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 1 + 1 =",
+          "cat": "arith",
+          "entropy": 1.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 3 + 4 =",
+          "cat": "arith",
+          "entropy": 2.26,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 5 + 5 =",
+          "cat": "arith",
+          "entropy": 2.09,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 2 + 7 =",
+          "cat": "arith",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 8 + 1 =",
+          "cat": "arith",
+          "entropy": 2.25,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 6 + 3 =",
+          "cat": "arith",
+          "entropy": 2.12,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 4 + 4 =",
+          "cat": "arith",
+          "entropy": 2.15,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 9 + 0 =",
+          "cat": "arith",
+          "entropy": 2.54,
+          "route": "B",
+          "correct": 0
+        }
+      ]
+    },
+    "C_dynamic_t6": {
+      "fact_word": 0.6666666666666666,
+      "fact_num": 0.0,
+      "arith": 0.0,
+      "combined": 0.19999999999999998,
+      "threshold": 6.0,
+      "n_surgery": 0,
+      "route_log": [
+        {
+          "prompt": "# The capital of Japan is",
+          "cat": "fact_word",
+          "entropy": 3.44,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The capital of France is",
+          "cat": "fact_word",
+          "entropy": 3.26,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The largest planet is",
+          "cat": "fact_word",
+          "entropy": 5.05,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# Water freezes at",
+          "cat": "fact_num",
+          "entropy": 1.65,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "cat": "fact_num",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The atomic number of carbon is",
+          "cat": "fact_num",
+          "entropy": 1.48,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# A year has",
+          "cat": "fact_num",
+          "entropy": 2.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The number of continents is",
+          "cat": "fact_num",
+          "entropy": 4.56,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# Pi is approximately",
+          "cat": "fact_num",
+          "entropy": 1.61,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 1 + 1 =",
+          "cat": "arith",
+          "entropy": 1.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 3 + 4 =",
+          "cat": "arith",
+          "entropy": 2.26,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 5 + 5 =",
+          "cat": "arith",
+          "entropy": 2.09,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 2 + 7 =",
+          "cat": "arith",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 8 + 1 =",
+          "cat": "arith",
+          "entropy": 2.25,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 6 + 3 =",
+          "cat": "arith",
+          "entropy": 2.12,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 4 + 4 =",
+          "cat": "arith",
+          "entropy": 2.15,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 9 + 0 =",
+          "cat": "arith",
+          "entropy": 2.54,
+          "route": "B",
+          "correct": 0
+        }
+      ]
+    },
+    "C_dynamic_t7": {
+      "fact_word": 0.6666666666666666,
+      "fact_num": 0.0,
+      "arith": 0.0,
+      "combined": 0.19999999999999998,
+      "threshold": 7.0,
+      "n_surgery": 0,
+      "route_log": [
+        {
+          "prompt": "# The capital of Japan is",
+          "cat": "fact_word",
+          "entropy": 3.44,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The capital of France is",
+          "cat": "fact_word",
+          "entropy": 3.26,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The largest planet is",
+          "cat": "fact_word",
+          "entropy": 5.05,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# Water freezes at",
+          "cat": "fact_num",
+          "entropy": 1.65,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "cat": "fact_num",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The atomic number of carbon is",
+          "cat": "fact_num",
+          "entropy": 1.48,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# A year has",
+          "cat": "fact_num",
+          "entropy": 2.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The number of continents is",
+          "cat": "fact_num",
+          "entropy": 4.56,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# Pi is approximately",
+          "cat": "fact_num",
+          "entropy": 1.61,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 1 + 1 =",
+          "cat": "arith",
+          "entropy": 1.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 3 + 4 =",
+          "cat": "arith",
+          "entropy": 2.26,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 5 + 5 =",
+          "cat": "arith",
+          "entropy": 2.09,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 2 + 7 =",
+          "cat": "arith",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 8 + 1 =",
+          "cat": "arith",
+          "entropy": 2.25,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 6 + 3 =",
+          "cat": "arith",
+          "entropy": 2.12,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 4 + 4 =",
+          "cat": "arith",
+          "entropy": 2.15,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 9 + 0 =",
+          "cat": "arith",
+          "entropy": 2.54,
+          "route": "B",
+          "correct": 0
+        }
+      ]
+    },
+    "C_dynamic_t8": {
+      "fact_word": 0.6666666666666666,
+      "fact_num": 0.0,
+      "arith": 0.0,
+      "combined": 0.19999999999999998,
+      "threshold": 8.0,
+      "n_surgery": 0,
+      "route_log": [
+        {
+          "prompt": "# The capital of Japan is",
+          "cat": "fact_word",
+          "entropy": 3.44,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The capital of France is",
+          "cat": "fact_word",
+          "entropy": 3.26,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The largest planet is",
+          "cat": "fact_word",
+          "entropy": 5.05,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# Water freezes at",
+          "cat": "fact_num",
+          "entropy": 1.65,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "cat": "fact_num",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The atomic number of carbon is",
+          "cat": "fact_num",
+          "entropy": 1.48,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# A year has",
+          "cat": "fact_num",
+          "entropy": 2.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The number of continents is",
+          "cat": "fact_num",
+          "entropy": 4.56,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# Pi is approximately",
+          "cat": "fact_num",
+          "entropy": 1.61,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 1 + 1 =",
+          "cat": "arith",
+          "entropy": 1.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 3 + 4 =",
+          "cat": "arith",
+          "entropy": 2.26,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 5 + 5 =",
+          "cat": "arith",
+          "entropy": 2.09,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 2 + 7 =",
+          "cat": "arith",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 8 + 1 =",
+          "cat": "arith",
+          "entropy": 2.25,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 6 + 3 =",
+          "cat": "arith",
+          "entropy": 2.12,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 4 + 4 =",
+          "cat": "arith",
+          "entropy": 2.15,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 9 + 0 =",
+          "cat": "arith",
+          "entropy": 2.54,
+          "route": "B",
+          "correct": 0
+        }
+      ]
+    },
+    "C_dynamic_t9": {
+      "fact_word": 0.6666666666666666,
+      "fact_num": 0.0,
+      "arith": 0.0,
+      "combined": 0.19999999999999998,
+      "threshold": 9.0,
+      "n_surgery": 0,
+      "route_log": [
+        {
+          "prompt": "# The capital of Japan is",
+          "cat": "fact_word",
+          "entropy": 3.44,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The capital of France is",
+          "cat": "fact_word",
+          "entropy": 3.26,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The largest planet is",
+          "cat": "fact_word",
+          "entropy": 5.05,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# Water freezes at",
+          "cat": "fact_num",
+          "entropy": 1.65,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "cat": "fact_num",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The atomic number of carbon is",
+          "cat": "fact_num",
+          "entropy": 1.48,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# A year has",
+          "cat": "fact_num",
+          "entropy": 2.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The number of continents is",
+          "cat": "fact_num",
+          "entropy": 4.56,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# Pi is approximately",
+          "cat": "fact_num",
+          "entropy": 1.61,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 1 + 1 =",
+          "cat": "arith",
+          "entropy": 1.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 3 + 4 =",
+          "cat": "arith",
+          "entropy": 2.26,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 5 + 5 =",
+          "cat": "arith",
+          "entropy": 2.09,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 2 + 7 =",
+          "cat": "arith",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 8 + 1 =",
+          "cat": "arith",
+          "entropy": 2.25,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 6 + 3 =",
+          "cat": "arith",
+          "entropy": 2.12,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 4 + 4 =",
+          "cat": "arith",
+          "entropy": 2.15,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 9 + 0 =",
+          "cat": "arith",
+          "entropy": 2.54,
+          "route": "B",
+          "correct": 0
+        }
+      ]
+    },
+    "C_dynamic_t10": {
+      "fact_word": 0.6666666666666666,
+      "fact_num": 0.0,
+      "arith": 0.0,
+      "combined": 0.19999999999999998,
+      "threshold": 10.0,
+      "n_surgery": 0,
+      "route_log": [
+        {
+          "prompt": "# The capital of Japan is",
+          "cat": "fact_word",
+          "entropy": 3.44,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The capital of France is",
+          "cat": "fact_word",
+          "entropy": 3.26,
+          "route": "B",
+          "correct": 1
+        },
+        {
+          "prompt": "# The largest planet is",
+          "cat": "fact_word",
+          "entropy": 5.05,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# Water freezes at",
+          "cat": "fact_num",
+          "entropy": 1.65,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "cat": "fact_num",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The atomic number of carbon is",
+          "cat": "fact_num",
+          "entropy": 1.48,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# A year has",
+          "cat": "fact_num",
+          "entropy": 2.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# The number of continents is",
+          "cat": "fact_num",
+          "entropy": 4.56,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# Pi is approximately",
+          "cat": "fact_num",
+          "entropy": 1.61,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 1 + 1 =",
+          "cat": "arith",
+          "entropy": 1.47,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 3 + 4 =",
+          "cat": "arith",
+          "entropy": 2.26,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 5 + 5 =",
+          "cat": "arith",
+          "entropy": 2.09,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 2 + 7 =",
+          "cat": "arith",
+          "entropy": 2.1,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 8 + 1 =",
+          "cat": "arith",
+          "entropy": 2.25,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 6 + 3 =",
+          "cat": "arith",
+          "entropy": 2.12,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 4 + 4 =",
+          "cat": "arith",
+          "entropy": 2.15,
+          "route": "B",
+          "correct": 0
+        },
+        {
+          "prompt": "# 9 + 0 =",
+          "cat": "arith",
+          "entropy": 2.54,
+          "route": "B",
+          "correct": 0
+        }
+      ]
+    }
+  },
+  "best_threshold": 3.0,
+  "best_combined": 0.36666666666666664
+}

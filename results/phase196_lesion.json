@@ -1,0 +1,40 @@
+{
+  "phase": "196",
+  "name": "Liquid Circuit Lesioning",
+  "results": {
+    "L14_n_neurons": 896,
+    "L15_n_neurons": 896,
+    "configs": {
+      "keep100": {
+        "keep_pct": 100,
+        "arith": 0.3,
+        "fact": 0.6666666666666666
+      },
+      "keep50": {
+        "keep_pct": 50,
+        "arith": 0.2,
+        "fact": 1.0
+      },
+      "keep25": {
+        "keep_pct": 25,
+        "arith": 0.1,
+        "fact": 0.6666666666666666
+      },
+      "keep10": {
+        "keep_pct": 10,
+        "arith": 0.0,
+        "fact": 1.0
+      },
+      "keep5": {
+        "keep_pct": 5,
+        "arith": 0.0,
+        "fact": 1.0
+      },
+      "keep1": {
+        "keep_pct": 1,
+        "arith": 0.0,
+        "fact": 1.0
+      }
+    }
+  }
+}

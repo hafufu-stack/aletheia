@@ -1,0 +1,196 @@
+{
+  "phase": "180",
+  "name": "Dual-Weight Oracle",
+  "best_oracle_layer": 4,
+  "layer_results": {
+    "4": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "5": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "6": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "7": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "8": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "9": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "10": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "11": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "12": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "13": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "14": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "15": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "16": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.3
+    },
+    "17": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "18": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "19": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "20": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.3
+    },
+    "21": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.3
+    }
+  },
+  "fact_acc": 0.4,
+  "arith_acc": 0.3333333333333333,
+  "details": [
+    {
+      "type": "fact",
+      "correct": true,
+      "entropy": 3.4416489601135254,
+      "expected": "Tokyo",
+      "pred": "Tokyo"
+    },
+    {
+      "type": "fact",
+      "correct": true,
+      "entropy": 3.2563834190368652,
+      "expected": "Paris",
+      "pred": "Paris"
+    },
+    {
+      "type": "fact",
+      "correct": true,
+      "entropy": 3.415172815322876,
+      "expected": "Berlin",
+      "pred": "Berlin"
+    },
+    {
+      "type": "fact",
+      "correct": false,
+      "entropy": 5.050159454345703,
+      "expected": "Jupiter",
+      "pred": "the"
+    },
+    {
+      "type": "fact",
+      "correct": true,
+      "entropy": 1.650160551071167,
+      "expected": "0",
+      "pred": "0"
+    },
+    {
+      "type": "fact",
+      "correct": false,
+      "entropy": 2.101733922958374,
+      "expected": "100",
+      "pred": ""
+    },
+    {
+      "type": "fact",
+      "correct": false,
+      "entropy": 1.484387993812561,
+      "expected": "6",
+      "pred": ""
+    },
+    {
+      "type": "fact",
+      "correct": false,
+      "entropy": 2.4734413623809814,
+      "expected": "365",
+      "pred": ""
+    },
+    {
+      "type": "fact",
+      "correct": false,
+      "entropy": 4.562267303466797,
+      "expected": "7",
+      "pred": ""
+    },
+    {
+      "type": "fact",
+      "correct": false,
+      "entropy": 1.606735110282898,
+      "expected": "3",
+      "pred": ""
+    },
+    {
+      "type": "arith",
+      "correct": true,
+      "entropy": 1.4685672521591187,
+      "expected": "2",
+      "pred": "2"
+    },
+    {
+      "type": "arith",
+      "correct": false,
+      "entropy": 2.2601404190063477,
+      "expected": "7",
+      "pred": ""
+    },
+    {
+      "type": "arith",
+      "correct": false,
+      "entropy": 2.0855727195739746,
+      "expected": "10",
+      "pred": "1"
+    },
+    {
+      "type": "arith",
+      "correct": false,
+      "entropy": 2.2451133728027344,
+      "expected": "9",
+      "pred": "1"
+    },
+    {
+      "type": "arith",
+      "correct": false,
+      "entropy": 2.120600700378418,
+      "expected": "9",
+      "pred": ""
+    },
+    {
+      "type": "arith",
+      "correct": true,
+      "entropy": 2.153789520263672,
+      "expected": "8",
+      "pred": "8"
+    }
+  ],
+  "p177_comparison": 0.4
+}

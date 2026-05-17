@@ -1,0 +1,62 @@
+{
+  "phase": "186",
+  "name": "The Orthogonality Principle",
+  "results": {
+    "0": {
+      "strength": 0,
+      "embed_crosstalk": 0.7300691604614258,
+      "unembed_crosstalk": 0.7300691604614258,
+      "alignment": 1.0000000238418578,
+      "arith_acc": 0.0
+    },
+    "0.5": {
+      "strength": 0.5,
+      "embed_crosstalk": 0.3730090856552124,
+      "unembed_crosstalk": 0.3730090856552124,
+      "alignment": 1.0000000059604646,
+      "arith_acc": 0.0
+    },
+    "1.0": {
+      "strength": 1.0,
+      "embed_crosstalk": 0.17425690591335297,
+      "unembed_crosstalk": 0.17425690591335297,
+      "alignment": 0.9999999821186065,
+      "arith_acc": 0.16666666666666666
+    },
+    "1.5": {
+      "strength": 1.5,
+      "embed_crosstalk": 0.1311577558517456,
+      "unembed_crosstalk": 0.1311577558517456,
+      "alignment": 0.9999999821186065,
+      "arith_acc": 0.3333333333333333
+    },
+    "2.0": {
+      "strength": 2.0,
+      "embed_crosstalk": 0.1379069685935974,
+      "unembed_crosstalk": 0.1379069685935974,
+      "alignment": 1.0000000178813935,
+      "arith_acc": 0.5
+    },
+    "3.0": {
+      "strength": 3.0,
+      "embed_crosstalk": 0.15525871515274048,
+      "unembed_crosstalk": 0.15525871515274048,
+      "alignment": 1.0000000059604646,
+      "arith_acc": 0.5
+    },
+    "5.0": {
+      "strength": 5.0,
+      "embed_crosstalk": 0.1724850982427597,
+      "unembed_crosstalk": 0.1724850982427597,
+      "alignment": 1.0,
+      "arith_acc": 0.5
+    },
+    "7.0": {
+      "strength": 7.0,
+      "embed_crosstalk": 0.17936588823795319,
+      "unembed_crosstalk": 0.17936588823795319,
+      "alignment": 0.9999999821186065,
+      "arith_acc": 0.3333333333333333
+    }
+  }
+}

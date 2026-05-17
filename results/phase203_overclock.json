@@ -1,0 +1,12 @@
+{
+  "phase": "203",
+  "name": "Neural Overclocking",
+  "results": {
+    "baseline": 0.45,
+    "fga_single": 0.45,
+    "fga_3layers": 0.45,
+    "fga_5layers": 0.45,
+    "fga_7layers": 0.45,
+    "fga_all": 0.45
+  }
+}

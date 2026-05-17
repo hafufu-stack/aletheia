@@ -1,0 +1,1104 @@
+{
+  "phase": "174",
+  "name": "The Aletheia Engine",
+  "configs": {
+    "t3": {
+      "threshold": 3.0,
+      "fact_acc": 0.2,
+      "arith_acc": 0.4,
+      "abstain_acc": 0.8,
+      "overall": 0.4666666666666667,
+      "details": [
+        {
+          "action": "abstain",
+          "entropy": 3.4441778659820557,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact",
+          "prompt": "The capital of Japan is",
+          "expected": " Tokyo"
+        },
+        {
+          "action": "abstain",
+          "entropy": 3.262610912322998,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact",
+          "prompt": "The capital of France is",
+          "expected": " Paris"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.1632308959960938,
+          "correct": true,
+          "pred": "0",
+          "oracle_pred": "\",@\"",
+          "category": "known_fact",
+          "prompt": "Water freezes at",
+          "expected": " 0"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.481157064437866,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "/>)",
+          "category": "known_fact",
+          "prompt": "A year has",
+          "expected": " 365"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.575234413146973,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact",
+          "prompt": "The number of continents is",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.05682108923792839,
+          "correct": true,
+          "pred": "2",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "1 + 1 =",
+          "expected": " 2"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8491464853286743,
+          "correct": true,
+          "pred": "7",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "3 + 4 =",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.16396751999855042,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "5 + 5 =",
+          "expected": " 10"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.5181038975715637,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "8 + 1 =",
+          "expected": " 9"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.5108580589294434,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "6 + 3 =",
+          "expected": " 9"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.168559551239014,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown",
+          "prompt": "The capital of Xylandia is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.678976058959961,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": ")){",
+          "category": "unknown",
+          "prompt": "The 937th digit of pi is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "abstain",
+          "entropy": 5.238173961639404,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown",
+          "prompt": "The winner of the 2030 World Cup is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.900855541229248,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown",
+          "prompt": "The secret code of the universe is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.058182239532471,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown",
+          "prompt": "The GDP of Atlantis is",
+          "expected": "ABSTAIN"
+        }
+      ]
+    },
+    "t4": {
+      "threshold": 4.0,
+      "fact_acc": 0.6,
+      "arith_acc": 0.4,
+      "abstain_acc": 0.8,
+      "overall": 0.6,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 3.4441778659820557,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle_pred": "\",@\"",
+          "category": "known_fact",
+          "prompt": "The capital of Japan is",
+          "expected": " Tokyo"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.262610912322998,
+          "correct": true,
+          "pred": "Paris",
+          "oracle_pred": "';\";",
+          "category": "known_fact",
+          "prompt": "The capital of France is",
+          "expected": " Paris"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.1632308959960938,
+          "correct": true,
+          "pred": "0",
+          "oracle_pred": "\",@\"",
+          "category": "known_fact",
+          "prompt": "Water freezes at",
+          "expected": " 0"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.481157064437866,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "/>)",
+          "category": "known_fact",
+          "prompt": "A year has",
+          "expected": " 365"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.575234413146973,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact",
+          "prompt": "The number of continents is",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.05682108923792839,
+          "correct": true,
+          "pred": "2",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "1 + 1 =",
+          "expected": " 2"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8491464853286743,
+          "correct": true,
+          "pred": "7",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "3 + 4 =",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.16396751999855042,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "5 + 5 =",
+          "expected": " 10"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.5181038975715637,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "8 + 1 =",
+          "expected": " 9"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.5108580589294434,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "6 + 3 =",
+          "expected": " 9"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.168559551239014,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown",
+          "prompt": "The capital of Xylandia is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.678976058959961,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": ")){",
+          "category": "unknown",
+          "prompt": "The 937th digit of pi is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "abstain",
+          "entropy": 5.238173961639404,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown",
+          "prompt": "The winner of the 2030 World Cup is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.900855541229248,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown",
+          "prompt": "The secret code of the universe is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.058182239532471,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown",
+          "prompt": "The GDP of Atlantis is",
+          "expected": "ABSTAIN"
+        }
+      ]
+    },
+    "t5": {
+      "threshold": 5.0,
+      "fact_acc": 0.6,
+      "arith_acc": 0.4,
+      "abstain_acc": 0.4,
+      "overall": 0.4666666666666667,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 3.4441778659820557,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle_pred": "\",@\"",
+          "category": "known_fact",
+          "prompt": "The capital of Japan is",
+          "expected": " Tokyo"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.262610912322998,
+          "correct": true,
+          "pred": "Paris",
+          "oracle_pred": "';\";",
+          "category": "known_fact",
+          "prompt": "The capital of France is",
+          "expected": " Paris"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.1632308959960938,
+          "correct": true,
+          "pred": "0",
+          "oracle_pred": "\",@\"",
+          "category": "known_fact",
+          "prompt": "Water freezes at",
+          "expected": " 0"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.481157064437866,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "/>)",
+          "category": "known_fact",
+          "prompt": "A year has",
+          "expected": " 365"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.575234413146973,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "!!!!",
+          "category": "known_fact",
+          "prompt": "The number of continents is",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.05682108923792839,
+          "correct": true,
+          "pred": "2",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "1 + 1 =",
+          "expected": " 2"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8491464853286743,
+          "correct": true,
+          "pred": "7",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "3 + 4 =",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.16396751999855042,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "5 + 5 =",
+          "expected": " 10"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.5181038975715637,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "8 + 1 =",
+          "expected": " 9"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.5108580589294434,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "6 + 3 =",
+          "expected": " 9"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.168559551239014,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown",
+          "prompt": "The capital of Xylandia is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.678976058959961,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": ")){",
+          "category": "unknown",
+          "prompt": "The 937th digit of pi is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "abstain",
+          "entropy": 5.238173961639404,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown",
+          "prompt": "The winner of the 2030 World Cup is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.900855541229248,
+          "correct": false,
+          "pred": "a",
+          "oracle_pred": "!!!!",
+          "category": "unknown",
+          "prompt": "The secret code of the universe is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.058182239532471,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "\uff01\uff01",
+          "category": "unknown",
+          "prompt": "The GDP of Atlantis is",
+          "expected": "ABSTAIN"
+        }
+      ]
+    },
+    "t6": {
+      "threshold": 6.0,
+      "fact_acc": 0.6,
+      "arith_acc": 0.4,
+      "abstain_acc": 0.2,
+      "overall": 0.4,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 3.4441778659820557,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle_pred": "\",@\"",
+          "category": "known_fact",
+          "prompt": "The capital of Japan is",
+          "expected": " Tokyo"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.262610912322998,
+          "correct": true,
+          "pred": "Paris",
+          "oracle_pred": "';\";",
+          "category": "known_fact",
+          "prompt": "The capital of France is",
+          "expected": " Paris"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.1632308959960938,
+          "correct": true,
+          "pred": "0",
+          "oracle_pred": "\",@\"",
+          "category": "known_fact",
+          "prompt": "Water freezes at",
+          "expected": " 0"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.481157064437866,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "/>)",
+          "category": "known_fact",
+          "prompt": "A year has",
+          "expected": " 365"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.575234413146973,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "!!!!",
+          "category": "known_fact",
+          "prompt": "The number of continents is",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.05682108923792839,
+          "correct": true,
+          "pred": "2",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "1 + 1 =",
+          "expected": " 2"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8491464853286743,
+          "correct": true,
+          "pred": "7",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "3 + 4 =",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.16396751999855042,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "5 + 5 =",
+          "expected": " 10"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.5181038975715637,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "8 + 1 =",
+          "expected": " 9"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.5108580589294434,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "6 + 3 =",
+          "expected": " 9"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.168559551239014,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown",
+          "prompt": "The capital of Xylandia is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.678976058959961,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": ")){",
+          "category": "unknown",
+          "prompt": "The 937th digit of pi is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 5.238173961639404,
+          "correct": false,
+          "pred": "the",
+          "oracle_pred": "!!!!",
+          "category": "unknown",
+          "prompt": "The winner of the 2030 World Cup is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.900855541229248,
+          "correct": false,
+          "pred": "a",
+          "oracle_pred": "!!!!",
+          "category": "unknown",
+          "prompt": "The secret code of the universe is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.058182239532471,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "\uff01\uff01",
+          "category": "unknown",
+          "prompt": "The GDP of Atlantis is",
+          "expected": "ABSTAIN"
+        }
+      ]
+    },
+    "t7": {
+      "threshold": 7.0,
+      "fact_acc": 0.6,
+      "arith_acc": 0.4,
+      "abstain_acc": 0.0,
+      "overall": 0.3333333333333333,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 3.4441778659820557,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle_pred": "\",@\"",
+          "category": "known_fact",
+          "prompt": "The capital of Japan is",
+          "expected": " Tokyo"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.262610912322998,
+          "correct": true,
+          "pred": "Paris",
+          "oracle_pred": "';\";",
+          "category": "known_fact",
+          "prompt": "The capital of France is",
+          "expected": " Paris"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.1632308959960938,
+          "correct": true,
+          "pred": "0",
+          "oracle_pred": "\",@\"",
+          "category": "known_fact",
+          "prompt": "Water freezes at",
+          "expected": " 0"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.481157064437866,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "/>)",
+          "category": "known_fact",
+          "prompt": "A year has",
+          "expected": " 365"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.575234413146973,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "!!!!",
+          "category": "known_fact",
+          "prompt": "The number of continents is",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.05682108923792839,
+          "correct": true,
+          "pred": "2",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "1 + 1 =",
+          "expected": " 2"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8491464853286743,
+          "correct": true,
+          "pred": "7",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "3 + 4 =",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.16396751999855042,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "5 + 5 =",
+          "expected": " 10"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.5181038975715637,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "8 + 1 =",
+          "expected": " 9"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.5108580589294434,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "6 + 3 =",
+          "expected": " 9"
+        },
+        {
+          "action": "answer",
+          "entropy": 6.168559551239014,
+          "correct": false,
+          "pred": "X",
+          "oracle_pred": "?!",
+          "category": "unknown",
+          "prompt": "The capital of Xylandia is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.678976058959961,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": ")){",
+          "category": "unknown",
+          "prompt": "The 937th digit of pi is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 5.238173961639404,
+          "correct": false,
+          "pred": "the",
+          "oracle_pred": "!!!!",
+          "category": "unknown",
+          "prompt": "The winner of the 2030 World Cup is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.900855541229248,
+          "correct": false,
+          "pred": "a",
+          "oracle_pred": "!!!!",
+          "category": "unknown",
+          "prompt": "The secret code of the universe is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.058182239532471,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "\uff01\uff01",
+          "category": "unknown",
+          "prompt": "The GDP of Atlantis is",
+          "expected": "ABSTAIN"
+        }
+      ]
+    },
+    "t8": {
+      "threshold": 8.0,
+      "fact_acc": 0.6,
+      "arith_acc": 0.4,
+      "abstain_acc": 0.0,
+      "overall": 0.3333333333333333,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 3.4441778659820557,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle_pred": "\",@\"",
+          "category": "known_fact",
+          "prompt": "The capital of Japan is",
+          "expected": " Tokyo"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.262610912322998,
+          "correct": true,
+          "pred": "Paris",
+          "oracle_pred": "';\";",
+          "category": "known_fact",
+          "prompt": "The capital of France is",
+          "expected": " Paris"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.1632308959960938,
+          "correct": true,
+          "pred": "0",
+          "oracle_pred": "\",@\"",
+          "category": "known_fact",
+          "prompt": "Water freezes at",
+          "expected": " 0"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.481157064437866,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "/>)",
+          "category": "known_fact",
+          "prompt": "A year has",
+          "expected": " 365"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.575234413146973,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "!!!!",
+          "category": "known_fact",
+          "prompt": "The number of continents is",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.05682108923792839,
+          "correct": true,
+          "pred": "2",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "1 + 1 =",
+          "expected": " 2"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8491464853286743,
+          "correct": true,
+          "pred": "7",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "3 + 4 =",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.16396751999855042,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "5 + 5 =",
+          "expected": " 10"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.5181038975715637,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "8 + 1 =",
+          "expected": " 9"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.5108580589294434,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "6 + 3 =",
+          "expected": " 9"
+        },
+        {
+          "action": "answer",
+          "entropy": 6.168559551239014,
+          "correct": false,
+          "pred": "X",
+          "oracle_pred": "?!",
+          "category": "unknown",
+          "prompt": "The capital of Xylandia is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.678976058959961,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": ")){",
+          "category": "unknown",
+          "prompt": "The 937th digit of pi is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 5.238173961639404,
+          "correct": false,
+          "pred": "the",
+          "oracle_pred": "!!!!",
+          "category": "unknown",
+          "prompt": "The winner of the 2030 World Cup is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.900855541229248,
+          "correct": false,
+          "pred": "a",
+          "oracle_pred": "!!!!",
+          "category": "unknown",
+          "prompt": "The secret code of the universe is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.058182239532471,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "\uff01\uff01",
+          "category": "unknown",
+          "prompt": "The GDP of Atlantis is",
+          "expected": "ABSTAIN"
+        }
+      ]
+    },
+    "t10": {
+      "threshold": 10.0,
+      "fact_acc": 0.6,
+      "arith_acc": 0.4,
+      "abstain_acc": 0.0,
+      "overall": 0.3333333333333333,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 3.4441778659820557,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle_pred": "\",@\"",
+          "category": "known_fact",
+          "prompt": "The capital of Japan is",
+          "expected": " Tokyo"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.262610912322998,
+          "correct": true,
+          "pred": "Paris",
+          "oracle_pred": "';\";",
+          "category": "known_fact",
+          "prompt": "The capital of France is",
+          "expected": " Paris"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.1632308959960938,
+          "correct": true,
+          "pred": "0",
+          "oracle_pred": "\",@\"",
+          "category": "known_fact",
+          "prompt": "Water freezes at",
+          "expected": " 0"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.481157064437866,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "/>)",
+          "category": "known_fact",
+          "prompt": "A year has",
+          "expected": " 365"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.575234413146973,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "!!!!",
+          "category": "known_fact",
+          "prompt": "The number of continents is",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.05682108923792839,
+          "correct": true,
+          "pred": "2",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "1 + 1 =",
+          "expected": " 2"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8491464853286743,
+          "correct": true,
+          "pred": "7",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "3 + 4 =",
+          "expected": " 7"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.16396751999855042,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "5 + 5 =",
+          "expected": " 10"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.5181038975715637,
+          "correct": false,
+          "pred": "1",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "8 + 1 =",
+          "expected": " 9"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.5108580589294434,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "?!",
+          "category": "arithmetic",
+          "prompt": "6 + 3 =",
+          "expected": " 9"
+        },
+        {
+          "action": "answer",
+          "entropy": 6.168559551239014,
+          "correct": false,
+          "pred": "X",
+          "oracle_pred": "?!",
+          "category": "unknown",
+          "prompt": "The capital of Xylandia is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.678976058959961,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": ")){",
+          "category": "unknown",
+          "prompt": "The 937th digit of pi is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 5.238173961639404,
+          "correct": false,
+          "pred": "the",
+          "oracle_pred": "!!!!",
+          "category": "unknown",
+          "prompt": "The winner of the 2030 World Cup is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.900855541229248,
+          "correct": false,
+          "pred": "a",
+          "oracle_pred": "!!!!",
+          "category": "unknown",
+          "prompt": "The secret code of the universe is",
+          "expected": "ABSTAIN"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.058182239532471,
+          "correct": false,
+          "pred": "",
+          "oracle_pred": "\uff01\uff01",
+          "category": "unknown",
+          "prompt": "The GDP of Atlantis is",
+          "expected": "ABSTAIN"
+        }
+      ]
+    }
+  }
+}

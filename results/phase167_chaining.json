@@ -1,0 +1,578 @@
+{
+  "phase": "167",
+  "name": "Autoregressive FGA Chaining",
+  "results": {
+    "gain_0": {
+      "full_acc": 0.1,
+      "per_token_acc": 0,
+      "details": [
+        {
+          "prompt": "# The year Columbus reached America is",
+          "answer": " 1492",
+          "output": " 1499",
+          "per_token": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "full_correct": false,
+          "cat": "year"
+        },
+        {
+          "prompt": "# Mount Fuji is",
+          "answer": " 3776",
+          "output": " a mountain in Japan",
+          "per_token": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "full_correct": false,
+          "cat": "height"
+        },
+        {
+          "prompt": "# The speed of light in km/s is",
+          "answer": " 299792",
+          "output": " 300000",
+          "per_token": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "full_correct": false,
+          "cat": "speed"
+        },
+        {
+          "prompt": "# The year the French Revolution began i",
+          "answer": " 1789",
+          "output": " 1777",
+          "per_token": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "full_correct": false,
+          "cat": "year"
+        },
+        {
+          "prompt": "# The population of Tokyo in millions is",
+          "answer": " 14",
+          "output": "130",
+          "per_token": [
+            0,
+            0,
+            0
+          ],
+          "full_correct": false,
+          "cat": "pop"
+        },
+        {
+          "prompt": "# The year World War II ended is",
+          "answer": " 1945",
+          "output": " 1945",
+          "per_token": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "full_correct": true,
+          "cat": "year"
+        },
+        {
+          "prompt": "# Pi to 4 digits is",
+          "answer": " 3.14",
+          "output": " 3141",
+          "per_token": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "full_correct": false,
+          "cat": "math"
+        },
+        {
+          "prompt": "# The boiling point of water in Fahrenhe",
+          "answer": " 212",
+          "output": "1000",
+          "per_token": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "full_correct": false,
+          "cat": "temp"
+        },
+        {
+          "prompt": "# The year of the Moon landing is",
+          "answer": " 1969",
+          "output": " 2012",
+          "per_token": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "full_correct": false,
+          "cat": "year"
+        },
+        {
+          "prompt": "# The freezing point of water in Fahrenh",
+          "answer": " 32",
+          "output": "145",
+          "per_token": [
+            0,
+            0,
+            0
+          ],
+          "full_correct": false,
+          "cat": "temp"
+        }
+      ]
+    },
+    "gain_3": {
+      "full_acc": 0.3,
+      "per_token_acc": 0.7659574468085106,
+      "details": [
+        {
+          "prompt": "# The year Columbus reached America is",
+          "answer": " 1492",
+          "output": " 1499",
+          "per_token": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "full_correct": false,
+          "cat": "year"
+        },
+        {
+          "prompt": "# Mount Fuji is",
+          "answer": " 3776",
+          "output": " a3007",
+          "per_token": [
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          "full_correct": false,
+          "cat": "height"
+        },
+        {
+          "prompt": "# The speed of light in km/s is",
+          "answer": " 299792",
+          "output": " 299997",
+          "per_token": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "full_correct": false,
+          "cat": "speed"
+        },
+        {
+          "prompt": "# The year the French Revolution began i",
+          "answer": " 1789",
+          "output": " 1789",
+          "per_token": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "full_correct": true,
+          "cat": "year"
+        },
+        {
+          "prompt": "# The population of Tokyo in millions is",
+          "answer": " 14",
+          "output": " 12",
+          "per_token": [
+            true,
+            true,
+            false
+          ],
+          "full_correct": false,
+          "cat": "pop"
+        },
+        {
+          "prompt": "# The year World War II ended is",
+          "answer": " 1945",
+          "output": " 1945",
+          "per_token": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "full_correct": true,
+          "cat": "year"
+        },
+        {
+          "prompt": "# Pi to 4 digits is",
+          "answer": " 3.14",
+          "output": " 3114",
+          "per_token": [
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "full_correct": false,
+          "cat": "math"
+        },
+        {
+          "prompt": "# The boiling point of water in Fahrenhe",
+          "answer": " 212",
+          "output": "1212",
+          "per_token": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "full_correct": false,
+          "cat": "temp"
+        },
+        {
+          "prompt": "# The year of the Moon landing is",
+          "answer": " 1969",
+          "output": " 2969",
+          "per_token": [
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          "full_correct": false,
+          "cat": "year"
+        },
+        {
+          "prompt": "# The freezing point of water in Fahrenh",
+          "answer": " 32",
+          "output": " 32",
+          "per_token": [
+            true,
+            true,
+            true
+          ],
+          "full_correct": true,
+          "cat": "temp"
+        }
+      ]
+    },
+    "gain_5": {
+      "full_acc": 0.3,
+      "per_token_acc": 0.7659574468085106,
+      "details": [
+        {
+          "prompt": "# The year Columbus reached America is",
+          "answer": " 1492",
+          "output": " 1499",
+          "per_token": [
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "full_correct": false,
+          "cat": "year"
+        },
+        {
+          "prompt": "# Mount Fuji is",
+          "answer": " 3776",
+          "output": " a3007",
+          "per_token": [
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          "full_correct": false,
+          "cat": "height"
+        },
+        {
+          "prompt": "# The speed of light in km/s is",
+          "answer": " 299792",
+          "output": " 299997",
+          "per_token": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "full_correct": false,
+          "cat": "speed"
+        },
+        {
+          "prompt": "# The year the French Revolution began i",
+          "answer": " 1789",
+          "output": " 1789",
+          "per_token": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "full_correct": true,
+          "cat": "year"
+        },
+        {
+          "prompt": "# The population of Tokyo in millions is",
+          "answer": " 14",
+          "output": " 12",
+          "per_token": [
+            true,
+            true,
+            false
+          ],
+          "full_correct": false,
+          "cat": "pop"
+        },
+        {
+          "prompt": "# The year World War II ended is",
+          "answer": " 1945",
+          "output": " 1945",
+          "per_token": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "full_correct": true,
+          "cat": "year"
+        },
+        {
+          "prompt": "# Pi to 4 digits is",
+          "answer": " 3.14",
+          "output": " 3114",
+          "per_token": [
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "full_correct": false,
+          "cat": "math"
+        },
+        {
+          "prompt": "# The boiling point of water in Fahrenhe",
+          "answer": " 212",
+          "output": "1212",
+          "per_token": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "full_correct": false,
+          "cat": "temp"
+        },
+        {
+          "prompt": "# The year of the Moon landing is",
+          "answer": " 1969",
+          "output": " 2969",
+          "per_token": [
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          "full_correct": false,
+          "cat": "year"
+        },
+        {
+          "prompt": "# The freezing point of water in Fahrenh",
+          "answer": " 32",
+          "output": " 32",
+          "per_token": [
+            true,
+            true,
+            true
+          ],
+          "full_correct": true,
+          "cat": "temp"
+        }
+      ]
+    },
+    "gain_10": {
+      "full_acc": 0.4,
+      "per_token_acc": 0.7872340425531915,
+      "details": [
+        {
+          "prompt": "# The year Columbus reached America is",
+          "answer": " 1492",
+          "output": " 1492",
+          "per_token": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "full_correct": true,
+          "cat": "year"
+        },
+        {
+          "prompt": "# Mount Fuji is",
+          "answer": " 3776",
+          "output": " a3407",
+          "per_token": [
+            false,
+            true,
+            false,
+            false,
+            false
+          ],
+          "full_correct": false,
+          "cat": "height"
+        },
+        {
+          "prompt": "# The speed of light in km/s is",
+          "answer": " 299792",
+          "output": " 299997",
+          "per_token": [
+            true,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "full_correct": false,
+          "cat": "speed"
+        },
+        {
+          "prompt": "# The year the French Revolution began i",
+          "answer": " 1789",
+          "output": " 1789",
+          "per_token": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "full_correct": true,
+          "cat": "year"
+        },
+        {
+          "prompt": "# The population of Tokyo in millions is",
+          "answer": " 14",
+          "output": " 12",
+          "per_token": [
+            true,
+            true,
+            false
+          ],
+          "full_correct": false,
+          "cat": "pop"
+        },
+        {
+          "prompt": "# The year World War II ended is",
+          "answer": " 1945",
+          "output": " 1945",
+          "per_token": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "full_correct": true,
+          "cat": "year"
+        },
+        {
+          "prompt": "# Pi to 4 digits is",
+          "answer": " 3.14",
+          "output": " 3114",
+          "per_token": [
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "full_correct": false,
+          "cat": "math"
+        },
+        {
+          "prompt": "# The boiling point of water in Fahrenhe",
+          "answer": " 212",
+          "output": "1212",
+          "per_token": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "full_correct": false,
+          "cat": "temp"
+        },
+        {
+          "prompt": "# The year of the Moon landing is",
+          "answer": " 1969",
+          "output": " 2969",
+          "per_token": [
+            true,
+            false,
+            true,
+            true,
+            true
+          ],
+          "full_correct": false,
+          "cat": "year"
+        },
+        {
+          "prompt": "# The freezing point of water in Fahrenh",
+          "answer": " 32",
+          "output": " 32",
+          "per_token": [
+            true,
+            true,
+            true
+          ],
+          "full_correct": true,
+          "cat": "temp"
+        }
+      ]
+    }
+  }
+}

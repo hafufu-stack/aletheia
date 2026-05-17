@@ -1,0 +1,35 @@
+{
+  "phase": "191",
+  "name": "Confidence-Gated FGA Chaining",
+  "results": {
+    "t3": {
+      "per_token": 0.42857142857142855,
+      "full": 0.16666666666666666,
+      "threshold": 3.0
+    },
+    "t5": {
+      "per_token": 0.42857142857142855,
+      "full": 0.3333333333333333,
+      "threshold": 5.0
+    },
+    "t7": {
+      "per_token": 0.42857142857142855,
+      "full": 0.3333333333333333,
+      "threshold": 7.0
+    },
+    "t10": {
+      "per_token": 0.42857142857142855,
+      "full": 0.3333333333333333,
+      "threshold": 10.0
+    },
+    "always_fga": {
+      "per_token": 0.42857142857142855,
+      "full": 0.3333333333333333,
+      "threshold": 999.0
+    },
+    "baseline": {
+      "per_token": 0.5,
+      "full": 0.5
+    }
+  }
+}

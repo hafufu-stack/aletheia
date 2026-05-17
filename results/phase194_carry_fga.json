@@ -1,0 +1,11 @@
+{
+  "phase": "194",
+  "name": "Carry-Aware FGA",
+  "configs": {
+    "teacher_fga": 0.39,
+    "carry_aware": 0.04,
+    "carry_acc": 0.0,
+    "nocarry_acc": 0.07272727272727272,
+    "baseline": 0.39
+  }
+}

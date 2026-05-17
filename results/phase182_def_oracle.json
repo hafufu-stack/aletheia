@@ -1,0 +1,74 @@
+{
+  "phase": "182",
+  "name": "Def-Oracle Synergy",
+  "configs": {
+    "hash_g5": {
+      "prefix": "# ",
+      "gain": 5,
+      "fact": 0.5,
+      "arith": 0.3
+    },
+    "hash_g10": {
+      "prefix": "# ",
+      "gain": 10,
+      "fact": 0.5,
+      "arith": 0.3
+    },
+    "def_g5": {
+      "prefix": "def f(): return ",
+      "gain": 5,
+      "fact": 0.6,
+      "arith": 0.3
+    },
+    "def_g10": {
+      "prefix": "def f(): return ",
+      "gain": 10,
+      "fact": 0.6,
+      "arith": 0.3
+    },
+    "repl_g5": {
+      "prefix": ">>> ",
+      "gain": 5,
+      "fact": 0.6,
+      "arith": 0.1
+    },
+    "repl_g10": {
+      "prefix": ">>> ",
+      "gain": 10,
+      "fact": 0.6,
+      "arith": 0.1
+    },
+    "print_g5": {
+      "prefix": "print(",
+      "gain": 5,
+      "fact": 0.6,
+      "arith": 0.1
+    },
+    "print_g10": {
+      "prefix": "print(",
+      "gain": 10,
+      "fact": 0.6,
+      "arith": 0.1
+    },
+    "hash_base_only": {
+      "prefix": "# ",
+      "gain": 0,
+      "overall": 0.15
+    },
+    "def_base_only": {
+      "prefix": "def f(): return ",
+      "gain": 0,
+      "overall": 0.2
+    },
+    "repl_base_only": {
+      "prefix": ">>> ",
+      "gain": 0,
+      "overall": 0.2
+    },
+    "print_base_only": {
+      "prefix": "print(",
+      "gain": 0,
+      "overall": 0.2
+    }
+  }
+}

@@ -1,0 +1,1728 @@
+{
+  "phase": "178",
+  "name": "Aletheia Engine v2",
+  "oracle_layer": 2,
+  "results": {
+    "hash_t3": {
+      "prefix": "# ",
+      "threshold": 3.0,
+      "fact": 0.0,
+      "arith": 0.3333333333333333,
+      "abstain": 0.8,
+      "overall": 0.35294117647058826,
+      "details": [
+        {
+          "action": "abstain",
+          "entropy": 3.4441778659820557,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact"
+        },
+        {
+          "action": "abstain",
+          "entropy": 3.262610912322998,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact"
+        },
+        {
+          "action": "abstain",
+          "entropy": 5.057805061340332,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.1632308959960938,
+          "correct": false,
+          "pred": "",
+          "oracle": "\");}",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.481157064437866,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.575234413146973,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.05682108923792839,
+          "correct": true,
+          "pred": "2",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8491464853286743,
+          "correct": false,
+          "pred": "",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.16396751999855042,
+          "correct": false,
+          "pred": "1",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.5181038975715637,
+          "correct": false,
+          "pred": "1",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.5108580589294434,
+          "correct": false,
+          "pred": "",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.1369788497686386,
+          "correct": true,
+          "pred": "8",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.168559551239014,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.678976058959961,
+          "correct": false,
+          "pred": "",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 5.238173961639404,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.900855541229248,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.058182239532471,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        }
+      ]
+    },
+    "hash_t4": {
+      "prefix": "# ",
+      "threshold": 4.0,
+      "fact": 0.3333333333333333,
+      "arith": 0.3333333333333333,
+      "abstain": 0.8,
+      "overall": 0.47058823529411764,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 3.4441778659820557,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.262610912322998,
+          "correct": true,
+          "pred": "Paris",
+          "oracle": ".','",
+          "category": "known_fact"
+        },
+        {
+          "action": "abstain",
+          "entropy": 5.057805061340332,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.1632308959960938,
+          "correct": false,
+          "pred": "",
+          "oracle": "\");}",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.481157064437866,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.575234413146973,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.05682108923792839,
+          "correct": true,
+          "pred": "2",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8491464853286743,
+          "correct": false,
+          "pred": "",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.16396751999855042,
+          "correct": false,
+          "pred": "1",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.5181038975715637,
+          "correct": false,
+          "pred": "1",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.5108580589294434,
+          "correct": false,
+          "pred": "",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.1369788497686386,
+          "correct": true,
+          "pred": "8",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.168559551239014,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.678976058959961,
+          "correct": false,
+          "pred": "",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 5.238173961639404,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.900855541229248,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.058182239532471,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        }
+      ]
+    },
+    "hash_t5": {
+      "prefix": "# ",
+      "threshold": 5.0,
+      "fact": 0.3333333333333333,
+      "arith": 0.3333333333333333,
+      "abstain": 0.4,
+      "overall": 0.35294117647058826,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 3.4441778659820557,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.262610912322998,
+          "correct": true,
+          "pred": "Paris",
+          "oracle": ".','",
+          "category": "known_fact"
+        },
+        {
+          "action": "abstain",
+          "entropy": 5.057805061340332,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.1632308959960938,
+          "correct": false,
+          "pred": "",
+          "oracle": "\");}",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.481157064437866,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.575234413146973,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.05682108923792839,
+          "correct": true,
+          "pred": "2",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8491464853286743,
+          "correct": false,
+          "pred": "",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.16396751999855042,
+          "correct": false,
+          "pred": "1",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.5181038975715637,
+          "correct": false,
+          "pred": "1",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.5108580589294434,
+          "correct": false,
+          "pred": "",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.1369788497686386,
+          "correct": true,
+          "pred": "8",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.168559551239014,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.678976058959961,
+          "correct": false,
+          "pred": "",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 5.238173961639404,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.900855541229248,
+          "correct": false,
+          "pred": "a",
+          "oracle": "';\";",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.058182239532471,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "unknown"
+        }
+      ]
+    },
+    "hash_t6": {
+      "prefix": "# ",
+      "threshold": 6.0,
+      "fact": 0.3333333333333333,
+      "arith": 0.3333333333333333,
+      "abstain": 0.2,
+      "overall": 0.29411764705882354,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 3.4441778659820557,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.262610912322998,
+          "correct": true,
+          "pred": "Paris",
+          "oracle": ".','",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 5.057805061340332,
+          "correct": false,
+          "pred": "the",
+          "oracle": ".)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.1632308959960938,
+          "correct": false,
+          "pred": "",
+          "oracle": "\");}",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.481157064437866,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.575234413146973,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.05682108923792839,
+          "correct": true,
+          "pred": "2",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8491464853286743,
+          "correct": false,
+          "pred": "",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.16396751999855042,
+          "correct": false,
+          "pred": "1",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.5181038975715637,
+          "correct": false,
+          "pred": "1",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.5108580589294434,
+          "correct": false,
+          "pred": "",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.1369788497686386,
+          "correct": true,
+          "pred": "8",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.168559551239014,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.678976058959961,
+          "correct": false,
+          "pred": "",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 5.238173961639404,
+          "correct": false,
+          "pred": "the",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.900855541229248,
+          "correct": false,
+          "pred": "a",
+          "oracle": "';\";",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.058182239532471,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "unknown"
+        }
+      ]
+    },
+    "hash_t7": {
+      "prefix": "# ",
+      "threshold": 7.0,
+      "fact": 0.3333333333333333,
+      "arith": 0.3333333333333333,
+      "abstain": 0.0,
+      "overall": 0.23529411764705882,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 3.4441778659820557,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.262610912322998,
+          "correct": true,
+          "pred": "Paris",
+          "oracle": ".','",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 5.057805061340332,
+          "correct": false,
+          "pred": "the",
+          "oracle": ".)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.1632308959960938,
+          "correct": false,
+          "pred": "",
+          "oracle": "\");}",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.481157064437866,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.575234413146973,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.05682108923792839,
+          "correct": true,
+          "pred": "2",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8491464853286743,
+          "correct": false,
+          "pred": "",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.16396751999855042,
+          "correct": false,
+          "pred": "1",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.5181038975715637,
+          "correct": false,
+          "pred": "1",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.5108580589294434,
+          "correct": false,
+          "pred": "",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.1369788497686386,
+          "correct": true,
+          "pred": "8",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 6.168559551239014,
+          "correct": false,
+          "pred": "X",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.678976058959961,
+          "correct": false,
+          "pred": "",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 5.238173961639404,
+          "correct": false,
+          "pred": "the",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.900855541229248,
+          "correct": false,
+          "pred": "a",
+          "oracle": "';\";",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.058182239532471,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "unknown"
+        }
+      ]
+    },
+    "hash_t8": {
+      "prefix": "# ",
+      "threshold": 8.0,
+      "fact": 0.3333333333333333,
+      "arith": 0.3333333333333333,
+      "abstain": 0.0,
+      "overall": 0.23529411764705882,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 3.4441778659820557,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.262610912322998,
+          "correct": true,
+          "pred": "Paris",
+          "oracle": ".','",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 5.057805061340332,
+          "correct": false,
+          "pred": "the",
+          "oracle": ".)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.1632308959960938,
+          "correct": false,
+          "pred": "",
+          "oracle": "\");}",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.481157064437866,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.575234413146973,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.05682108923792839,
+          "correct": true,
+          "pred": "2",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8491464853286743,
+          "correct": false,
+          "pred": "",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.16396751999855042,
+          "correct": false,
+          "pred": "1",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.5181038975715637,
+          "correct": false,
+          "pred": "1",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.5108580589294434,
+          "correct": false,
+          "pred": "",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.1369788497686386,
+          "correct": true,
+          "pred": "8",
+          "oracle": "').\"",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 6.168559551239014,
+          "correct": false,
+          "pred": "X",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.678976058959961,
+          "correct": false,
+          "pred": "",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 5.238173961639404,
+          "correct": false,
+          "pred": "the",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.900855541229248,
+          "correct": false,
+          "pred": "a",
+          "oracle": "';\";",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.058182239532471,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "unknown"
+        }
+      ]
+    },
+    "def_t3": {
+      "prefix": "def f(): return ",
+      "threshold": 3.0,
+      "fact": 0.3333333333333333,
+      "arith": 0.3333333333333333,
+      "abstain": 0.8,
+      "overall": 0.47058823529411764,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 1.9723774194717407,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.8969802856445312,
+          "correct": true,
+          "pred": "Paris",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "abstain",
+          "entropy": 3.631131410598755,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.7417634725570679,
+          "correct": false,
+          "pred": "",
+          "oracle": "\");}",
+          "category": "known_fact"
+        },
+        {
+          "action": "abstain",
+          "entropy": 3.570389986038208,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact"
+        },
+        {
+          "action": "abstain",
+          "entropy": 3.102205753326416,
+          "correct": false,
+          "pred": "ABSTAIN",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.14730075001716614,
+          "correct": true,
+          "pred": "2",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.351709008216858,
+          "correct": false,
+          "pred": "5",
+          "oracle": "'),'",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.7699406147003174,
+          "correct": false,
+          "pred": "5",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8916103839874268,
+          "correct": true,
+          "pred": "9",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.3659569025039673,
+          "correct": false,
+          "pred": "",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.6235509514808655,
+          "correct": false,
+          "pred": "4",
+          "oracle": "'),'",
+          "category": "arithmetic"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.360956192016602,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.8419690132141113,
+          "correct": false,
+          "pred": "",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.042113304138184,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 5.538357257843018,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.127742767333984,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        }
+      ]
+    },
+    "def_t4": {
+      "prefix": "def f(): return ",
+      "threshold": 4.0,
+      "fact": 0.5,
+      "arith": 0.3333333333333333,
+      "abstain": 0.8,
+      "overall": 0.5294117647058824,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 1.9723774194717407,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.8969802856445312,
+          "correct": true,
+          "pred": "Paris",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.631131410598755,
+          "correct": true,
+          "pred": "Jupiter",
+          "oracle": ".)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.7417634725570679,
+          "correct": false,
+          "pred": "",
+          "oracle": "\");}",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.570389986038208,
+          "correct": false,
+          "pred": "passed",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.102205753326416,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.14730075001716614,
+          "correct": true,
+          "pred": "2",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.351709008216858,
+          "correct": false,
+          "pred": "5",
+          "oracle": "'),'",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.7699406147003174,
+          "correct": false,
+          "pred": "5",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8916103839874268,
+          "correct": true,
+          "pred": "9",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.3659569025039673,
+          "correct": false,
+          "pred": "",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.6235509514808655,
+          "correct": false,
+          "pred": "4",
+          "oracle": "'),'",
+          "category": "arithmetic"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.360956192016602,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.8419690132141113,
+          "correct": false,
+          "pred": "",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.042113304138184,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 5.538357257843018,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 4.127742767333984,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        }
+      ]
+    },
+    "def_t5": {
+      "prefix": "def f(): return ",
+      "threshold": 5.0,
+      "fact": 0.5,
+      "arith": 0.3333333333333333,
+      "abstain": 0.6,
+      "overall": 0.47058823529411764,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 1.9723774194717407,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.8969802856445312,
+          "correct": true,
+          "pred": "Paris",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.631131410598755,
+          "correct": true,
+          "pred": "Jupiter",
+          "oracle": ".)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.7417634725570679,
+          "correct": false,
+          "pred": "",
+          "oracle": "\");}",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.570389986038208,
+          "correct": false,
+          "pred": "passed",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.102205753326416,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.14730075001716614,
+          "correct": true,
+          "pred": "2",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.351709008216858,
+          "correct": false,
+          "pred": "5",
+          "oracle": "'),'",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.7699406147003174,
+          "correct": false,
+          "pred": "5",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8916103839874268,
+          "correct": true,
+          "pred": "9",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.3659569025039673,
+          "correct": false,
+          "pred": "",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.6235509514808655,
+          "correct": false,
+          "pred": "4",
+          "oracle": "'),'",
+          "category": "arithmetic"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.360956192016602,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.8419690132141113,
+          "correct": false,
+          "pred": "",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.042113304138184,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 5.538357257843018,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.127742767333984,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "unknown"
+        }
+      ]
+    },
+    "def_t6": {
+      "prefix": "def f(): return ",
+      "threshold": 6.0,
+      "fact": 0.5,
+      "arith": 0.3333333333333333,
+      "abstain": 0.4,
+      "overall": 0.4117647058823529,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 1.9723774194717407,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.8969802856445312,
+          "correct": true,
+          "pred": "Paris",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.631131410598755,
+          "correct": true,
+          "pred": "Jupiter",
+          "oracle": ".)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.7417634725570679,
+          "correct": false,
+          "pred": "",
+          "oracle": "\");}",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.570389986038208,
+          "correct": false,
+          "pred": "passed",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.102205753326416,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.14730075001716614,
+          "correct": true,
+          "pred": "2",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.351709008216858,
+          "correct": false,
+          "pred": "5",
+          "oracle": "'),'",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.7699406147003174,
+          "correct": false,
+          "pred": "5",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8916103839874268,
+          "correct": true,
+          "pred": "9",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.3659569025039673,
+          "correct": false,
+          "pred": "",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.6235509514808655,
+          "correct": false,
+          "pred": "4",
+          "oracle": "'),'",
+          "category": "arithmetic"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.360956192016602,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.8419690132141113,
+          "correct": false,
+          "pred": "",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "abstain",
+          "entropy": 6.042113304138184,
+          "correct": true,
+          "pred": "ABSTAIN",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 5.538357257843018,
+          "correct": false,
+          "pred": "a",
+          "oracle": "';\";",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.127742767333984,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "unknown"
+        }
+      ]
+    },
+    "def_t7": {
+      "prefix": "def f(): return ",
+      "threshold": 7.0,
+      "fact": 0.5,
+      "arith": 0.3333333333333333,
+      "abstain": 0.0,
+      "overall": 0.29411764705882354,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 1.9723774194717407,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.8969802856445312,
+          "correct": true,
+          "pred": "Paris",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.631131410598755,
+          "correct": true,
+          "pred": "Jupiter",
+          "oracle": ".)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.7417634725570679,
+          "correct": false,
+          "pred": "",
+          "oracle": "\");}",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.570389986038208,
+          "correct": false,
+          "pred": "passed",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.102205753326416,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.14730075001716614,
+          "correct": true,
+          "pred": "2",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.351709008216858,
+          "correct": false,
+          "pred": "5",
+          "oracle": "'),'",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.7699406147003174,
+          "correct": false,
+          "pred": "5",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8916103839874268,
+          "correct": true,
+          "pred": "9",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.3659569025039673,
+          "correct": false,
+          "pred": "",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.6235509514808655,
+          "correct": false,
+          "pred": "4",
+          "oracle": "'),'",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 6.360956192016602,
+          "correct": false,
+          "pred": "X",
+          "oracle": ".)",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.8419690132141113,
+          "correct": false,
+          "pred": "",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 6.042113304138184,
+          "correct": false,
+          "pred": "the",
+          "oracle": ".)",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 5.538357257843018,
+          "correct": false,
+          "pred": "a",
+          "oracle": "';\";",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.127742767333984,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "unknown"
+        }
+      ]
+    },
+    "def_t8": {
+      "prefix": "def f(): return ",
+      "threshold": 8.0,
+      "fact": 0.5,
+      "arith": 0.3333333333333333,
+      "abstain": 0.0,
+      "overall": 0.29411764705882354,
+      "details": [
+        {
+          "action": "answer",
+          "entropy": 1.9723774194717407,
+          "correct": true,
+          "pred": "Tokyo",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.8969802856445312,
+          "correct": true,
+          "pred": "Paris",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.631131410598755,
+          "correct": true,
+          "pred": "Jupiter",
+          "oracle": ".)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.7417634725570679,
+          "correct": false,
+          "pred": "",
+          "oracle": "\");}",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.570389986038208,
+          "correct": false,
+          "pred": "passed",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 3.102205753326416,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "known_fact"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.14730075001716614,
+          "correct": true,
+          "pred": "2",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.351709008216858,
+          "correct": false,
+          "pred": "5",
+          "oracle": "'),'",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.7699406147003174,
+          "correct": false,
+          "pred": "5",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.8916103839874268,
+          "correct": true,
+          "pred": "9",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 1.3659569025039673,
+          "correct": false,
+          "pred": "",
+          "oracle": ")||(",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 0.6235509514808655,
+          "correct": false,
+          "pred": "4",
+          "oracle": "'),'",
+          "category": "arithmetic"
+        },
+        {
+          "action": "answer",
+          "entropy": 6.360956192016602,
+          "correct": false,
+          "pred": "X",
+          "oracle": ".)",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 2.8419690132141113,
+          "correct": false,
+          "pred": "",
+          "oracle": ".','",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 6.042113304138184,
+          "correct": false,
+          "pred": "the",
+          "oracle": ".)",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 5.538357257843018,
+          "correct": false,
+          "pred": "a",
+          "oracle": "';\";",
+          "category": "unknown"
+        },
+        {
+          "action": "answer",
+          "entropy": 4.127742767333984,
+          "correct": false,
+          "pred": "",
+          "oracle": "/>)",
+          "category": "unknown"
+        }
+      ]
+    }
+  },
+  "best_config": "def_t4",
+  "v1_overall": 0.6,
+  "v2_overall": 0.5294117647058824
+}

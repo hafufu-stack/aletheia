@@ -1,0 +1,178 @@
+{
+  "phase": "185",
+  "name": "Autopoietic FGA Chaining",
+  "results": {
+    "g0": {
+      "gain": 0,
+      "per_token": 0.5,
+      "full": 0.5,
+      "details": [
+        {
+          "expected": " 1492",
+          "generated": " 1492",
+          "tok_acc": 1.0,
+          "full": true
+        },
+        {
+          "expected": " 3776",
+          "generated": " a mountain in Japan",
+          "tok_acc": 0.0,
+          "full": false
+        },
+        {
+          "expected": " 1969",
+          "generated": " made\n\nI'm looking",
+          "tok_acc": 0.0,
+          "full": false
+        },
+        {
+          "expected": " 1945",
+          "generated": " 1945",
+          "tok_acc": 1.0,
+          "full": true
+        },
+        {
+          "expected": " 299",
+          "generated": " 299",
+          "tok_acc": 1.0,
+          "full": true
+        },
+        {
+          "expected": " 360",
+          "generated": " a radius of ",
+          "tok_acc": 0.0,
+          "full": false
+        }
+      ]
+    },
+    "g3": {
+      "gain": 3,
+      "per_token": 0.42857142857142855,
+      "full": 0.3333333333333333,
+      "details": [
+        {
+          "expected": " 1492",
+          "generated": " 1499",
+          "tok_acc": 0.8,
+          "full": false
+        },
+        {
+          "expected": " 3776",
+          "generated": " a mountain in Japan",
+          "tok_acc": 0.0,
+          "full": false
+        },
+        {
+          "expected": " 1969",
+          "generated": "19696",
+          "tok_acc": 0.0,
+          "full": true
+        },
+        {
+          "expected": " 1945",
+          "generated": " 1942",
+          "tok_acc": 0.8,
+          "full": false
+        },
+        {
+          "expected": " 299",
+          "generated": " 299",
+          "tok_acc": 1.0,
+          "full": true
+        },
+        {
+          "expected": " 360",
+          "generated": " a radius of ",
+          "tok_acc": 0.0,
+          "full": false
+        }
+      ]
+    },
+    "g5": {
+      "gain": 5,
+      "per_token": 0.42857142857142855,
+      "full": 0.3333333333333333,
+      "details": [
+        {
+          "expected": " 1492",
+          "generated": " 1499",
+          "tok_acc": 0.8,
+          "full": false
+        },
+        {
+          "expected": " 3776",
+          "generated": " a mountain in Japan",
+          "tok_acc": 0.0,
+          "full": false
+        },
+        {
+          "expected": " 1969",
+          "generated": "19696",
+          "tok_acc": 0.0,
+          "full": true
+        },
+        {
+          "expected": " 1945",
+          "generated": " 1942",
+          "tok_acc": 0.8,
+          "full": false
+        },
+        {
+          "expected": " 299",
+          "generated": " 299",
+          "tok_acc": 1.0,
+          "full": true
+        },
+        {
+          "expected": " 360",
+          "generated": " a radius of ",
+          "tok_acc": 0.0,
+          "full": false
+        }
+      ]
+    },
+    "g10": {
+      "gain": 10,
+      "per_token": 0.42857142857142855,
+      "full": 0.3333333333333333,
+      "details": [
+        {
+          "expected": " 1492",
+          "generated": " 1499",
+          "tok_acc": 0.8,
+          "full": false
+        },
+        {
+          "expected": " 3776",
+          "generated": " a mountain in Japan",
+          "tok_acc": 0.0,
+          "full": false
+        },
+        {
+          "expected": " 1969",
+          "generated": "19696",
+          "tok_acc": 0.0,
+          "full": true
+        },
+        {
+          "expected": " 1945",
+          "generated": " 1942",
+          "tok_acc": 0.8,
+          "full": false
+        },
+        {
+          "expected": " 299",
+          "generated": " 299",
+          "tok_acc": 1.0,
+          "full": true
+        },
+        {
+          "expected": " 360",
+          "generated": " a radius of ",
+          "tok_acc": 0.0,
+          "full": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "phase": "189",
+  "name": "Cross-Scale Autopoiesis",
+  "configs": {
+    "cross_g5": {
+      "fact": 0.5,
+      "arith": 0.5,
+      "gain": 5
+    },
+    "cross_g10": {
+      "fact": 0.5,
+      "arith": 0.5,
+      "gain": 10
+    },
+    "oracle_1_5B_raw": {
+      "fact": 0.3
+    },
+    "oracle_0_5B_raw": {
+      "fact": 0.3
+    }
+  }
+}

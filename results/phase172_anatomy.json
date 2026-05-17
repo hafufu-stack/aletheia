@@ -1,0 +1,243 @@
+{
+  "phase": "172",
+  "name": "Anatomy of the Trinity",
+  "layer_diffs": {
+    "0": {
+      "nat_mag": 0.09437232464551926,
+      "code_mag": 0.09555869549512863,
+      "diff_mag": 0.012144074775278568,
+      "relative_change": 0.12868258592647863,
+      "code_exclusive": 0,
+      "total_neurons": 896
+    },
+    "1": {
+      "nat_mag": 0.07034701108932495,
+      "code_mag": 0.06701887398958206,
+      "diff_mag": 0.03550625964999199,
+      "relative_change": 0.5047301811431191,
+      "code_exclusive": 2,
+      "total_neurons": 896
+    },
+    "2": {
+      "nat_mag": 0.08880757540464401,
+      "code_mag": 0.09666720777750015,
+      "diff_mag": 0.060772087424993515,
+      "relative_change": 0.6843119761809819,
+      "code_exclusive": 8,
+      "total_neurons": 896
+    },
+    "3": {
+      "nat_mag": 0.11779322475194931,
+      "code_mag": 0.1174517497420311,
+      "diff_mag": 0.11396167427301407,
+      "relative_change": 0.9674722337638368,
+      "code_exclusive": 13,
+      "total_neurons": 896
+    },
+    "4": {
+      "nat_mag": 0.11993728578090668,
+      "code_mag": 0.15065138041973114,
+      "diff_mag": 0.13093970715999603,
+      "relative_change": 1.091734787121895,
+      "code_exclusive": 35,
+      "total_neurons": 896
+    },
+    "5": {
+      "nat_mag": 0.10961024463176727,
+      "code_mag": 0.139057919383049,
+      "diff_mag": 0.1384512484073639,
+      "relative_change": 1.263123249770012,
+      "code_exclusive": 47,
+      "total_neurons": 896
+    },
+    "6": {
+      "nat_mag": 0.09789008647203445,
+      "code_mag": 0.14475011825561523,
+      "diff_mag": 0.11899266391992569,
+      "relative_change": 1.2155742037669963,
+      "code_exclusive": 74,
+      "total_neurons": 896
+    },
+    "7": {
+      "nat_mag": 0.11314757913351059,
+      "code_mag": 0.1640089750289917,
+      "diff_mag": 0.13068725168704987,
+      "relative_change": 1.1550158888759168,
+      "code_exclusive": 62,
+      "total_neurons": 896
+    },
+    "8": {
+      "nat_mag": 0.08730892837047577,
+      "code_mag": 0.12962698936462402,
+      "diff_mag": 0.11740715801715851,
+      "relative_change": 1.3447325515091386,
+      "code_exclusive": 71,
+      "total_neurons": 896
+    },
+    "9": {
+      "nat_mag": 0.0849495530128479,
+      "code_mag": 0.1450469046831131,
+      "diff_mag": 0.12878598272800446,
+      "relative_change": 1.5160289626070977,
+      "code_exclusive": 109,
+      "total_neurons": 896
+    },
+    "10": {
+      "nat_mag": 0.07891297340393066,
+      "code_mag": 0.13163627684116364,
+      "diff_mag": 0.11510921269655228,
+      "relative_change": 1.4586855333323263,
+      "code_exclusive": 98,
+      "total_neurons": 896
+    },
+    "11": {
+      "nat_mag": 0.08891613036394119,
+      "code_mag": 0.12882068753242493,
+      "diff_mag": 0.11722654104232788,
+      "relative_change": 1.3183945428406498,
+      "code_exclusive": 45,
+      "total_neurons": 896
+    },
+    "12": {
+      "nat_mag": 0.09045922756195068,
+      "code_mag": 0.14198777079582214,
+      "diff_mag": 0.1265718638896942,
+      "relative_change": 1.399214511344483,
+      "code_exclusive": 63,
+      "total_neurons": 896
+    },
+    "13": {
+      "nat_mag": 0.10000592470169067,
+      "code_mag": 0.14051328599452972,
+      "diff_mag": 0.13327059149742126,
+      "relative_change": 1.3326269608021357,
+      "code_exclusive": 72,
+      "total_neurons": 896
+    },
+    "14": {
+      "nat_mag": 0.10485108941793442,
+      "code_mag": 0.18453893065452576,
+      "diff_mag": 0.16924570500850677,
+      "relative_change": 1.6141530426440938,
+      "code_exclusive": 120,
+      "total_neurons": 896
+    },
+    "15": {
+      "nat_mag": 0.11679788678884506,
+      "code_mag": 0.1992119997739792,
+      "diff_mag": 0.19092287123203278,
+      "relative_change": 1.6346431984441274,
+      "code_exclusive": 118,
+      "total_neurons": 896
+    },
+    "16": {
+      "nat_mag": 0.1703489124774933,
+      "code_mag": 0.20723100006580353,
+      "diff_mag": 0.1956903040409088,
+      "relative_change": 1.1487616867924746,
+      "code_exclusive": 30,
+      "total_neurons": 896
+    },
+    "17": {
+      "nat_mag": 0.14937137067317963,
+      "code_mag": 0.21948041021823883,
+      "diff_mag": 0.18751533329486847,
+      "relative_change": 1.2553632764416869,
+      "code_exclusive": 43,
+      "total_neurons": 896
+    },
+    "18": {
+      "nat_mag": 0.1404142677783966,
+      "code_mag": 0.21403750777244568,
+      "diff_mag": 0.1871243417263031,
+      "relative_change": 1.3326590287934619,
+      "code_exclusive": 57,
+      "total_neurons": 896
+    },
+    "19": {
+      "nat_mag": 0.19982263445854187,
+      "code_mag": 0.3113667666912079,
+      "diff_mag": 0.2739711403846741,
+      "relative_change": 1.371071606212439,
+      "code_exclusive": 82,
+      "total_neurons": 896
+    },
+    "20": {
+      "nat_mag": 0.2702034115791321,
+      "code_mag": 0.41182941198349,
+      "diff_mag": 0.3289965093135834,
+      "relative_change": 1.2175882879895952,
+      "code_exclusive": 42,
+      "total_neurons": 896
+    },
+    "21": {
+      "nat_mag": 0.25656658411026,
+      "code_mag": 0.37888050079345703,
+      "diff_mag": 0.27847909927368164,
+      "relative_change": 1.0854067385252504,
+      "code_exclusive": 8,
+      "total_neurons": 896
+    },
+    "22": {
+      "nat_mag": 0.36137035489082336,
+      "code_mag": 0.4631957411766052,
+      "diff_mag": 0.3585136830806732,
+      "relative_change": 0.9920948916492799,
+      "code_exclusive": 28,
+      "total_neurons": 896
+    },
+    "23": {
+      "nat_mag": 0.8895426988601685,
+      "code_mag": 0.908941388130188,
+      "diff_mag": 0.4603012502193451,
+      "relative_change": 0.5174582971780448,
+      "code_exclusive": 2,
+      "total_neurons": 896
+    }
+  },
+  "total_code_exclusive": 1229,
+  "top_layers": [
+    [
+      14,
+      120
+    ],
+    [
+      15,
+      118
+    ],
+    [
+      9,
+      109
+    ],
+    [
+      10,
+      98
+    ],
+    [
+      19,
+      82
+    ]
+  ],
+  "top_delta": [
+    [
+      15,
+      1.6346431984441274
+    ],
+    [
+      14,
+      1.6141530426440938
+    ],
+    [
+      9,
+      1.5160289626070977
+    ],
+    [
+      10,
+      1.4586855333323263
+    ],
+    [
+      12,
+      1.399214511344483
+    ]
+  ]
+}

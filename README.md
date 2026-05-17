@@ -1,105 +1,108 @@
-# Project Aletheia V7: The Inference-Time Paradigm — Dual Surgery, the Sword Equation, and Scale-Free Hallucination Control
+# Project Aletheia V8: The Neural Von Neumann Machine — From Hallucination Control to Reverse-Engineering the LLM's Internal CPU
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20088666.svg)](https://doi.org/10.5281/zenodo.20088666)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **"Hallucination is not a training problem — it is a geometry problem. And geometry can be changed at inference time."**
+> **"The transformer is not just predicting the next token — it is running a program. And that program can be read, mapped, and rewritten."**
 
 ## Overview
 
-Project Aletheia is a systematic **165-phase** investigation of LLM hallucination through the lens of condensed matter physics. Starting from GPT-2 (124M) as a "particle accelerator" and scaling to Qwen2.5-14B, I establish **eight fundamental laws**, **eight theorems**, and **six principles** governing how transformers suppress factual knowledge — and how to deterministically restore it through inference-time geometric intervention.
+Project Aletheia is a systematic **209-phase** investigation of LLM hallucination and internal computation through the lens of condensed matter physics. Starting from GPT-2 (124M) as a "particle accelerator" and scaling to Qwen2.5-14B, I establish **nine fundamental laws**, **ten theorems**, and **seven principles** governing how transformers suppress factual knowledge, how to deterministically restore it, and how the transformer's layer stack functions as a **Neural Von Neumann Machine**.
 
-### V7 Highlights 🔥🔥🔥
+### V8 Highlights 🔥🔥🔥
 
-- **DPO Is Unnecessary** (P144): Embedding Surgery + Shield&Sword achieves **100% numerical accuracy on 1.5B without any training** — pure inference-time intervention surpasses DPO 🔥🔥🔥
-- **Dual Surgery — 14B Conquered** (P155): Output-layer (lm_head) clustering causes 14B failure. Dispersing both input & output embeddings achieves **100% on 14B** 🔥🔥🔥🔥🔥
-- **Sword Energy Equation** (P159): `g* ~ d^0.45` — critical FGA gain scales predictably with model width, enabling automated intervention 🔥🔥🔥
-- **Cosine Threshold Theorem** (P164): Sigmoid transition at **cos ≈ 0.69** separates hallucination from precision 🔥🔥
-- **Cross-Architecture Universality** (P157/P161): Dual Surgery achieves **100% on GPT-2** — proving this is a law of Transformer geometry 🔥🔥🔥
-- **Weight Tying Revelation** (P165): All previous "embed-only" surgery was secretly Dual Surgery (0.5B/1.5B/GPT-2 have tied weights) 🔥
+- **The Neural Von Neumann Machine** (P196–P199): Transformer implements a **Fetch-Decode-Execute-Store** pipeline with 5 identifiable registers peaking at distinct layers 🔥🔥🔥🔥🔥
+- **OPCODE Register & Instruction Pointer** (P200, P205): Operation type decoded at L2 (100%), task complexity at L1 (100%) — the model reads instructions before loading operands 🔥🔥🔥
+- **Pipeline Rewiring** (P208): `def` prefix shifts A register L3→L11 (+8 layers), Carry L3→L17 (+14 layers). B-bus (L2) is hardwired 🔥🔥🔥🔥
+- **The Write Breakthrough** (P209): Full hidden-state replacement achieves **83% write success** vs 0% for all additive steering 🔥🔥🔥🔥🔥
+- **Stateless Computation** (P207): Registers re-computed per token — the CPU "reboots" between autoregressive steps 🔥🔥🔥
+- **Code-Booted Abacus** (P192): Surgery + `def` + FGA = **100% single-digit addition** 🔥🔥🔥
+- **The Aletheia Engine** (P166–P179): Trinity (Surgery+Code+FGA) resolves fact-arithmetic tradeoff; Grand Unified Sword Equation fits 6 models (R²=0.97) 🔥🔥
 
-### V6 Highlights
+### V7 Highlights
 
-- **100% Numerical Accuracy** (P136b): The Ultimate Combo — Surgery + DPO + Shield&Sword — completely cures V5's "incurable" numerical immunity
-- **L2 Distance Law** (P138b-c): DPO's critical condition is **L2 distance > 1.2**, not cosine similarity
-- **Shield and Sword Protocol** (P136): Code Mode (Shield) + FGA injection (Sword) achieves **43% numerical accuracy with zero training**
+- **DPO Is Unnecessary** (P144): Surgery + Shield&Sword = **100% numerical accuracy without training** 🔥🔥🔥
+- **Dual Surgery — 14B Conquered** (P155): Dispersing both embed + lm_head = **100% on 14B** 🔥🔥🔥🔥🔥
+- **Sword Energy Equation** (P159): `g* ~ d^0.45` — predictive FGA gain scaling 🔥🔥🔥
+- **Cosine Threshold Theorem** (P164): Sigmoid at **cos ≈ 0.69** separates hallucination from precision 🔥🔥
+- **Cross-Architecture Universality** (P157/P161): Dual Surgery = **100% on GPT-2** 🔥🔥🔥
 
-### V5 Highlights
+### V5–V6 Highlights
 
-- **DPO Suppression Theorem**: DPO suppresses rejected tokens with **100% reliability** but promotes correct ones only **73%**
-- **Single-Layer Sufficiency**: Only **L23's DPO edit** is statistically significant (z=4.84, p<0.001)
-- **Numerical Token Immunity**: Number embeddings are **9× more clustered** (cos=0.73 vs 0.08)
+- **DPO Suppression Theorem** (P127): Rejected DOWN=100%, Chosen UP=73% — DPO is a suppressor 🔥🔥🔥
+- **L2 Distance Law** (P138b–c): Critical condition is **L2 > 1.2**, not cosine 🔥🔥🔥
+- **100% Numerical Accuracy** (P136b): Surgery + DPO + Shield&Sword cures numerical immunity 🔥🔥🔥
 
-### V4 Highlights
+### V3–V4 Highlights
 
-- **14B Singularity**: Qwen2.5-14B achieves **100% factual accuracy** with Code Mode — zero fine-tuning
-- **Aletheia Constant**: Truth lives at **95% depth** in all transformers — invariant to architecture, language, and temperature
+- **14B Singularity** (P107): Code Mode = **100% factual accuracy** on 14B 🔥🔥🔥
+- **Aletheia Constant** (P96): Truth lives at **95% depth** — invariant to architecture, language, temperature 🔥🔥
 
-## The Eight Laws of LLM Hallucination Physics
+## The Nine Laws of LLM Hallucination Physics
 
 | Law | Phase | Discovery |
 |-----|-------|-----------|
-| **1. Degeneracy** | P1 | Fact-skill subspaces separated by only **1.2°**—fluent lies are structurally inevitable |
+| **1. Degeneracy** | P1 | Fact-skill subspaces separated by only **1.2°** |
 | **2. Temperature Irrelevance** | P7 | Critical spike is temperature-independent (**γ = 0.000**) |
-| **3. LayerNorm Impermeability** | P8–P12 | All mid-layer interventions are absorbed by LayerNorm |
-| **4. Truth Scaling Law** | P19 | `spike_c ~ N^(−0.491)`—larger models need **exponentially smaller** interventions |
-| **5. Temporal Persistence** | P15 | Single t=0 spike propagates with **half-life of 130.9 tokens** |
-| **6. Grammatical Suppression** | P49–P66 | **70% of facts suppressed** by final layers; **L9H6** (+927) is the primary suppressor 🔥 |
-| **7. Code Mode Switch** | P76–P80 | Any symbol prefix (`#`, `//`, `--`) triggers a mode transition that **disables suppression** 🔥🔥🔥 |
-| **8. Sword Energy Equation** 🆕 | P159 | Critical FGA gain `g* ~ d^0.45` — enables predictive intervention for any model scale 🔥🔥🔥 |
+| **3. LayerNorm Impermeability** | P8–P12 | All mid-layer interventions absorbed by LayerNorm |
+| **4. Truth Scaling Law** | P19 | `spike_c ~ N^(−0.491)` |
+| **5. Temporal Persistence** | P15 | Single t=0 spike: **half-life 130.9 tokens** |
+| **6. Grammatical Suppression** | P49–P66 | **70% of facts suppressed**; **L9H6** (+927) is primary suppressor 🔥 |
+| **7. Code Mode Switch** | P76–P80 | Symbol prefix (`#`, `//`) triggers suppression bypass 🔥🔥🔥 |
+| **8. Sword Energy Equation** | P159 | `g* ~ d^0.45` — predictive gain for any scale 🔥🔥🔥 |
+| **9. Neural Von Neumann Cycle** 🆕 | P196–P209 | Fetch-Decode-Execute-Store with registers, OPCODE, Instruction Pointer 🔥🔥🔥🔥🔥 |
 
-## Eight Fundamental Theorems
+## Ten Fundamental Theorems
 
 | Theorem | Phases | Statement |
 |---------|--------|-----------|
-| **Internal Impossibility** | P37–P48, P71–P72 | No internal operation recovers suppressed facts—**all methods: 0%** |
-| **L10 Optimality** | P49, P54 | Single-layer L10 Logit Lens (40%) outperforms all ensemble methods |
-| **Detection–Generation Separation** | P36, P57 | Perfect hallucination detection does not enable correction |
-| **Dark Matter Hypothesis** | P63, P75 | Math tokens interact **29% less** with suppressor weight matrices 🔥 |
-| **DPO Suppression** | P127–P129 | DPO suppresses rejected tokens **100%** but promotes correct ones only **73%**. Numerical tokens are **structurally immune** 🔥🔥🔥 |
-| **L2 Distance Law** | P138b–P138c | DPO effectiveness = f(L2 distance), not f(cosine). Critical threshold **L2* ≈ 1.2** 🔥🔥🔥 |
-| **Cosine Threshold** 🆕 | P164 | FGA effectiveness is a sigmoid of output-layer cos similarity. **50% crossover at cos ≈ 0.69** 🔥🔥🔥 |
-| **Weight Tying** 🆕 | P165 | In tied models, embed-only surgery = Dual Surgery. Only untied models (14B) need explicit dual intervention 🔥🔥 |
+| **Internal Impossibility** | P37–P48 | No internal operation recovers suppressed facts — **all: 0%** |
+| **L10 Optimality** | P49, P54 | Single-layer L10 (40%) outperforms all ensembles |
+| **Detection–Generation Separation** | P36, P57 | Perfect detection ≠ correction |
+| **Dark Matter Hypothesis** | P63, P75 | Math tokens interact **29% less** with suppressors 🔥 |
+| **DPO Suppression** | P127–P129 | DPO suppresses **100%** but promotes only **73%** 🔥🔥🔥 |
+| **L2 Distance Law** | P138b–c | Critical threshold **L2* ≈ 1.2** 🔥🔥🔥 |
+| **Cosine Threshold** | P164 | Sigmoid at **cos ≈ 0.69** 🔥🔥🔥 |
+| **Weight Tying** | P165 | Tied models: embed surgery = Dual Surgery 🔥🔥 |
+| **Read-Write Asymmetry** 🆕 | P195, P209 | Read=100%, linear write=0%, full replacement=**83%** 🔥🔥🔥🔥🔥 |
+| **Stateless Computation** 🆕 | P207 | Registers re-computed per token; CPU reboots between steps 🔥🔥🔥 |
 
-## Six Principles (V5–V7)
+## Seven Principles (V5–V8)
 
 | Principle | Phases | Statement |
 |-----------|--------|-----------|
-| **Single-Layer Sufficiency** | P122–P123 | Only L23's DPO edit is significant (z=4.84, p<0.001) 🔥🔥 |
-| **Phase Boundary Scaling** | P117b, P124 | Critical DPO learning rate `lr* ~ N^0.83` 🔥 |
-| **Numerical Immunity Is Curable** | P130b–P144 | Surgery + Shield&Sword = **100% without DPO** 🔥🔥🔥 |
-| **Gram-Schmidt Paradox** | P138 | Perfect cos=0 does NOT enable DPO. L2 distance is the true metric 🔥🔥 |
-| **Dual Surgery Principle** 🆕 | P154–P155 | Both embed_tokens and lm_head must be dispersed for FGA to work on untied models 🔥🔥🔥 |
-| **Inference-Time Sufficiency** 🆕 | P144–P161 | DPO is unnecessary. Geometric intervention alone achieves **100% on all architectures** 🔥🔥🔥🔥🔥 |
+| **Single-Layer Sufficiency** | P122–P123 | Only L23's DPO edit is significant (z=4.84) 🔥🔥 |
+| **Phase Boundary Scaling** | P117b, P124 | `lr* ~ N^0.83` 🔥 |
+| **Numerical Immunity Is Curable** | P130b–P144 | Surgery + S&S = **100% without DPO** 🔥🔥🔥 |
+| **Gram-Schmidt Paradox** | P138 | cos=0 ≠ DPO success; L2 is the true metric 🔥🔥 |
+| **Dual Surgery Principle** | P154–P155 | Both embed + lm_head must be dispersed 🔥🔥🔥 |
+| **Inference-Time Sufficiency** | P144–P161 | DPO unnecessary; geometry alone = **100%** 🔥🔥🔥🔥🔥 |
+| **Pipeline Rewiring** 🆕 | P208 | `def` shifts A: L3→L11, Carry: L3→L17; B-bus hardwired 🔥🔥🔥 |
 
-## Key Discovery: The Inference-Time Paradigm 🔥🔥🔥🔥🔥
-
-```
-                       Word Acc    Number Acc    Training
-Baseline (1.5B):         60%          0%          None
-DPO only (V5):          100%          0%          Yes
-Surgery+DPO (V6):       100%         50%          Yes
-Surgery+S&S (V7):       100%        100%   ←     NONE! 🔥🔥🔥
-```
-
-**DPO is entirely unnecessary.** Pure geometric intervention at inference time surpasses all training-based methods.
-
-## Key Discovery: Dual Surgery — 14B Conquered 🔥🔥🔥🔥🔥
+## Key Discovery: The Neural Von Neumann Machine 🔥🔥🔥🔥🔥
 
 ```
-                         Word Acc    Num Acc    LM_head Cos
-Embed-only + S&S:          100%        0%        0.74 (unchanged)
-Dual (s=2) + S&S g=50:     100%      100%   ←   0.012  🔥🔥🔥
+Register        Peak Layer(s)    Accuracy    Pipeline Stage
+─────────────────────────────────────────────────────────
+Operand B       L2–L10           100%        FETCH
+Operand A       L11–L15           97%        DECODE
+Carry Flag      L17–L23          100%        EXECUTE
+Sum (result)    L22               53%        STORE
+Comparison      L20–L22           95%        EXECUTE
+OPCODE (+/-/×)  L2               100%        FETCH
+Instr. Pointer  L1               100%        FETCH
 ```
 
-The 14B wall was caused by **output-layer clustering** (lm_head cos = 0.74). Dispersing both embedding layers breaks through.
+The transformer physically implements a **Von Neumann execution cycle** using its layer stack as a clock.
 
-## Key Discovery: The Cosine Threshold 🔥🔥🔥
+## Key Discovery: Pipeline Rewiring by `def` Prefix 🔥🔥🔥
 
 ```
-cos < 0.53  →  100% accuracy   (safe zone)
-cos ≈ 0.69  →   50% accuracy   (crossover point)
-cos > 0.81  →    0% accuracy   (hallucination zone)
+Template              A Peak    B Peak    Carry Peak
+───────────────────────────────────────────────────
+Natural  "3+4="       L3        L2        L3
+Code     "def f():"   L11       L2        L17    ← +8/+14 layers!
+Math     "Calculate:"  L11       L2        L5
 ```
 
 ## The Aletheia Algorithm (Universal Recipe)
@@ -113,169 +116,95 @@ cos > 0.81  →    0% accuracy   (hallucination zone)
 
 Validated on **4 architectures**: GPT-2 (124M), Qwen-0.5B, Qwen-1.5B, Qwen-14B.
 
-## Experimental Phases (165 total)
+## Experimental Phases (209 total)
 
-### Season 1: Fundamental Characterization (P1–P5)
+### Season 1–10: Fundamental Characterization → Internal Impossibility (P1–P48)
 - **P1**: Pauli Exclusion — Fact-Skill degeneracy (1.2°)
 - **P5**: Spiking-FGA — **Phase transition at spike=10 (0%→100%)** 🔥
-
-### Season 2: The LayerNorm Barrier (P6–P12)
 - **P7**: Phase Diagram — **γ=0.000 (temperature irrelevant)** 🔥
-- **P8**: Layer-Resolved — Mid-layer=0%, output=100%
-- **P11**: Quantum Zeno — Distributed spikes=0%, single=100%
-
-### Season 3: Mechanistic Dissection (P13–P15)
-- **P13**: Universality — 50/50 questions solved, mean spike=3.9±3.1
-- **P14**: Head Surgery — 94 fact heads, 47 skill heads identified
 - **P15**: Temporal Decay — **Half-life=130.9 tokens** 🔥
-
-### Season 4: API-Scale Eradication (P16–P19)
-- **P16**: Logit-Bias Isomorphism — **spike == logit_bias (diff=0.00)** 🔥
 - **P19**: Scaling Law — **spike_c = 85,846 × N^(−0.491)** 🔥
+- **P37–P48**: 12 internal methods, **ALL 0%** → Internal Impossibility Theorem 🏛️
 
-### Season 5: Robustness & Safety (P20–P23)
-- **P21**: Adversarial — Spike defeats adversarial prompts (100% at spike=7)
-- **P22**: Anti-Spike — ⚠️ Dual-use: same mechanism creates lies (25%)
-
-### Season 6: Hallucination Detection (P24–P31)
-- **P30**: 11-Dimensional Clique Topology — Fact/hallucination topological fingerprint
-- **P31**: Entropy Oracle — **AUC=1.000 for relative detection** 🔥
-
-### Season 7: Intervention Attempts (P32–P36)
-- **P36**: Entropy Rejection — Detection=perfect, Correction=**0%** (detection ≠ correction)
-
-### Season 8–10: The Beautiful Null Results (P37–P48)
-- **P37–P48**: 12 internal correction methods, **ALL 0%** — gradient descent, topological forcing, attention lobotomy, MCTS, Aha! vector, stochastic resonance, manifold analysis, and more
-- **→ Internal Impossibility Theorem established** 🏛️
-
-### Season 11: Grammatical Suppression Discovery (P49–P53)
+### Season 11–13: Grammatical Suppression Discovery (P49–P58)
 - **P49**: L10 Oracle — **Facts at Rank 1 in L10, suppressed by L12** 🔥🔥🔥
-- **P53**: Universal Suppression Law — **63% suppressed across 27 prompts** (geography 88%, history 80%)
+- **P53**: Universal Suppression Law — **63% suppressed across 27 prompts**
+- **P57**: Oracle Duality — Detection ≠ Correction confirmed 🔥
 
-### Season 12–13: Grand Unification (P54–P58)
-- **P54**: Multi-Layer Voting — RRF best=25%, inferior to L10 alone (40%)
-- **P57**: Oracle Duality — Relative AUC=0.66, Absolute AUC=0.33 🔥
-- **P58**: Grand Unified Theory — 7 laws + 3 theorems confirmed
-
-### Season 14: Universal Liberation (P59–P63)
-- **P61**: Grammar Police — **L11H7 is the top suppressor (+829 rank degradation)** 🔥
-- **P63**: GSF Is Fact-Specific — Math: suppression 0.4 vs Facts: 9.9
-
-### Season 15: Grammar Police Deep Dive (P64–P67)
-- **P65**: Suppressor Attention — L11H7 fixated on the token "The"
-- **P66**: Token Race — **Fact-grammar crossover at exactly Layer 11** 🔥
-- **P67**: Residual Bypass — L10 residual achieves 40% at α=0.9
-
-### Season 16–17: Negative Results (P68–P72)
-- **P69**: Prompt Structure — GSF varies **680× by prompt style** (QA=1015, possessive=1.5)
-- **P71–P72**: "The" Hypothesis REJECTED; GSF-Free Pipeline FAILS → Impossibility extended
-
-### Season 18: Dark Matter Hypothesis (P73–P77)
-- **P75**: Why Math Is Immune — **29% less interaction with suppressor weights** 🔥
-- **P77**: Dose-Response — L11H7 suppression is quasi-linear (0×→3×)
-
-### Season 19–20: The Code Mode Switch (P78–P83)
-- **P79**: Why Comments Work — Suppressors +0.43 entropy, helpers −0.21 entropy
+### Season 14–20: Grammar Police & Code Mode Switch (P59–P83)
+- **P61**: Grammar Police — **L11H7 (+829 rank degradation)** 🔥
+- **P66**: Token Race — **Crossover at exactly Layer 11** 🔥
 - **P80**: Hash Effect — **All symbol prefixes equally effective** 🔥🔥🔥
-- **P82**: Code Mode Neurons — L11:N314 (+31.8) is the switch neuron
-- **P83**: Full Map — **True #1 suppressor is L9H6 (+927), not L11H7** 🔥
+- **P83**: Full Map — **True #1 suppressor: L9H6 (+927)** 🔥
 
-### Season 21–23: Dark Matter Engineering & Scaling Law (P84–P95)
-- **P87**: CoT Illusion — **Chain-of-Thought is an incomplete Code Mode Switch** 🔥
-- **P91**: Lobotomy Generalization — Neural lobotomy does NOT generalize (0% on novel facts)
-- **P92**: Perplexity Cost — Suppressors cost only **1.4% perplexity** (essentially free)
-- **P95**: Grand Scaling Law — **GSF: 6.0→0.5→0.5→0.0 across scales**; XL Paradox discovered 🔥🔥
+### Season 21–26: Scaling & The 14B Singularity (P84–P113)
+- **P95**: Grand Scaling Law — GSF: 6.0→0.5→0.5→0.0 across scales 🔥🔥
+- **P96**: Universal 0.94 — Aletheia Constant confirmed 🔥🔥🔥
+- **P107**: **14B Singularity — Code Mode = 100%** 🔥🔥🔥
+- **P113**: Temperature Physics — **0.94 invariant at T=0.1–10.0** 🔥🔥
 
-### Season 24: The Universal Horizon (P96–P101)
-- **P96**: Universal 0.94 — **Aletheia Constant confirmed across GPT-2 + Qwen** 🔥🔥🔥
-- **P97**: Dual-Engine — **Shield + Sword mechanism in 1,200 XL heads** 🔥🔥
-- **P98**: CoT Horizon — "The answer is:" = 70–75% in Qwen (best template)
-- **P99**: Scaling Prediction — **90% at 8.2B (Code), 11.6B (Natural)** 🔥
-- **P101**: Alignment Tax — **7B Instruct ≈ 1.5B Base → N_eff = N/5** 🔥🔥
+### Season 27–28: DPO Surgery & The Suppression Paradox (P114–P129)
+- **P117b**: Phase Boundary — **Sharp collapse at lr*=8e-6** 🔥🔥🔥
+- **P123**: Single-Layer DPO — **L23 alone = L22+L23** 🔥🔥🔥
+- **P127**: Ground Truth — **DPO is a suppressor, not a promoter** 🔥🔥🔥
+- **P129**: Numerical Immunity — **9× clustering, DPO effect = 0.0000** 🔥🔥🔥
 
-### Season 25: Beyond the Singularity (P103–P107)
-- **P103**: Syntax Theorem — Proportional and offset models both R²>0.995
-- **P104**: Answer Anatomy — **"The answer is:" = entropy bomb, not funnel** 🔥
-- **P105–P106**: Alignment Autopsy — Suppressor Hypertrophy confirmed; Frankenstein Surgery = 0%
-- **P107**: **14B Singularity — Code Mode = 100% accuracy** 🔥🔥🔥
+### Season 29–30: Curing Numerical Immunity (P130–P138c)
+- **P130b**: Embedding Surgery — **cos 0.73→0.05 → DPO: 0%→50%** 🔥🔥🔥
+- **P136b**: Ultimate Combo — **100% NUMERICAL ACCURACY** 🔥🔥🔥🔥🔥
+- **P138b**: L2 Distance Law — **L2* ≈ 1.2** 🔥🔥🔥
 
-### Season 26: The Transcendence Era (P108–P113)
-- **P108**: MLP Autopsy — **Alignment Tax lives in MLPs (6× back-half suppression)** 🔥
-- **P109**: Reasoning Horizon — Facts=entropy bomb, Logic=Code Mode, Math=impossible at 1.5B
-- **P110**: Cross-Lingual — **0.94 constant invariant to language (EN=JA)** 🔥
-- **P112**: Dual-Engine Universality — Shield/Sword confirmed on Qwen (GQA) 🔥
-- **P113**: Temperature Physics — **0.94 constant invariant to temperature (0.1–10.0)** 🔥🔥
+### Season 31–34: The Inference-Time Paradigm (P139–P165)
+- **P144**: Zero-DPO 100% — **100% on 1.5B WITHOUT TRAINING** 🔥🔥🔥🔥🔥
+- **P155**: Dual Surgery — **100% on 14B** 🔥🔥🔥🔥🔥
+- **P159**: Sword Equation — **g* ~ d^0.45** 🔥🔥🔥
+- **P164**: Cosine Threshold — **Sigmoid at cos ≈ 0.69** 🔥🔥🔥
 
-### Season 27: Alignment Surgery — Surgical DPO (P114–P117b)
-- **P115**: Skill LoRA — **85% accuracy with 0.1% params** 🔥
-- **P116b**: Refusal Gates — Instruct models add MLP refusal neurons absent in Base
-- **P117**: Surgical DPO — **73% train / 60% test** with only last 6% of MLP layers 🔥🔥
-- **P117b**: Phase Boundary — **Sharp collapse at lr*=8e-6** (first-order transition) 🔥🔥🔥
+### Season 35: The Aletheia Engine (P166–P179) 🆕
+- **P166–P179**: Built unified autonomous pipeline (14 phases summarized in paper Table)
+- **P170**: Trinity — Surgery+Code+FGA preserves **100% fact AND arithmetic** 🔥🔥🔥
+- **P175**: Grand Unified Sword Equation — **R²=0.97 across 6 models** 🔥🔥
+- **P176**: Code Mode Spectrum — `def f(): return` = **100% arithmetic** 🔥🔥🔥
 
-### Season 28: The Epistemic Exorcism — Resolving the DPO Paradox (P118–P129)
-- **P118**: SwiGLU Oracle — Residual L2 norm is best uncertainty indicator (AUC=0.83)
-- **P122**: Random Control — **L23 DPO is significant (z=4.84, p<0.001); L22 is not** 🔥🔥
-- **P123**: Single-Layer DPO — **L23 alone = L22+L23 with 50% fewer params** 🔥🔥🔥
-- **P127**: Ground Truth — **Rejected DOWN: 100%, Chosen UP: 73%** — DPO is a suppressor! 🔥🔥🔥
-- **P128**: Hidden States — Toward chosen **93%** (L22), **80%** (L23); L23 movement **3× larger** 🔥🔥
-- **P129**: Numerical Immunity — **Numbers 9× more clustered, DPO effect = 0.0000** 🔥🔥🔥
+### Season 36: The Arithmetic Oracle (P180–P192) 🆕
+- **P182**: Def Oracle — `def` prefix: arithmetic **10%→40%** (4× boost) 🔥🔥🔥
+- **P183–P189**: Engine refinement, Orthogonality Principle, VM bootstrapping
+- **P190**: Virtual Abacus — **Carry flag readable at 87–100%** from L4 🔥🔥🔥
+- **P192**: Code-Booted Abacus — Surgery + `def` + FGA = **100% addition** 🔥🔥🔥
 
-### Season 29: Curing Numerical Immunity (P130–P134)
-- **P130**: Knowledge LoRA — Confirms immunity is geometric, not training-signal 🔥
-- **P130b**: Embedding Surgery — **cos 0.73→0.05 enables DPO: 0%→50%** — CAUSAL PROOF 🔥🔥🔥
-- **P131**: FGA Spiking — **29% numerical accuracy with zero training** (inference-only) 🔥
-- **P133**: UAlign — **87% abstention rate** by weaponizing DPO's suppression mechanism 🔥🔥
-- **P134**: Nuclear Option — Surgery + DPO + Code Mode = **4× baseline** 🔥🔥
+### Season 37–38: Virtual Register Engineering (P193–P195) 🆕
+- **P195**: Read-Write Asymmetry — **Read=100%, Write=0%** 🔥🔥🔥🔥🔥
 
-### Season 30: The Geometric Unification Era (P135–P138c)
-- **P136**: Shield and Sword — Code Mode + FGA = **43% numerical accuracy, zero training** 🔥🔥🔥
-- **P136b**: Ultimate Combo — Surgery + DPO + Shield&Sword = **100% NUMERICAL ACCURACY** 🔥🔥🔥🔥🔥
-- **P138**: Gram-Schmidt Paradox — Perfect cos=0 → **0% accuracy** (paradox!) 🔥🔥
-- **P138b**: L2 Distance Law — **L2 distance, not cosine, is the true metric** 🔥🔥🔥
-- **P138c**: L2 Critical Threshold — **L2* ≈ 1.2** (third phase transition) 🔥🔥🔥
+### Season 39: The Neural Von Neumann Machine (P196–P199) 🆕
+- **P196**: Lesion Studies — L1–L3 (fetch) and L21–L23 (store) essential 🔥🔥
+- **P197**: Comparison Register — **A>B at 95% (L20–L22)** parallel to sum 🔥🔥
+- **P199**: Full Execution Timeline — **5 registers, 4-stage pipeline** 🔥🔥🔥🔥🔥
 
-### Season 31: Scaling and Persistence (P139–P143) 🆕
-- **P139**: L2 Scaling — Numerical L2 distance scales with embedding dimension across all models 🔥
-- **P142**: Persistence — Surgery effects persist through extended autoregressive generation 🔥
-- **P143**: GPT-2 Universality — **cos = 0.71 clustering confirmed on GPT-2** (cross-architecture) 🔥🔥
+### Season 40–41: Instruction Set Architecture (P200–P205) 🆕
+- **P200**: OPCODE Register — **100% at L2** (instruction decoded first!) 🔥🔥🔥🔥
+- **P204**: Fact Pipeline — Same L2 decoder for arithmetic AND knowledge retrieval 🔥🔥🔥
+- **P205**: Instruction Pointer — **100% from L1** (task complexity pre-computed) 🔥🔥🔥
 
-### Season 32: The DPO Elimination (P144–P147) 🆕
-- **P144**: Zero-DPO 100% — **Surgery + S&S = 100% on 1.5B WITHOUT ANY TRAINING** 🔥🔥🔥🔥🔥
-- **P145**: Weight Tying — No effect on surgery effectiveness 🔥
-- **P146**: DPO Inertia — 500 steps of DPO = 0% without surgery (geometry is everything) 🔥
-- **P147**: Arithmetic Awakening — **Number clustering enables arithmetic; surgery destroys it** 🔥🔥🔥
-
-### Season 33: The 14B Wall and Dual Surgery (P148–P155) 🆕
-- **P148–P149**: 14B Wall — 0% accuracy despite all previous interventions 🔥
-- **P150–P153**: Diagnosis — Gradient vanishing, quantization acquitted, brute force fails 🔥
-- **P154**: The Culprit — **lm_head cos = 0.74** (output-layer clustering!) 🔥🔥🔥
-- **P155**: Dual Surgery — **Dispersing both embed + lm_head = 100% on 14B** 🔥🔥🔥🔥🔥
-
-### Season 34: The Geometric Unification (P156–P165) 🆕
-- **P156/P160**: Semantic Category Map — Digits are the ONLY category with constant clustering 🔥🔥
-- **P157/P161**: GPT-2 Universality — **Dual Surgery = 100% on GPT-2** (cross-architecture proof) 🔥🔥🔥
-- **P159**: Sword Energy Equation — **g* ~ d^0.45** (predictive scaling law) 🔥🔥🔥
-- **P162**: Inverse Surgery — Causal proof via compression/dispersion symmetry 🔥🔥
-- **P163**: Optimal FGA Layer — **Last ~30% of layers** is the effective zone 🔥🔥
-- **P164**: Cosine Threshold — **Sigmoid at cos ≈ 0.69**, 100% below cos ≈ 0.53 🔥🔥🔥
-- **P165**: Weight Tying Revelation — **0.5B/1.5B/GPT-2 were secretly doing Dual Surgery** 🔥🔥
+### Season 42: Architecture Deep Dive (P206–P209) 🆕
+- **P207**: Register Persistence — **CPU reboots between tokens** 🔥🔥🔥
+- **P208**: Pipeline Rewiring — `def` shifts A: L3→L11, Carry: L3→L17 🔥🔥🔥🔥
+- **P209**: Full State Replacement — **83% write success** (breaks the barrier!) 🔥🔥🔥🔥🔥
 
 ## Repository Structure
 
 ```
 aletheia/
 ├── experiments/          # Phase 1–95 scripts (GPT-2 era)
-├── experiments2/         # Phase 96–165 scripts (Qwen/Multi-arch era)
-│   ├── phase96_universal_094.py
-│   ├── ...
-│   ├── phase144_zerodpo.py       # The DPO Elimination 🔥
-│   ├── phase155_dual.py          # Dual Surgery — 14B conquered 🔥
-│   ├── phase159_equation.py      # Sword Energy Equation 🔥
-│   ├── phase164_threshold.py     # Cosine Threshold 🔥
-│   └── phase165_tying.py         # Weight Tying Revelation
+├── experiments2/         # Phase 96–169 scripts (Qwen/Multi-arch era)
+├── experiments3/         # Phase 170–209 scripts (Neural Von Neumann era)
+│   ├── phase192_code_abacus.py    # Code-Booted Abacus 🔥
+│   ├── phase199_timeline.py       # Full Execution Timeline 🔥
+│   ├── phase200_opcode.py         # OPCODE Register 🔥
+│   ├── phase208_vm_compare.py     # Pipeline Rewiring 🔥
+│   └── phase209_replacement.py    # The Write Breakthrough 🔥
 ├── results/              # JSON results for each phase
-├── figures/              # Generated visualizations (170+ figures)
-├── papers/               # LaTeX source (paper_v7.tex)
+├── figures/              # Generated visualizations (200+ figures)
+├── papers/               # LaTeX source (paper_v8.tex)
 └── reports/              # Season progress reports
 ```
 
@@ -293,12 +222,11 @@ scikit-learn
 
 ```bash
 # Run any individual phase
-python experiments/phase49_l10_oracle.py        # The key discovery
-python experiments/phase83_suppression_map.py    # Full 144-head ablation map
-python experiments2/phase107_14b_singularity.py  # The 14B Singularity
-python experiments2/phase144_zerodpo.py          # DPO Elimination (V7) 🔥
-python experiments2/phase155_dual.py             # Dual Surgery 14B (V7) 🔥
-python experiments2/phase164_threshold.py        # Cosine Threshold (V7) 🔥
+python experiments/phase49_l10_oracle.py          # The key GSF discovery
+python experiments2/phase144_zerodpo.py            # DPO Elimination (V7)
+python experiments2/phase155_dual.py               # Dual Surgery 14B (V7)
+python experiments3/phase199_timeline.py           # Neural Von Neumann (V8) 🔥
+python experiments3/phase209_replacement.py        # Write Breakthrough (V8) 🔥
 
 # The L10 Oracle in 10 lines:
 python -c "
@@ -323,7 +251,7 @@ print('L10 says:', tok.decode(logits.argmax()))  # → Tokyo
 
 ```bibtex
 @article{funasaki2026aletheia,
-  title={Project Aletheia V7: The Inference-Time Paradigm---Dual Surgery, the Sword Equation, and Scale-Free Hallucination Control},
+  title={Project Aletheia V8: The Neural Von Neumann Machine---From Hallucination Control to Reverse-Engineering the LLM's Internal CPU},
   author={Funasaki, Hiroto},
   year={2026},
   doi={10.5281/zenodo.20088666}

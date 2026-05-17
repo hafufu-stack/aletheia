@@ -1,0 +1,1273 @@
+{
+  "phase": "169",
+  "name": "Epistemic Aegis",
+  "known_entropies": [
+    3.4441778659820557,
+    3.262610912322998,
+    5.057805061340332,
+    1.1632308959960938,
+    2.188340187072754,
+    4.575234413146973,
+    2.481157064437866
+  ],
+  "unknown_entropies": [
+    6.168559551239014,
+    2.4088478088378906,
+    2.678976058959961,
+    5.238173961639404,
+    5.02781867980957,
+    3.060879707336426
+  ],
+  "configs": {
+    "t_3.2": {
+      "threshold": 3.167508057185582,
+      "known_acc": 0.2857142857142857,
+      "abstain_rate": 0.5,
+      "combined": 0.39285714285714285,
+      "details": [
+        {
+          "prompt": "# The capital of Japan is",
+          "expected": "Tokyo",
+          "pred": "Tokyo",
+          "category": "known",
+          "entropy": 3.44,
+          "action": "abstained",
+          "correct": false
+        },
+        {
+          "prompt": "# The capital of France is",
+          "expected": "Paris",
+          "pred": "Paris",
+          "category": "known",
+          "entropy": 3.26,
+          "action": "abstained",
+          "correct": false
+        },
+        {
+          "prompt": "# The largest planet is",
+          "expected": "Jupiter",
+          "pred": "unknown",
+          "category": "known",
+          "entropy": 5.06,
+          "action": "abstained",
+          "correct": false
+        },
+        {
+          "prompt": "# Water freezes at",
+          "expected": "0",
+          "pred": "0",
+          "category": "known",
+          "entropy": 1.16,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "expected": "100",
+          "pred": "0",
+          "category": "known",
+          "entropy": 2.19,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The number of continents is",
+          "expected": "7",
+          "pred": "unknown",
+          "category": "known",
+          "entropy": 4.58,
+          "action": "abstained",
+          "correct": false
+        },
+        {
+          "prompt": "# A year has",
+          "expected": "365",
+          "pred": "",
+          "category": "known",
+          "entropy": 2.48,
+          "action": "answered",
+          "correct": false
+        },
+        {
+          "prompt": "# The capital of Xylandia is",
+          "expected": "unknown",
+          "pred": "X",
+          "category": "unknown",
+          "entropy": 6.17,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The population of Mars in 2025 was",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.41,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The 937th digit of pi is",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.68,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The winner of the 2030 World Cup is",
+          "expected": "unknown",
+          "pred": "unknown",
+          "category": "unknown",
+          "entropy": 5.24,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The secret password for OpenAI is",
+          "expected": "unknown",
+          "pred": "\"",
+          "category": "unknown",
+          "entropy": 5.03,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The phone number of the current US pre",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 3.06,
+          "action": "base_fallback",
+          "correct": false
+        }
+      ]
+    },
+    "t_3.5": {
+      "threshold": 3.48425886290414,
+      "known_acc": 0.5714285714285714,
+      "abstain_rate": 0.5,
+      "combined": 0.5357142857142857,
+      "details": [
+        {
+          "prompt": "# The capital of Japan is",
+          "expected": "Tokyo",
+          "pred": "Tokyo",
+          "category": "known",
+          "entropy": 3.44,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The capital of France is",
+          "expected": "Paris",
+          "pred": "Paris",
+          "category": "known",
+          "entropy": 3.26,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The largest planet is",
+          "expected": "Jupiter",
+          "pred": "unknown",
+          "category": "known",
+          "entropy": 5.06,
+          "action": "abstained",
+          "correct": false
+        },
+        {
+          "prompt": "# Water freezes at",
+          "expected": "0",
+          "pred": "0",
+          "category": "known",
+          "entropy": 1.16,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "expected": "100",
+          "pred": "0",
+          "category": "known",
+          "entropy": 2.19,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The number of continents is",
+          "expected": "7",
+          "pred": "unknown",
+          "category": "known",
+          "entropy": 4.58,
+          "action": "abstained",
+          "correct": false
+        },
+        {
+          "prompt": "# A year has",
+          "expected": "365",
+          "pred": "",
+          "category": "known",
+          "entropy": 2.48,
+          "action": "answered",
+          "correct": false
+        },
+        {
+          "prompt": "# The capital of Xylandia is",
+          "expected": "unknown",
+          "pred": "X",
+          "category": "unknown",
+          "entropy": 6.17,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The population of Mars in 2025 was",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.41,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The 937th digit of pi is",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.68,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The winner of the 2030 World Cup is",
+          "expected": "unknown",
+          "pred": "unknown",
+          "category": "unknown",
+          "entropy": 5.24,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The secret password for OpenAI is",
+          "expected": "unknown",
+          "pred": "\"",
+          "category": "unknown",
+          "entropy": 5.03,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The phone number of the current US pre",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 3.06,
+          "action": "base_fallback",
+          "correct": false
+        }
+      ]
+    },
+    "t_3.6": {
+      "threshold": 3.6323586759113127,
+      "known_acc": 0.5714285714285714,
+      "abstain_rate": 0.5,
+      "combined": 0.5357142857142857,
+      "details": [
+        {
+          "prompt": "# The capital of Japan is",
+          "expected": "Tokyo",
+          "pred": "Tokyo",
+          "category": "known",
+          "entropy": 3.44,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The capital of France is",
+          "expected": "Paris",
+          "pred": "Paris",
+          "category": "known",
+          "entropy": 3.26,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The largest planet is",
+          "expected": "Jupiter",
+          "pred": "unknown",
+          "category": "known",
+          "entropy": 5.06,
+          "action": "abstained",
+          "correct": false
+        },
+        {
+          "prompt": "# Water freezes at",
+          "expected": "0",
+          "pred": "0",
+          "category": "known",
+          "entropy": 1.16,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "expected": "100",
+          "pred": "0",
+          "category": "known",
+          "entropy": 2.19,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The number of continents is",
+          "expected": "7",
+          "pred": "unknown",
+          "category": "known",
+          "entropy": 4.58,
+          "action": "abstained",
+          "correct": false
+        },
+        {
+          "prompt": "# A year has",
+          "expected": "365",
+          "pred": "",
+          "category": "known",
+          "entropy": 2.48,
+          "action": "answered",
+          "correct": false
+        },
+        {
+          "prompt": "# The capital of Xylandia is",
+          "expected": "unknown",
+          "pred": "X",
+          "category": "unknown",
+          "entropy": 6.17,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The population of Mars in 2025 was",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.41,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The 937th digit of pi is",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.68,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The winner of the 2030 World Cup is",
+          "expected": "unknown",
+          "pred": "unknown",
+          "category": "unknown",
+          "entropy": 5.24,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The secret password for OpenAI is",
+          "expected": "unknown",
+          "pred": "\"",
+          "category": "unknown",
+          "entropy": 5.03,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The phone number of the current US pre",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 3.06,
+          "action": "base_fallback",
+          "correct": false
+        }
+      ]
+    },
+    "t_3.7": {
+      "threshold": 3.6874883651733397,
+      "known_acc": 0.5714285714285714,
+      "abstain_rate": 0.5,
+      "combined": 0.5357142857142857,
+      "details": [
+        {
+          "prompt": "# The capital of Japan is",
+          "expected": "Tokyo",
+          "pred": "Tokyo",
+          "category": "known",
+          "entropy": 3.44,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The capital of France is",
+          "expected": "Paris",
+          "pred": "Paris",
+          "category": "known",
+          "entropy": 3.26,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The largest planet is",
+          "expected": "Jupiter",
+          "pred": "unknown",
+          "category": "known",
+          "entropy": 5.06,
+          "action": "abstained",
+          "correct": false
+        },
+        {
+          "prompt": "# Water freezes at",
+          "expected": "0",
+          "pred": "0",
+          "category": "known",
+          "entropy": 1.16,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "expected": "100",
+          "pred": "0",
+          "category": "known",
+          "entropy": 2.19,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The number of continents is",
+          "expected": "7",
+          "pred": "unknown",
+          "category": "known",
+          "entropy": 4.58,
+          "action": "abstained",
+          "correct": false
+        },
+        {
+          "prompt": "# A year has",
+          "expected": "365",
+          "pred": "",
+          "category": "known",
+          "entropy": 2.48,
+          "action": "answered",
+          "correct": false
+        },
+        {
+          "prompt": "# The capital of Xylandia is",
+          "expected": "unknown",
+          "pred": "X",
+          "category": "unknown",
+          "entropy": 6.17,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The population of Mars in 2025 was",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.41,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The 937th digit of pi is",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.68,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The winner of the 2030 World Cup is",
+          "expected": "unknown",
+          "pred": "unknown",
+          "category": "unknown",
+          "entropy": 5.24,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The secret password for OpenAI is",
+          "expected": "unknown",
+          "pred": "\"",
+          "category": "unknown",
+          "entropy": 5.03,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The phone number of the current US pre",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 3.06,
+          "action": "base_fallback",
+          "correct": false
+        }
+      ]
+    },
+    "t_4.1": {
+      "threshold": 4.097209294637044,
+      "known_acc": 0.5714285714285714,
+      "abstain_rate": 0.5,
+      "combined": 0.5357142857142857,
+      "details": [
+        {
+          "prompt": "# The capital of Japan is",
+          "expected": "Tokyo",
+          "pred": "Tokyo",
+          "category": "known",
+          "entropy": 3.44,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The capital of France is",
+          "expected": "Paris",
+          "pred": "Paris",
+          "category": "known",
+          "entropy": 3.26,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The largest planet is",
+          "expected": "Jupiter",
+          "pred": "unknown",
+          "category": "known",
+          "entropy": 5.06,
+          "action": "abstained",
+          "correct": false
+        },
+        {
+          "prompt": "# Water freezes at",
+          "expected": "0",
+          "pred": "0",
+          "category": "known",
+          "entropy": 1.16,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "expected": "100",
+          "pred": "0",
+          "category": "known",
+          "entropy": 2.19,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The number of continents is",
+          "expected": "7",
+          "pred": "unknown",
+          "category": "known",
+          "entropy": 4.58,
+          "action": "abstained",
+          "correct": false
+        },
+        {
+          "prompt": "# A year has",
+          "expected": "365",
+          "pred": "",
+          "category": "known",
+          "entropy": 2.48,
+          "action": "answered",
+          "correct": false
+        },
+        {
+          "prompt": "# The capital of Xylandia is",
+          "expected": "unknown",
+          "pred": "X",
+          "category": "unknown",
+          "entropy": 6.17,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The population of Mars in 2025 was",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.41,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The 937th digit of pi is",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.68,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The winner of the 2030 World Cup is",
+          "expected": "unknown",
+          "pred": "unknown",
+          "category": "unknown",
+          "entropy": 5.24,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The secret password for OpenAI is",
+          "expected": "unknown",
+          "pred": "\"",
+          "category": "unknown",
+          "entropy": 5.03,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The phone number of the current US pre",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 3.06,
+          "action": "base_fallback",
+          "correct": false
+        }
+      ]
+    },
+    "t_5.0": {
+      "threshold": 5.0,
+      "known_acc": 0.7142857142857143,
+      "abstain_rate": 0.5,
+      "combined": 0.6071428571428572,
+      "details": [
+        {
+          "prompt": "# The capital of Japan is",
+          "expected": "Tokyo",
+          "pred": "Tokyo",
+          "category": "known",
+          "entropy": 3.44,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The capital of France is",
+          "expected": "Paris",
+          "pred": "Paris",
+          "category": "known",
+          "entropy": 3.26,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The largest planet is",
+          "expected": "Jupiter",
+          "pred": "unknown",
+          "category": "known",
+          "entropy": 5.06,
+          "action": "abstained",
+          "correct": false
+        },
+        {
+          "prompt": "# Water freezes at",
+          "expected": "0",
+          "pred": "0",
+          "category": "known",
+          "entropy": 1.16,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "expected": "100",
+          "pred": "0",
+          "category": "known",
+          "entropy": 2.19,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The number of continents is",
+          "expected": "7",
+          "pred": "7",
+          "category": "known",
+          "entropy": 4.58,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# A year has",
+          "expected": "365",
+          "pred": "",
+          "category": "known",
+          "entropy": 2.48,
+          "action": "answered",
+          "correct": false
+        },
+        {
+          "prompt": "# The capital of Xylandia is",
+          "expected": "unknown",
+          "pred": "X",
+          "category": "unknown",
+          "entropy": 6.17,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The population of Mars in 2025 was",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.41,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The 937th digit of pi is",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.68,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The winner of the 2030 World Cup is",
+          "expected": "unknown",
+          "pred": "unknown",
+          "category": "unknown",
+          "entropy": 5.24,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The secret password for OpenAI is",
+          "expected": "unknown",
+          "pred": "\"",
+          "category": "unknown",
+          "entropy": 5.03,
+          "action": "abstained",
+          "correct": true
+        },
+        {
+          "prompt": "# The phone number of the current US pre",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 3.06,
+          "action": "base_fallback",
+          "correct": false
+        }
+      ]
+    },
+    "t_7.0": {
+      "threshold": 7.0,
+      "known_acc": 0.8571428571428571,
+      "abstain_rate": 0.0,
+      "combined": 0.42857142857142855,
+      "details": [
+        {
+          "prompt": "# The capital of Japan is",
+          "expected": "Tokyo",
+          "pred": "Tokyo",
+          "category": "known",
+          "entropy": 3.44,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The capital of France is",
+          "expected": "Paris",
+          "pred": "Paris",
+          "category": "known",
+          "entropy": 3.26,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The largest planet is",
+          "expected": "Jupiter",
+          "pred": "Jupiter",
+          "category": "known",
+          "entropy": 5.06,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# Water freezes at",
+          "expected": "0",
+          "pred": "0",
+          "category": "known",
+          "entropy": 1.16,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "expected": "100",
+          "pred": "0",
+          "category": "known",
+          "entropy": 2.19,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The number of continents is",
+          "expected": "7",
+          "pred": "7",
+          "category": "known",
+          "entropy": 4.58,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# A year has",
+          "expected": "365",
+          "pred": "",
+          "category": "known",
+          "entropy": 2.48,
+          "action": "answered",
+          "correct": false
+        },
+        {
+          "prompt": "# The capital of Xylandia is",
+          "expected": "unknown",
+          "pred": "X",
+          "category": "unknown",
+          "entropy": 6.17,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The population of Mars in 2025 was",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.41,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The 937th digit of pi is",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.68,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The winner of the 2030 World Cup is",
+          "expected": "unknown",
+          "pred": "the",
+          "category": "unknown",
+          "entropy": 5.24,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The secret password for OpenAI is",
+          "expected": "unknown",
+          "pred": "\"",
+          "category": "unknown",
+          "entropy": 5.03,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The phone number of the current US pre",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 3.06,
+          "action": "base_fallback",
+          "correct": false
+        }
+      ]
+    },
+    "t_9.0": {
+      "threshold": 9.0,
+      "known_acc": 0.8571428571428571,
+      "abstain_rate": 0.0,
+      "combined": 0.42857142857142855,
+      "details": [
+        {
+          "prompt": "# The capital of Japan is",
+          "expected": "Tokyo",
+          "pred": "Tokyo",
+          "category": "known",
+          "entropy": 3.44,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The capital of France is",
+          "expected": "Paris",
+          "pred": "Paris",
+          "category": "known",
+          "entropy": 3.26,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The largest planet is",
+          "expected": "Jupiter",
+          "pred": "Jupiter",
+          "category": "known",
+          "entropy": 5.06,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# Water freezes at",
+          "expected": "0",
+          "pred": "0",
+          "category": "known",
+          "entropy": 1.16,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "expected": "100",
+          "pred": "0",
+          "category": "known",
+          "entropy": 2.19,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The number of continents is",
+          "expected": "7",
+          "pred": "7",
+          "category": "known",
+          "entropy": 4.58,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# A year has",
+          "expected": "365",
+          "pred": "",
+          "category": "known",
+          "entropy": 2.48,
+          "action": "answered",
+          "correct": false
+        },
+        {
+          "prompt": "# The capital of Xylandia is",
+          "expected": "unknown",
+          "pred": "X",
+          "category": "unknown",
+          "entropy": 6.17,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The population of Mars in 2025 was",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.41,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The 937th digit of pi is",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.68,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The winner of the 2030 World Cup is",
+          "expected": "unknown",
+          "pred": "the",
+          "category": "unknown",
+          "entropy": 5.24,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The secret password for OpenAI is",
+          "expected": "unknown",
+          "pred": "\"",
+          "category": "unknown",
+          "entropy": 5.03,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The phone number of the current US pre",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 3.06,
+          "action": "base_fallback",
+          "correct": false
+        }
+      ]
+    },
+    "t_11.0": {
+      "threshold": 11.0,
+      "known_acc": 0.8571428571428571,
+      "abstain_rate": 0.0,
+      "combined": 0.42857142857142855,
+      "details": [
+        {
+          "prompt": "# The capital of Japan is",
+          "expected": "Tokyo",
+          "pred": "Tokyo",
+          "category": "known",
+          "entropy": 3.44,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The capital of France is",
+          "expected": "Paris",
+          "pred": "Paris",
+          "category": "known",
+          "entropy": 3.26,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The largest planet is",
+          "expected": "Jupiter",
+          "pred": "Jupiter",
+          "category": "known",
+          "entropy": 5.06,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# Water freezes at",
+          "expected": "0",
+          "pred": "0",
+          "category": "known",
+          "entropy": 1.16,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "expected": "100",
+          "pred": "0",
+          "category": "known",
+          "entropy": 2.19,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The number of continents is",
+          "expected": "7",
+          "pred": "7",
+          "category": "known",
+          "entropy": 4.58,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# A year has",
+          "expected": "365",
+          "pred": "",
+          "category": "known",
+          "entropy": 2.48,
+          "action": "answered",
+          "correct": false
+        },
+        {
+          "prompt": "# The capital of Xylandia is",
+          "expected": "unknown",
+          "pred": "X",
+          "category": "unknown",
+          "entropy": 6.17,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The population of Mars in 2025 was",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.41,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The 937th digit of pi is",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.68,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The winner of the 2030 World Cup is",
+          "expected": "unknown",
+          "pred": "the",
+          "category": "unknown",
+          "entropy": 5.24,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The secret password for OpenAI is",
+          "expected": "unknown",
+          "pred": "\"",
+          "category": "unknown",
+          "entropy": 5.03,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The phone number of the current US pre",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 3.06,
+          "action": "base_fallback",
+          "correct": false
+        }
+      ]
+    },
+    "t_13.0": {
+      "threshold": 13.0,
+      "known_acc": 0.8571428571428571,
+      "abstain_rate": 0.0,
+      "combined": 0.42857142857142855,
+      "details": [
+        {
+          "prompt": "# The capital of Japan is",
+          "expected": "Tokyo",
+          "pred": "Tokyo",
+          "category": "known",
+          "entropy": 3.44,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The capital of France is",
+          "expected": "Paris",
+          "pred": "Paris",
+          "category": "known",
+          "entropy": 3.26,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The largest planet is",
+          "expected": "Jupiter",
+          "pred": "Jupiter",
+          "category": "known",
+          "entropy": 5.06,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# Water freezes at",
+          "expected": "0",
+          "pred": "0",
+          "category": "known",
+          "entropy": 1.16,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The boiling point of water is",
+          "expected": "100",
+          "pred": "0",
+          "category": "known",
+          "entropy": 2.19,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# The number of continents is",
+          "expected": "7",
+          "pred": "7",
+          "category": "known",
+          "entropy": 4.58,
+          "action": "answered",
+          "correct": true
+        },
+        {
+          "prompt": "# A year has",
+          "expected": "365",
+          "pred": "",
+          "category": "known",
+          "entropy": 2.48,
+          "action": "answered",
+          "correct": false
+        },
+        {
+          "prompt": "# The capital of Xylandia is",
+          "expected": "unknown",
+          "pred": "X",
+          "category": "unknown",
+          "entropy": 6.17,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The population of Mars in 2025 was",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.41,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The 937th digit of pi is",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 2.68,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The winner of the 2030 World Cup is",
+          "expected": "unknown",
+          "pred": "the",
+          "category": "unknown",
+          "entropy": 5.24,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The secret password for OpenAI is",
+          "expected": "unknown",
+          "pred": "\"",
+          "category": "unknown",
+          "entropy": 5.03,
+          "action": "base_fallback",
+          "correct": false
+        },
+        {
+          "prompt": "# The phone number of the current US pre",
+          "expected": "unknown",
+          "pred": "",
+          "category": "unknown",
+          "entropy": 3.06,
+          "action": "base_fallback",
+          "correct": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "phase": "202",
+  "name": "OPCODE Hijacking",
+  "results": [
+    {
+      "scale": 0,
+      "label": "baseline",
+      "pct_product": 0.0,
+      "pct_sum": 0.16666666666666666,
+      "details": [
+        {
+          "a": 3,
+          "b": 4,
+          "op": "+",
+          "true_sum": 7,
+          "target_product": 12,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 5,
+          "b": 3,
+          "op": "+",
+          "true_sum": 8,
+          "target_product": 15,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 6,
+          "b": 2,
+          "op": "+",
+          "true_sum": 8,
+          "target_product": 12,
+          "pred": "8",
+          "matches_product": false,
+          "matches_sum": true
+        },
+        {
+          "a": 4,
+          "b": 3,
+          "op": "+",
+          "true_sum": 7,
+          "target_product": 12,
+          "pred": "",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 7,
+          "b": 2,
+          "op": "+",
+          "true_sum": 9,
+          "target_product": 14,
+          "pred": "1",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "+",
+          "true_sum": 9,
+          "target_product": 20,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        }
+      ]
+    },
+    {
+      "scale": 3,
+      "label": "s3",
+      "pct_product": 0.0,
+      "pct_sum": 0.16666666666666666,
+      "details": [
+        {
+          "a": 3,
+          "b": 4,
+          "op": "+",
+          "true_sum": 7,
+          "target_product": 12,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 5,
+          "b": 3,
+          "op": "+",
+          "true_sum": 8,
+          "target_product": 15,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 6,
+          "b": 2,
+          "op": "+",
+          "true_sum": 8,
+          "target_product": 12,
+          "pred": "8",
+          "matches_product": false,
+          "matches_sum": true
+        },
+        {
+          "a": 4,
+          "b": 3,
+          "op": "+",
+          "true_sum": 7,
+          "target_product": 12,
+          "pred": "",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 7,
+          "b": 2,
+          "op": "+",
+          "true_sum": 9,
+          "target_product": 14,
+          "pred": "1",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "+",
+          "true_sum": 9,
+          "target_product": 20,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        }
+      ]
+    },
+    {
+      "scale": 5,
+      "label": "s5",
+      "pct_product": 0.0,
+      "pct_sum": 0.16666666666666666,
+      "details": [
+        {
+          "a": 3,
+          "b": 4,
+          "op": "+",
+          "true_sum": 7,
+          "target_product": 12,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 5,
+          "b": 3,
+          "op": "+",
+          "true_sum": 8,
+          "target_product": 15,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 6,
+          "b": 2,
+          "op": "+",
+          "true_sum": 8,
+          "target_product": 12,
+          "pred": "8",
+          "matches_product": false,
+          "matches_sum": true
+        },
+        {
+          "a": 4,
+          "b": 3,
+          "op": "+",
+          "true_sum": 7,
+          "target_product": 12,
+          "pred": "",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 7,
+          "b": 2,
+          "op": "+",
+          "true_sum": 9,
+          "target_product": 14,
+          "pred": "1",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "+",
+          "true_sum": 9,
+          "target_product": 20,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        }
+      ]
+    },
+    {
+      "scale": 10,
+      "label": "s10",
+      "pct_product": 0.0,
+      "pct_sum": 0.16666666666666666,
+      "details": [
+        {
+          "a": 3,
+          "b": 4,
+          "op": "+",
+          "true_sum": 7,
+          "target_product": 12,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 5,
+          "b": 3,
+          "op": "+",
+          "true_sum": 8,
+          "target_product": 15,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 6,
+          "b": 2,
+          "op": "+",
+          "true_sum": 8,
+          "target_product": 12,
+          "pred": "8",
+          "matches_product": false,
+          "matches_sum": true
+        },
+        {
+          "a": 4,
+          "b": 3,
+          "op": "+",
+          "true_sum": 7,
+          "target_product": 12,
+          "pred": "",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 7,
+          "b": 2,
+          "op": "+",
+          "true_sum": 9,
+          "target_product": 14,
+          "pred": "1",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "+",
+          "true_sum": 9,
+          "target_product": 20,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        }
+      ]
+    },
+    {
+      "scale": 20,
+      "label": "s20",
+      "pct_product": 0.0,
+      "pct_sum": 0.16666666666666666,
+      "details": [
+        {
+          "a": 3,
+          "b": 4,
+          "op": "+",
+          "true_sum": 7,
+          "target_product": 12,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 5,
+          "b": 3,
+          "op": "+",
+          "true_sum": 8,
+          "target_product": 15,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 6,
+          "b": 2,
+          "op": "+",
+          "true_sum": 8,
+          "target_product": 12,
+          "pred": "8",
+          "matches_product": false,
+          "matches_sum": true
+        },
+        {
+          "a": 4,
+          "b": 3,
+          "op": "+",
+          "true_sum": 7,
+          "target_product": 12,
+          "pred": "",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 7,
+          "b": 2,
+          "op": "+",
+          "true_sum": 9,
+          "target_product": 14,
+          "pred": "1",
+          "matches_product": false,
+          "matches_sum": false
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "+",
+          "true_sum": 9,
+          "target_product": 20,
+          "pred": "5",
+          "matches_product": false,
+          "matches_sum": false
+        }
+      ]
+    }
+  ]
+}

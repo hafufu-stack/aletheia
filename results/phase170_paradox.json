@@ -1,0 +1,62 @@
+{
+  "phase": "170",
+  "name": "Arithmetic Paradox Resolution",
+  "configs": {
+    "A_base": {
+      "arith": 0.0,
+      "fact": 0.2,
+      "surgery": false,
+      "code_mode": false,
+      "fga_gain": 0
+    },
+    "B_surgery_only": {
+      "arith": 0.0,
+      "fact": 0.4,
+      "surgery": true,
+      "code_mode": false,
+      "fga_gain": 0
+    },
+    "C_surgery_code": {
+      "arith": 0.4166666666666667,
+      "fact": 0.6,
+      "surgery": true,
+      "code_mode": true,
+      "fga_gain": 0
+    },
+    "D_surgery_fga": {
+      "arith": 0.08333333333333333,
+      "fact": 0.8,
+      "surgery": true,
+      "code_mode": false,
+      "fga_gain": 5
+    },
+    "E_full_sas": {
+      "arith": 0.8333333333333334,
+      "fact": 0.8,
+      "surgery": true,
+      "code_mode": true,
+      "fga_gain": 5
+    },
+    "F_code_only": {
+      "arith": 0.0,
+      "fact": 0.4,
+      "surgery": false,
+      "code_mode": true,
+      "fga_gain": 0
+    },
+    "G_fga_only": {
+      "arith": 0.0,
+      "fact": 0.4,
+      "surgery": false,
+      "code_mode": false,
+      "fga_gain": 5
+    },
+    "H_code_fga": {
+      "arith": 0.0,
+      "fact": 0.4,
+      "surgery": false,
+      "code_mode": true,
+      "fga_gain": 5
+    }
+  }
+}

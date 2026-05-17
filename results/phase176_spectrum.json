@@ -1,0 +1,51 @@
+{
+  "phase": "176",
+  "name": "Code Mode Spectrum",
+  "results": {
+    "none": {
+      "prefix": "",
+      "arith": 0.0,
+      "fact": 0.8
+    },
+    "hash": {
+      "prefix": "# ",
+      "arith": 0.9,
+      "fact": 0.8
+    },
+    "repl": {
+      "prefix": ">>> ",
+      "arith": 0.9,
+      "fact": 0.8
+    },
+    "def": {
+      "prefix": "def f(): return ",
+      "arith": 1.0,
+      "fact": 0.8
+    },
+    "slash": {
+      "prefix": "// ",
+      "arith": 0.8,
+      "fact": 0.6
+    },
+    "shell": {
+      "prefix": "$ echo ",
+      "arith": 0.8,
+      "fact": 0.8
+    },
+    "question": {
+      "prefix": "Q: ",
+      "arith": 0.2,
+      "fact": 0.8
+    },
+    "answer": {
+      "prefix": "A: ",
+      "arith": 0.8,
+      "fact": 0.8
+    },
+    "print": {
+      "prefix": "print(",
+      "arith": 0.9,
+      "fact": 0.8
+    }
+  }
+}

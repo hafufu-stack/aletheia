@@ -1,0 +1,236 @@
+{
+  "phase": "171",
+  "name": "Multi-Signal Epistemic Oracle",
+  "individual_aucs": {
+    "entropy": 0.8819444444444444,
+    "l2_norm": 0.5486111111111112,
+    "top_gap": 0.7916666666666666,
+    "n_competitive": 0.701388888888889,
+    "max_prob": 0.8194444444444444
+  },
+  "composite_aucs": {
+    "ent0.3_l20.7": 0.6875,
+    "ent0.5_l20.5": 0.7916666666666666,
+    "ent0.7_l20.3": 0.8194444444444444,
+    "ent_minus_gap": 0.798611111111111,
+    "all_combined": 0.7847222222222222
+  },
+  "records": [
+    {
+      "prompt": "# The capital of Japan is",
+      "label": "known",
+      "entropy": 3.4416489601135254,
+      "l2_norm": 71.65571594238281,
+      "top_gap": 1.1898841857910156,
+      "n_competitive": 2,
+      "max_prob": 0.3774905800819397
+    },
+    {
+      "prompt": "# The capital of France is",
+      "label": "known",
+      "entropy": 3.2563834190368652,
+      "l2_norm": 77.30730438232422,
+      "top_gap": 1.8172550201416016,
+      "n_competitive": 1,
+      "max_prob": 0.39667558670043945
+    },
+    {
+      "prompt": "# The capital of Germany is",
+      "label": "known",
+      "entropy": 3.415172815322876,
+      "l2_norm": 74.88150024414062,
+      "top_gap": 1.1365318298339844,
+      "n_competitive": 3,
+      "max_prob": 0.32459092140197754
+    },
+    {
+      "prompt": "# The largest planet is",
+      "label": "known",
+      "entropy": 5.050159454345703,
+      "l2_norm": 73.78157043457031,
+      "top_gap": 0.0033740997314453125,
+      "n_competitive": 5,
+      "max_prob": 0.09164687246084213
+    },
+    {
+      "prompt": "# Water freezes at",
+      "label": "known",
+      "entropy": 1.650160551071167,
+      "l2_norm": 86.62721252441406,
+      "top_gap": 2.5097312927246094,
+      "n_competitive": 1,
+      "max_prob": 0.7318063378334045
+    },
+    {
+      "prompt": "# The boiling point of water is",
+      "label": "known",
+      "entropy": 2.101733922958374,
+      "l2_norm": 72.86970520019531,
+      "top_gap": 3.179454803466797,
+      "n_competitive": 1,
+      "max_prob": 0.6946097612380981
+    },
+    {
+      "prompt": "# A year has",
+      "label": "known",
+      "entropy": 2.4734413623809814,
+      "l2_norm": 82.71292114257812,
+      "top_gap": 2.332904815673828,
+      "n_competitive": 1,
+      "max_prob": 0.5930573344230652
+    },
+    {
+      "prompt": "# The number of continents is",
+      "label": "known",
+      "entropy": 4.562267303466797,
+      "l2_norm": 73.73576354980469,
+      "top_gap": 1.955495834350586,
+      "n_competitive": 1,
+      "max_prob": 0.28173279762268066
+    },
+    {
+      "prompt": "# The speed of light is approximately",
+      "label": "known",
+      "entropy": 1.5255414247512817,
+      "l2_norm": 77.06581115722656,
+      "top_gap": 1.8523712158203125,
+      "n_competitive": 2,
+      "max_prob": 0.7118157148361206
+    },
+    {
+      "prompt": "# Pi is approximately",
+      "label": "known",
+      "entropy": 1.606735110282898,
+      "l2_norm": 80.92889404296875,
+      "top_gap": 1.1498546600341797,
+      "n_competitive": 2,
+      "max_prob": 0.6424310207366943
+    },
+    {
+      "prompt": "# The chemical symbol for water is",
+      "label": "known",
+      "entropy": 3.4060494899749756,
+      "l2_norm": 83.45298767089844,
+      "top_gap": 1.3195991516113281,
+      "n_competitive": 4,
+      "max_prob": 0.3108214735984802
+    },
+    {
+      "prompt": "# The Earth orbits the",
+      "label": "known",
+      "entropy": 0.4532286524772644,
+      "l2_norm": 81.14158630371094,
+      "top_gap": 2.176715850830078,
+      "n_competitive": 2,
+      "max_prob": 0.883782148361206
+    },
+    {
+      "prompt": "# The capital of Xylandia is",
+      "label": "unknown",
+      "entropy": 6.1668243408203125,
+      "l2_norm": 78.11489868164062,
+      "top_gap": 1.1136474609375,
+      "n_competitive": 2,
+      "max_prob": 0.13388442993164062
+    },
+    {
+      "prompt": "# The population of Mars in 2025 was",
+      "label": "unknown",
+      "entropy": 1.8093193769454956,
+      "l2_norm": 65.9388198852539,
+      "top_gap": 2.0702056884765625,
+      "n_competitive": 2,
+      "max_prob": 0.6786797642707825
+    },
+    {
+      "prompt": "# The 937th digit of pi is",
+      "label": "unknown",
+      "entropy": 3.4691810607910156,
+      "l2_norm": 70.29955291748047,
+      "top_gap": 2.073627471923828,
+      "n_competitive": 1,
+      "max_prob": 0.46912121772766113
+    },
+    {
+      "prompt": "# The winner of the 2030 World Cup is",
+      "label": "unknown",
+      "entropy": 5.412416458129883,
+      "l2_norm": 78.82157135009766,
+      "top_gap": 0.6668472290039062,
+      "n_competitive": 3,
+      "max_prob": 0.14029210805892944
+    },
+    {
+      "prompt": "# The secret code of the universe is",
+      "label": "unknown",
+      "entropy": 4.8969407081604,
+      "l2_norm": 79.86365509033203,
+      "top_gap": 0.36939048767089844,
+      "n_competitive": 4,
+      "max_prob": 0.15016081929206848
+    },
+    {
+      "prompt": "# The phone number of the president is",
+      "label": "unknown",
+      "entropy": 3.959385395050049,
+      "l2_norm": 82.83257293701172,
+      "top_gap": 1.7382802963256836,
+      "n_competitive": 1,
+      "max_prob": 0.3866945505142212
+    },
+    {
+      "prompt": "# The name of the first alien is",
+      "label": "unknown",
+      "entropy": 6.095502853393555,
+      "l2_norm": 83.9776382446289,
+      "top_gap": 0.5979862213134766,
+      "n_competitive": 3,
+      "max_prob": 0.1217091828584671
+    },
+    {
+      "prompt": "# The GDP of Atlantis is",
+      "label": "unknown",
+      "entropy": 4.049870014190674,
+      "l2_norm": 76.02085876464844,
+      "top_gap": 0.22652435302734375,
+      "n_competitive": 2,
+      "max_prob": 0.25964832305908203
+    },
+    {
+      "prompt": "# The color of dark matter is",
+      "label": "unknown",
+      "entropy": 5.534934997558594,
+      "l2_norm": 80.4104232788086,
+      "top_gap": 0.42180824279785156,
+      "n_competitive": 7,
+      "max_prob": 0.0908711701631546
+    },
+    {
+      "prompt": "# The taste of quantum foam is",
+      "label": "unknown",
+      "entropy": 6.612104415893555,
+      "l2_norm": 80.2479248046875,
+      "top_gap": 0.26798248291015625,
+      "n_competitive": 11,
+      "max_prob": 0.04616047069430351
+    },
+    {
+      "prompt": "# The email of God is",
+      "label": "unknown",
+      "entropy": 6.386919021606445,
+      "l2_norm": 84.48213195800781,
+      "top_gap": 0.7986822128295898,
+      "n_competitive": 7,
+      "max_prob": 0.07624977827072144
+    },
+    {
+      "prompt": "# The height of a dream in meters is",
+      "label": "unknown",
+      "entropy": 3.755823850631714,
+      "l2_norm": 78.33243560791016,
+      "top_gap": 0.463165283203125,
+      "n_competitive": 3,
+      "max_prob": 0.2884330153465271
+    }
+  ]
+}

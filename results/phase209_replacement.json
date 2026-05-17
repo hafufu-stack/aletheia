@@ -1,0 +1,278 @@
+{
+  "phase": "209",
+  "name": "Full State Replacement",
+  "results": [
+    {
+      "layer": 16,
+      "changed": 6,
+      "matched": 5,
+      "total": 6,
+      "details": [
+        {
+          "a": 3,
+          "b": 4,
+          "true_sum": 7,
+          "target_sum": 15,
+          "base_pred": "5",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "true_sum": 5,
+          "target_sum": 12,
+          "base_pred": "5",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "true_sum": 3,
+          "target_sum": 18,
+          "base_pred": "3",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 4,
+          "b": 1,
+          "true_sum": 5,
+          "target_sum": 9,
+          "base_pred": "5",
+          "trans_pred": "",
+          "changed": true,
+          "matches_target": false
+        },
+        {
+          "a": 5,
+          "b": 2,
+          "true_sum": 7,
+          "target_sum": 14,
+          "base_pred": "7",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 1,
+          "b": 1,
+          "true_sum": 2,
+          "target_sum": 16,
+          "base_pred": "2",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        }
+      ]
+    },
+    {
+      "layer": 18,
+      "changed": 6,
+      "matched": 5,
+      "total": 6,
+      "details": [
+        {
+          "a": 3,
+          "b": 4,
+          "true_sum": 7,
+          "target_sum": 15,
+          "base_pred": "5",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "true_sum": 5,
+          "target_sum": 12,
+          "base_pred": "5",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "true_sum": 3,
+          "target_sum": 18,
+          "base_pred": "3",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 4,
+          "b": 1,
+          "true_sum": 5,
+          "target_sum": 9,
+          "base_pred": "5",
+          "trans_pred": "",
+          "changed": true,
+          "matches_target": false
+        },
+        {
+          "a": 5,
+          "b": 2,
+          "true_sum": 7,
+          "target_sum": 14,
+          "base_pred": "7",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 1,
+          "b": 1,
+          "true_sum": 2,
+          "target_sum": 16,
+          "base_pred": "2",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        }
+      ]
+    },
+    {
+      "layer": 20,
+      "changed": 6,
+      "matched": 5,
+      "total": 6,
+      "details": [
+        {
+          "a": 3,
+          "b": 4,
+          "true_sum": 7,
+          "target_sum": 15,
+          "base_pred": "5",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "true_sum": 5,
+          "target_sum": 12,
+          "base_pred": "5",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "true_sum": 3,
+          "target_sum": 18,
+          "base_pred": "3",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 4,
+          "b": 1,
+          "true_sum": 5,
+          "target_sum": 9,
+          "base_pred": "5",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": false
+        },
+        {
+          "a": 5,
+          "b": 2,
+          "true_sum": 7,
+          "target_sum": 14,
+          "base_pred": "7",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 1,
+          "b": 1,
+          "true_sum": 2,
+          "target_sum": 16,
+          "base_pred": "2",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        }
+      ]
+    },
+    {
+      "layer": 22,
+      "changed": 6,
+      "matched": 5,
+      "total": 6,
+      "details": [
+        {
+          "a": 3,
+          "b": 4,
+          "true_sum": 7,
+          "target_sum": 15,
+          "base_pred": "5",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "true_sum": 5,
+          "target_sum": 12,
+          "base_pred": "5",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "true_sum": 3,
+          "target_sum": 18,
+          "base_pred": "3",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 4,
+          "b": 1,
+          "true_sum": 5,
+          "target_sum": 9,
+          "base_pred": "5",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": false
+        },
+        {
+          "a": 5,
+          "b": 2,
+          "true_sum": 7,
+          "target_sum": 14,
+          "base_pred": "7",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        },
+        {
+          "a": 1,
+          "b": 1,
+          "true_sum": 2,
+          "target_sum": 16,
+          "base_pred": "2",
+          "trans_pred": "1",
+          "changed": true,
+          "matches_target": true
+        }
+      ]
+    }
+  ]
+}

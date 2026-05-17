@@ -1,0 +1,89 @@
+{
+  "phase": "177",
+  "name": "Oracle Layer Optimization",
+  "layer_results": {
+    "2": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "3": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "4": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "5": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "6": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "7": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "8": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "9": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "10": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "11": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "12": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "13": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "14": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "15": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "16": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.3
+    },
+    "17": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "18": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "19": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.4
+    },
+    "20": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.3
+    },
+    "21": {
+      "oracle_acc": 0.0,
+      "final_acc": 0.3
+    }
+  },
+  "best_oracle_layer": 2,
+  "best_final_acc": 0.4,
+  "fga_layer": 18
+}

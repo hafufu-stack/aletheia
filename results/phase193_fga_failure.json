@@ -1,0 +1,196 @@
+{
+  "phase": "193",
+  "name": "Why FGA Fails",
+  "aggregated": {
+    "0": {
+      "no_fga": 0.25,
+      "fga_ar": 0.25,
+      "fga_teacher": 0.25,
+      "no_fga_entropy": 3.6269367337226868,
+      "fga_ar_entropy": 3.6269367337226868
+    },
+    "1": {
+      "no_fga": 0.75,
+      "fga_ar": 0.25,
+      "fga_teacher": 0.75,
+      "no_fga_entropy": 0.266471093116759,
+      "fga_ar_entropy": 1.4579326271265813
+    },
+    "2": {
+      "no_fga": 0.75,
+      "fga_ar": 0.25,
+      "fga_teacher": 0.75,
+      "no_fga_entropy": 0.521979515273415,
+      "fga_ar_entropy": 0.7060494186198614
+    },
+    "3": {
+      "no_fga": 0.25,
+      "fga_ar": 0.25,
+      "fga_teacher": 0.25,
+      "no_fga_entropy": 1.577819396159498,
+      "fga_ar_entropy": 0.7980629597414008
+    }
+  },
+  "step_data": [
+    {
+      "step": 0,
+      "prompt": "# The year Columbus reached Am",
+      "no_fga_correct": 0,
+      "no_fga_entropy": 3.975231170654297,
+      "fga_autoregressive_correct": 0,
+      "fga_ar_entropy": 3.975231170654297,
+      "fga_teacher_correct": 0,
+      "fga_teacher_entropy": 3.975231170654297
+    },
+    {
+      "step": 1,
+      "prompt": "# The year Columbus reached Am",
+      "no_fga_correct": 1,
+      "no_fga_entropy": 1.8483032881988493e-09,
+      "fga_autoregressive_correct": 0,
+      "fga_ar_entropy": 2.3965537820913596e-06,
+      "fga_teacher_correct": 1,
+      "fga_teacher_entropy": 1.8483032881988493e-09
+    },
+    {
+      "step": 2,
+      "prompt": "# The year Columbus reached Am",
+      "no_fga_correct": 1,
+      "no_fga_entropy": 0.3862771689891815,
+      "fga_autoregressive_correct": 0,
+      "fga_ar_entropy": 3.5538053055894636e-10,
+      "fga_teacher_correct": 1,
+      "fga_teacher_entropy": 0.3862771689891815
+    },
+    {
+      "step": 3,
+      "prompt": "# The year Columbus reached Am",
+      "no_fga_correct": 0,
+      "no_fga_entropy": 2.652726888656616,
+      "fga_autoregressive_correct": 0,
+      "fga_ar_entropy": 0.05123169347643852,
+      "fga_teacher_correct": 0,
+      "fga_teacher_entropy": 2.652726888656616
+    },
+    {
+      "step": 0,
+      "prompt": "# Mount Fuji is",
+      "no_fga_correct": 0,
+      "no_fga_entropy": 3.9754624366760254,
+      "fga_autoregressive_correct": 0,
+      "fga_ar_entropy": 3.9754624366760254,
+      "fga_teacher_correct": 0,
+      "fga_teacher_entropy": 3.9754624366760254
+    },
+    {
+      "step": 1,
+      "prompt": "# Mount Fuji is",
+      "no_fga_correct": 0,
+      "no_fga_entropy": 1.0369000434875488,
+      "fga_autoregressive_correct": 0,
+      "fga_ar_entropy": 5.786769866943359,
+      "fga_teacher_correct": 0,
+      "fga_teacher_entropy": 1.0369000434875488
+    },
+    {
+      "step": 2,
+      "prompt": "# Mount Fuji is",
+      "no_fga_correct": 0,
+      "no_fga_entropy": 1.7015056610107422,
+      "fga_autoregressive_correct": 0,
+      "fga_ar_entropy": 2.82413387298584,
+      "fga_teacher_correct": 0,
+      "fga_teacher_entropy": 1.7015056610107422
+    },
+    {
+      "step": 3,
+      "prompt": "# Mount Fuji is",
+      "no_fga_correct": 0,
+      "no_fga_entropy": 7.526482932007639e-06,
+      "fga_autoregressive_correct": 0,
+      "fga_ar_entropy": 2.587510108947754,
+      "fga_teacher_correct": 0,
+      "fga_teacher_entropy": 7.526482932007639e-06
+    },
+    {
+      "step": 0,
+      "prompt": "# The year the Moon landing wa",
+      "no_fga_correct": 1,
+      "no_fga_entropy": 2.0707285404205322,
+      "fga_autoregressive_correct": 1,
+      "fga_ar_entropy": 2.0707285404205322,
+      "fga_teacher_correct": 1,
+      "fga_teacher_entropy": 2.0707285404205322
+    },
+    {
+      "step": 1,
+      "prompt": "# The year the Moon landing wa",
+      "no_fga_correct": 1,
+      "no_fga_entropy": 0.0285051092505455,
+      "fga_autoregressive_correct": 1,
+      "fga_ar_entropy": 0.0285051092505455,
+      "fga_teacher_correct": 1,
+      "fga_teacher_entropy": 0.0285051092505455
+    },
+    {
+      "step": 2,
+      "prompt": "# The year the Moon landing wa",
+      "no_fga_correct": 1,
+      "no_fga_entropy": 6.339602259686217e-05,
+      "fga_autoregressive_correct": 1,
+      "fga_ar_entropy": 6.339602259686217e-05,
+      "fga_teacher_correct": 1,
+      "fga_teacher_entropy": 6.339602259686217e-05
+    },
+    {
+      "step": 3,
+      "prompt": "# The year the Moon landing wa",
+      "no_fga_correct": 1,
+      "no_fga_entropy": 0.5534668564796448,
+      "fga_autoregressive_correct": 1,
+      "fga_ar_entropy": 0.5534668564796448,
+      "fga_teacher_correct": 1,
+      "fga_teacher_entropy": 0.5534668564796448
+    },
+    {
+      "step": 0,
+      "prompt": "# The year WWII ended is",
+      "no_fga_correct": 0,
+      "no_fga_entropy": 4.486324787139893,
+      "fga_autoregressive_correct": 0,
+      "fga_ar_entropy": 4.486324787139893,
+      "fga_teacher_correct": 0,
+      "fga_teacher_entropy": 4.486324787139893
+    },
+    {
+      "step": 1,
+      "prompt": "# The year WWII ended is",
+      "no_fga_correct": 1,
+      "no_fga_entropy": 0.0004792178806383163,
+      "fga_autoregressive_correct": 0,
+      "fga_ar_entropy": 0.016453135758638382,
+      "fga_teacher_correct": 1,
+      "fga_teacher_entropy": 0.0004792178806383163
+    },
+    {
+      "step": 2,
+      "prompt": "# The year WWII ended is",
+      "no_fga_correct": 1,
+      "no_fga_entropy": 7.183507113950327e-05,
+      "fga_autoregressive_correct": 0,
+      "fga_ar_entropy": 4.051156281548174e-07,
+      "fga_teacher_correct": 1,
+      "fga_teacher_entropy": 7.183507113950327e-05
+    },
+    {
+      "step": 3,
+      "prompt": "# The year WWII ended is",
+      "no_fga_correct": 0,
+      "no_fga_entropy": 3.105076313018799,
+      "fga_autoregressive_correct": 0,
+      "fga_ar_entropy": 4.318006176617928e-05,
+      "fga_teacher_correct": 0,
+      "fga_teacher_entropy": 3.105076313018799
+    }
+  ]
+}

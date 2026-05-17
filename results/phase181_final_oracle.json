@@ -1,0 +1,26 @@
+{
+  "phase": "181",
+  "name": "The Final Oracle",
+  "configs": {
+    "A_base_only": {
+      "fact": 0.3,
+      "arith": 0.0,
+      "desc": "Base model only, no Surgery, no FGA"
+    },
+    "B_surg_fga_teacher": {
+      "fact": 0.5,
+      "arith": 0.375,
+      "desc": "Surgery + Teacher FGA g=5"
+    },
+    "C_final_oracle_g5": {
+      "fact": 0.5,
+      "arith": 0.375,
+      "desc": "Final Oracle (base->surg FGA) g=5"
+    },
+    "D_final_oracle_g10": {
+      "fact": 0.5,
+      "arith": 0.5,
+      "desc": "Final Oracle g=10"
+    }
+  }
+}
